@@ -6,8 +6,34 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]",
-		"[+10]% [Gold] [in all cities]", "Limited to [5] per Civilization"],
+		"Production to [Gold] conversion in cities changed by [+5]%", "Limited to [5] per Civilization"],
 		"requiredTech": "Currency"
 	},
-
+	{
+		"name": "US Army Academy",
+		"cost": 300,
+		"maintenance": 5,
+		"uniques": ["New [Land] units start with [45] XP [in this city]", "Limited to [1] per Civilization",
+			"[+20]% Production when constructing [Land] units [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "US Naval Academy",
+		"cost": 300,
+		"maintenance": 5,
+		"uniques": ["New [Water] units start with [45] XP [in this city]", "Limited to [1] per Civilization",
+			"[+20]% Production when constructing [Water] units [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Navigation"
+	},
+	{
+		"name": "US Air Force Academy",
+		"cost": 300,
+		"maintenance": 5,
+		"uniques": ["New [Air] units start with [45] XP [in this city]", "Limited to [1] per Civilization",
+			"[+20]% Production when constructing [Air] units [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Flight"
+	},
 ]
