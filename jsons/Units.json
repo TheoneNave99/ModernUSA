@@ -1,17 +1,53 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+{
+		"name": "CIA Agent",
+		"unitType": "Civilian",
+		"uniqueTo": "The United States",
+		"movement": 3,
+		"cost": 300,
+		"requiredTech": "Radio",
+		"uniques": [
+            "[+10]% Strength bonus for [Military] units within [8] tiles", "[+8] Sight", "Can see over obstacles",
+            "Can instantly construct a [Black Site] improvement <after which this unit is consumed>",
+            "Uncapturable"],
+		"promotions": ["Ignore terrain cost"],
+
+		"movement": 4
 	}
+	{
+		"name": "Diplomat",
+		"unitType": "Civilian",
+		"uniqueTo": "The United States",
+		"movement": 5,
+		"cost": 300,
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Frontier Sharpshooter",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "The United States",
+		"range": 3,
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 40,
+		"cost": 150,
+		"requiredTech": "Rifling",
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Marksman",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "The United States",
+		"range": 4,
+		"movement": 3,
+		"strength": 25,
+		"rangedStrength": 45,
+		"cost": 250,
+		"requiredTech": "Ballistics",
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "shot"
+	},
 ]
