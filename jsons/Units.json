@@ -48,6 +48,7 @@
 		"cost": 250,
 		"requiredTech": "Ballistics",
 		"promotions": ["Ignore terrain cost"],
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
 		"attackSound": "shot"
 	},
 	{
@@ -60,7 +61,8 @@
 		"cost": 375,
 		"requiredTech": "Electronics",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+2] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"uniques": ["[+2] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>",
+		"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
 		"attackSound": "shot"
 	},
 	{
@@ -76,21 +78,21 @@
 		"cost": 600,
 		"requiredTech": "Lasers",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
-		"[+150]% Strength <vs [Armored] units>", "[+150]% Strength <vs [Siege] units>", "[+150]% Strength <vs [Melee Water] units>"],
+		"[+150]% Strength <vs [Armored] units>", "[+150]% Strength <vs [Siege] units>", "[+150]% Strength <vs [Melee Water] units>",
+		"[2] extra interceptions may be made per turn", "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
 		"attackSound": "jetgun"
 	},
 	{
 		"name": "Delta Force",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Gunpowder",
 		"uniqueTo": "The United States",
-		"range": 2,
 		"movement": 3,
-		"strength": 75,
-		"rangedStrength": 90,
-		"cost": 450,
+		"strength": 85,
+		"cost": 500,
 		"requiredTech": "Mobile Tactics",
 		"promotions": ["Ignore terrain cost", "Drill II"],
-		"uniques": ["May Paradrop up to [6] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": ["May Paradrop up to [6] tiles from inside friendly territory", "Never appears as a Barbarian unit",
+			"No damage penalty for wounded units", "Heals [10] damage if it kills a unit", "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
 		"attackSound": "shot"
 	},
 	{
@@ -114,8 +116,9 @@
 		"cost": 600,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
-		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles",
-		"[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Siege] units>", "[+100]% Strength <vs [Gunpowder] units>"],
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight",
+			"[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Siege] units>", "[+100]% Strength <vs [Gunpowder] units>",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]", "Can see over obstacles"],
 		"attackSound": "bombing"
 	},
 ]
