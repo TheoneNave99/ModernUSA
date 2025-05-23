@@ -50,4 +50,33 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "US Marine",
+		"unitType": "Gunpowder",
+		"uniqueTo": "The United States",
+		"replaces": "Marine",
+		"movement": 3,
+		"strength": 65,
+		"cost": 400,
+		"requiredTech": "Electronics",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+2] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "F-35 Lightning",
+		"unitType": "Fighter",
+		"uniqueTo": "The United States",
+		"replaces": "Jet Fighter",
+		"movement": 1,
+		"strength": 80,
+		"rangedStrength": 80,
+		"range": 15,
+		"interceptRange": 15,
+		"cost": 600,
+		"requiredTech": "Lasers",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
+		"[+150]% Strength <vs [Armored] units>", "[+150]% Strength <vs [Siege] units>", "[+150]% Strength <vs [Ranged Water] units>"],
+		"attackSound": "jetgun"
+	},
 ]
