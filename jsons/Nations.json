@@ -1,38 +1,39 @@
 [
-	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
+		{
+		"name": "The United States",
+		"leaderName": "George Bushington",
+		"adjective": ["American"],
 		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"personality": "George Bushington",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+        "startIntroPart1": "President Bushington, we salute you and the proud American civilization! Freed from the British dominion in the 18th century, then cleansed and reborn after a terrible civil war, the United States nation was ready to play its great role in the 20th century. At the height of its power, triumphant after two terrible world wars, United States of America, a land of immigration, opportunities, optimism and determination, has risen above all other weakening nations, unable to equal such power.",
+        "startIntroPart2": "President Bushington, will you show to the world the legitimacy of the American way of life, and spread the flame of liberty to all mankind? Will your new empire shine through the ages of history?",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+        "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
+		"introduction": "The people of the United States of America welcome you.",
+		"neutralHello": "Good day.",
+		"hateHello": "Well?",
+		"tradeRequest": "Is the following trade of interest to you?",
+
+        "outerColor": [ 28,51,119],
+        "innerColor": [255,255,255],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "American Century",
+		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "Production to [Gold] conversion in cities changed by [+25]%",
+		"City-State territory always counts as friendly territory", "Allied City-States will occasionally gift Great People", "[+25]% City-State Influence degradation",
+		"[+100]% Happiness from luxury resources gifted by City-States", "[+25]% of excess happiness converted to [Culture]",
+		"[+25]% Production when constructing [Air] units [in all cities]", "[+25]% Production when constructing [Water] units [in all cities]",
+		"[+1 Happiness, +2 Culture] from all [Military] buildings"],
+			
+		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+	},
 ]
