@@ -5,35 +5,48 @@
 		"uniqueTo": "The United States"
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]",
+		"uniques": ["[+2 Gold] from [Luxury resource] tiles [in this city]", "[+1 Gold] from [Strategic resource] tiles [in this city]",
 		"Production to [Gold] conversion in cities changed by [+5]%", "Limited to [5] per Civilization"],
 		"requiredTech": "Currency"
 	},
 	{
 		"name": "US Army Academy",
+		"uniqueTo": "The United States"
 		"cost": 300,
 		"maintenance": 5,
-		"uniques": ["New [Land] units start with [45] XP [in this city]", "Limited to [1] per Civilization",
-			"[+20]% Production when constructing [Land] units [in this city]",
+		"uniques": ["New [Land] units start with [50] XP [in this city]", "Limited to [1] per Civilization",
+			"[+25]% Production when constructing [Land] units [in this city]",
 			"Destroyed when the city is captured"],
-		"requiredTech": "Military Science"
+		"requiredTech": "Gunpowder"
 	},
 	{
 		"name": "US Naval Academy",
+		"uniqueTo": "The United States"
 		"cost": 300,
 		"maintenance": 5,
-		"uniques": ["New [Water] units start with [45] XP [in this city]", "Limited to [1] per Civilization",
-			"[+20]% Production when constructing [Water] units [in this city]",
+		"uniques": ["New [Water] units start with [50] XP [in this city]", "Limited to [1] per Civilization",
+			"[+25]% Production when constructing [Water] units [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Navigation"
 	},
 	{
 		"name": "US Air Force Academy",
+		"uniqueTo": "The United States"
 		"cost": 300,
 		"maintenance": 5,
-		"uniques": ["New [Air] units start with [45] XP [in this city]", "Limited to [1] per Civilization",
-			"[+20]% Production when constructing [Air] units [in this city]",
+		"uniques": ["New [Air] units start with [50] XP [in this city]", "Limited to [1] per Civilization",
+			"[+25]% Production when constructing [Air] units [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Flight"
+	},
+	{
+		"name": "Wall Street",
+		"uniqueTo": "The United States"
+		"cost": 500,
+		"gold": 5,
+		"specialistSlots": {"Merchant": 4},
+		"greatPersonPoints": {"Great Merchant": 2},
+		"uniques": ["[+1 Gold] per [2] population [in all cities]", "Limited to [1] per Civilization"],
+		"requiredTech": "Economics"
 	},
 ]
