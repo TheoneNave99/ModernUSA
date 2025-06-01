@@ -1,4 +1,4 @@
-[
+oh[
 {
 		"name": "CIA Agent",
 		"unitType": "Civilian",
@@ -123,7 +123,7 @@
 	},
         {
 		"name": "US Abrams",
-		"unitType": "Armored",
+		"unitType": "Armored", 
 		"uniqueTo": "The United States",
 		"replaces": "Modern Armor",
 		"movement": 6,
@@ -134,4 +134,4 @@
 		"requiredResource": "Aluminium",
 		"uniques": ["[+150]% Strength <vs [Gunpowder] units>", "[+100]% Strength <vs [Helicopter] units>", "[+50]% Strength <vs [Siege] units>"],
 		"attackSound": "shot"
-		]
+	]
