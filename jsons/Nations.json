@@ -23,10 +23,10 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "American Century",
 		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "Production to [Gold] conversion in cities changed by [+50]%",
-		"City-State territory always counts as friendly territory", "Allied City-States will occasionally gift Great People", "[+25]% City-State Influence degradation",
-		"[+100]% Happiness from luxury resources gifted by City-States", "[+25]% of excess happiness converted to [Culture]",
+		"Allied City-States will occasionally gift Great People", "[+33]% City-State Influence degradation",
+		"[+50]% of excess happiness converted to [Culture]", "[+1 Happiness, +2 Culture] from all [Gold] buildings", "[+1 Happiness, +2 Gold] from all [Culture] buildings",
 		"[+25]% Production when constructing [Air] units [in all cities]", "[+25]% Production when constructing [Water] units [in all cities]",
-		"[+1 Happiness, +2 Culture] from all [Gold] buildings"],
+		],
 			
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
