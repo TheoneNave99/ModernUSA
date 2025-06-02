@@ -74,7 +74,6 @@
 		"cost": 500
 		"requiredTech": "Lasers",
 		"promotions": ["Charge"],
-		"requiredResource": "Aluminium",
 		"uniques": ["[+100]% Strength <vs [Gunpowder] units>", "[+50]% to Flank Attack bonuses",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
 		"attackSound": "shot"
