@@ -43,7 +43,7 @@
 		"range": 4,
 		"movement": 3,
 		"strength": 25,
-		"rangedStrength": 45,
+		"rangedStrength": 50,
 		"cost": 250,
 		"requiredTech": "Ballistics",
 		"promotions": ["Ignore terrain cost"],
