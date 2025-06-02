@@ -6,7 +6,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Luxury resource] tiles [in this city]", "[+1 Gold] from [Strategic resource] tiles [in this city]",
-		"Production to [Gold] conversion in cities changed by [+5]%", "Limited to [5] per Civilization"],
+		"Production to [Gold] conversion in cities changed by [+10]%", "Limited to [5] per Civilization"],
 		"requiredTech": "Currency"
 	},
 	{
