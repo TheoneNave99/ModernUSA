@@ -121,4 +121,17 @@
 			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]", "Can see over obstacles"],
 		"attackSound": "bombing"
 	},
-]
+        {
+		"name": "US Abrams",
+		"unitType": "Armored", 
+		"uniqueTo": "The United States",
+		"replaces": "Modern Armor",
+		"movement": 6,
+		"strength": 120,
+		"cost": 500
+		"requiredTech": "Lasers",
+		"promotions": ["Charge"],
+		"requiredResource": "Aluminium",
+		"uniques": ["[+150]% Strength <vs [Gunpowder] units>", "[+100]% Strength <vs [Helicopter] units>", "[+50]% Strength <vs [Siege] units>"],
+		"attackSound": "shot"
+	]
