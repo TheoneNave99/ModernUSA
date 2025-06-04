@@ -118,6 +118,17 @@
 		"requiredTech": "Lasers",
 		"uniques": ["Cannot attack", "Can carry [6] [Aircraft] units"]
 	},
+	{ 
+		"name": "Gerald Ford Class Carrier",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "The United States",
+		"movement": 8,
+		"strenght": 150,
+		"cost": 750,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["Cannot attack", "Can carry [7] [Aircraft] units"]
+	},
 	{
 		"name": "B2 Spirit",
 		"unitType": "Bomber",
