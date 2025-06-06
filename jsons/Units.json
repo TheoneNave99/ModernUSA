@@ -101,7 +101,7 @@
 		"unitType": "Helicopter",
 		"uniqueTo": "The United States",
 		"movement": 6,
-		"strength": 75,
+		"strength": 80,
 		"cost": 600,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Aluminum",
@@ -120,7 +120,7 @@
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Aluminum",
 		"promotions": ["Mobility I"],
-		"uniques": ["No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control"],
+		"uniques": ["No defensive terrain bonus", "Can move after attacking", "[+2] Sight", "All tiles cost 1 movement", "Ignores Zone of Control"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -155,7 +155,22 @@
 		"strenght": 165,
 		"cost": 1050,
 		"requiredTech": "Nuclear Fusion",
-		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units", "Consumes [2] [Uranium]"]
+		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units", "Can carry [2] [Helicopter] units", "Consumes [2] [Uranium]"]
+	},
+	{
+		"name": "Zumwalt class destroyer",
+		"unitType": "Melee Water",
+		"uniqueTo": "The United States",
+		"movement": 7,
+		"strength": 80,
+		"interceptRange": 3
+		"cost": 475,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"promotion": ["Supply"],
+		"uniques": ["[80]% chance to intercept air attacks", "[+100]% Strength <vs [Melee Water] units>",
+			"Withdraws before melee combat with [100]% chance", "[+100]% Strength <vs [Submarine] units>", "Can see invisible [Submarine] units"],
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "B2 Spirit",
