@@ -96,6 +96,20 @@
 		"attackSound": "jetgun"
 	},
 	{
+		"name": "AH-64 Apache",
+		"unitType": "Helicopter",
+		"uniqueTo": "The United States",
+		"movement": 7,
+		"strength": 70,
+		"cost": 600,
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Aluminum",
+		"promotions": ["Mobility I"],
+		"uniques": ["[+150]% Strength <vs [Armored] units>", "[+50]% Strength <vs [Siege] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Delta Force",
 		"unitType": "Gunpowder",
 		"uniqueTo": "The United States",
