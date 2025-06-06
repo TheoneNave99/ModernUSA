@@ -75,7 +75,7 @@
 		"requiredTech": "Lasers",
 		"promotions": ["Charge"],
 		"uniques": ["[+100]% Strength <vs [Gunpowder] units>", "[+50]% to Flank Attack bonuses",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
+			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]", "Can move after attacking"],
 		"attackSound": "shot"
 	}
 	{
