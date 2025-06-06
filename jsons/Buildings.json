@@ -50,6 +50,28 @@
 		"requiredTech": "Economics"
 	},
 	{
+		"name": "One World Trade Centre",
+		"uniqueTo": "The United States",
+		"isNationalWonder": true,
+		"cost" 1000,
+		"culture": 5,
+		"gold": 10,
+		"specialistSlots": {"Merchant": 4},
+		"greatPersonPoints": {"Great Merchant": 8},
+		"uniques": ["[+50]% Gold [in this city]", "[+5]% Gold from [Gold] buildings [in all cities]"],
+		"requiredTech": "Globalization"
+	},
+	{
+		"name": "Yellowstone National Park",
+		"uniqueTo": "The United States",
+		"isNationalWonder": true,
+		"cost": 850,
+		"culture": 6,
+		"food": 6,
+		"uniques": ["[+8]% Food from [Hapiness] buildings [in all cities]", "[+8]% Culture from [food] buildings [in all cities]"],
+		"requiredTech": "Ecology",
+	},
+	{
 		"name": "N.A.S.A.",
 		"uniqueTo": "The United States"
 		"isNationalWonder": true,
@@ -57,7 +79,8 @@
 		"culture": 2,
 		"science": 20,
 		"specialistSlots": {"Scientist": 4},
-		"greatPersonPoints": {"Great Scientist": 4},
+		"greatPersonPoints": {"Great Scientist": 8},
+		"requiredTech": "Rocketry",
 		"uniques": ["Free Technology", "[+40]% Science [in this city]", "[+40]% Production when constructing [Spaceship Part] units [in this city]"]
 	}
 ]
