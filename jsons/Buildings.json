@@ -49,4 +49,14 @@
 		"uniques": ["[+1 Gold] per [2] population [in all cities]", "Limited to [1] per Civilization"],
 		"requiredTech": "Economics"
 	},
+	{
+		"name": "N.A.S.A.",
+		"uniqueTo": "The United States"
+		"isNationalWonder": true,
+		"culture": 2,
+		"science": 20,
+		"specialistSlots": {"Scientist": 4},
+		"greatPersonPoints": {"Great Scientist": 4},
+		"uniques": ["Free Technology", "[+40]% Science [in this city", "[+40]% Production when constructing [Spaceship Part] units [in this city]"]
+	}
 ]
