@@ -155,8 +155,7 @@
 		"strenght": 165,
 		"cost": 1050,
 		"requiredTech": "Nuclear Fusion",
-		"requiredResource": "[2] Uranium",
-		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units"]
+		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units", "Consumes [2] [Uranium]"]
 	},
 	{
 		"name": "B2 Spirit",
