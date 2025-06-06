@@ -53,10 +53,11 @@
 		"name": "N.A.S.A.",
 		"uniqueTo": "The United States"
 		"isNationalWonder": true,
+		"cost": 1000,
 		"culture": 2,
 		"science": 20,
 		"specialistSlots": {"Scientist": 4},
 		"greatPersonPoints": {"Great Scientist": 4},
-		"uniques": ["Free Technology", "[+40]% Science [in this city", "[+40]% Production when constructing [Spaceship Part] units [in this city]"]
+		"uniques": ["Free Technology", "[+40]% Science [in this city]", "[+40]% Production when constructing [Spaceship Part] units [in this city]"]
 	}
 ]
