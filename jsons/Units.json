@@ -155,7 +155,7 @@
 		"strenght": 165,
 		"cost": 1050,
 		"requiredTech": "Nuclear Fusion",
-		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units", "Can carry [2] [Helicopter] units", "Consumes [2] [Uranium]"]
+		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units", "Consumes [2] [Uranium]"]
 	},
 	{
 		"name": "Zumwalt class destroyer",
