@@ -97,6 +97,16 @@
 		"attackSound": "jetgun"
 	},
 	{
+		"name": "E-3 Sentry AWACS",
+		"unitType": "Fighter",
+		"uniqueTo": "The United States",
+		"movement": 1,
+		"strenght": 150,
+		"cost": 825,
+		"requiredTech": "Telecommunications",
+		"uniques": ["[+15]% Strength bonus for [Air] units within [12] tiles", "Cannot attack", "Consumes [3] [Aluminum]", "[+10] Sight", "Cannot be carried by [Carrier] units"]
+	},
+	{
 		"name": "AH-64 Apache",
 		"unitType": "Helicopter",
 		"uniqueTo": "The United States",
