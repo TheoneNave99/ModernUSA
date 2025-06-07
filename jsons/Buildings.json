@@ -72,6 +72,24 @@
 		"uniques": ["[+2 Food] from all [Culture] buildings [in all cities]", "[+5 Culture] from [Forest] tiles [in this city]"],
 	},
 	{
+		"name": "Rockefeller Centre",
+		"uniqueTo": "The United States",
+		"isNationalWonder": true,
+		"cost": 1150,
+		"gold": 10,
+		"requiredTech": "Globalization",
+		"uniques": ["[+10 Gold] from "Oil" tiles [in all cities]"],
+	},
+	{
+		"name": "Times Square",
+		"uniqueTo": "The United States",
+		"isNationalWonder": true,
+		"cost": 1150,
+		"culture": 10,
+		"requiredTech": "Telecommunications",
+		"uniques": ["[+50]% culture [in this city]", "[+15]% culture [in all cities]"],
+	},
+	{
 		"name": "N.A.S.A.",
 		"uniqueTo": "The United States"
 		"isNationalWonder": true,
