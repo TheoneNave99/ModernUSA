@@ -50,6 +50,18 @@
 		"requiredTech": "Economics"
 	},
 	{
+		"name": "One World Trade Centre",
+		"uniqueTo": "The United States",
+		"isNationalWonder": true,
+		"cost": 990,
+		"culture": 2,
+		"gold": 5,
+		"specialistSlots": {"Merchant": 4},
+		"greatPersonPoints": {"Great Merchant": 8},
+		"requiredTech": "Globalization",
+		"uniques": ["[+5]% Gold from all [Gold] buildings [in all cities]", "[+1 Gold] per [2] population [in all cities]"]
+	},
+	{
 		"name": "N.A.S.A.",
 		"uniqueTo": "The United States"
 		"isNationalWonder": true,
