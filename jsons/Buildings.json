@@ -78,7 +78,7 @@
 		"cost": 1150,
 		"gold": 10,
 		"requiredTech": "Globalization",
-		"uniques": ["[+10 Gold] from "Oil" tiles [in all cities]"],
+		"uniques": ["[+10 Gold] from [Oil] tiles [in all cities]"],
 	},
 	{
 		"name": "Times Square",
