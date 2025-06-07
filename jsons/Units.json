@@ -162,15 +162,45 @@
 		"unitType": "Melee Water",
 		"uniqueTo": "The United States",
 		"movement": 7,
-		"strength": 80,
+		"strength": 85,
 		"interceptRange": 3
 		"cost": 475,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"promotion": ["Supply"],
-		"uniques": ["[80]% chance to intercept air attacks", "[+100]% Strength <vs [Melee Water] units>",
+		"promotions": ["Supply", "Landing Party"],
+		"uniques": ["[80]% chance to intercept air attacks", "[+100]% Strength <vs [Melee Water] units>", "[+75]% Strength <vs [Ranged Water] units>",
 			"Withdraws before melee combat with [100]% chance", "[+100]% Strength <vs [Submarine] units>", "Can see invisible [Submarine] units"],
 		"attackSound": "shipguns"
+	},
+	{
+		"name": "Ticonderoga class cruiser",
+		"unitType": "Ranged Water",
+		"uniqueTo": "The United States",
+		"movement": 8,
+		"strength": 95,
+		"rangedStrength": 120,
+		"range": 3,
+		"interceptRange": 3,
+		"requiredTech": "Robotics",
+		"requiredResource": "Aluminum",
+		"promotions": ["Indirect Fire", "Supply"],
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+100]% Strength <vs [Submarine] units>", "Can carry [5] [Missile] units",
+			 "[+75]% Strength <vs [Melee Water] units>", "[+25]% Strength <vs [City]>"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Virginia class submarine",
+		"unitType": "Submarine",
+		"uniqueTo": "The United States",
+		"movement": 7,
+		"strength": 70,
+		"rangedStrength": 95,
+		"range": 4,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Uranium",
+		"uniques": ["[+110]% Strength when attacking", "Can only attack [Water] tiles", 
+			"[+2] Sight", "Can carry [4] [Missile] units"],
+		"attackSound": "torpedo"
 	},
 	{
 		"name": "B-52 Stratofortress",
@@ -183,7 +213,8 @@
 		"cost": 975,
 		"requiredTech": "Particle Physics",
 		"uniques": ["[+100]% Strength <vs [City]>", "[-25]% Strength <vs [Fighter] units>", 
-			"Can see over obstacles", "Cannot be carried by [Carrier] units", "Consumes [3] [Aluminum]"]
+			"Can see over obstacles", "Cannot be carried by [Carrier] units", "Consumes [3] [Aluminum]"],
+		"attackSound": "bombing"
 	},
 	{
 		"name": "B1 Lancer",
@@ -198,17 +229,20 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"promotions": ["Siege I"],
-		"upgradesTo": "B2 Spirit"
+		"uniques": ["[+50]% Strength <vs [City]>"],
+		"upgradesTo": "B2 Spirit",
+		"attackSound": "bombing"
 	},
 	{
 		"name": "B2 Spirit",
 		"unitType": "Bomber",
 		"uniqueTo": "The United States",
+		"replaces": "Stealth Bomber",
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
 		"range": 30,
-		"cost": 600,
+		"cost": 650,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight",
@@ -216,4 +250,20 @@
 			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]", "Can see over obstacles"],
 		"attackSound": "bombing"
 	},
+	{
+		"name": "B-21 Raider",
+		"unitType": "Bomber",
+		"uniqueTo": "The United States",
+		"movement": 4,
+		"strenght": 85,
+		"rangedStrength": 100,
+		"range": 30,
+		"cost": 675,
+		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
+		"promotions": ["Air Repair"],
+		"uniques": ["Damage taken from interception reduced by [100]%", "[+2] Sight",
+			"[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Siege] units>"],
+		"attackSound": "bombing"
+	}
 	]
