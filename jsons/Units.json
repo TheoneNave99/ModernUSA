@@ -101,7 +101,7 @@
 		"unitType": "Fighter",
 		"uniqueTo": "The United States",
 		"movement": 1,
-		"strenght": 150,
+		"strength": 150,
 		"cost": 825,
 		"requiredTech": "Telecommunications",
 		"uniques": ["[+15]% Strength bonus for [Air] units within [12] tiles", "Cannot attack", "Consumes [3] [Aluminum]", "[+10] Sight", "Cannot be carried by [Carrier] units"]
@@ -176,7 +176,7 @@
 		"unitType": "Aircraft Carrier",
 		"uniqueTo": "The United States",
 		"movement": 8,
-		"strenght": 165,
+		"strength": 165,
 		"cost": 1050,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units", "Consumes [2] [Uranium]"]
@@ -281,7 +281,7 @@
 		"unitType": "Bomber",
 		"uniqueTo": "The United States",
 		"movement": 4,
-		"strenght": 85,
+		"strength": 85,
 		"rangedStrength": 100,
 		"range": 30,
 		"cost": 675,
