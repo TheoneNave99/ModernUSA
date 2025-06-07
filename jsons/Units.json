@@ -121,7 +121,7 @@
 		"requiredResource": "Aluminum",
 		"promotions": ["Mobility I"],
 		"uniques": ["No defensive terrain bonus", "Can move after attacking", "[+2] Sight", "All tiles cost 1 movement", "Ignores Zone of Control", "Can pass trough impassabale tiles",
-		"Can move on Water tiles without embarking"],
+		"May travel on Water tiles without embarking"],
 		"attackSound": "machinegun"
 	},
 	{
