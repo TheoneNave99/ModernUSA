@@ -145,7 +145,7 @@
 		"strength": 75,
 		"interceptRange": 3,
 		"cost": 550,
-		"reqiredTech": "Rocketry",
+		"requiredTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks", "[+250]% Strength <vs [Air] units>", "[+200]% Strength <vs [Helicopter] units>"],
 		"attackSound": "shot"
 	},
