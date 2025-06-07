@@ -198,7 +198,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"promotions": ["Siege I"],
-		"upgradesTo": "B2 Spirit", "Stealth Bomber", "B-52 Stratofortress"
+		"upgradesTo": "B2 Spirit"
 	},
 	{
 		"name": "B2 Spirit",
