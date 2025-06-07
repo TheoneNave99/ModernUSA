@@ -62,6 +62,16 @@
 		"uniques": ["[+5]% Gold from all [Gold] buildings [in all cities]", "[+1 Gold] per [2] population [in all cities]"]
 	},
 	{
+		"name": "Yellowstone National Park",
+		"uniqueTo": "The United States",
+		"isNationalWonder": true,
+		"cost": 850,
+		"culture": 8,
+		"food": 10,
+		"requiredTech": "Ecology",
+		"uniques": ["[+2 Food] from all [Culture] buildings [in all cities]", "[+5 Culture] from [Forest] tiles [in this city]"],
+	},
+	{
 		"name": "N.A.S.A.",
 		"uniqueTo": "The United States"
 		"isNationalWonder": true,
