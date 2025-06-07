@@ -139,7 +139,7 @@
 	{
 		"name": "Patriot system",
 		"unitType": "Gunpowder",
-		"uniquesTo": "The United States",
+		"uniqueTo": "The United States",
 		"replaces": "Mobile SAM",
 		"movement": 3,
 		"strength": 75,
