@@ -173,6 +173,36 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "B-52 Stratofortress",
+		"unitType": "Bomber",
+		"uniqueTo": "The United States",
+		"movement": 3,
+		"strength": 150,
+		"rangedStrength": 110,
+		"range": 30,
+		"cost": 975,
+		"requiredTech": "Particle Physics",
+		"uniques": ["[+100]% Strength <vs [City]>", "[-25]% Strength <vs [Fighter] units>", 
+			"Can see over obstacles", "Cannot be carried by [Carrier] units", "Consumes [3] [Aluminum]"]
+	},
+	{
+		"name": "B1 Lancer",
+		"unitType": "Bomber",
+		"uniqueTo": "The United States",
+		"replaces": "Bomber",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 15,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"promotions": ["Siege I"],
+		"upgradesTo": "B2 Spirit",
+		"upgradesTo": "Stealth Bomber",
+		"upgradesTo": "B-52 Stratofortress"
+	},
+	{
 		"name": "B2 Spirit",
 		"unitType": "Bomber",
 		"uniqueTo": "The United States",
