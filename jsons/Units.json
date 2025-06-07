@@ -137,6 +137,19 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Patriot system",
+		"unitType": "Gunpowder",
+		"uniquesTo": "The United States",
+		"replaces": "Mobile SAM",
+		"movement": 3,
+		"strength": 75,
+		"interceptRange": 3,
+		"cost": 550,
+		"reqiredTech": "Rocketry",
+		"uniques": ["[100]% chance to intercept air attacks", "[+250]% Strength <vs [Air] units>", "[+200]% Strength <vs [Helicopter] units>"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Nimitz Class Carrier",
 		"unitType": "Aircraft Carrier",
 		"uniqueTo": "The United States",
