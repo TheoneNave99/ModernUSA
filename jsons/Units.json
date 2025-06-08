@@ -205,12 +205,12 @@
 		"rangedStrength": 120,
 		"range": 3,
 		"interceptRange": 3,
-		"cost": 575,
+		"cost": 700,
 		"requiredTech": "Robotics",
 		"requiredResource": "Aluminum",
 		"promotions": ["Indirect Fire", "Supply"],
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+100]% Strength <vs [Submarine] units>", "Can carry [5] [Missile] units",
-			 "[+75]% Strength <vs [Melee Water] units>", "[+25]% Strength <vs [City]>", "Can carry [2] [Aircraft] units"],
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+125]% Strength <vs [Submarine] units>", "Can carry [5] [Missile] units",
+			 "[+100]% Strength <vs [Melee Water] units>", "[+50]% Strength <vs [City]>"],
 		"attackSound": "shipguns"
 	},
 	{
