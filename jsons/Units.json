@@ -117,7 +117,7 @@
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
 		"uniques": ["[+150]% Strength <vs [Armored] units>", "[+50]% Strength <vs [Siege] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"],
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Can carry [2] [Missile] units"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -210,7 +210,7 @@
 		"requiredResource": "Aluminum",
 		"promotions": ["Indirect Fire", "Supply"],
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+100]% Strength <vs [Submarine] units>", "Can carry [5] [Missile] units",
-			 "[+75]% Strength <vs [Melee Water] units>", "[+25]% Strength <vs [City]>"],
+			 "[+75]% Strength <vs [Melee Water] units>", "[+25]% Strength <vs [City]>", "Can carry [2] [Aircraft] units"],
 		"attackSound": "shipguns"
 	},
 	{
