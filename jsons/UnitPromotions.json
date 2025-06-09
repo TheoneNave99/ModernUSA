@@ -2,5 +2,9 @@
   {
     "name": "For democracy",
     "uniques": ["[+50]% Strength <when fighting in [Foreign Land] tiles>"]
+  },
+  {
+    "name": "World in Peace",
+    "uniques": ["[+50]% Strength <when defending in [Friendly Lands] tiles>"]
   }
 ]
