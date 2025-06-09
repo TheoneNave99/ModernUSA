@@ -125,10 +125,18 @@
 	{
 		"name": "N.A.T.O. HeadQuarters",
 		"isWonder": true,
-		"cost": 1500,
-		"uniques": ["[+50]% Production when constructing [All] units [in this city]", "[+15]% Production when constructing [All] units [in all cities]",
-			"New [All] units starts with [50] XP [in this city]"],
+		"cost": 1750,
+		"uniques": ["[+50]% Production when constructing [Military] units [in this city]", "[+15]% Production when constructing [All] units [in all cities]",
+			"New [Military] units starts with [50] XP [in this city]", "All newly-trained [Military] units [in this city] receive the [For democracy] promotion"],
 		"requiredTech": "Mobile Tactics",
 		"quote": "The North Atlantic Treaty Organisation is ready to defend the Democracy and the Peace in the name of Free World!"
+	},
+	{
+		"name": "The U.N. HeadQuarters",
+		"isWonder": true,
+		"cost": 1750,
+		"uniques": ["All newly-trained [Military] units [in all cities] receive the [World in Peace] promotion"],
+		"reqiredTech": "Globalization",
+		"quote": "The United Nations comes with Peace and Freedom for everyone who ready to create the Future"
 	}
 ]
