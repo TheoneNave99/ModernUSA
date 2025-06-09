@@ -68,7 +68,8 @@
 		"specialistSlots": {"Merchant": 2},
 		"greatPersonPoints": {"Great Merchant": 5},
 		"requiredTech": "Industrialization",
-		"uniques": ["[+5 Gold] per [1] population [in this city]"]
+		"uniques": ["[+5 Gold] per [1] population [in this city]"],
+		"quote": "From this very moment onwards the Dollar is the most powerful weapon in the world"
 	},
 	{
 		"name": "One World Trade Centre",
@@ -80,7 +81,8 @@
 		"specialistSlots": {"Merchant": 4},
 		"greatPersonPoints": {"Great Merchant": 8},
 		"requiredTech": "Globalization",
-		"uniques": ["[+5]% Gold from all [Gold] buildings [in all cities]", "[+1 Gold] per [2] population [in all cities]"]
+		"uniques": ["[+5]% Gold from all [Gold] buildings [in all cities]", "[+1 Gold] per [2] population [in all cities]"],
+		"quote": "Greetings to the mighty symbol of capitalism, who rose from the ashes of disaster like a golden phoenix"
 	},
 	{
 		"name": "Yellowstone National Park",
@@ -91,6 +93,7 @@
 		"food": 10,
 		"requiredTech": "Ecology",
 		"uniques": ["[+2 Food] from all [Culture] buildings [in all cities]", "[+5 Culture] from [Forest] tiles [in this city]"],
+		"quote": "There is only one power humanity haven't won yet — the power of Nature"
 	},
 	{
 		"name": "Rockefeller Centre",
@@ -100,6 +103,7 @@
 		"gold": 10,
 		"requiredTech": "Globalization",
 		"uniques": ["[+10 Gold] from [Oil] tiles [in all cities]"],
+		"quote": "Feel the spirit of first billionaire in the history of mankind. If capitalism has a personification, it is he"
 	},
 	{
 		"name": "Times Square",
@@ -108,7 +112,8 @@
 		"cost": 1150,
 		"culture": 10,
 		"requiredTech": "Telecommunications",
-		"uniques": ["[+50]% culture [in this city]", "[+15]% culture [in all cities]"],
+		"uniques": ["[+50]% Culture [in this city]", "[+15]% Culture [in all cities]"],
+		"quote": "'Never before has propaganda been so powerful. Right now, at this very moment, the word has become more powerful than a bullet' – Unknown person, one-day inscription on the sidewalk of Times Square"	
 	},
 	{
 		"name": "N.A.S.A.",
@@ -121,6 +126,7 @@
 		"greatPersonPoints": {"Great Scientist": 8},
 		"requiredTech": "Rocketry",
 		"uniques": ["Free Technology", "[+40]% Science [in this city]", "[+40]% Production when constructing [Spaceship Part] units [in this city]"]
+		"quote": "From here to sky"
 	},
 	{
 		"name": "N.A.T.O. HeadQuarters",
@@ -136,7 +142,7 @@
 		"isWonder": true,
 		"cost": 1750,
 		"uniques": ["All newly-trained [Military] units [in all cities] receive the [World in Peace] promotion"],
-		"reqiredTech": "Globalization",
-		"quote": "The United Nations comes with Peace and Freedom for everyone who ready to create the Future"
+		"requiredTech": "Globalization",
+		"quote": "The United Nations comes with Peace and Freedom for everyone who ready to create the Future without wars and dangers"
 	}
 ]
