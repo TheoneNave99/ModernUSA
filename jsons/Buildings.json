@@ -59,7 +59,7 @@
 		"requiredTech": "Radio"
 	},
 	{
-		"name": "Empire State Building",
+		"name": "The Empire State Building",
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
 		"cost": 790,
