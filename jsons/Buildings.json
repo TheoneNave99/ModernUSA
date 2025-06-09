@@ -55,7 +55,7 @@
 		"cost": 600,
 		"culture": 8,
 		"hapiness": 5,
-		"uniques": ["[+50]% Hapiness [in this city]", "[+1 Hapiness] per [5] population [in all cities]", "Limited to [2] per Civilization"],
+		"uniques": ["[+50]% Hapiness [in this city]", "[+1 Hapiness] per [5] population [in all cities]", "Limited to [1] per Civilization"],
 		"requiredTech": "Radio"
 	},
 	{
@@ -68,7 +68,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"greatPersonPoints": {"Great Merchant": 5},
 		"requiredTech": "Industrialization",
-		"uniques": ["[+3 Gold] per [1] population [in this city]"]
+		"uniques": ["[+5 Gold] per [1] population [in this city]"]
 	},
 	{
 		"name": "One World Trade Centre",
@@ -121,5 +121,13 @@
 		"greatPersonPoints": {"Great Scientist": 8},
 		"requiredTech": "Rocketry",
 		"uniques": ["Free Technology", "[+40]% Science [in this city]", "[+40]% Production when constructing [Spaceship Part] units [in this city]"]
+	},
+	{
+		"name": "NATO HeadQuarters",
+		"isWonder": true,
+		"cost": 1500,
+		"uniques": ["[+50]% Production when constructing [All] units [in this city]", "[+15]% Production when constructing [All] units [in all cities]",
+			"New [All] units starts with [50] XP [in this city]"],
+		"requiredTech": "Mobile Tactics"
 	}
 ]
