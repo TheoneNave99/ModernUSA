@@ -78,7 +78,7 @@
 		"uniques": ["[+100]% Strength <vs [Gunpowder] units>", "[+50]% to Flank Attack bonuses",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]", "Can move after attacking"],
 		"attackSound": "shot"
-	}
+	},
 	{
 		"name": "F-35 Lightning",
 		"unitType": "Fighter",
@@ -97,44 +97,6 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "E-3 Sentry AWACS",
-		"unitType": "Fighter",
-		"uniqueTo": "The United States",
-		"movement": 1,
-		"strength": 150,
-		"cost": 825,
-		"requiredTech": "Telecommunications",
-		"uniques": ["[+15]% Strength bonus for [Air] units within [12] tiles", "Cannot attack", "Consumes [3] [Aluminum]", "[+10] Sight", "Cannot be carried by [Carrier] units"]
-	},
-	{
-		"name": "AH-64 Apache",
-		"unitType": "Helicopter",
-		"uniqueTo": "The United States",
-		"movement": 6,
-		"strength": 80,
-		"cost": 600,
-		"requiredTech": "Mobile Tactics",
-		"requiredResource": "Aluminum",
-		"promotions": ["Charge"],
-		"uniques": ["[+150]% Strength <vs [Armored] units>", "[+50]% Strength <vs [Siege] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Can carry [2] [Missile] units"],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "UH-60 Black Hawk",
-		"unitType": "Helicopter",
-		"uniqueTo": "The United States",
-		"movement": 8,
-		"strength": 65,
-		"cost": 600,
-		"requiredTech": "Mobile Tactics",
-		"requiredResource": "Aluminum",
-		"promotions": ["Mobility I"],
-		"uniques": ["No defensive terrain bonus", "Can move after attacking", "[+2] Sight", "All tiles cost 1 movement", "Ignores Zone of Control", "Can pass trough impassabale tiles",
-		"May travel on Water tiles without embarking"],
-		"attackSound": "machinegun"
-	},
-	{
 		"name": "Delta Force",
 		"unitType": "Gunpowder",
 		"uniqueTo": "The United States",
@@ -148,19 +110,6 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Patriot system",
-		"unitType": "Gunpowder",
-		"uniqueTo": "The United States",
-		"replaces": "Mobile SAM",
-		"movement": 3,
-		"strength": 75,
-		"interceptRange": 3,
-		"cost": 550,
-		"requiredTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks", "[+250]% Strength <vs [Air] units>", "[+200]% Strength <vs [Helicopter] units>"],
-		"attackSound": "shot"
-	},
-	{
 		"name": "Nimitz Class Carrier",
 		"unitType": "Aircraft Carrier",
 		"uniqueTo": "The United States",
@@ -170,94 +119,6 @@
 		"requiredTech": "Lasers",
 		"upgradesTo": "Gerald Ford Class Carrier",
 		"uniques": ["Cannot attack", "Can carry [6] [Aircraft] units"]
-	},
-	{ 
-		"name": "Gerald Ford Class Carrier",
-		"unitType": "Aircraft Carrier",
-		"uniqueTo": "The United States",
-		"movement": 8,
-		"strength": 165,
-		"cost": 1050,
-		"requiredTech": "Nuclear Fusion",
-		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units", "Consumes [2] [Uranium]"]
-	},
-	{
-		"name": "Zumwalt class destroyer",
-		"unitType": "Melee Water",
-		"uniqueTo": "The United States",
-		"movement": 7,
-		"strength": 85,
-		"interceptRange": 3
-		"cost": 475,
-		"requiredTech": "Computers",
-		"requiredResource": "Aluminum",
-		"promotions": ["Supply", "Landing Party"],
-		"uniques": ["[80]% chance to intercept air attacks", "[+100]% Strength <vs [Melee Water] units>", "[+75]% Strength <vs [Ranged Water] units>",
-			"Withdraws before melee combat with [100]% chance", "[+100]% Strength <vs [Submarine] units>", "Can see invisible [Submarine] units"],
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Ticonderoga class cruiser",
-		"unitType": "Ranged Water",
-		"uniqueTo": "The United States",
-		"movement": 8,
-		"strength": 95,
-		"rangedStrength": 120,
-		"range": 3,
-		"interceptRange": 3,
-		"cost": 700,
-		"requiredTech": "Robotics",
-		"requiredResource": "Aluminum",
-		"promotions": ["Indirect Fire", "Supply"],
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+125]% Strength <vs [Submarine] units>", "Can carry [5] [Missile] units",
-			 "[+100]% Strength <vs [Melee Water] units>", "[+50]% Strength <vs [City]>"],
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Virginia class submarine",
-		"unitType": "Submarine",
-		"uniqueTo": "The United States",
-		"movement": 7,
-		"strength": 70,
-		"rangedStrength": 95,
-		"range": 4,
-		"cost": 650,
-		"requiredTech": "Particle Physics",
-		"requiredResource": "Uranium",
-		"uniques": ["[+110]% Strength when attacking", "Can only attack [Water] tiles", 
-			"[+2] Sight", "Can carry [4] [Missile] units"],
-		"attackSound": "torpedo"
-	},
-	{
-		"name": "B-52 Stratofortress",
-		"unitType": "Bomber",
-		"uniqueTo": "The United States",
-		"movement": 3,
-		"strength": 150,
-		"rangedStrength": 110,
-		"range": 30,
-		"cost": 975,
-		"requiredTech": "Particle Physics",
-		"uniques": ["[+100]% Strength <vs [City]>", "[-25]% Strength <vs [Fighter] units>", 
-			"Can see over obstacles", "Cannot be carried by [Carrier] units", "Consumes [3] [Aluminum]"],
-		"attackSound": "bombing"
-	},
-	{
-		"name": "B1 Lancer",
-		"unitType": "Bomber",
-		"uniqueTo": "The United States",
-		"replaces": "Bomber",
-		"movement": 1,
-		"strength": 75,
-		"rangedStrength": 75,
-		"range": 15,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"requiredResource": "Oil",
-		"promotions": ["Siege I"],
-		"uniques": ["[+50]% Strength <vs [City]>"],
-		"upgradesTo": "B2 Spirit",
-		"attackSound": "bombing"
 	},
 	{
 		"name": "B2 Spirit",
@@ -274,22 +135,6 @@
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight",
 			"[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Siege] units>", "[+100]% Strength <vs [Gunpowder] units>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]", "Can see over obstacles"],
-		"attackSound": "bombing"
-	},
-	{
-		"name": "B-21 Raider",
-		"unitType": "Bomber",
-		"uniqueTo": "The United States",
-		"movement": 4,
-		"strength": 85,
-		"rangedStrength": 100,
-		"range": 30,
-		"cost": 675,
-		"requiredTech": "Stealth",
-		"requiredResource": "Aluminum",
-		"promotions": ["Air Repair"],
-		"uniques": ["Damage taken from interception reduced by [100]%", "[+2] Sight",
-			"[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Siege] units>"],
 		"attackSound": "bombing"
 	}
 	]
