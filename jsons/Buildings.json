@@ -123,11 +123,12 @@
 		"uniques": ["Free Technology", "[+40]% Science [in this city]", "[+40]% Production when constructing [Spaceship Part] units [in this city]"]
 	},
 	{
-		"name": "NATO HeadQuarters",
+		"name": "N.A.T.O. HeadQuarters",
 		"isWonder": true,
 		"cost": 1500,
 		"uniques": ["[+50]% Production when constructing [All] units [in this city]", "[+15]% Production when constructing [All] units [in all cities]",
 			"New [All] units starts with [50] XP [in this city]"],
-		"requiredTech": "Mobile Tactics"
+		"requiredTech": "Mobile Tactics",
+		"quote": "The North Atlantic Treaty Organisation is ready to defend the Democracy and the Peace in the name of Free World!"
 	}
 ]
