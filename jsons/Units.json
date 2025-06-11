@@ -291,10 +291,5 @@
 		"uniques": ["Damage taken from interception reduced by [100]%", "[+2] Sight",
 			"[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Siege] units>"],
 		"attackSound": "bombing"
-	},
-			"cost": 700,
-		"requiredTech": "Lasers",
-		"requiredResource": "Aluminum",
-		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units"]
-	},
+	}
 ]
