@@ -1,5 +1,5 @@
 [
-{
+	{
 		"name": "CIA Agent",
 		"unitType": "Civilian",
 		"uniqueTo": "The United States",
@@ -110,6 +110,7 @@
 		"name": "AH-64 Apache",
 		"unitType": "Helicopter",
 		"uniqueTo": "The United States",
+		"replaces": "Helicopter Gunship",
 		"movement": 6,
 		"strength": 80,
 		"cost": 600,
@@ -124,6 +125,7 @@
 		"name": "UH-60 Black Hawk",
 		"unitType": "Helicopter",
 		"uniqueTo": "The United States",
+		"replaces": "Helicopter Gunship"
 		"movement": 8,
 		"strength": 65,
 		"cost": 600,
@@ -164,6 +166,7 @@
 		"name": "Nimitz Class Carrier",
 		"unitType": "Aircraft Carrier",
 		"uniqueTo": "The United States",
+		"replaces": "Carrier",
 		"movement": 5,
 		"strength": 80,
 		"cost": 600,
@@ -175,6 +178,7 @@
 		"name": "Gerald Ford Class Carrier",
 		"unitType": "Aircraft Carrier",
 		"uniqueTo": "The United States",
+		"replaces": "Carrier",
 		"movement": 8,
 		"strength": 165,
 		"cost": 1050,
@@ -185,6 +189,7 @@
 		"name": "Zumwalt class destroyer",
 		"unitType": "Melee Water",
 		"uniqueTo": "The United States",
+		"replaces": "Destroyer"
 		"movement": 7,
 		"strength": 85,
 		"interceptRange": 3
@@ -200,6 +205,7 @@
 		"name": "Ticonderoga class cruiser",
 		"unitType": "Ranged Water",
 		"uniqueTo": "The United States",
+		"replaces": "Missile Cruiser",
 		"movement": 8,
 		"strength": 95,
 		"rangedStrength": 120,
@@ -217,6 +223,7 @@
 		"name": "Virginia class submarine",
 		"unitType": "Submarine",
 		"uniqueTo": "The United States",
+		"replaces": "Nuclear Submarine",
 		"movement": 7,
 		"strength": 70,
 		"rangedStrength": 95,
