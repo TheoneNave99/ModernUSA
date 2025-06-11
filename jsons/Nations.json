@@ -35,46 +35,5 @@
 			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
 			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
-	},
-	{
-		"name": "People's Republic of China",
-		"leaderName": "Xi Jinping",
-		"adjective": ["chinese"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "Hello there, great leader!",
-		"startIntroPart2": "Our history is long and great. Keep the level and lead us to socialistic and cosmopolitan future!",
-		
-		"declaringWar": "You stood in our way, and you should be destroyed. Nothing personal, only business.",
-		"attacked": "Such a great mistake...",
-		"defeated": "Are we defeated? Well, this is still not the end. You will see...",
-		"introduction": "Great Chinese nation welcomes you!",
-		
-		"neutralHello": "Any deals?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
-
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "Isn't it profitable?",
-
-		"outerColor": [255,0,0],
-		"innerColor": [255,255,0],
-
-		"favoredReligion": "Buddhism",
-		"uniqueName": "Great Chinese socialism",
-		"uniques": ["[+25]% Gold [in all cities]", "[+25]% Production [in all cities]", "Production to [Gold] conversion in cities changed by [+50]%",
-			"Allied City-States will occasionally gift Great People", "[+100]% of excess happiness converted to [Gold]", "[+1 Gold, +1 Production] from all [Culture] buildings", "[+1 Gold, +1 Production] from all [Science] buildings", 
-			"[+2]% Production from all [Production] buildings",
-			"[+2]% Science from all [Science] buildings", "[+25]% Production when constructing [Gold] buildings [in all cities]"],
-
-		
-		"cities": ["Beijing", "Shanghai", "Hong Kong", "Taiwan", "Chongqing", "Guangzhou", "Shenzhen", "Nanking",
-			"Chengdu", "Xi'an", "Harbin", "Hangzhou", "Wuhan", "Shenyang"]
 	}
 ]
