@@ -65,6 +65,17 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "AAV-7 Marine Landing",
+		"unitType": "Gunpowder",
+		"uniqueTo": "The United States",
+		"movement": 5,
+		"strength": 80,
+		"cost": 650,
+		"requiredTech": "Nanotechnology",
+		"uniques": ["May travel on Water tiles without embarking", "[+150]% Strength <when defending> in [Water] tiles", "Cannot attack [Water] units"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "M1 Abrams",
 		"unitType": "Armored", 
 		"uniqueTo": "The United States",
@@ -118,7 +129,7 @@
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
 		"uniques": ["[+150]% Strength <vs [Armored] units>", "[+50]% Strength <vs [Siege] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Can carry [2] [Missile] units"],
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Can carry [4] [Missile] units"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -179,14 +190,14 @@
 		"unitType": "Aircraft Carrier",
 		"uniqueTo": "The United States",
 		"replaces": "Carrier",
-		"movement": 8,
+		"movement": 9,
 		"strength": 165,
 		"cost": 1050,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units", "Consumes [2] [Uranium]"]
 	},
 	{
-		"name": "Zumwalt class destroyer",
+		"name": "Zumwalt Class Destroyer",
 		"unitType": "Melee Water",
 		"uniqueTo": "The United States",
 		"replaces": "Destroyer"
@@ -202,7 +213,7 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Ticonderoga class cruiser",
+		"name": "Ticonderoga Class Cruiser",
 		"unitType": "Ranged Water",
 		"uniqueTo": "The United States",
 		"replaces": "Missile Cruiser",
@@ -214,13 +225,29 @@
 		"cost": 700,
 		"requiredTech": "Robotics",
 		"requiredResource": "Aluminum",
+		"upgradesTo": "Aircraft Carrier Cruiser",
 		"promotions": ["Indirect Fire", "Supply"],
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+125]% Strength <vs [Submarine] units>", "Can carry [5] [Missile] units",
 			 "[+100]% Strength <vs [Melee Water] units>", "[+50]% Strength <vs [City]>"],
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Virginia class submarine",
+		"name": "Aircraft Carrying Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 8,
+		"strength": 105,
+		"rangedStrength": 125,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 950,
+		"requiredTech": "Nanotechnology",
+		"promotions": ["Indirect Fire", "Supply"],
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+125]% Strength <vs [Submarine] units>",
+			"Can carry [5] [Missile] units", "Can carry [5] [Aircraft] units", "[+25] Strength <when defending>"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Virginia Class Submarine",
 		"unitType": "Submarine",
 		"uniqueTo": "The United States",
 		"replaces": "Nuclear Submarine",
