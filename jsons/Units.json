@@ -58,7 +58,7 @@
 		"movement": 3,
 		"strength": 65,
 		"cost": 375,
-		"requiredTech": "Electronics",
+		"requiredTech": "Future Tech",
 		"promotions": ["Amphibious"],
 		"uniques": ["[+2] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>",
 		"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
