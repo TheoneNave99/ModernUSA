@@ -187,6 +187,7 @@
 		"requiredResource": "Aluminum",
 		"promotions": ["Indirect Fire"],
 		"uniques": ["[+250]% Strength <vs [City]> <when attacking>", "[+100]% Strength <vs [Gunpowder] units>", "Can carry [2] [Missile] units"],
+		"attackSound": "artillery"
 	},
 	{
 		"name": "ATACMS",
@@ -198,8 +199,9 @@
 		"rangedStrength": 100,
 		"range": 10,
 		"cost": 175,
-		"requiredTexh": "Advanced Ballistics",
+		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[-100]% maintenance costs", "[+100]% Strength <vs [Armored] units>", "[+200]% Strength <vs [Helicopter] units>"],
+		"attackSound": "missile"
 	},
 	{
 		"name": "Nimitz Class Carrier",
