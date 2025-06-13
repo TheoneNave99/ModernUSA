@@ -134,7 +134,7 @@
 		"cost": 1750,
 		"uniques": ["[+50]% Production when constructing [Military] units [in this city]", "[+15]% Production when constructing [All] units [in all cities]",
 			"New [Military] units starts with [50] XP [in this city]", "All newly-trained [Military] units [in this city] receive the [For democracy] promotion"],
-		"requiredTech": "Mobile Tactics",
+		"requiredTech": "Modern Warfare Strategy",
 		"quote": "The North Atlantic Treaty Organisation is ready to defend the Democracy and the Peace in the name of Free World!"
 	},
 	{
@@ -146,6 +146,11 @@
 		"quote": "The United Nations comes with Peace and Freedom for everyone who ready to create the Future without wars and dangers"
 	},
 	{
-		"name": "NGAD Project"
+		"name": "NGAD Project",
+		"uniqueTo": "The United States",
+		"isNationalWonder": true,
+		"cost": 2500,
+		"requiredTech": "Modern Warfare Strategy",
+		"quote": "New-Generated Air Dominance is a modern project to improve air warfare technologies that will enable the development of new weapons"
 	}
 ]
