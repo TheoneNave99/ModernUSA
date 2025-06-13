@@ -40,6 +40,22 @@
 		"requiredTech": "Flight"
 	},
 	{
+		"name": "Department of Treasury",
+		"isNationalWonder": true,
+		"cost": 1550,
+		"gold": 25,
+		"uniques": ["[+100]% Gold [in this city]"],
+		"requiredTech": "Complete State Management"
+	},
+	{
+		"name": "Department of Education",
+		"isNationalWonder": true,
+		"cost": 1350,
+		"science": 50,
+		"uniques": ["[+100]% Science [in this city]"],
+		"requiredTech": "Complete State Management",
+	},
+	{
 		"name": "Wall Street",
 		"uniqueTo": "The United States"
 		"cost": 500,
@@ -189,7 +205,7 @@
 		"cost": 1150,
 		"maintenance": 10,
 		"production": 15,
-		"percentStatBonus": {"Production": 10},
+		"percentStatsBonus": {"Production": 10},
 		"specialistSlots": {"Engineer": 2},
 		"requiredBuilding": "Nuclear Plant",
 		"hurryCostModifier": 0,
@@ -201,7 +217,7 @@
 		"cost": 1350,
 		"maintenance": 10,
 		"production": 20,
-		"percentStatBonus": {"Production": 15},
+		"percentStatsBonus": {"Production": 15},
 		"specialistsSlots": {"Engineer": 2},
 		"requiredBuilding": "Nuclear Plant",
 		"hurryCostModifier": 0,
@@ -213,7 +229,7 @@
 		"cost": 750,
 		"maintenance": 3,
 		"food": 25,
-		"percentStatBonus": {"Food": 10},
+		"percentStatsBonus": {"Food": 10},
 		"requiredBuilding": "Medical Lab",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy"
@@ -224,7 +240,7 @@
 		"cost": 825,
 		"maintenance": 5,
 		"food": 25,
-		"percentStatBonus": {"Food": 10},
+		"percentStatsBonus": {"Food": 10},
 		"gold": 25,
 		"percentStatBonus": {"Gold": 10},
 		"requiredBuilding": "Elite Villa",
@@ -236,7 +252,7 @@
 		"cost": 1150,
 		"maintenance": 10,
 		"gold": 30,
-		"percentStatBonus": {"Gold": 10},
+		"percentStatsBonus": {"Gold": 10},
 		"requiredBuilding": "Stock Exchange",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy"
