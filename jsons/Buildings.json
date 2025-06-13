@@ -108,12 +108,26 @@
 	{
 		"name": "Times Square",
 		"uniqueTo": "The United States",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"cost": 1150,
 		"culture": 10,
 		"requiredTech": "Telecommunications",
 		"uniques": ["[+50]% Culture [in this city]", "[+15]% Culture [in all cities]"],
 		"quote": "'Never before has propaganda been so powerful. Right now, at this very moment, the word has become more powerful than a bullet' – Unknown person, one-day inscription on the sidewalk of Times Square"	
+	},
+	{
+		"name": "Boeing Corporation",
+		"uniqueTo": "The United States",
+		"cost": 1050,
+		"production": 25,
+		"requiredTech": "MIC",
+		"uniques": ["[+50]% Production when constructing [Air] units [in this city]", "Limited to [1] per Civilization"],
+	},
+	{
+		"name": "Lockheed Martin"
+	},
+	{
+		"name": "General Dynamics"
 	},
 	{
 		"name": "N.A.S.A.",
@@ -134,7 +148,7 @@
 		"cost": 1750,
 		"uniques": ["[+50]% Production when constructing [Military] units [in this city]", "[+15]% Production when constructing [All] units [in all cities]",
 			"New [Military] units starts with [50] XP [in this city]", "All newly-trained [Military] units [in this city] receive the [For democracy] promotion"],
-		"requiredTech": "Modern Warfare Strategy",
+		"requiredTech": "Mobile Tactics",
 		"quote": "The North Atlantic Treaty Organisation is ready to defend the Democracy and the Peace in the name of Free World!"
 	},
 	{
@@ -150,7 +164,7 @@
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
 		"cost": 2500,
-		"requiredTech": "Modern Warfare Strategy",
+		"requiredTech": "Military-Industrial Complex",
 		"quote": "New-Generated Air Dominance is a modern project to improve air warfare technologies that will enable the development of new weapons"
 	}
 ]
