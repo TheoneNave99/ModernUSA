@@ -166,5 +166,30 @@
 		"cost": 2500,
 		"requiredTech": "MIC",
 		"quote": "New-Generated Air Dominance is a modern project to improve air warfare technologies that will enable the development of new weapons"
+	},
+	{
+		"name": "Full-cycle Plant",
+		"requiredNearbyImprovedResource": ["Titanium"],
+		"cost": 1150,
+		"maintenance": 10,
+		"production": 15,
+		"percentStatBonus": {"Production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Nuclear Plant",
+		"hurryCostModifier": 0,
+		"requiredTech": "Heavy Industry",
+		"requiredResource": "Aluminum"
+	},
+	{
+		"name": "Alloys Plant",
+		"cost": 1350,
+		"maintenance": 10,
+		"production": 20,
+		"percentStatBonus": {"Production": 15},
+		"specialistsSlots": {"Engineer": 2},
+		"requiredBuilding": "Nuclear Plant",
+		"hurryCostModifier": 0,
+		"requiredTech": "Synthetic Alloys",
+		"requiredResuorce": "Titanium"
 	}
 ]
