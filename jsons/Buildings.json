@@ -164,7 +164,7 @@
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
 		"cost": 2500,
-		"requiredTech": "Military-Industrial Complex",
+		"requiredTech": "MIC",
 		"quote": "New-Generated Air Dominance is a modern project to improve air warfare technologies that will enable the development of new weapons"
 	}
 ]
