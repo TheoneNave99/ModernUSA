@@ -6,5 +6,9 @@
   {
     "name": "World in Peace",
     "uniques": ["[+50]% Strength <when defending in [Friendly Lands] tiles>"]
+  },
+  {
+    "name": "Modern",
+    "uniques": ["[+25]% Strength <when defending>"]
   }
 ]
