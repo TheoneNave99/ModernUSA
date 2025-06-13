@@ -214,7 +214,7 @@
 		"maintenance": 3,
 		"food": 25,
 		"percentStatBonus": {"Food": 10},
-		"requiredBuilding": "Medical Laboratory",
+		"requiredBuilding": "Medical Lab",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy"
 	},
