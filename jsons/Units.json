@@ -118,8 +118,9 @@
 		"interceptRange": 25,
 		"cost": 1450,
 		"requiredTech": "Synthetic Alloys",
-		"uniques": ["[+100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>",
-			"[+150]% Strength <vs [Fighter] units>", "[3] extra interceptions may be made per turn", "Only available if [NGAD Project] is constructed"],
+		"requiredResource": "Titanium",
+		"uniques": ["[+100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>", "[+25]% Strength when intercepting",
+			"[+150]% Strength <vs [Fighter] units>", "[3] extra interceptions may be made per turn", "Only available if [NGAD Project] is constructed", "Consumes [2] [Aluminum]"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -130,7 +131,7 @@
 		"strength": 150,
 		"cost": 825,
 		"requiredTech": "Telecommunications",
-		"uniques": ["[+15]% Strength bonus for [Air] units within [12] tiles", "Cannot attack", "Consumes [3] [Aluminum]", "[+10] Sight", "Cannot be carried by [Carrier] units"]
+		"uniques": ["[+15]% Strength bonus for [Air] units within [12] tiles", "Cannot attack", "Consumes [3] [Aluminum]", "[+10] Sight"]
 	},
 	{
 		"name": "AH-64 Apache",
@@ -138,7 +139,7 @@
 		"uniqueTo": "The United States",
 		"replaces": "Helicopter Gunship",
 		"movement": 6,
-		"strength": 80,
+		"strength": 105,
 		"cost": 600,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Aluminum",
@@ -239,7 +240,7 @@
 		"strength": 165,
 		"cost": 1050,
 		"requiredTech": "Nuclear Fusion",
-		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units", "Consumes [2] [Uranium]"]
+		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units", "Consumes [2] [Uranium]", "Consumes [1] [Titanium]"]
 	},
 	{
 		"name": "Zumwalt Class Destroyer",
@@ -285,7 +286,8 @@
 		"range": 3,
 		"interceptRange": 3,
 		"cost": 950,
-		"requiredTech": "Nanotechnology",
+		"requiredTech": "Synthetic Alloys",
+		"requiredResource": "Titanium",
 		"promotions": ["Indirect Fire", "Supply"],
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+125]% Strength <vs [Submarine] units>",
 			"Can carry [5] [Missile] units", "Can carry [5] [Aircraft] units", "[+25] Strength <when defending>"],
@@ -297,8 +299,8 @@
 		"uniqueTo": "The United States",
 		"replaces": "Nuclear Submarine",
 		"movement": 7,
-		"strength": 70,
-		"rangedStrength": 95,
+		"strength": 80,
+		"rangedStrength": 105,
 		"range": 4,
 		"cost": 650,
 		"requiredTech": "Particle Physics",
@@ -318,7 +320,7 @@
 		"cost": 975,
 		"requiredTech": "Particle Physics",
 		"uniques": ["[+100]% Strength <vs [City]>", "[-25]% Strength <vs [Fighter] units>", 
-			"Can see over obstacles", "Cannot be carried by [Carrier] units", "Consumes [3] [Aluminum]"],
+			"Can see over obstacles", "Cannot be carried by [Carrier] units", "Consumes [2] [Aluminum]", "Consumes [1] [Titanium]"],
 		"attackSound": "bombing"
 	},
 	{
@@ -350,7 +352,7 @@
 		"cost": 650,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
-		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight",
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Aircraft Carrier] units", "[+4] Sight",
 			"[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Siege] units>", "[+100]% Strength <vs [Gunpowder] units>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]", "Can see over obstacles"],
 		"attackSound": "bombing"
