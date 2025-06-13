@@ -55,7 +55,7 @@
 		"cost": 600,
 		"culture": 8,
 		"hapiness": 5,
-		"uniques": ["[+50]% Hapiness [in this city]", "[+1 Hapiness] per [5] population [in all cities]", "Limited to [1] per Civilization"],
+		"uniques": ["[+75]% Hapiness [in this city]", "Limited to [1] per Civilization"],
 		"requiredTech": "Radio"
 	},
 	{
