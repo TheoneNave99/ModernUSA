@@ -1,0 +1,16 @@
+[
+  {
+    "columnNumber": 16,
+    "era": "Information Era",
+    "techCost": 8800,
+    "buildingCost": 750,
+    "wonderCost": 1250,
+    "techs": [
+      {
+        "name": "Synthetic Alloys",
+        "row": 4,
+        "prerequisites": ["Mobile Tactics", "Advanced Ballistics"],
+        "quote": "Modern technology has allowed us to create more advanced materials and use them to design more advanced weapons."
+      }]
+  }
+]
