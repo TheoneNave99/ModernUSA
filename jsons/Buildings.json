@@ -144,5 +144,8 @@
 		"uniques": ["All newly-trained [Military] units [in all cities] receive the [World in Peace] promotion"],
 		"requiredTech": "Globalization",
 		"quote": "The United Nations comes with Peace and Freedom for everyone who ready to create the Future without wars and dangers"
+	},
+	{
+		"name": "NGAD Project"
 	}
 ]
