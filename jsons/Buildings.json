@@ -118,16 +118,32 @@
 	{
 		"name": "Boeing Corporation",
 		"uniqueTo": "The United States",
+		"isNationalWonder": true,
 		"cost": 1050,
 		"production": 25,
 		"requiredTech": "MIC",
 		"uniques": ["[+50]% Production when constructing [Air] units [in this city]", "Limited to [1] per Civilization"],
 	},
 	{
-		"name": "Lockheed Martin"
+		"name": "Lockheed Martin",
+		"isWonder": true,
+		"cost": 2500,
+		"production": 50,
+		"specialistSlots": {"Engineer": 4},
+		"greatPersonPoints": {"Great General": 15},
+		"uniques": ["[+50]% Production when constructing [Military] units", "Newly-trained [Military] units [in this city] receive the [Modern] promotion",
+			"New [Military] units starts with [50] XP [in all cities]"],
+		"requiredTech": "TNC",
+		"quote": "Lockheed Martin is the world's premier weapons supplier. Try to hold and lead this power."
 	},
 	{
-		"name": "General Dynamics"
+		"name": "General Dynamics",
+		"uniquesTo": "The United States",
+		"isNationalWonder": true,
+		"cost": 1050,
+		"production": 25,
+		"requiredTech": "MIC",
+		"uniques": ["[+50]% Production when constructing [Land] units [in this city]", "New [Land] units starts with [50] XP"]
 	},
 	{
 		"name": "N.A.S.A.",
@@ -148,7 +164,7 @@
 		"cost": 1750,
 		"uniques": ["[+50]% Production when constructing [Military] units [in this city]", "[+15]% Production when constructing [All] units [in all cities]",
 			"New [Military] units starts with [50] XP [in this city]", "All newly-trained [Military] units [in this city] receive the [For democracy] promotion"],
-		"requiredTech": "Mobile Tactics",
+		"requiredTech": "Modern Warfare Strategy",
 		"quote": "The North Atlantic Treaty Organisation is ready to defend the Democracy and the Peace in the name of Free World!"
 	},
 	{
