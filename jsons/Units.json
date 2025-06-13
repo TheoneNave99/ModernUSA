@@ -72,7 +72,7 @@
 		"strength": 80,
 		"cost": 650,
 		"requiredTech": "Nanotechnology",
-		"uniques": ["May travel on Water tiles without embarking", "[+150]% Strength <when defending> in [Water] tiles", "Cannot attack [Water] units"],
+		"uniques": ["May travel on Water tiles without embarking", "[+150]% Strength <when defending> in [Water] tiles"],
 		"attackSound": "shot"
 	},
 	{
@@ -161,7 +161,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Patriot system",
+		"name": "Patriot SAM System",
 		"unitType": "Gunpowder",
 		"uniqueTo": "The United States",
 		"replaces": "Mobile SAM",
