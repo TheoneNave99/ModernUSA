@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Titanium",
+		"resourceType": "Strategic",
+		"revealedBy": "Heavy Industry",
+		"terrainsCanBeFoundOn": ["Tundra","Hill"],
+		"production": 3,
+		"improvement": "Mine",
+		"improvementStats": {"production": 7},
+		"uniques": ["Generated on every [650] tiles <in [Hill] tiles>","Generated on every [650] tiles <in [Tundra] tiles>"]
+
+		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+  }
+]
