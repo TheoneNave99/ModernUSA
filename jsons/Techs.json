@@ -7,7 +7,7 @@
     "wonderCost": 1250,
     "techs": [
       {
-        "name": "Military-Industrial Complex", 
+        "name": "MIC", 
         "row": 4,
         "prerequisites": ["Nuclear Fission", "Rocketry"],
         "quote": "MIC allows for the rapid development and creation of advanced weapons without the mediation of private corporations"
@@ -23,7 +23,7 @@
       {
         "name": "Synthetic Alloys",
         "row": 4,
-        "prerequisites": ["Mobile Tactics", "Military-Industrial Complex"],
+        "prerequisites": ["Mobile Tactics", "MIC"],
         "quote": "Modern technology has allowed us to create more advanced materials and use them to design more advanced weapons."
       }]
   }
