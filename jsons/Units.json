@@ -175,7 +175,7 @@
 	},
 	{
 		"name": "M142 HIMARS",
-		"unitType": "Artillery",
+		"unitType": "Siege",
 		"uniqueTo": "The United States",
 		"replaces": "Rocket Artillery",
 		"movement": 4,
@@ -255,7 +255,7 @@
 		"cost": 700,
 		"requiredTech": "Robotics",
 		"requiredResource": "Aluminum",
-		"upgradesTo": "Aircraft Carrier Cruiser",
+		"upgradesTo": "Aircraft Carrying Cruiser",
 		"promotions": ["Indirect Fire", "Supply"],
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+125]% Strength <vs [Submarine] units>", "Can carry [5] [Missile] units",
 			 "[+100]% Strength <vs [Melee Water] units>", "[+50]% Strength <vs [City]>"],
