@@ -290,7 +290,7 @@
 		"requiredResource": "Titanium",
 		"promotions": ["Indirect Fire", "Supply"],
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+125]% Strength <vs [Submarine] units>",
-			"Can carry [5] [Missile] units", "Can carry [5] [Aircraft] units", "[+25] Strength <when defending>"],
+			"Can carry [5] [Missile] units", "Can carry [5] [Aircraft] units", "[+25]% Strength <when defending>"],
 		"attackSound": "shipguns"
 	},
 	{
