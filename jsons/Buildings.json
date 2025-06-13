@@ -207,5 +207,39 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Synthetic Alloys",
 		"requiredResuorce": "Titanium"
+	},
+	{
+		"name": "Elite Villa",
+		"cost": 750,
+		"maintenance": 3,
+		"food": 25,
+		"percentStatBonus": {"Food": 10},
+		"requiredBuilding": "Medical Laboratory",
+		"hurryCostModifier": 0,
+		"requiredTech": "Modern Oligarchy"
+	},
+	{
+		"name": "Mansion",
+		"requiredNearbyImprovedResuorce": ["Gold"],
+		"cost": 825,
+		"maintenance": 5,
+		"food": 25,
+		"percentStatBonus": {"Food": 10},
+		"gold": 25,
+		"percentStatBonus": {"Gold": 10},
+		"requiredBuilding": "Elite Villa",
+		"hurryCostModifier": 0,
+		"requiredTech": "Modern Oligarchy"
+	},
+	{
+		"name": "Personal Skyscraper",
+		"cost": 1150,
+		"maintenance": 10,
+		"gold": 30,
+		"percentStatBonus": {"Gold": 10},
+		"requiredBuilding": "Stock Exchange",
+		"hurryCostModifier": 0,
+		"requiredTech": "Modern Oligarchy"
+		"uniques": ["[+25]% Gold from [Trade Routs] [in this city]"]
 	}
 ]
