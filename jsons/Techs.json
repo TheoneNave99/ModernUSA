@@ -1,16 +1,50 @@
 [
   {
+    "columnNumber": 13,
+    "era": "Atomic era",
+    "techs":
+    [
+      {
+        "name": "Heavy Industry",
+        "row": 3
+        "prerequisites": ["Plastics"],
+        "quote": "The more complex industrial products became, the harder industry itself became."
+      }
+    ]
+  },
+  {
+    "columnNumber": 14,
+    "era": "Atomic era",
+    "techs":
+    [
+      {
+        "name": "Modern Oligarchy",
+        "row": 1,
+        "prerequisites": ["Pharmaceuticals"],
+        "quote": "As the economy became more complex, corruption schemes also became more complex, ultimately leading to the emergence of Oligarchs – the rulers of economic existence."
+      },
+      {
+        "name": "MIC",
+        "row": 3
+        
     "columnNumber": 15,
     "era": "Information era",
     "techCost": 8800,
     "buildingCost": 750,
     "wonderCost": 1250,
-    "techs": [
+    "techs": 
+    [
       {
-        "name": "MIC", 
+        "name": "TNC",
+        "row": 1,
+        "prerequisites": ["Modern Oligarchy", "Ecology"],
+        "quote": "Transnational Corporations forever locked the planet in the shackles of capitalism"
+      },
+      {
+        "name": "Synthetic Alloys", 
         "row": 4,
-        "prerequisites": ["Nuclear Fission", "Rocketry"],
-        "quote": "MIC allows for the rapid development and creation of advanced weapons without the mediation of private corporations"
+        "prerequisites": ["MIC", "Nuclear Fission"],
+        "quote": "Modern technologies have allowed us to create more and more advanced materials"
       }]
   },
   {
@@ -21,9 +55,15 @@
     "wonderCost": 1250,
     "techs": [
       {
-        "name": "Synthetic Alloys",
+        "name": "Complete State Management",
+        "row": 1,
+        "prerequisites": ["TNC", "Telecommunications"],
+        "quote": "Modern state is a hard-working united system, in which any mistake costs not money, but lifes"
+      },
+      {
+        "name": "Modern Warfare Strategy",
         "row": 4,
-        "prerequisites": ["Mobile Tactics", "MIC"],
+        "prerequisites": ["Mobile Tactics", "Synthetic Alloys", "Advanced Ballistics"],
         "quote": "Modern technology has allowed us to create more advanced materials and use them to design more advanced weapons."
       }]
   }
