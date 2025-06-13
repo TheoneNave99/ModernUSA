@@ -178,6 +178,7 @@
 		"name": "N.A.T.O. HeadQuarters",
 		"isWonder": true,
 		"cost": 1750,
+		"production": 10,
 		"uniques": ["[+50]% Production when constructing [Military] units [in this city]", "[+15]% Production when constructing [All] units [in all cities]",
 			"New [Military] units starts with [50] XP [in this city]", "All newly-trained [Military] units [in this city] receive the [For democracy] promotion"],
 		"requiredTech": "Modern Warfare Strategy",
@@ -187,6 +188,7 @@
 		"name": "The U.N. HeadQuarters",
 		"isWonder": true,
 		"cost": 1750,
+		"culture": 10
 		"uniques": ["All newly-trained [Military] units [in all cities] receive the [World in Peace] promotion"],
 		"requiredTech": "Globalization",
 		"quote": "The United Nations comes with Peace and Freedom for everyone who ready to create the Future without wars and dangers"
@@ -211,6 +213,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Heavy Industry",
 		"requiredResource": "Aluminum"
+		"uniques": ["[+10]% Production [in this city]"]
 	},
 	{
 		"name": "Alloys Plant",
@@ -223,6 +226,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Synthetic Alloys",
 		"requiredResuorce": "Titanium"
+		"uniques": ["[+15]% Production [in this city]"]
 	},
 	{
 		"name": "Elite Villa",
@@ -233,6 +237,7 @@
 		"requiredBuilding": "Medical Lab",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy"
+		"uniques": ["[+10]% Food [in this city]"]
 	},
 	{
 		"name": "Mansion",
@@ -246,6 +251,7 @@
 		"requiredBuilding": "Elite Villa",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy"
+		"uniques": ["[+10]% Gold [in this city]", "[+10]% Food [in this city]"]
 	},
 	{
 		"name": "Personal Skyscraper",
@@ -256,6 +262,6 @@
 		"requiredBuilding": "Stock Exchange",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy"
-		"uniques": ["[+25]% Gold from [Trade Routs] [in this city]"]
+		"uniques": ["[+10]% Gold [in this city]", "[+25]% Gold from [Trade Routs] [in this city]"]
 	}
 ]
