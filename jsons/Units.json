@@ -376,11 +376,11 @@
 	{
 		"name": "Nuclear Hypersonic Missile",
 		"unitType": "Missile",
-		"uniqueTo": "The United States",
+		"cost": 5000,
 		"strength": 500,
 		"rangedStrength": 500,
 		"range": 30,
-		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Cannot attack [City]"]
+		"requiredTech": "Hypersonic Technologies",
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available if [Hypersonic Project] is constructed"]
 	}
 ]
