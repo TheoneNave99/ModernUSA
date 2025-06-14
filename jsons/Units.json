@@ -374,13 +374,13 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "000",
+		"name": "Nuclear Hypersonic Missile",
 		"unitType": "Missile",
 		"uniqueTo": "The United States",
-		"strength": 300,
-		"rangedStrength": 300,
+		"strength": 500,
+		"rangedStrength": 500,
 		"range": 30,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Blast radius [0]"]
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]"]
 	}
 ]
