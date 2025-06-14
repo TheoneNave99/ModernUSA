@@ -76,6 +76,13 @@
         "row": 4,
         "prerequisites": ["Mobile Tactics", "Synthetic Alloys", "Advanced Ballistics"],
         "quote": "Modern technology has allowed us to create more advanced materials and use them to design more advanced weapons."
-      }]
+      },
+      {
+        "name": "Hypersonic Technologies",
+        "row": 5,
+        "prerequisites": ["Synthetic Alloys", "Advanced Ballistics", "Lasers"],
+        "quote": "Hypersonic technologies has opened up the greatest speeds the world has ever seen."
+      }
+    ]
   }
 ]
