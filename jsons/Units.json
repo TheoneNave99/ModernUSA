@@ -381,6 +381,6 @@
 		"rangedStrength": 500,
 		"range": 30,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]"]
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Cannot attack [City]"]
 	}
 ]
