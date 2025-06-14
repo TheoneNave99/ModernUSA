@@ -225,7 +225,7 @@
 		"requiredBuilding": "Nuclear Plant",
 		"hurryCostModifier": 0,
 		"requiredTech": "Synthetic Alloys",
-		"requiredResuorce": "Titanium"
+		"requiredResuorce": "Titanium",
 		"uniques": ["[+15]% [Production] [in this city]"]
 	},
 	{
@@ -250,7 +250,7 @@
 		"percentStatBonus": {"Gold": 10},
 		"requiredBuilding": "Elite Villa",
 		"hurryCostModifier": 0,
-		"requiredTech": "Modern Oligarchy"
+		"requiredTech": "Modern Oligarchy",
 		"uniques": ["[+10]% [Gold] [in this city]", "[+10]% [Food] [in this city]"]
 	},
 	{
@@ -261,7 +261,7 @@
 		"percentStatsBonus": {"Gold": 10},
 		"requiredBuilding": "Stock Exchange",
 		"hurryCostModifier": 0,
-		"requiredTech": "Modern Oligarchy"
+		"requiredTech": "Modern Oligarchy",
 		"uniques": ["[+10]% [Gold] [in this city]", "[+25]% [Gold] from [Trade Routs] [in this city]"]
 	},
 	{
@@ -273,4 +273,39 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy",
 		"uniques": ["[+20]% [Gold] [in this city]"]
+	},
+	{
+		"name": "Moscow City",
+		"isWonder": true,
+		"cost": 2000,
+		"gold": 100,
+		"requiredTech": "Modern Oligarchy"
+	},
+	{
+		"name": "Silicon Valley",
+		"uniqueTo": "The United States",
+		"isNationalWonder": true,
+		"cost": 2250,
+		"gold": 150,
+		"requiredTech": "Microchips",
+		"uniques": ["[+50] [Gold] from [Rare-earth Metals] tiles [in all cities]"]
+	},
+	{
+		"name": "TSMC",
+		"isWonder": true,
+		"cost": 2250,
+		"gold": 100,
+		"requiredTech": "Microchips",
+		"uniques": []
+	},
+	{
+		"name": "Microchip Factory",
+		"cost": 1050,
+		"maintenance": 5,
+		"production": 15,
+		"requiredBuilding":,
+		"requiredTech": "Microchips",
+		"requiredResource": "Rare-earth Metals",
+		"uniques": []
+	}
 ]
