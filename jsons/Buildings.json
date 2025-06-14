@@ -286,16 +286,13 @@
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
 		"cost": 2250,
-		"gold": 150,
-		"requiredTech": "Microchips",
-		"uniques": ["[+50] [Gold] from [Rare-earth Metals] tiles [in all cities]"]
+		"gold": 150
 	},
 	{
 		"name": "TSMC",
 		"isWonder": true,
 		"cost": 2250,
 		"gold": 100,
-		"requiredTech": "Microchips",
 		"uniques": []
 	},
 	{
@@ -303,9 +300,6 @@
 		"cost": 1050,
 		"maintenance": 5,
 		"production": 15,
-		"requiredBuilding":,
-		"requiredTech": "Microchips",
-		"requiredResource": "Rare-earth Metals",
 		"uniques": []
 	}
 ]
