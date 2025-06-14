@@ -372,5 +372,15 @@
 		"uniques": ["Damage taken from interception reduced by [100]%", "[+2] Sight",
 			"[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Siege] units>"],
 		"attackSound": "bombing"
+	},
+	{
+		"name": "000",
+		"unitType": "Missile",
+		"uniqueTo": "The United States",
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 30,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["Nuclear weapon of Strength [3]", "Blast radius [1]"]
 	}
 ]
