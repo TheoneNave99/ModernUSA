@@ -301,5 +301,12 @@
 		"maintenance": 5,
 		"production": 15,
 		"uniques": []
+	},
+	{
+		"name": "Hypersonic Project",
+		"isNationalWonder": true,
+		"cost": 5000,
+		"requiredTech": "Hypersonic Technologies",
+		"quote": "."
 	}
 ]
