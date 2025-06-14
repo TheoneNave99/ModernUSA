@@ -117,9 +117,9 @@
 		"range": 25,
 		"interceptRange": 25,
 		"cost": 1450,
-		"requiredTech": "Synthetic Alloys",
+		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Titanium",
-		"uniques": ["[+100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>", "[+25]% Strength when intercepting",
+		"uniques": ["[+100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>", "[+25]% Strength <when intercepting>",
 			"[+150]% Strength <vs [Fighter] units>", "[3] extra interceptions may be made per turn", "Only available if [NGAD Project] is constructed", "Consumes [2] [Aluminum]"],
 		"attackSound": "jetgun"
 	},
