@@ -44,7 +44,7 @@
 		"isNationalWonder": true,
 		"cost": 1550,
 		"gold": 25,
-		"uniques": ["[+100]% Gold [in this city]"],
+		"uniques": ["[+100]% [Gold] [in this city]"],
 		"requiredTech": "Complete State Management"
 	},
 	{
@@ -52,7 +52,7 @@
 		"isNationalWonder": true,
 		"cost": 1350,
 		"science": 50,
-		"uniques": ["[+100]% Science [in this city]"],
+		"uniques": ["[+100]% [Science] [in this city]"],
 		"requiredTech": "Complete State Management",
 	},
 	{
@@ -62,7 +62,7 @@
 		"gold": 5,
 		"specialistSlots": {"Merchant": 4},
 		"greatPersonPoints": {"Great Merchant": 2},
-		"uniques": ["[+1 Gold] per [2] population [in all cities]", "Limited to [1] per Civilization"],
+		"uniques": ["[+1 Gold] per [1] population [in all cities]", "Limited to [1] per Civilization"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -71,7 +71,7 @@
 		"cost": 600,
 		"culture": 8,
 		"hapiness": 5,
-		"uniques": ["[+75]% Hapiness [in this city]", "Limited to [1] per Civilization"],
+		"uniques": ["[+75]% [Hapiness] [in this city]", "Limited to [1] per Civilization"],
 		"requiredTech": "Radio"
 	},
 	{
@@ -97,7 +97,7 @@
 		"specialistSlots": {"Merchant": 4},
 		"greatPersonPoints": {"Great Merchant": 8},
 		"requiredTech": "Globalization",
-		"uniques": ["[+5]% Gold from all [Gold] buildings [in all cities]", "[+1 Gold] per [2] population [in all cities]"],
+		"uniques": ["[+5]% [Gold] from all [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]"],
 		"quote": "Greetings to the mighty symbol of capitalism, who rose from the ashes of disaster like a golden phoenix"
 	},
 	{
@@ -128,7 +128,7 @@
 		"cost": 1150,
 		"culture": 10,
 		"requiredTech": "Telecommunications",
-		"uniques": ["[+50]% Culture [in this city]", "[+15]% Culture [in all cities]"],
+		"uniques": ["[+50]% [Culture] [in this city]", "[+15]% [Culture] [in all cities]"],
 		"quote": "'Never before has propaganda been so powerful. Right now, at this very moment, the word has become more powerful than a bullet' – Unknown person, one-day inscription on the sidewalk of Times Square"	
 	},
 	{
@@ -171,7 +171,7 @@
 		"specialistSlots": {"Scientist": 4},
 		"greatPersonPoints": {"Great Scientist": 8},
 		"requiredTech": "Rocketry",
-		"uniques": ["Free Technology", "[+40]% Science [in this city]", "[+40]% Production when constructing [Spaceship Part] units [in this city]"]
+		"uniques": ["Free Technology", "[+40]% [Science] [in this city]", "[+40]% Production when constructing [Spaceship part] units [in this city]"]
 		"quote": "From here to sky"
 	},
 	{
@@ -213,7 +213,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Heavy Industry",
 		"requiredResource": "Aluminum"
-		"uniques": ["[+10]% Production [in this city]"]
+		"uniques": ["[+10]% [Production]"]
 	},
 	{
 		"name": "Alloys Plant",
@@ -226,7 +226,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Synthetic Alloys",
 		"requiredResuorce": "Titanium"
-		"uniques": ["[+15]% Production [in this city]"]
+		"uniques": ["[+15]% [Production] [in this city]"]
 	},
 	{
 		"name": "Elite Villa",
@@ -237,7 +237,7 @@
 		"requiredBuilding": "Medical Lab",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy"
-		"uniques": ["[+10]% Food [in this city]"]
+		"uniques": ["[+10]% [Food] [in this city]"]
 	},
 	{
 		"name": "Mansion",
@@ -251,7 +251,7 @@
 		"requiredBuilding": "Elite Villa",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy"
-		"uniques": ["[+10]% Gold [in this city]", "[+10]% Food [in this city]"]
+		"uniques": ["[+10]% [Gold] [in this city]", "[+10]% [Food] [in this city]"]
 	},
 	{
 		"name": "Personal Skyscraper",
@@ -262,6 +262,15 @@
 		"requiredBuilding": "Stock Exchange",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy"
-		"uniques": ["[+10]% Gold [in this city]", "[+25]% Gold from [Trade Routs] [in this city]"]
-	}
+		"uniques": ["[+10]% [Gold] [in this city]", "[+25]% [Gold] from [Trade Routs] [in this city]"]
+	},
+	{
+		"name": "Business Skyscraper",
+		"cost": 1250,
+		"maintenance": 7,
+		"gold": 50,
+		"requiredBuilding": "Stock Exchange",
+		"hurryCostModifier": 0,
+		"requiredTech": "Modern Oligarchy",
+		"uniques": ["[+20]% [Gold] [in this city]"]
 ]
