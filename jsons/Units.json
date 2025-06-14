@@ -381,6 +381,6 @@
 		"rangedStrength": 300,
 		"range": 30,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Nuclear weapon of Strength [3]", "Blast radius [1]"]
+		"uniques": ["Blast radius [0]"]
 	}
 ]
