@@ -382,7 +382,8 @@
 		"rangedStrength": 500,
 		"range": 50,
 		"requiredTech": "Hypersonic Technologies",
-		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available if [Hypersonic Project] is constructed", "Cannot be carried by [] units"]
+		"requiredResource": "Modern Alloy",
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available if [Hypersonic Project] is constructed", "Cannot be carried by [] units", "Consumes [5] [Uranium]"]
 	},
 	{
 		"name": "Hypersonic Missile",
@@ -393,7 +394,8 @@
 		"rangedStrength": 300,
 		"range": 30,
 		"requiredTech": "Hypersonic Technologies",
-		"uniques": ["[-100]% Strength <when attacking [City]>", "Only available if [Hypersonic Project] is constructed"],
+		"requiredResource": "Modern Alloy",
+		"uniques": ["Nuclear weapon of Strength [2]", "Blast radius [0]", "[-100]% Strength <when attacking [City]>", "Only available if [Hypersonic Project] is constructed"],
 		"attaackSound": "Missile"
 	}
 ]
