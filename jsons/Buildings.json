@@ -225,8 +225,7 @@
 		"requiredBuilding": "Nuclear Plant",
 		"hurryCostModifier": 0,
 		"requiredTech": "Synthetic Alloys",
-		"requiredResuorce": "Titanium",
-		"uniques": ["[+15]% [Production] [in this city]"]
+		"uniques": ["[+15]% [Production] [in this city]", "Consumes [1] [Aluminum]", "Consumes [1] [Titanium]", "Provides [2] [Modern Alloy]"]
 	},
 	{
 		"name": "Elite Villa",
