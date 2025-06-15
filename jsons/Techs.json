@@ -83,7 +83,7 @@
       },
       {
         "name": "AI",
-        "row": 8,
+        "row": 9,
         "prerequisites": ["Computers"],
         "quote": "."
       }
@@ -116,7 +116,7 @@
       },
       {
         "name": "Military AI",
-        "row": 8,
+        "row": 9,
         "prerequisites": ["AI"],
         "quote": "."
       }
