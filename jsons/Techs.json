@@ -9,9 +9,15 @@
     [
       {
         "name": "Heavy Industry",
-        "row": 3
+        "row": 3,
         "prerequisites": ["Plastics"],
         "quote": "The more complex industrial products became, the harder industry itself became."
+      },
+      {
+        "name": "Microchips",
+        "row": 7,
+        "prerequisites": ["Electronics"],
+        "quote": "."
       }
     ]
   },
@@ -34,6 +40,18 @@
         "row": 3,
         "prerequisites": ["Heavy Industry"],
         "quote": "The Military-Industrial Complex represents the final stage of development of the state army. МIC is a unified system for the production of military equipment that provides the state with an uninterrupted supply of advanced weapons."
+      },
+      {
+        "name": "Military Electronics",
+        "row": 7,
+        "prerequisites": ["Microchips"],
+        "quote": "."
+      },
+      {
+        "name": "Computers",
+        "row": 8,
+        "prerequisites": ["Combined Arms", "Microchips"],
+        "quote": "."
       }
     ]
   },
@@ -56,7 +74,20 @@
         "row": 4,
         "prerequisites": ["MIC", "Nuclear Fission"],
         "quote": "Modern technologies have allowed us to create more and more advanced materials"
-      }]
+      },
+      {
+        "name": "Robotics",
+        "row": 7,
+        "prerequisites": ["Military Electronics", "Computers"],
+        "quote": "."
+      },
+      {
+        "name": "AI",
+        "row": 8,
+        "prerequisites": ["Computers"],
+        "quote": "."
+      }
+    ]
   },
   {
     "columnNumber": 16,
@@ -82,6 +113,12 @@
         "row": 5,
         "prerequisites": ["Synthetic Alloys", "Advanced Ballistics", "Lasers"],
         "quote": "Hypersonic technologies has opened up the greatest speeds the world has ever seen."
+      },
+      {
+        "name": "Military AI",
+        "row": 8,
+        "prerequisites": ["AI"],
+        "quote": "."
       }
     ]
   }
