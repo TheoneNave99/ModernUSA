@@ -17,6 +17,7 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[+20]% [Production] [in this city]", "[+10]% [Gold] [in this city]", "Limited to [7] per Civilization"],
 		"requiredTech": "Economics"
+	},
 	{
 		"name": "US Army Academy",
 		"uniqueTo": "The United States"
