@@ -285,21 +285,23 @@
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
 		"cost": 2250,
-		"gold": 150
+		"gold": 150,
+		"requiredTech": "Microchips"
 	},
 	{
 		"name": "TSMC",
 		"isWonder": true,
 		"cost": 2250,
 		"gold": 100,
-		"uniques": []
+		"uniques": ["Only available if [Microchip Factory] is constructed [in this city]", "[+10]% [Gold] [in this city]"]
 	},
 	{
 		"name": "Microchip Factory",
 		"cost": 1050,
 		"maintenance": 5,
 		"production": 15,
-		"uniques": []
+		"requiredTech": "Microchips",
+		"uniques": ["[+10]% [Production] [in this city]"]
 	},
 	{
 		"name": "Hypersonic Project",
