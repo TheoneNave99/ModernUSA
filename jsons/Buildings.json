@@ -306,6 +306,7 @@
 		"isNationalWonder": true,
 		"cost": 5000,
 		"requiredTech": "Hypersonic Technologies",
+		"uniques": ["Only available if [Manhattan Project] is constructed"],
 		"quote": "."
 	}
 ]
