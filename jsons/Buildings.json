@@ -321,7 +321,7 @@
 		"quote": "."
 	},
 	{
-		"name": "00",
+		"name": "(For checking)",
 		"uniqueTo": "The United States",
 		"cost": 1,
 		"uniques": ["Provides [20] [Titanium]", "Provides [20] [Modern Alloy]"]
