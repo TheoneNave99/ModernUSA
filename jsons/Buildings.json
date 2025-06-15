@@ -319,5 +319,11 @@
 		"requiredTech": "Hypersonic Technologies",
 		"uniques": ["Only available if [Manhattan Project] is constructed"],
 		"quote": "."
+	},
+	{
+		"name": "00",
+		"uniqueTo": "The United States",
+		"cost": 1,
+		"uniques": ["Provides [20] [Titanium]", "Provides [20] [Modern Alloy]"]
 	}
 ]
