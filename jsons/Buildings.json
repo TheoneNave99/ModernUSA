@@ -321,6 +321,14 @@
 		"quote": "."
 	},
 	{
+		"name": "California Valley",
+		"isNationalWonder": true,
+		"uniqueTo": "The United States",
+		"cost": 100,
+		"uniques": ["[+5 Food] from [Grassland] tiles [in this city]", "[+1 Happiness] from [Grassland] tiles [in this city]"],
+		"quote": "."
+	},
+	{
 		"name": "(For checking)",
 		"uniqueTo": "The United States",
 		"cost": 1,
