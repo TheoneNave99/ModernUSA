@@ -2,7 +2,7 @@
   {
     "columnNumber": 13,
     "era": "Atomic era",
-    "techCost": 9000,
+    "techCost": 8000,
     "buildingCost": 750,
     "wonderCost": 1250,
     "techs":
@@ -24,7 +24,7 @@
   {
     "columnNumber": 14,
     "era": "Atomic era",
-    "techCost": 9000,
+    "techCost": 8000,
     "buildingCost": 750,
     "wonderCost": 1250,
     "techs":
@@ -58,7 +58,7 @@
   {
     "columnNumber": 15,
     "era": "Information era",
-    "techCost": 10000,
+    "techCost": 8800,
     "buildingCost": 750,
     "wonderCost": 1250,
     "techs": 
@@ -92,7 +92,7 @@
   {
     "columnNumber": 16,
     "era": "Information era",
-    "techCost": 10000,
+    "techCost": 8800,
     "buildingCost": 750,
     "wonderCost": 1250,
     "techs": [
