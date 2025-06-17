@@ -326,7 +326,7 @@
 		"isNationalWonder": true,
 		"uniqueTo": "The United States",
 		"cost": 100,
-		"uniques": ["[+5 Food] from all [Grassland] tiles [in this city]", "[+4 Happiness] from all [Grassland] tiles [in this city]", "[+10 Production] from all [Gold] tiles [in this city]", "[+20 Gold] from all [Oil] tiles [in this city]"],
+		"uniques": ["[+5 Food] from [Grassland] tiles [in this city]", "[+4 Happiness] from [Grassland] tiles [in this city]", "[+20 Gold] from [Oil] tiles [in this city]"],
 		"quote": "."
 	},
 	{
