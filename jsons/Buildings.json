@@ -347,6 +347,6 @@
 		"name": "The White House",
 		"uniqueTo": "The United States",
 		"cost": 1,
-		"uniques": ["[+1000]% Production when constructing [Military] units [in all cities]", "Provides [30] [Oil]", "Provides [20] [Aluminum]"],
+		"uniques": ["[+10000]% Production when constructing [Military] units [in all cities]", "Provides [30] [Oil]", "Provides [20] [Aluminum]"],
 	}
 ]
