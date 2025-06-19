@@ -342,11 +342,5 @@
 		"cost": 750,
 		"uniques": ["[+3 Happiness, +2 Food] from all [Forest] tiles [in this city]"],
 		"quote": "."
-	},
-	{
-		"name": "The White House",
-		"uniqueTo": "The United States",
-		"cost": 1,
-		"uniques": ["[+10000]% Production when constructing [Military] units [in all cities]", "Provides [30] [Oil]", "Provides [20] [Aluminum]"],
 	}
 ]
