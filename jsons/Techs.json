@@ -80,12 +80,6 @@
         "row": 7,
         "prerequisites": ["Military Electronics", "Computers"],
         "quote": "."
-      },
-      {
-        "name": "AI",
-        "row": 9,
-        "prerequisites": ["Computers"],
-        "quote": "."
       }
     ]
   },
@@ -114,12 +108,7 @@
         "prerequisites": ["Synthetic Alloys", "Advanced Ballistics", "Lasers"],
         "quote": "Hypersonic technologies has opened up the greatest speeds the world has ever seen."
       },
-      {
-        "name": "Military AI",
-        "row": 9,
-        "prerequisites": ["AI"],
-        "quote": "."
-      }
+      ": "."
     ]
   }
 ]
