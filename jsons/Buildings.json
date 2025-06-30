@@ -273,8 +273,6 @@
 	},
 	{
 		"name": "Business Skyscraper",
-		"uniqueTo": "The United States",
-		"replaces": "Personal Skyscraper",
 		"cost": 1250,
 		"maintenance": 7,
 		"gold": 50,
@@ -338,15 +336,6 @@
 		"cost": 750,
 		"uniques": ["[+3 Happiness, +2 Food] from [Forest] tiles [in this city]"],
 		"quote": "."
-	},
-	{
-		"name": "GazProm Corporation",
-		"isWonder": true,
-		"cost": 1950,
-		"production": 25,
-		"uniques": ["[+5 Production] from [Oil] tiles [in all cities]"],
-		"quote": ".",
-		"requiredTech": "TNC"
 	},
 	{
 		"name": "Greenpeace",
