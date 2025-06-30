@@ -511,5 +511,5 @@
 			"[+100]% Strength <vs [Melee Water] units>", "[+100]% Strength <vs [Ranged Water] units>"
 			"Can see over obstacles"],
 		"attackSound": "bombing"
-	},
+	}
 ]
