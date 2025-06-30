@@ -107,8 +107,7 @@
         "row": 5,
         "prerequisites": ["Synthetic Alloys", "Advanced Ballistics", "Lasers"],
         "quote": "Hypersonic technologies has opened up the greatest speeds the world has ever seen."
-      },
-      ": "."
+      }
     ]
   }
 ]
