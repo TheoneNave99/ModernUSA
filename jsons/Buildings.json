@@ -347,5 +347,14 @@
 		"uniques": ["[+5 Production] from [Oil] tiles [in all cities]"],
 		"quote": ".",
 		"requiredTech": "TNC"
+	},
+	{
+		"name": "Greenpeace",
+		"isWonder": true,
+		"requiredTech": "Ecology",
+		"cost": 1450,
+		"uniques": ["[-20 Happiness] from [Oil] tiles [in this city]", "[+1 Happiness] from [Forest] tiles [in all cities]",
+			"[+1 Happiness] from [Grassland] tiles [in all cities]"],
+		"quote": "."
 	}
 ]
