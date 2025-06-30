@@ -276,10 +276,21 @@
 		"cost": 1250,
 		"maintenance": 7,
 		"gold": 50,
-		"requiredBuilding": "Stock Exchange",
+		"requiredBuilding": "Personal Skyscraper",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy",
 		"uniques": ["[+75]% [Gold] [in this city]"]
+	},
+	{
+		"name": "Corporative Skyscraper",
+		"uniqueTo": "The United States",
+		"replaces": "Business Skyscraper",
+		"maintenance": 10,
+		"gold": 60,
+		"requiredBuilding": "Personal Skyscraper",
+		"hurryCostModifier": 0,
+		"requiredTech": "Modern Oligarchy",
+		"uniques": ["[+75]% [Gold] [in this city]", "[+15]% [Production] [in this city]"]
 	},
 	{
 		"name": "Moscow City",
@@ -335,6 +346,25 @@
 		"uniqueTo": "The United States",
 		"cost": 750,
 		"uniques": ["[+3 Happiness, +2 Food] from [Forest] tiles [in this city]"],
+		"quote": "."
+	},
+	{
+		"name": "GazProm Corporation",
+		"isWonder": true,
+		"cost": 1750,
+		"requiredTech": "TNC",
+		"production": 25,
+		"uniques": ["[+10 Production] from [Oil] tiles [in all cities]"],
+		"quote": "."
+	},
+	{
+		"name": "Greenpeace",
+		"isWonder": true,
+		"cost": 1450,
+		"requiredTech": "Ecology",
+		"uniques": ["[-20 Happiness] from [Oil] tiles [in all cities]",
+			"[+1 Happiness] from [Forest] tiles [in all cities]",
+			"[+1 Happiness] from [Grassland] tiles [in all cities]"],
 		"quote": "."
 	}
 ]
