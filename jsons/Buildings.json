@@ -336,14 +336,5 @@
 		"cost": 750,
 		"uniques": ["[+3 Happiness, +2 Food] from [Forest] tiles [in this city]"],
 		"quote": "."
-	},
-	{
-		"name": "Greenpeace",
-		"isWonder": true,
-		"requiredTech": "Ecology",
-		"cost": 1450,
-		"uniques": ["[-20 Happiness] from [Oil] tiles [in this city]", "[+1 Happiness] from [Forest] tiles [in all cities]",
-			"[+1 Happiness] from [Grassland] tiles [in all cities]"],
-		"quote": "."
 	}
 ]
