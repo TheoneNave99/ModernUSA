@@ -15,7 +15,7 @@
 		"cost": 150,
 		"maintenance": 0,
 		"hurryCostModifier": 0,
-		"uniques": ["[+20]% [Production] [in this city]", "[+10]% [Gold] [in this city]", "Limited to [7] per Civilization"],
+		"uniques": ["[+10]% [Production] [in this city]", "[+10]% [Gold] [in this city]", "Limited to [5] per Civilization"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -222,7 +222,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Heavy Industry",
 		"requiredResource": "Aluminum"
-		"uniques": ["[+10]% [Production]"]
+		"uniques": ["[+25]% [Production]"]
 	},
 	{
 		"name": "Alloys Plant",
@@ -266,21 +266,22 @@
 		"cost": 1150,
 		"maintenance": 10,
 		"gold": 30,
-		"percentStatsBonus": {"Gold": 10},
 		"requiredBuilding": "Stock Exchange",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy",
-		"uniques": ["[+10]% [Gold] [in this city]", "[+25]% [Gold] from [Trade Routs] [in this city]"]
+		"uniques": ["[+50]% [Gold] [in this city]"]
 	},
 	{
 		"name": "Business Skyscraper",
+		"uniqueTo": "The United States",
+		"replaces": "Personal Skyscraper",
 		"cost": 1250,
 		"maintenance": 7,
 		"gold": 50,
 		"requiredBuilding": "Stock Exchange",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy",
-		"uniques": ["[+20]% [Gold] [in this city]"]
+		"uniques": ["[+75]% [Gold] [in this city]"]
 	},
 	{
 		"name": "Moscow City",
@@ -303,6 +304,7 @@
 		"isWonder": true,
 		"cost": 2250,
 		"gold": 100,
+		"requiredTech": "Microchips",
 		"uniques": ["Only available if [Microchip Factory] is constructed [in this city]", "[+10]% [Gold] [in this city]"]
 	},
 	{
@@ -328,19 +330,22 @@
 		"cost": 100,
 		"uniques": ["[+5 Food] from [Grassland] tiles [in this city]", "[+4 Happiness] from [Grassland] tiles [in this city]", "[+20 Gold] from [Oil] tiles [in this city]"],
 		"quote": "."
-	},
-	{
-		"name": "(For checking)",
-		"uniqueTo": "The United States",
-		"cost": 1,
-		"uniques": ["Provides [20] [Titanium]", "Provides [20] [Modern Alloy]"]
-	},
+	}
 	{
 		"name": "NYC Central Park",
 		"isNationalWonder": true,
 		"uniqueTo": "The United States",
 		"cost": 750,
-		"uniques": ["[+3 Happiness, +2 Food] from all [Forest] tiles [in this city]"],
+		"uniques": ["[+3 Happiness, +2 Food] from [Forest] tiles [in this city]"],
 		"quote": "."
+	},
+	{
+		"name": "GazProm Corporation",
+		"isWonder": true,
+		"cost": 1950,
+		"production": 25,
+		"uniques": ["[+5 Production] from [Oil] tiles [in all cities]"],
+		"quote": ".",
+		"requiredTech": "TNC"
 	}
 ]
