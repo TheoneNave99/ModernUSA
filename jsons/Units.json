@@ -477,7 +477,6 @@
 		"cost": 475,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Xian H-6K",
 		"upgradesTo": "Xian H-20",
 		"promotions": "Siege I"
 	},
