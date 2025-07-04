@@ -29,7 +29,7 @@
       },
       {
         "name": "State Conservatism",
-        "uniques": ["[+5]% [Production] from all [Production] buildings"],
+        "uniques": ["[+5]% [Production] from all [Science] buildings"],
         "requires": ["Closed Migration policy", "Personal Weapon permission"],
         "row": 2,
         "column": 2
@@ -126,7 +126,7 @@
       },
       {
         "name": "Personal Rights",
-        "uniques": ["[+50]% Production when constructing [Culture] buildings [in all cities]", "[+50]% [Production] when constructing [Food] buildings [in all cities]"],
+        "uniques": ["[+50]% Production when constructing [Culture] buildings [in all cities]", "[+50]% Production when constructing [Food] buildings [in all cities]"],
         "requires": ["United World"],
         "row": 3,
         "column": 5
