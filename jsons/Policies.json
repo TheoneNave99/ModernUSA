@@ -16,19 +16,19 @@
     "policies": [
       {
         "name": "Closed Migration policy",
-        "uniques": [],
+        "uniques": ["[+4 Happiness] [in all cities]", "[-5]% growth [in all cities]"],
         "row": 1,
         "column": 2
       },
       {
         "name": "Personal Weapon permission",
-        "uniques": [],
+        "uniques": ["[-1 Happiness] [in all cities]", "[+15]% Strength for all [Military] units"],
         "row": 1,
         "column": 4
       },
       {
         "name": "State Conservatism",
-        "uniques": [],
+        "uniques": ["[+5]% [Production] from all [Production] buildings [in all cities]"],
         "required": ["Closed Migration policy", "Personal Weapon permission"],
         "row": 2,
         "column": 2
@@ -42,28 +42,97 @@
       },
       {
         "name": "State Nationalism",
-        "uniques": [],
+        "uniques": ["Free [Great General] appears"],
         "required": ["State Conservatism"],
         "row": 3,
         "column": 1
       },
       {
         "name": "Capitalism inc.",
-        "uniques": [],
+        "uniques": ["[+10 Gold] from each Trade Route"],
         "required": ["State Conservatism", "Soul of Nation"],
         "row": 3,
         "column": 3
       },
       {
         "name": "State Rights",
-        "uniques": ["[+15]% [Production] when constructing [All] buildings [in all cities]"],
+        "uniques": ["[+25]% [Production] when constructing [All] buildings [in all cities]"],
         "required": ["Soul of Nation"],
         "row": 3,
         "column": 5
       },
       {
         "name": "Republican Party Complete",
-        "uniques": []
+        "uniques": ["[+25]% [Production] [in all cities]", "Free [Great Engineer] appears"]
+      }
+    ]
+  },
+  {
+    "name": "Democratic Party",
+    "era": "Modern era",
+    "uniques": [
+      "[+50]% [Production] when constructing [All] buildings [in all cities]",
+      "Only available <before adopting [Republic Party]>"
+    ],
+    "priorities": {
+      "Neutral": 10,
+      "Cultural": 30,
+      "Diplomatic": 30,
+      "Domination": 0,
+      "Scientific": 10
+    },
+    "policies": [
+      {
+        "name": "Open Migration policy",
+        "uniques": ["[-2 Happiness] [in all cities]", "[+25]% growth [in all cities]"],
+        "row": 1,
+        "column": 2
+      },
+      {
+        "name": "Personal Weapon ban",
+        "uniques": ["[+1 Happiness] [in all cities]", "[-10]% Strength for all [Military] units"],
+        "row": 1,
+        "column": 4
+      },
+      {
+        "name": "State Liberalism",
+        "uniques": ["[+15]% [Culture] from [Culture] buildings [in all cities]"],
+        "required": ["Open Migration policy", "Personal Weapon ban"],
+        "row": 2,
+        "column": 2
+      },
+      {
+        "name": "United World",
+        "uniques": ["[+25]% [Gold] from each Trade Route"],
+        "required": ["Open Migration policy", "Personal Weapon ban"],
+        "row": 2,
+        "column": 4
+      },
+      {
+        "name": "Cosmopolitanism",
+        "uniques": ["Allied City-States provide [Culture] equal to [50]% of what they produce for themselves"],
+        "required": ["State Liberalism"],
+        "row": 3,
+        "column": 1
+      },
+      {
+        "name": "Leader of Free World",
+        "uniques": ["Empire enters Golden Age"],
+        "required": ["State Liberalism", "United World"],
+        "row": 3,
+        "column": 3
+      },
+      {
+        "name": "Personal Rights",
+        "uniques": ["[+50]% [Production] when constructing [Culture] buildings [in all cities]", "[+50]% [Production] when constructing [Food] buildings [in all cities]"],
+        "required": ["United World"],
+        "row": 3,
+        "column": 5
+      },
+      {
+        "name": "Democratic Party Complete",
+        "uniques": ["[+25]% [Culture] [in all cities]", "Free [Great Artist] appears"]
       }
     ]
   }
+]
