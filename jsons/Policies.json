@@ -29,7 +29,7 @@
       },
       {
         "name": "State Conservatism",
-        "uniques": ["[+5]% [Production] from all [Production] buildings [in all cities]"],
+        "uniques": ["[+5]% [Production] from all [Production] buildings"],
         "requires": ["Closed Migration policy", "Personal Weapon permission"],
         "row": 2,
         "column": 2
@@ -98,7 +98,7 @@
       },
       {
         "name": "State Liberalism",
-        "uniques": ["[+15]% [Culture] from all [Culture] buildings [in all cities]"],
+        "uniques": ["[+15]% [Culture] from all [Culture] buildings"],
         "requires": ["Open Migration policy", "Personal Weapon ban"],
         "row": 2,
         "column": 2
