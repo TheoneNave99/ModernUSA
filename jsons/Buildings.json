@@ -106,7 +106,7 @@
 		"specialistSlots": {"Merchant": 4},
 		"greatPersonPoints": {"Great Merchant": 8},
 		"requiredTech": "Globalization",
-		"uniques": ["[+5]% [Gold] from all [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]"],
+		"uniques": ["[+5]% [Gold] from all [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]", "[+20 Gold] from each Trade Route"],
 		"quote": "Greetings to the mighty symbol of capitalism, who rose from the ashes of disaster like a golden phoenix"
 	},
 	{
@@ -314,7 +314,7 @@
 		"cost": 2250,
 		"gold": 100,
 		"requiredTech": "Microchips",
-		"uniques": ["Only available if [Microchip Factory] is constructed [in this city]", "[+10]% [Gold] [in this city]"]
+		"uniques": ["Only available if [Microchip Factory] is constructed [in this city]", "[+50]% [Gold] [in this city]"]
 	},
 	{
 		"name": "Microchip Factory",
