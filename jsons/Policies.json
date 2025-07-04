@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Republican Party",
+    "era": "Modern era",
+    "uniques": [
+      "[+25]% [Production] when constructing [Military] units [in all cities]",
+      "Only available <before adopting [Democratic Party]>"
+    ],
+    "priorities": {
+      "Neutral": 10,
+      "Cultural": 0,
+      "Diplomatic": 10,
+      "Domination": 30,
+      "Scientific": 30
+    },
+    "policies": [
+      {
+        "name": "Closed Migration policy",
+        "uniques": [],
+        "row": 1,
+        "column": 2
+      },
+      {
+        "name": "Personal Weapon permission",
+        "uniques": [],
+        "row": 1,
+        "column": 4
+      },
+      {
+        "name": "State Conservatism",
+        "uniques": [],
+        "required": ["Closed Migration policy", "Personal Weapon permission"],
+        "row": 2,
+        "column": 2
+      },
+      {
+        "name": "Soul of Nation",
+        "uniques": [],
+        "required": ["Closed Migration policy", "Personal Weapon permission"],
+        "row": 2,
+        "column": 4
+      },
+      {
+        "name": "State Nationalism",
+        "uniques": [],
+        "required": ["State Conservatism"],
+        "row": 3,
+        "column": 1
+      },
+      {
+        "name": "Capitalism inc.",
+        "uniques": [],
+        "required": ["State Conservatism", "Soul of Nation"],
+        "row": 3,
+        "column": 3
+      },
+      {
+        "name": "State Rights",
+        "uniques": ["[+15]% [Production] when constructing [All] buildings [in all cities]"],
+        "required": ["Soul of Nation"],
+        "row": 3,
+        "column": 5
+      },
+      {
+        "name": "Republican Party Complete",
+        "uniques": []
+      }
+    ]
+  }
