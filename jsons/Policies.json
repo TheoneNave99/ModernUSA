@@ -1,6 +1,7 @@
 [
   {
     "name": "Republican Party",
+    "uniqueTo": "The United States",
     "era": "Modern era",
     "uniques": [
       "[+25]% Production when constructing [Military] units [in all cities]",
@@ -69,6 +70,7 @@
   },
   {
     "name": "Democratic Party",
+    "uniqueTo": "The United States",
     "era": "Modern era",
     "uniques": [
       "[+50]% Production when constructing [All] buildings [in all cities]",
