@@ -29,7 +29,7 @@
       },
       {
         "name": "State Conservatism",
-        "uniques": ["[+5]% Production from all [Production] buildings [in all cities]"],
+        "uniques": ["[+5]% [Production] from all [Production] buildings [in all cities]"],
         "requires": ["Closed Migration policy", "Personal Weapon permission"],
         "row": 2,
         "column": 2
@@ -64,7 +64,7 @@
       },
       {
         "name": "Republican Party Complete",
-        "uniques": ["[+25]% Production [in all cities]", "Free [Great Engineer] appears"]
+        "uniques": ["[+25]% [Production] [in all cities]", "Free [Great Engineer] appears"]
       }
     ]
   },
@@ -98,7 +98,7 @@
       },
       {
         "name": "State Liberalism",
-        "uniques": ["[+15]% Culture from [Culture] buildings [in all cities]"],
+        "uniques": ["[+15]% [Culture] from all [Culture] buildings [in all cities]"],
         "requires": ["Open Migration policy", "Personal Weapon ban"],
         "row": 2,
         "column": 2
