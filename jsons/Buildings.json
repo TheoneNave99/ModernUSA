@@ -372,7 +372,7 @@
 		"isNationalWonder": true,
 		"cost": 1450,
 		"requiredTech": "Military Electronics",
-		"uniques": ["New [Military] units starts with [15] XP [in all cities]"]
+		"uniques": ["New [Military] units start with [15] XP [in all cities]"]
 	},
 	{
 		"name": "Ostankino Tower",
