@@ -4,7 +4,7 @@
     "uniqueTo": "The United States",
     "era": "Modern era",
     "uniques": [
-      "[+25]% Production when constructing [Military] units [in all cities]",
+      "[+35]% Production when constructing [Military] units [in all cities]",
       "Only available <before adopting [Democratic Party]>"
     ],
     "priorities": {
@@ -23,7 +23,7 @@
       },
       {
         "name": "Personal Weapon permission",
-        "uniques": ["[-1 Happiness] [in all cities]", "[+15]% Strength for all [Military] units"],
+        "uniques": ["[-1 Happiness] [in all cities]", "[+15]% Production when constructing [Military] units [in all cities]"],
         "row": 1,
         "column": 4
       },
@@ -74,6 +74,7 @@
     "era": "Modern era",
     "uniques": [
       "[+50]% Production when constructing [All] buildings [in all cities]",
+      "[+50]% Production when constructing [All] wonders [in all cities]",
       "Only available <before adopting [Republican Party]>"
     ],
     "priorities": {
@@ -86,26 +87,26 @@
     "policies": [
       {
         "name": "Open Migration policy",
-        "uniques": ["[-2 Happiness] [in all cities]", "[+25]% growth [in all cities]"],
+        "uniques": ["[-1 Happiness] [in all cities]", "[+10 Production] [in all cities]", "[+25]% growth [in all cities]"],
         "row": 1,
         "column": 2
       },
       {
         "name": "Personal Weapon ban",
-        "uniques": ["[+1 Happiness] [in all cities]", "[-10]% Strength for all [Military] units"],
+        "uniques": ["[+3 Happiness] [in all cities]"],
         "row": 1,
         "column": 4
       },
       {
         "name": "State Liberalism",
-        "uniques": ["[+15]% [Culture] from all [Culture] buildings"],
+        "uniques": ["[+25]% [Culture] from all [Culture] buildings"],
         "requires": ["Open Migration policy", "Personal Weapon ban"],
         "row": 2,
         "column": 2
       },
       {
         "name": "United World",
-        "uniques": ["[+25 Gold] from each Trade Route"],
+        "uniques": ["[+25 Gold] from each Trade Route", "[-25]% City-State Influence degradation"],
         "requires": ["Open Migration policy", "Personal Weapon ban"],
         "row": 2,
         "column": 4
@@ -118,22 +119,22 @@
         "column": 1
       },
       {
-        "name": "Leader of Free World",
-        "uniques": ["Empire enters golden age"],
+        "name": "The True Leader of Free World",
+        "uniques": ["[500]% of excess happiness converted to [Gold]", "Empire enters golden age"],
         "requires": ["State Liberalism", "United World"],
         "row": 3,
         "column": 3
       },
       {
         "name": "Personal Rights",
-        "uniques": ["[+50]% Production when constructing [Culture] buildings [in all cities]", "[+50]% Production when constructing [Food] buildings [in all cities]"],
+        "uniques": ["[+50]% Production when constructing [All] buildings [in all cities]", "[+50]% Production when constructing [All] wonders [in all cities]"],
         "requires": ["United World"],
         "row": 3,
         "column": 5
       },
       {
         "name": "Democratic Party Complete",
-        "uniques": ["[+25]% [Culture] [in all cities]", "Free [Great Artist] appears"]
+        "uniques": ["[+50]% [Culture] [in all cities]", "Free [Great Artist] appears"]
       }
     ]
   }
