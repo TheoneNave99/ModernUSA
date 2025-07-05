@@ -99,7 +99,7 @@
       },
       {
         "name": "State Liberalism",
-        "uniques": ["[+25]% [Culture] from all [Culture] buildings"],
+        "uniques": ["[+25 Culture] from all [Culture] buildings"],
         "requires": ["Open Migration policy", "Personal Weapon ban"],
         "row": 2,
         "column": 2
