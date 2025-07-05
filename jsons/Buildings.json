@@ -366,5 +366,29 @@
 			"[+1 Happiness] from [Forest] tiles [in all cities]",
 			"[+1 Happiness] from [Grassland] tiles [in all cities]"],
 		"quote": "."
+	},
+	{
+		"name": "Military Science Centre",
+		"isNationalWonder": true,
+		"cost": 1450,
+		"requiredTech": "Military Electronics",
+		"uniques": ["New [Military] units starts with [15] XP [in all cities]"]
+	},
+	{
+		"name": "Ostankino Tower",
+		"isWonder": true,
+		"cost": 1650,
+		"requiredTech": "Telecommunications",
+		"uniques": ["[+1 Happiness] from [Tundra] tiles [in all cities]", "[+1 Culture] from [Tundra] tiles [in all cities]", "[+5 Happiness]"],
+		"quote": "Ostankino Tower is the main television tower and the tallest construction in the Russia, built by the Soviet Union in 1950s. When it was built, it was the tallest construction in the world"
+	},
+	{
+		"name": "Lachta Centre",
+		"isWonder": true,
+		"cost": 2150,
+		"requiredTech": "Modern Oligarchy",
+		"culture": -10,
+		"gold": 125,
+		"quote": "Lachta Centre is the tallest building in Europe, built by Russia in Saint Petersburg. While it was being built, historical part of city was damaged."
 	}
 ]
