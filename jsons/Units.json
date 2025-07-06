@@ -108,7 +108,7 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "NGAD F-47",
+		"name": "F-47",
 		"unitType": "Fighter",
 		"uniqueTo": "The United States",
 		"movement": 4,
@@ -395,8 +395,24 @@
 		"range": 30,
 		"requiredTech": "Hypersonic Technologies",
 		"requiredResource": "Modern Alloy",
-		"uniques": ["Nuclear weapon of Strength [2]", "Blast radius [0]", "[-100]% Strength <when attacking [City]>", "Only available if [Hypersonic Project] is constructed"],
+		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [0]", "[-100]% Strength <when attacking [City]>", "Only available if [Hypersonic Project] is constructed"],
 		"attaackSound": "Missile"
+	},
+	{
+		"name": "T-14 Armata",
+		"unitType": "Armored",
+		"uniqueTo": "Eurasian Union",
+		"replaces": "Modern Armor",
+		"requiredTech": "Advanced Physics",
+		"requiredResource": "Titanium",
+		"cost": 750,
+		"strength": 140,
+		"rangedStrength": 140,
+		"range": 1,
+		"movement": 7,
+		"promotions": ["Blitz"],
+		"uniques": ["[+150]% Strength <vs [Armored] units>", "[+150]% Strength <vs [Siege] units>", "[+100]% Strength <when defending> in [Foreign] tiles"],
+		"attackSound": "shot"
 	}
 ]
 			
