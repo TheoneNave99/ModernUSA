@@ -390,5 +390,13 @@
 		"culture": -10,
 		"gold": 125,
 		"quote": "Lachta Centre is the tallest building in Europe, built by Russia in Saint Petersburg. While it was being built, historical part of city was damaged."
+	},
+	{
+		"name": "NATO",
+		"isWonder": true,
+		"requiredTech": "Modern Warfare Strategy",
+		"cost": 2250,
+		"uniques": ["All newly-trained [Armored] units [in all cities] receive the [Blitz] promotion"],
+		"quote": "."
 	}
 ]
