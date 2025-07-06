@@ -417,8 +417,8 @@
 	{
 		"name": "PUK DA",
 		"unitType": "Bomber",
-		"replaces": "Stealth Bomber",
 		"uniqueTo": "Eurasion Union",
+		"replaces": "Stealth Bomber",
 		"cost": 650,
 		"movement": 3,
 		"strength": 110,
