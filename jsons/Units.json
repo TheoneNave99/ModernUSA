@@ -407,8 +407,6 @@
 		"requiredResource": "Titanium",
 		"cost": 750,
 		"strength": 140,
-		"rangedStrength": 140,
-		"range": 1,
 		"movement": 7,
 		"promotions": ["Blitz"],
 		"uniques": ["[+150]% Strength <vs [Armored] units>", "[+150]% Strength <vs [Siege] units>", "[+100]% Strength <when defending> in [Foreign] tiles"],
