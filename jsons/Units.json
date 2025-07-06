@@ -426,7 +426,7 @@
 		"requiredTech": "Particle Physics",
 		"requiredResource": "Titanium",
 		"promotions": ["Siege I", "Siege II"],
-		"uniques": ["[+5 Sight]", "Damage taken from interception reduced by [100]%", "[+100]% Strength <vs [City]>"],
+		"uniques": ["[+5] Sight", "Damage taken from interception reduced by [100]%", "[+100]% Strength <vs [City]>"],
 		"attackSound": "bombing"
 	}
 ]
