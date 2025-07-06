@@ -403,7 +403,7 @@
 		"unitType": "Armored",
 		"uniqueTo": "Eurasian Union",
 		"replaces": "Modern Armor",
-		"requiredTech": "Advanced Physics",
+		"requiredTech": "Particle Physics",
 		"requiredResource": "Titanium",
 		"cost": 750,
 		"strength": 140,
@@ -413,6 +413,21 @@
 		"promotions": ["Blitz"],
 		"uniques": ["[+150]% Strength <vs [Armored] units>", "[+150]% Strength <vs [Siege] units>", "[+100]% Strength <when defending> in [Foreign] tiles"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "PUK DA",
+		"unitType": "bomber",
+		"replaces": "Stealth Bomber",
+		"uniqueTo": "Eurasion Union",
+		"cost": 650,
+		"strength": 110,
+		"rangedStrength": 95,
+		"range": 25,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Titanium",
+		"promotions": ["Siege I", "Siege II"],
+		"uniques": ["[+5 Sight]", "Damage taken from interception reduced by [100]%", "[+100]% Strength <vs [City]>"],
+		"attackSound": "bombing"
 	}
 ]
 			
