@@ -416,7 +416,7 @@
 	},
 	{
 		"name": "PUK DA",
-		"unitType": "bomber",
+		"unitType": "Bomber",
 		"replaces": "Stealth Bomber",
 		"uniqueTo": "Eurasion Union",
 		"cost": 650,
