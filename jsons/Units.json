@@ -397,36 +397,6 @@
 		"requiredResource": "Modern Alloy",
 		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [0]", "[-100]% Strength <when attacking [City]>", "Only available if [Hypersonic Project] is constructed"],
 		"attaackSound": "Missile"
-	},
-	{
-		"name": "T-14 Armata",
-		"unitType": "Armored",
-		"uniqueTo": "Eurasian Union",
-		"replaces": "Modern Armor",
-		"requiredTech": "Particle Physics",
-		"requiredResource": "Titanium",
-		"cost": 750,
-		"strength": 140,
-		"movement": 7,
-		"promotions": ["Blitz"],
-		"uniques": ["[+150]% Strength <vs [Armored] units>", "[+150]% Strength <vs [Siege] units>", "[+100]% Strength <when defending> in [Foreign] tiles"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "PUK DA",
-		"unitType": "Bomber",
-		"uniqueTo": "Eurasion Union",
-		"replaces": "Stealth Bomber",
-		"cost": 650,
-		"movement": 3,
-		"strength": 110,
-		"rangedStrength": 95,
-		"range": 25,
-		"requiredTech": "Particle Physics",
-		"requiredResource": "Titanium",
-		"promotions": ["Siege I", "Siege II"],
-		"uniques": ["[+5] Sight", "Damage taken from interception reduced by [100]%", "[+100]% Strength <vs [City]>"],
-		"attackSound": "bombing"
 	}
 ]
 			
