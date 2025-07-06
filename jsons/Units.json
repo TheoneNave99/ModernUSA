@@ -420,6 +420,7 @@
 		"replaces": "Stealth Bomber",
 		"uniqueTo": "Eurasion Union",
 		"cost": 650,
+		"movement": 3,
 		"strength": 110,
 		"rangedStrength": 95,
 		"range": 25,
