@@ -396,7 +396,23 @@
 		"requiredTech": "Hypersonic Technologies",
 		"requiredResource": "Modern Alloy",
 		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [0]", "[-100]% Strength <when attacking [City]>", "Only available if [Hypersonic Project] is constructed"],
-		"attaackSound": "Missile"
+		"attackSound": "Missile"
+	}
+	//just fun further
+	{
+		"name": "Rafale",
+		"unitType": "Fighter",
+		"uniqueTo": "France",
+		"replaces": "Jet Fighter",
+		"cost": 575,
+		"strength": 90,
+		"rangedStrength": 85,
+		"range": 10,
+		"interceptRange": 10,
+		"requiredTech": "Lasers", 
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "jetgun"
 	}
 ]
 			
