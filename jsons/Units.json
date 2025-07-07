@@ -202,7 +202,7 @@
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
 		"promotions": ["Indirect Fire"],
-		"uniques": ["[+250]% Strength <vs [City]> <when attacking>", "[+100]% Strength <vs [Gunpowder] units>", "Can carry [2] [Missile] units"],
+		"uniques": ["[+250]% Strength <vs [City]> <when attacking>", "Blast radius [1]", "[+100]% Strength <vs [Gunpowder] units>", "Can carry [2] [Missile] units"],
 		"attackSound": "artillery"
 	},
 	{
@@ -216,7 +216,7 @@
 		"range": 10,
 		"cost": 175,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[-100]% maintenance costs", "[+100]% Strength <vs [Armored] units>", "[+200]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[-100]% maintenance costs", "Blast radius [1]", "[+100]% Strength <vs [Armored] units>", "[+200]% Strength <vs [Helicopter] units>"],
 		"attackSound": "missile"
 	},
 	{
