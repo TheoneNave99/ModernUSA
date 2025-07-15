@@ -507,7 +507,7 @@
 		"range": 15,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"promotions": ["Erasion", "Bombardment I"],
+		"promotions": ["Evasion", "Bombardment I"],
 		"attackSound": "bombing"
 	},
 	{
@@ -552,7 +552,7 @@
 		"range": 35,
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Titanium",
-		"promotions": ["Logistics", "Erasion", "Siege III"],
+		"promotions": ["Logistics", "Evasion", "Siege III"],
 		"uniques": ["Cannot be carried by [Carrier] units"],
 		"attackSound": "bombing"
 	},
