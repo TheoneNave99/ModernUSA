@@ -654,7 +654,6 @@
 			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>"],
 		"attackSound": "shot"
 	},
-	//CHINA
 	{
 		"name": "ZTZ-99",
 		"unitType": "Armored", 
@@ -683,21 +682,6 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Fighter] units>", "[+150]% Strength <vs [Melee Water] units>",
 		"[+150]% Strength <vs [Ranged Water] unit>", "[+50]% Strength <vs [Aircraft Carrier] units>", "[2] extra interceptions may be made per turn"],
 		"attackSound": "jetgun"
-	},
-	{
-		"name": "051-C type destroyer",
-		"unitType": "Melee Water",
-		"uniqueTo": "China",
-		"replaces": "Destroyer",
-		"movement": 6,
-		"strength": 75,
-		"interceptRange": 4
-		"cost": 575,
-		"requiredTech": "Computers",
-		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Fighter] units>", "[+150]% Strength <vs [Bomber] units>",
-		"[+250]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Submarine] units>"],
-		"attackSound": "shipguns"
 	},
 	{
 		"name": "WZ-10",
