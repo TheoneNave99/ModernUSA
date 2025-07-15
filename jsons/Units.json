@@ -104,7 +104,7 @@
 		"requiredTech": "Lasers",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
 		"[+150]% Strength <vs [Armored] units>", "[+150]% Strength <vs [Siege] units>", "[+150]% Strength <vs [Melee Water] units>",
-		"[2] extra interceptions may be made per turn", "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
+		"[1] extra interceptions may be made per turn", "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -120,7 +120,7 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Titanium",
 		"uniques": ["[+100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>", "[+25]% Strength <when intercepting>",
-			"[+150]% Strength <vs [Fighter] units>", "[3] extra interceptions may be made per turn", "Only available if [NGAD Project] is constructed", "Consumes [2] [Aluminum]"],
+			"[+150]% Strength <vs [Fighter] units>", "[2] extra interceptions may be made per turn", "Only available if [NGAD Project] is constructed", "Consumes [2] [Aluminum]"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -398,8 +398,8 @@
 		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [0]", "[-100]% Strength <when attacking [City]>", "Only available if [Hypersonic Project] is constructed"],
 		"attackSound": "Missile"
 	},
-	//just fun further
-	//FRANCE
+//just fun further
+//FRANCE
 	{
 		"name": "Rafale",
 		"unitType": "Fighter",
@@ -413,7 +413,8 @@
 		"interceptRange": 10,
 		"requiredTech": "Lasers", 
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength when intercepting"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", 
+			"[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength when intercepting", [1] extra interception may be made per turn"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -427,10 +428,25 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonuses"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% Strength to Flank Attack bonuses],
 		"attackSound": "shot"
 	},
-	//RUSSIA
+	{
+		"name": "SAMP/T",
+		"unitType": "Gunpowder",
+		"uniqueTo": "France",
+		"replaces": "Mobile SAM",
+		"cost": 850,
+		"movement": 7,
+		"strength": 90,
+		"interceptRange": 4,
+		"requiredTech": "Rocketry",
+		"promotions": ["Cover I", "Cover II"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Air] units>", "[+200]% Strength <vs [Helicopter] units>",
+			"[+50]% Strength when intercepting", "[+50]% Strength <when defending>", "[2] extra interceptions may be made per turn"],
+		"attackSound": "shot"
+	},
+//RUSSIA
 	{
 		"name": "Su-25",
 		"unitType": "Fighter",
@@ -654,6 +670,7 @@
 			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>"],
 		"attackSound": "shot"
 	},
+//CHINA
 	{
 		"name": "051-C type destroyer",
 		"unitType": "Melee Water",
