@@ -414,7 +414,7 @@
 		"requiredTech": "Lasers", 
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", 
-			"[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength when intercepting", [1] extra interception may be made per turn"],
+			"[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength when intercepting", [1] extra interceptions may be made per turn"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -428,7 +428,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% Strength to Flank Attack bonuses],
+		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonuses],
 		"attackSound": "shot"
 	},
 	{
@@ -530,7 +530,7 @@
 		"requiredResource": "Aluminum",
 		"promotions": ["Dogfighting I"],
 		"uniques": ["[100] chance to intercept air attacks", "[+250]% Strength <vs [Fighter] units>",
-			"[+200]% Strength <vs [Bomber] units>", "[+50]% Strength when performing Air Sweep"],
+			"[+200]% Strength <vs [Bomber] units>", "[+50]% Strength when performing Air Sweep", "[1] extra interceptions may be made per turn"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -578,7 +578,7 @@
 		"requiredResource": "Titanium",
 		"promotions": ["Dogfighting I", "Interception I", "Sortie"],
 		"uniques": ["[100]% chance to intercept air attacks", "[+250]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
-			"[+300]% Strength <vs [Fighter] units>", "[+100]% Strength when performing Air Sweep"],
+			"[+300]% Strength <vs [Fighter] units>", "[+100]% Strength when performing Air Sweep", "[2] extra interceptions may be made per turn"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -624,7 +624,7 @@
 		"requiredTech": "Rocketry",
 		"promotions": ["Cover I"],
 		"uniques": ["[100%] chance to intercept air attacks", "[+200]% Strength <vs [Air] units>", "[+200]% Strength <vs [Helicopter] units>",
-			"[+50]% Strength <when defending>"],
+			"[+50]% Strength <when defending>", "[1] extra interceptions may be made per turn"],
 		"attackSound": "shot"
 	},
 	{
