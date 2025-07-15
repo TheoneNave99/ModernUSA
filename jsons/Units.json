@@ -722,5 +722,53 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units"]
+	},
+	{
+		"name": "Xian H-6",
+		"unitType": "Bomber",
+		"uniqueTo": "China",
+		"replaces": "Bomber",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrenght": 70,
+		"range": 15,
+		"cost": 475,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"promotions": ["Air Repair"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Xian H-6K",
+		"unitType": "Bomber",
+		"uniqueTo": "China",
+		"replaces": "Bomber",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrenght": 115,
+		"range": 20,
+		"cost": 650,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"promotions": ["Siege I"],
+		"unques": ["[+25]% Strength <vs [City]>"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Xian H-20",
+		"unitType": "Bomber",
+		"uniqueTo": "China",
+		"replaces": "Stealth Bomber",
+		"movement": 2,
+		"strength": 80,
+		"rangedStrength": 95,
+		"range": 25,
+		"cost": 740,
+		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
+		"uniques": ["Damage taken from interception reduced by [100]%",
+			"[+150]% Strength <vs [Melee Water] units>", "[+150]% Strength <vs [Ranged Water] units>", "[+100]% Strength <vs [Aircraft Carrier] units>",
+			"Can see over obstacles"],
+		"attackSound": "bombing"
 	}
 ]
