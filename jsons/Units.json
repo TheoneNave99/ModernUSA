@@ -568,7 +568,7 @@
 		"requiredTech": "Stealth",
 		"promotions": ["Siege I", "Bombardment I"],
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "Can see over obstacles",
-			"[+5 Sight]", "Consumes [2] [Aluminum]"],
+			"[+5] Sight", "Consumes [2] [Aluminum]"],
 		"attackSound": "bombing"
 	},
 	{
