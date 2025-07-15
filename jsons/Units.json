@@ -508,7 +508,6 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Erasion", "Bombardment I"],
-		"uniques": ["Upgrades to "Tu-160""],
 		"attackSound": "bombing"
 	},
 	{
@@ -554,7 +553,7 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Titanium",
 		"promotions": ["Logistics", "Erasion", "Siege III"],
-		"uniques": ["Cannot be carried by [Carrier] units", "Can be upgraded from "Tu-142""],
+		"uniques": ["Cannot be carried by [Carrier] units"],
 		"attackSound": "bombing"
 	},
 	{
@@ -598,7 +597,7 @@
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking", "No defensive terrain bonuses"],
-		"attackSound": "shot'
+		"attackSound": "shot",
 	},
 	{
 		"name": "T-90 Vladimir",
