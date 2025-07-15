@@ -739,21 +739,6 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Xian H-6K",
-		"unitType": "Bomber",
-		"uniqueTo": "China",
-		"movement": 1,
-		"strength": 75,
-		"rangedStrenght": 115,
-		"range": 20,
-		"cost": 650,
-		"requiredTech": "Radar",
-		"requiredResource": "Oil",
-		"promotions": "Air Repair"
-		"unques": ["[+25]% Strength <vs [City]>"],
-		"attackSound": "bombing"
-	},
-	{
 		"name": "Xian H-20",
 		"unitType": "Bomber",
 		"uniqueTo": "China",
