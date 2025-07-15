@@ -397,7 +397,7 @@
 		"requiredResource": "Modern Alloy",
 		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [0]", "[-100]% Strength <when attacking [City]>", "Only available if [Hypersonic Project] is constructed"],
 		"attackSound": "Missile"
-	}
+	},
 	//just fun further
 	//EUROZONE
 	{
@@ -412,11 +412,10 @@
 		"interceptRange": 10,
 		"requiredTech": "Lasers", 
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength when intercepting"],
 		"attackSound": "jetgun"
-	}
+	},
 	//RUSSIA
-	{}
 	{
 		"name": "Su-25",
 		"unitType": "Fighter",
@@ -495,8 +494,22 @@
 		"requiredResource": "Aluminum",
 		"promotions": ["Dogfighting I"],
 		"uniques": ["[100] chance to intercept air attacks", "[+250]% Strength <vs [Fighter] units>",
-			"[+200]% Strength <vs [Bomber] units>", "[+50]% Strength <when performing Air Sweep>"],
+			"[+200]% Strength <vs [Bomber] units>", "[+50]% Strength when performing Air Sweep"],
 		"attackSound": "jetgun"
+	},
+	{
+		"name": "Tu-142",
+		"unitType": "Bomber",
+		"uniqueTo": "Russia",
+		"cost": 545,
+		"strength": 100,
+		"rangedStrength": 90,
+		"range": 15,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"promotions": ["Erasion", "Bombardment I"],
+		"uniques": ["Upgrades to "Tu-160""],
+		"attackSound": "bombing"
 	},
 	{
 		"name": "Su-57",
@@ -527,8 +540,37 @@
 		"requiredResource": "Titanium",
 		"promotions": ["Dogfighting I", "Interception I", "Sortie"],
 		"uniques": ["[100]% chance to intercept air attacks", "[+250]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
-			"[+300]% Strength <vs [Fighter] units>", "[+100]% Strength <when performing Air Sweep>"],
+			"[+300]% Strength <vs [Fighter] units>", "[+100]% Strength when performing Air Sweep"],
 		"attackSound": "jetgun"
+	},
+	{
+		"name": "Tu-160",
+		"unitType": "Bomber",
+		"uniqueTo": "Russia",
+		"cost": 925,
+		"strength": 140,
+		"rangedStrength": 120,
+		"range": 35,
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium",
+		"promotions": ["Logistics", "Erasion", "Siege III"],
+		"uniques": ["Cannot be carried by [Carrier] units", "Can be upgraded from "Tu-142""],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "PAK DA",
+		"unitType": "Bomber",
+		"uniqueTo": "Russia",
+		"replaces": "Stealth Bomber",
+		"cost": 715,
+		"strength": 90,
+		"rangedStrength": 95,
+		"range": 25,
+		"requiredTech": "Stealth",
+		"promotions": ["Siege I", "Bombardment I"],
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "Can see over obstacles",
+			"[+5 Sight]", "Consumes [2] [Aluminum]"],
+		"attackSound": "bombing"
 	}
 		
 			
