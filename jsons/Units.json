@@ -399,6 +399,7 @@
 		"attackSound": "Missile"
 	}
 	//just fun further
+	//EUROZONE
 	{
 		"name": "Rafale",
 		"unitType": "Fighter",
@@ -414,5 +415,41 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "jetgun"
 	}
-]
+	//RUSSIA
+	{}
+	{
+		"name": "Su-25",
+		"unitType": "Fighter",
+		"uniqueTo": "Russia",
+		"replaces": "Fighter",
+		"cost": 375,
+		"strength": 55,
+		"rangedStrength": 60,
+		"range": 8,
+		"interceptRange": 8,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"promotions": ["Bombardment I"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>",
+			"[+150]% Strength <vs [Helicopter]>", "[+100]% Strength <vs [Land] units>"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Su-27",
+		"unitType": "Fighter",
+		"uniqueTo": "Russia",
+		"replaces": "Fighter",
+		"cost": 395
+		"strength": 65,
+		"rangedStrength": 60,
+		"range": 6,
+		"interceptRange": 11,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"promotions": ["Interception I"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Fighter] units>",
+			"Damage taken from interception reduced by [50]%"],
+		"attackSound": "jetgun"
+	},
+		
 			
