@@ -497,6 +497,38 @@
 		"uniques": ["[100] chance to intercept air attacks", "[+250]% Strength <vs [Fighter] units>",
 			"[+200]% Strength <vs [Bomber] units>", "[+50]% Strength <when performing Air Sweep>"],
 		"attackSound": "jetgun"
+	},
+	{
+		"name": "Su-57",
+		"unitType": "Fighter",
+		"uniqueTo": "Russia",
+		"cost": 675,
+		"strength": 130,
+		"rangedStrength": 110,
+		"range": 15,
+		"interceptRange": 15,
+		"requiredTech": "Stealth",
+		"requiredResource": "Titanium",
+		"promotions": ["Air Repair", "Operational Range"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>",
+			"[+150]% Strength <vs [Fighter] units>", "Damage taken from interception reduced by [90]%"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "MiG-41",
+		"unitType": "Fighter",
+		"uniqueTo": "Russia",
+		"cost": 695,
+		"strength": 110,
+		"rangedStrength": 130,
+		"range": 10,
+		"interceptRange": 25,
+		"requiredTech": "Hypersonic Technologies",
+		"requiredResource": "Titanium",
+		"promotions": ["Dogfighting I", "Interception I", "Sortie"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+250]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
+			"[+300]% Strength <vs [Fighter] units>", "[+100]% Strength <when performing Air Sweep>"],
+		"attackSound": "jetgun"
 	}
 		
 			
