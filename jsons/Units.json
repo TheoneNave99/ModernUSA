@@ -399,7 +399,7 @@
 		"attackSound": "Missile"
 	},
 	//just fun further
-	//EUROZONE
+	//FRANCE
 	{
 		"name": "Rafale",
 		"unitType": "Fighter",
@@ -415,6 +415,20 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength when intercepting"],
 		"attackSound": "jetgun"
+	},
+	{
+		"name": "Leclerc",
+		"unitType": "Armored",
+		"uniqueTo": "France",
+		"replaces": "Modern Armor",
+		"cost": 565,
+		"strength": 105,
+		"movement": 8,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"promotions": ["Charge"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonuses"],
+		"attackSound": "shot"
 	},
 	//RUSSIA
 	{
