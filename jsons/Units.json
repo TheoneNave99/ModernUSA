@@ -668,5 +668,19 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Fighter] units>", "[+150]% Strength <vs [Bomber] units>",
 		"[+250]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
+	},
+	{
+		"name": "ZTZ-99",
+		"unitType": "Armored", 
+		"uniqueTo": "People's Republic of China",
+		"replaces": "Modern Armor",
+		"movement": 8,
+		"strength": 100,
+		"cost": 600
+		"requiredTech": "Lasers",
+		"promotions": ["Blitz"],
+		"uniques": ["[+200]% Strength <vs [Gunpowder] units>", "[+75]% to Flank Attack bonuses", "Can move after attacking"],
+		"attackSound": "shot"
 	}
 ]
+	
