@@ -414,7 +414,7 @@
 		"requiredTech": "Lasers", 
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", 
-			"[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength when intercepting", [1] extra interceptions may be made per turn"],
+			"[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength when intercepting", "[1] extra interceptions may be made per turn"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -428,7 +428,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonuses],
+		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonuses"],
 		"attackSound": "shot"
 	},
 	{
