@@ -653,5 +653,20 @@
 		"uniques": ["Can move after attacking", "[+100]% Strength <vs [Siege] units>",
 			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "051-C type destroyer",
+		"unitType": "Melee Water",
+		"uniqueTo": "China",
+		"replaces": "Destroyer",
+		"movement": 6,
+		"strength": 75,
+		"interceptRange": 4
+		"cost": 575,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Fighter] units>", "[+150]% Strength <vs [Bomber] units>",
+		"[+250]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
 	}
 ]
