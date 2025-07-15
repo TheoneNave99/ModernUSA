@@ -697,6 +697,30 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Fighter] units>", "[+150]% Strength <vs [Melee Water] units>",
 		"[+150]% Strength <vs [Ranged Water] unit>", "[+50]% Strength <vs [Aircraft Carrier] units>", "[2] extra interceptions may be made per turn"],
 		"attackSound": "jetgun",
+	},
+	{
+		"name": "WZ-10",
+		"unitType": "Helicopter",
+		"uniqueTo": "China",
+		"replaces": "Helicopter Gunship",
+		"movement": 5,
+		"strength": 125,
+		"cost": 825,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["[+150]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Consumes [2] [Aluminum]"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Shandong",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "China",
+		"replaces": "Carrier",
+		"movement": 5,
+		"strength": 70,
+		"cost": 700,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units"]
 	}
 ]
-	
