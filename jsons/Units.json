@@ -571,7 +571,63 @@
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "Can see over obstacles",
 			"[+5 Sight]", "Consumes [2] [Aluminum]"],
 		"attackSound": "bombing"
+	},
+	{
+		"name": "S-400",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Russia",
+		"replaces": "Mobile SAM",
+		"cost": 495,
+		"strength": 75,
+		"movement": 5,
+		"interceptionRange": 3,
+		"requiredTech": "Rocketry",
+		"promotions": ["Cover I"],
+		"uniques": ["[100%] chance to intercept air attacks", "[+200]% Strength <vs [Air] units>", "[+200]% Strength <vs [Helicopter] units>",
+			"[+50]% Strength <when defending>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "T-72 Ural",
+		"unitType": "Armored",
+		"uniqueTo": "Russia",
+		"replaces": "Tank",
+		"cost": 485,
+		"strength": 80,
+		"movement": 5,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking", "No defensive terrain bonuses"],
+		"attackSound": "shot'
+	},
+	{
+		"name": "T-90 Vladimir",
+		"unitType": "Armored",
+		"uniqueTo": "Russia",
+		"replaces": "Modern Armor",
+		"cost": 585
+		"strength": 115,
+		"movement": 7,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"promotions": ["Charge"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonuses"],
+		"attackSound": "shot",
+	},
+	{
+		"name": "T-14 Armata",
+		"unitType": "Armored",
+		"uniqueTo": "Russia",
+		"replaces": "Modern Armor",
+		"cost": 775,
+		"strength": 145,
+		"rangedStrength": 160,
+		"range": 1,
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium",
+		"promotions": ["Charge"],
+		"uniques": ["Can move after attacking", "[+100]% Strength <vs [Siege] units>",
+			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>"],
+		"attackSound": "shot"
 	}
-		
-			
 ]
