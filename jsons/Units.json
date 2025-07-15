@@ -451,5 +451,53 @@
 			"Damage taken from interception reduced by [50]%"],
 		"attackSound": "jetgun"
 	},
+	{
+		"name": "Tu-95",
+		"unitType": "Bomber",
+		"uniqueTo": "Russia",
+		"replaces": "Bomber",
+		"cost": 425,
+		"strength": 70,
+		"rangedStrength": 75,
+		"range": 12,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"promotions": ["Air Repair"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Su-40",
+		"unitType": "Fighter",
+		"uniqueTo": "Russia",
+		"replaces": "Jet Fighter",
+		"cost": 475,
+		"strength": 95,
+		"rangedStrength": 90,
+		"range": 10,
+		"interceptRange": 15,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>",
+			"[+150]% Strength <vs [Helicopter] units>", "[+150]% Strength <vs [Siege] units>"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "MiG-35",
+		"unitType": "Fighter",
+		"uniqueTo": "Russia",
+		"replaces": "Jet Fighter",
+		"cost": 515,
+		"strength": 85,
+		"rangedStrength": 110,
+		"range": 16,
+		"interceptRange": 20,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"promotions": ["Dogfighting I"],
+		"uniques": ["[100] chance to intercept air attacks", "[+250]% Strength <vs [Fighter] units>",
+			"[+200]% Strength <vs [Bomber] units>", "[+50]% Strength <when performing Air Sweep>"],
+		"attackSound": "jetgun"
+	}
 		
 			
+]
