@@ -108,7 +108,7 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "F-47",
+		"name": "F-47 NGAD",
 		"unitType": "Fighter",
 		"uniqueTo": "The United States",
 		"movement": 4,
@@ -123,6 +123,22 @@
 			"[+150]% Strength <vs [Fighter] units>", "[2] extra interceptions may be made per turn", "Only available if [NGAD Project] is constructed", "Consumes [2] [Aluminum]"],
 		"attackSound": "jetgun"
 	},
+	{
+		"name": "F/A XX",
+		"unitType": "Fighter",
+		"uniqueTo": "The United States",
+		"movement": 6,
+		"strength": 125,
+		"rangedStrength": 135,
+		"range": 40,
+		"interceptRange": 25,
+		"cost": 1550,
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium",
+		"promotions": ["Air Repair", "Operational Range"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Fighter] units>", 
+			"[+200]% Strength <vs [Land] units>", "[+200]% Strength <vs [Water] units>"],
+		"attackSound": "jetgun"
 	{
 		"name": "E-3 Sentry AWACS",
 		"unitType": "Fighter",
