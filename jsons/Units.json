@@ -139,6 +139,7 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Fighter] units>", 
 			"[+200]% Strength <vs [Land] units>", "[+200]% Strength <vs [Water] units>"],
 		"attackSound": "jetgun"
+	},
 	{
 		"name": "E-3 Sentry AWACS",
 		"unitType": "Fighter",
@@ -965,4 +966,4 @@
 			"Can see over obstacles"],
 		"attackSound": "bombing"
 	},
-[]
+]
