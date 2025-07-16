@@ -398,5 +398,30 @@
 		"cost": 2250,
 		"uniques": ["All newly-trained [Armored] units [in all cities] receive the [Blitz] promotion"],
 		"quote": "."
+	},
+	{
+		"name": "Barracuda Programme",
+		"isNationalWonder": true,
+		"uniqueTo": "France",
+		"cost": 2150,
+		"requiredTech": "Modern Warfare Strategy",
+		"uniques": ["[+20]% Production when constructing [Water] units [in all cities]"],
+		"quote": "."
+	},
+	{
+		"name": "PAK",
+		"isNationalWonder": true,
+		"uniqueTo": "Russia",
+		"cost": 2150,
+		"requiredTech": "Modern Warfare Strategy",
+		"quote": "."
+	},
+	{
+		"name": "Project Z",
+		"isNationalWonder": true,
+		"uniqueTo": "Japan",
+		"cost": 2150,
+		"requiredTech": "Modern Warfare Strategy",
+		"quote": "."
 	}
 ]
