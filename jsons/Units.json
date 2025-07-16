@@ -202,7 +202,7 @@
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
 		"promotions": ["Indirect Fire"],
-		"uniques": ["[+250]% Strength <vs [City]> <when attacking>", "Blast radius [1]", "[+100]% Strength <vs [Gunpowder] units>", "Can carry [2] [Missile] units"],
+		"uniques": ["[+250]% Strength <vs [City]> <when attacking>", "[+100]% Strength <vs [Gunpowder] units>", "Can carry [2] [Missile] units"],
 		"attackSound": "artillery"
 	},
 	{
@@ -290,7 +290,7 @@
 		"requiredResource": "Titanium",
 		"promotions": ["Indirect Fire", "Supply"],
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+125]% Strength <vs [Submarine] units>",
-			"Can carry [5] [Missile] units", "Can carry [5] [Aircraft] units", "[+25]% Strength <when defending>"],
+			"Can carry [5] [Missile] units", "Can carry [5] [Aircraft] units", "[+25]% Strength <when defending>", "Consumes [1] [Uranium]"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -445,6 +445,89 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Air] units>", "[+200]% Strength <vs [Helicopter] units>",
 			"[+50]% Strength when intercepting", "[+50]% Strength <when defending>", "[2] extra interceptions may be made per turn"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "CAESAR",
+		"unitType": "Siege",
+		"uniqueTo": "France",
+		"replaces": "Rocket Artillery",
+		"cost": 545,
+		"movement": 4,
+		"strength": 80,
+		"rangedStrength": 115,
+		"range": 3,
+		"requiredTech": "Rocketry",
+		"uniques": ["[+100]% Strength <vs [Land] units>", "[+75]% Strength <when defending>"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Charles de Gaulle",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "France",
+		"replaces": "Carrier",
+		"cost": 725,
+		"strength": 135,
+		"movement": 6,
+		"requiredTech": "Electronics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Can carry [5] [Aircraft] units", "Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Horizon cl. Destroyer",
+		"unitType": "Melee Water",
+		"uniqueTo": "France",
+		"replaces": "Destroyer",
+		"cost": 520,
+		"movement": 7,
+		"strength": 85,
+		"interceptRange": 2,
+		"requiredTech": "Combined Arms",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+150]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns",
+	},
+	{
+		"name": "Aquitaine cl. Frigate",
+		"unitType": "Ranged Water",
+		"uniqueTo": "France",
+		"replaces": "Missile Cruiser",
+		"cost": 675,
+		"movement": 8,
+		"strength": 95,
+		"rangedStrength": 115,
+		"range": 3,
+		"interceptRange": 2,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"[+150]% Strength <vs [Submarine] units>", "Can carry [5] [Missile] units"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Triomphant cl. Submarine",
+		"unitType": "Submarine",
+		"uniqueTo": "France",
+		"replaces": "Nuclear Submarine",
+		"cost": 655,
+		"movement": 8,
+		"strength": 75,
+		"rangedStrength": 95,
+		"range": 3,
+		"uniques": ["[+100]% Strength <when attacking>", "Can only attack [Water] tiles",
+			"[+3] Sight", "Can carry [3] [Missile] units"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Suffren cl. Submarine",
+		"unitType": "Submarine",
+		"uniqueTo": "France",
+		"replaces": "Nuclear Submarine",
+		"cost": 925,
+		"movement": 10,
+		"strength": 105,
+		"rangedStrength": 125,
+		"range": 4,
+		"uniques": ["Only available if [Barracuda Programme] is constructed", "[+145]% Strength <when attacking>",
+			"[+5] Sight", "Can carry [5] [Missile] units"],
+		"attackSound": "torpedo"
 	},
 //RUSSIA
 	{
@@ -669,6 +752,22 @@
 		"uniques": ["Can move after attacking", "[+100]% Strength <vs [Siege] units>",
 			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Admiral Kuznetsov",
+		"unitType": "Cruiser",
+		"uniqueTo": "Russia",
+		"replaces": "Aircraft Carrier Cruiser",
+		"cost": 1050,
+		"movement": 7,
+		"strength": 95,
+		"rangedStrength": 110,
+		"range": 3,
+		"interceptRange": 3,
+		"requiredTech": "Modern Warfare Strategy",
+		"uniques": ["Consumes [5] [Aluminum]", "Consumes [10] [Oil]", "Can see invisible [Submarine] units", "[+75]% Strength <vs [Submarine] units>",
+			"[100]% chance to intercept air attacks", "Can carry [3] [Missile] units", "Can carry [3] [Aircraft] units", "Limited to [1] per Civilization"],
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "Borei-A Project",
