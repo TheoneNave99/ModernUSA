@@ -39,8 +39,8 @@
 	{
 		"name": "European Union",
 		"leaderName": "George Bushington",
-		"adjective": ["American"],
-		"preferredVictoryType": "Scientific",
+		"adjective": ["European"],
+		"preferredVictoryType": "Diplomatic",
 		"personality": "George Washington",
 
         "startIntroPart1": "President Bushington, we salute you and the proud American civilization! Freed from the British dominion in the 18th century, then cleansed and reborn after a terrible civil war, the United States nation was ready to play its great role in the 20th century. At the height of its power, triumphant after two terrible world wars, United States of America, a land of immigration, opportunities, optimism and determination, has risen above all other weakening nations, unable to equal such power.",
@@ -58,7 +58,7 @@
         "innerColor": [255,255,255],
 
         "favoredReligion": "Christianity",
-		"uniqueName": "American Century",
+		"uniqueName": "United Continent",
 		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "Production to [Gold] conversion in cities changed by [+50]%",
 		"Allied City-States will occasionally gift Great People", "[+33]% City-State Influence degradation",
 		"[+50]% of excess happiness converted to [Culture]", "[+1 Happiness, +2 Culture] from all [Gold] buildings", "[+1 Happiness, +2 Gold] from all [Culture] buildings",
