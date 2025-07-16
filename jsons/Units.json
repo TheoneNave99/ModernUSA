@@ -670,6 +670,20 @@
 			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Borei-A Project",
+		"unitType": "Submarine",
+		"uniqueTo": "Russia",
+		"replaces": "Nuclear Submarine",
+		"cost": 775,
+		"strength": 85,
+		"rangedStrength": 110,
+		"range": 4,
+		"requiredTech": "Telecommunications",
+		"uniques": ["[+100]% Strength <when attacking>", "Can only attack [Water] tiles",
+			"Can carry [4] [Missile] units"],
+		"attackSound": "torpedo"
+	}
 //CHINA
 	{
 		"name": "051-C type destroyer",
