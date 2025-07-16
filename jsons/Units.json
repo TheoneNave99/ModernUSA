@@ -416,6 +416,10 @@
 		"attackSound": "Missile"
 	},
 //just fun further
+//EURO UNION
+	{
+		"name": "Eurofighter Typhoon"
+	}
 //FRANCE
 	{
 		"name": "Rafale",
@@ -788,9 +792,9 @@
 	},
 	{
 		"name": "Admiral Kuznetsov",
-		"unitType": "Cruiser",
+		"unitType": "Ranged Water"
 		"uniqueTo": "Russia",
-		"replaces": "Aircraft Carrier Cruiser",
+		"replaces": "Aircraft Carrying Cruiser",
 		"cost": 1050,
 		"movement": 7,
 		"strength": 95,
