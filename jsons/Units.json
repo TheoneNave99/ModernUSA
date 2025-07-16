@@ -1,4 +1,4 @@
-
+[
 	{
 		"name": "CIA Agent",
 		"unitType": "Civilian",
@@ -964,5 +964,5 @@
 			"[+150]% Strength <vs [Melee Water] units>", "[+150]% Strength <vs [Ranged Water] units>", "[+100]% Strength <vs [Aircraft Carrier] units>",
 			"Can see over obstacles"],
 		"attackSound": "bombing"
-	}
+	},
 ]
