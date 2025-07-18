@@ -417,6 +417,19 @@
 	},
 //just fun further
 //EURO UNION
+	{
+		"name": "Eurofighter Typhoon",
+		"unitType": "Fighter",
+		"uniqueTo": "European Union",
+		"replaces": "Jet Fighter",
+		"cost": 475,
+		"movement": 3,
+		"strength": 95,
+		"rangedStrength": 90,
+		"range": 13,
+		"interceptRange": 10,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
 //FRANCE
 	{
 		"name": "Rafale",
@@ -726,7 +739,7 @@
 		"requiredTech": "Stealth",
 		"promotions": ["Siege I", "Bombardment I"],
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "Can see over obstacles",
-			"[+5] Sight", "Consumes [2] [Aluminum]"],
+			"[+5] Sight", "Consumes [3] [Aluminum]"],
 		"attackSound": "bombing"
 	},
 	{
@@ -842,6 +855,7 @@
 		"strength": 100,
 		"cost": 600
 		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
 		"promotions": ["Blitz"],
 		"uniques": ["[+200]% Strength <vs [Gunpowder] units>", "[+75]% to Flank Attack bonuses", "Can move after attacking"],
 		"attackSound": "shot"
@@ -858,6 +872,7 @@
 		"interceptRange": 8,
 		"cost": 395,
 		"requiredTech": "Radar",
+		"requiredResource": "Oil",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Melee Water] units>",
 		"[+150]% Strength <vs [Ranged Water] unit>", "[+25]% Strength <vs [Aircraft Carrier] units>"],
 		"attackSound": "jetgun"
@@ -874,6 +889,7 @@
 		"interceptRange": 12,
 		"cost": 600,
 		"requiredTech": "Lasers",
+		"requiredResource":"Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+50]% Strength <vs [Fighter] units>", "[+150]% Strength <vs [Melee Water] units>",
 		"[+150]% Strength <vs [Ranged Water] unit>", "[+50]% Strength <vs [Aircraft Carrier] units>"],
 		"attackSound": "jetgun",
@@ -891,7 +907,7 @@
 		"cost": 895,
 		"requiredTech": "Modern Warfare Strategy",
 		"uniques": ["[100]% chance to intercept air attacks", "[+100]% Strength <vs [Fighter] units>", "[+200]% Strength <vs [Melee Water] units>",
-		"[+200]% Strength <vs [Ranged Water] unit>", "[+100]% Strength <vs [Aircraft Carrier] units>"],
+		"[+200]% Strength <vs [Ranged Water] unit>", "[+100]% Strength <vs [Aircraft Carrier] units>", "Consumes [2] [Aluminum]"],
 		"attackSound": "jetgun",
 	},
 	{
@@ -903,6 +919,7 @@
 		"strength": 125,
 		"cost": 825,
 		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Aluminum",
 		"uniques": ["[+150]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Consumes [2] [Aluminum]"],
 		"attackSound": "machinegun"
