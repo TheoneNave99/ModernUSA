@@ -1,0 +1,7 @@
+[
+      {
+        "name": "Radar Aircraft",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+5] Sight", "Can see over obstacles", "Cannot attack"]
+    }
+]
