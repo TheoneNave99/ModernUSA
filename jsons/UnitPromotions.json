@@ -1,7 +1,8 @@
 [
   {
     "name": "For democracy",
-    "uniques": ["[+50]% Strength <when fighting in [Foreign Land] tiles>"]
+    "uniques": ["[+50]% Strength <when fighting in [Foreign Land] tiles>"],
+    "unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine", "Fighter", "Bomber", "Helicopter"],
   },
   {
     "name": "World in Peace",
@@ -10,5 +11,45 @@
   {
     "name": "Modern",
     "uniques": ["[+25]% Strength <when defending>"]
+  },
+  {
+    "name": "Radar I",
+    "uniques": ["[+1] Sight"],
+    "unitTypes": ["Radar Aircraft"],
+  },
+  {
+    "name": "Radar II",
+    "uniques": ["[+2] Sight"],
+    "prerequisites": ["Radar I"],
+    "unitTypes": ["Radar Aircraft"],
+  },
+  {
+    "name": "Radar III",
+    "uniques": ["[+3] Sight"],
+    "prerequisites": ["Radar II"],
+    "unitTypes": ["Radar Aircraft"]
+  },
+  {
+    "name": "Fuel Reserve I",
+    "uniques": ["[+1] Range"],
+    "unitTypes": ["Fighter", "Bomber", "Radar Aircraft"]
+  },
+  {
+    "name": "Fuel Reserve II",
+    "uniques": ["[+2] Range"],
+    "prerequisites": ["Fuel Reserve I"],
+    "unitTypes": ["Fighter", "Bomber", "Radar Aircraft"],
+  },
+  {
+    "name": "Fuel Reserve III",
+    "uniques": ["[+3] Range"],
+    "prerequisites": ["Fuel Reserve II"],
+    "unitTypes": ["Fighter", "Bomber", "Radar Aircraft"]
+  },
+  {
+    "name": "Aur Support",
+    "uniques": ["[+20]% Strength for [Military] units within [15] tiles"],
+    "prerequisites": ["Radar III", "Fuel Reserve III"],
+    "unitTypes": ["Radar Aircraft"]
   }
 ]
