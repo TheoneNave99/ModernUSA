@@ -438,7 +438,14 @@
 		"uniqueTo": "European Union",
 		"cost": 2750,
 		"requiredTech": "Modern Warfare Strategy",
-		"quite": "New Generation Fighter of EU is a project which will allow Europe to ensure full control of airspace."
+		"quote": "New Generation Fighter of EU is a project which will allow Europe to ensure full control of airspace."
+	},
+	{
+		"name": "Modern Chemical Plant",
+		"uniqueTo": "European Union",
+		"cost": 1750,
+		"requiredTech": "Modern Warfare Strategy",
+		"uniques": ["Provides [2] [Composite Materials]"],
+		"quote": "."
 	}
-]
 ]
