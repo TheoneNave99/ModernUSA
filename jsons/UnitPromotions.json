@@ -47,7 +47,7 @@
     "unitTypes": ["Fighter", "Bomber", "Radar Aircraft"]
   },
   {
-    "name": "Aur Support",
+    "name": "Air Support",
     "uniques": ["[+20]% Strength for [Military] units within [15] tiles"],
     "prerequisites": ["Radar III", "Fuel Reserve III"],
     "unitTypes": ["Radar Aircraft"]
