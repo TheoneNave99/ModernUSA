@@ -142,7 +142,7 @@
 	},
 	{
 		"name": "E-3 Sentry AWACS",
-		"unitType": "Fighter",
+		"unitType": "Radar Aircraft"
 		"uniqueTo": "The United States",
 		"replaces": "Long-range Radar Aircraft",
 		"movement": 1,
@@ -316,7 +316,7 @@
 	},
 	{
 		"name": "Long-range Radar Aircraft",
-		"unitType": "Fighter",
+		"unitType": "Radar Aircraft",
 		"cost": 1250,
 		"movement": 1,
 		"strength": 200,
@@ -789,8 +789,8 @@
 	},
 	{
 		"name": "A-50",
-		"unitType": "Fighter",
-		"uniqueTo": "Russia",
+		"unitType": "Radar Aircraft",
+		"uniqueTo": "Russia"
 		"replaces": "Long-range Radar Aircraft",
 		"cost": 1500,
 		"movement": 2,
