@@ -142,13 +142,17 @@
 	},
 	{
 		"name": "E-3 Sentry AWACS",
-		"unitType": "Fighter",
+		"unitType": "Radar Aircraft",
 		"uniqueTo": "The United States",
+		"replaces": "Long-range Radar Aircraft",
 		"movement": 1,
-		"strength": 150,
-		"cost": 825,
-		"requiredTech": "Telecommunications",
-		"uniques": ["[+15]% Strength bonus for [Air] units within [12] tiles", "Cannot attack", "Consumes [3] [Aluminum]", "[+10] Sight"]
+		"strength": 225,
+		"rangedStrength": 0,
+		"range": 20,
+		"cost": 1500,
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium",
+		"uniques": ["[+15]% Strength bonus for [Air] units within [12] tiles", "Cannot attack", "Consumes [5] [Aluminum]", "[+15] Sight"]
 	},
 	{
 		"name": "AH-64 Apache",
@@ -311,6 +315,19 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "Long-range Radar Aircraft",
+		"unitType": "Radar Aircraft",
+		"cost": 1250,
+		"movement": 1,
+		"strength": 200,
+		"rangedStrength": 0,
+		"range": 25,
+		"interceptRange": 0,
+		"uniques": ["Cannot attack", "[0]% chance to intercept air attacks", "[+15] Sight", "Consumes [5] [Aluminum]"],
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium"
+	},	
+	{
 		"name": "Virginia Class Submarine",
 		"unitType": "Submarine",
 		"uniqueTo": "The United States",
@@ -335,7 +352,7 @@
 		"rangedStrength": 110,
 		"range": 30,
 		"cost": 975,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Modern Warfare Strategy",
 		"uniques": ["[+100]% Strength <vs [City]>", "[-25]% Strength <vs [Fighter] units>", 
 			"Can see over obstacles", "Cannot be carried by [Carrier] units", "Consumes [2] [Aluminum]", "Consumes [1] [Titanium]"],
 		"attackSound": "bombing"
@@ -372,7 +389,8 @@
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Aircraft Carrier] units", "[+4] Sight",
 			"[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Siege] units>", "[+100]% Strength <vs [Gunpowder] units>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]", "Can see over obstacles"],
-		"attackSound": "bombing"
+		"attackSound": "bombing",
+		"upgradesTo": "B-21 Raider"
 	},
 	{
 		"name": "B-21 Raider",
@@ -432,10 +450,11 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Fighter] units>",
 			"[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength when intercepting", "[1] extra interceptions may be made per turn"],
-		"attackSound": "jetgun"
+		"attackSound": "jetgun",
+		"upgradesTo": "EU System Tempest"
 	},
 	{
-		"name": " EU System Tempest",
+		"name": "EU System Tempest",
 		"unitType": "Fighter",
 		"uniqueTo": "European Union",
 		"cost": "1550",
@@ -475,6 +494,8 @@
 		"replaces": "Modern Armor",
 		"cost": 565,
 		"strength": 105,
+		"rangedStrength": 110,
+		"range": 1,
 		"movement": 8,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
@@ -647,7 +668,8 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Helicopter] units>", "[+150]% Strength <vs [Siege] units>"],
-		"attackSound": "jetgun"
+		"attackSound": "jetgun",
+		"upgradesTo": "Su-57"
 	},
 	{
 		"name": "MiG-35",
@@ -665,7 +687,8 @@
 		"promotions": ["Dogfighting I"],
 		"uniques": ["[100] chance to intercept air attacks", "[+250]% Strength <vs [Fighter] units>",
 			"[+200]% Strength <vs [Bomber] units>", "[+50]% Strength when performing Air Sweep", "[1] extra interceptions may be made per turn"],
-		"attackSound": "jetgun"
+		"attackSound": "jetgun",
+		"upgradesTo": "MiG-41"
 	},
 	{
 		"name": "Tu-142",
@@ -679,7 +702,8 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Evasion", "Bombardment I"],
-		"attackSound": "bombing"
+		"attackSound": "bombing",
+		"upgradesTo": "Tu-160"
 	},
 	{
 		"name": "Su-57",
@@ -696,7 +720,8 @@
 		"promotions": ["Air Repair", "Operational Range"],
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>",
 			"[+150]% Strength <vs [Fighter] units>", "Damage taken from interception reduced by [90]%"],
-		"attackSound": "jetgun"
+		"attackSound": "jetgun",
+		"upgradesTo": "Su-75"
 	},
 	{
 		"name": "MiG-41",
@@ -742,8 +767,8 @@
 		"range": 35,
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Titanium",
-		"promotions": ["Logistics", "Evasion", "Siege III"],
-		"uniques": ["Cannot be carried by [Carrier] units"],
+		"promotions": ["Logistics", "Siege III"],
+		"uniques": ["Cannot be carried by [Carrier] units", "[+200]% Strength <vs [City]>"],
 		"attackSound": "bombing"
 	},
 	{
@@ -761,6 +786,21 @@
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "Can see over obstacles",
 			"[+5] Sight", "Consumes [3] [Aluminum]"],
 		"attackSound": "bombing"
+	},
+	{
+		"name": "A-50",
+		"unitType": "Radar Aircraft",
+		"uniqueTo": "Russia",
+		"replaces": "Long-range Radar Aircraft",
+		"cost": 1500,
+		"movement": 2,
+		"strength": 250,
+		"rangedStrength": 0,
+		"range": 30,
+		"interceptRange": 0,
+		"uniques": ["[+10]% Strength for [Land] units within [15] tiles", "Cannot attack", "[0]% chance to intercept air attacks", "[+20] Sight", "Consumes [5] [Aluminum]"],
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium"
 	},
 	{
 		"name": "S-400",
@@ -801,13 +841,14 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonuses"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "shot",
+		"upgradesTo": "T-14 Armata"
 	},
 	{
 		"name": "T-14 Armata",
 		"unitType": "Armored",
-		"uniqueTo": "Russia",
+		"uniqueTo": "France",
 		"replaces": "Modern Armor",
 		"cost": 775,
 		"movement": 10,
@@ -821,6 +862,68 @@
 			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Kalibr",
+		"unitType": "Missile",
+		"uniqueTo": "Russia",
+		"replaces": "Guided Missile",
+		"cost": 155,
+		"strength": 70,
+		"rangedStrength": 100,
+		"range": 10,
+		"uniques": ["[-100]% maintenance cost", "[+50]% Strength <vs [City]>"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Tsar-Bomb",
+		"unitType": "Atomic Bomber",
+		"uniqueTo": "Russia",
+		"cost": 5000,
+		"movement": 5,
+		"strength": 20,
+		"rangedStrength": 500,
+		"range": 15,
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [4]", "Only available if [Manhattan Project] is constructed"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Kinzhal",
+		"unitType": "Missile",
+		"uniqueTo": "Russia",
+		"replaces": "Hypersonic Missile",
+		"cost": 1750,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 50,
+		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [0]", "Only available if [Hypersonic Project] is constructed"],
+		"requiredTech": "Hypersonic Technologies",
+		"requiredResource": "Modern Alloy",
+		"attackSound": "Missile"
+	},
+	{
+		"name": "Satan",
+		"unitType": "Missile",
+		"uniqueTo": "Russia",
+		"replaces": "Nuclear Weapon",
+		"cost": 1050,
+		"strength": 300,
+		"rangedStrength": 350,
+		"range": 15,
+		"uniques": ["Nuclear weapon of Strength [3]", "Blast radius [2]", "Only available uf [Manhattan Project] is constructed"]
+	},
+	{
+		"name": "Sarmat",
+		"unitType": "Missile",
+		"uniqueTo": "Russia",
+		"replaces": "Nuclear Hypersonic Missile",
+		"cost": 5000,
+		"movement": 0,
+		"strength": 500,
+		"rangedStrength": 500,
+		"range": 50,
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available if [Hypersonic Project] is constructed", "Cannot be carried by [Ranged Water] units",
+			"Cannot be carried by [Submarine] units", "Cannot be carried by [Helicopter] units"]
+	}
 	{
 		"name": "Admiral Kuznetsov",
 		"unitType": "Ranged Water"
@@ -850,7 +953,8 @@
 		"uniques": ["[+100]% Strength <when attacking>", "Can only attack [Water] tiles",
 			"Can carry [4] [Missile] units"],
 		"attackSound": "torpedo"
-	}
+	},
+	{
 //CHINA
 	{
 		"name": "051-C type destroyer",
