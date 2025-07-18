@@ -1,7 +1,11 @@
 [
       {
-        "name": "Radar Aircraft",
-        "movementType": "Air",
-        "uniques": ["Aircraft", "[+5] Sight", "Can see over obstacles", "Cannot attack"]
-    }
+            "name": "Radar Aircraft",
+            "movementType": "Air",
+            "uniques": ["Aircraft", "[+5] Sight", "Can see over obstacles", "Cannot attack"]
+      },
+      {
+            "name": "Carrier-Cruiser",
+            "movementType": "Water",
+            "uniques": 
 ]
