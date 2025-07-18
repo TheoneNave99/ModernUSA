@@ -54,8 +54,8 @@
 		"hateHello": "Hello.",
 		"tradeRequest": "Are you ready to trade with EuroUnion?",
 
-        "outerColor": [0,0,255],
-        "innerColor": [255,255,0],
+        "outerColor": [0,51,153],
+        "innerColor": [255,204,0],
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Great United Continent",
