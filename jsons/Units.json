@@ -436,7 +436,7 @@
 	},
 	{
 		"name": " EU System Tempest",
-		"unutType": "Fighter",
+		"unitType": "Fighter",
 		"uniqueTo": "European Union",
 		"cost": "1550",
 		"movement": 5,
