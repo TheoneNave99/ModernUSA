@@ -51,5 +51,11 @@
     "uniques": ["[+20]% Strength for [Military] units within [15] tiles"],
     "prerequisites": ["Radar III", "Fuel Reserve III"],
     "unitTypes": ["Radar Aircraft"]
+  },
+  {
+    "name": "Modern Systems",
+    "uniques": ["[+2] Movement"],
+    "prerequisites": ["Air Support"],
+    "unitTypes": ["Radar Aircraft"]
   }
 ]
