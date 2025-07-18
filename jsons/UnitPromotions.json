@@ -2,8 +2,7 @@
   {
     "name": "For democracy",
     "uniques": ["[+50]% Strength <when fighting in [Foreign Land] tiles>"],
-    "unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine", "Fighter", "Bomber", "Helicopter"],
-  },
+  }
   {
     "name": "World in Peace",
     "uniques": ["[+50]% Strength <when defending in [Friendly Lands] tiles>"]
@@ -140,4 +139,4 @@
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter", "Carrier-Cruiser"]
 	}
-]
+[]
