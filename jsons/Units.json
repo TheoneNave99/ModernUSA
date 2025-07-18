@@ -430,6 +430,26 @@
 		"interceptRange": 10,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Fighter] units>",
+			"[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength when intercepting", "[1] extra interceptions may be made per turn"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": " EU System Tempest",
+"unutType": "Fighter",
+"uniqueTo": "European Union",
+"cost": "1550",
+"movement": 5,
+"strength": 140,
+"rangedStrength": 155,
+"range": 30,
+"interceptRange": 30,
+"promotions": ["Air Repair", "Operational Range", "Sortie"],
+"requiredTech": "Modern Warfare Strategy",
+"requiredResource": "Composite Materials",
+"uniques": ["[100]% chance to intercept aur attacks", "[+50]% Strength when intercepting", "[+300]% Strength <vs [Bomber] units>", "[+250]% Strength <vs [Fighter]>", "[+300]% Strength <vs [Helicopter] units>", "[+250]% Strength <vs [Land] unuts>", '[+250]% Strength <vs [Water] units>", "Damage taken from interception reduced by [100]%", "[3] extra interceptions may be made per turn", "Only available if [NGF EU Project] is constructed"],
+"attackSound": "jetgun"
+},
 //FRANCE
 	{
 		"name": "Rafale",
