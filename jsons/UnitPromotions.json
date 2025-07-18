@@ -59,7 +59,7 @@
     "unitTypes": ["Radar Aircraft"]
   },
   //Real Promotions Editing
-  {{
+	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water", "Carrier-Cruiser"]
