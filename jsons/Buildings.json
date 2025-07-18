@@ -431,5 +431,14 @@
 		"cost": 2150,
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "."
+	},
+	{
+		"name": "NGF EU Project",
+		"isNationalWonder": true,
+		"uniqueTo": "European Union",
+		"cost": 2750,
+		"requiredTech": "Modern Warfare Strategy",
+		"quite": "New Generation Fighter of EU is a project which will allow Europe to ensure full control of airspace."
 	}
+]
 ]
