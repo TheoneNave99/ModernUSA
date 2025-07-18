@@ -1,6 +1,6 @@
 [
-  {
-    "name": "Titanium",
+	{
+		"name": "Titanium",
 		"resourceType": "Strategic",
 		"revealedBy": "Heavy Industry",
 		"terrainsCanBeFoundOn": ["Tundra","Hill"],
@@ -11,10 +11,15 @@
 
 		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-  },
-{
-	"name": "Modern Alloy",
-	"resourceType": "Strategic",
-	"uniques": ["Can be provided by [Alloys Plant]"]
-}
+	},
+	{
+		"name": "Modern Alloy",
+		"resourceType": "Strategic",
+		"uniques": ["Can be provided by [Alloys Plant]"]
+	},
+	{
+		"name": "Composite Materials",
+		"resourceType": "Strategic",
+		"uniques": ["Can be provided by [Modern Chemical Plant]"]
+	}
 ]
