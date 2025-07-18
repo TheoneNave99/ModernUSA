@@ -57,7 +57,7 @@
     "prerequisites": ["Air Support"],
     "unitTypes": ["Radar Aircraft"]
   },
-  //Real Promotions Editing
+//Real Promotions Editing
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
@@ -75,7 +75,7 @@
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water", "Carrier-Cruiser"]
 	},
-  {
+	{
 		"name": "Armor Plating I",
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Aircraft Carrier", "Carrier-Cruiser"]
@@ -109,13 +109,13 @@
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
 		"unitTypes": ["Aircraft Carrier", "Carrier-Cruiser"]
 	},
-  {
+	{
 		"name" : "Supply",
 		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
 		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Melee Water", "Ranged Water", "Carrier-Cruiser"]
 	},
-  {
+	{
 		"name": "Bombardment I",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber", "Carrier-Cruiser"]
@@ -132,11 +132,11 @@
 		"uniques": ["[+34]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber", "Carrier-Cruiser"]
 	},
-  {
+	{
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter", "Carrier-Cruiser"]
 	}
-][]
+]
