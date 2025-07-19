@@ -1,5 +1,14 @@
 [
 	{
+		"name": "The World Restart",
+		"unitType": "Missile",
+		"cost": 1,
+		"strength": 1,
+		"rangedStrength": 10000,
+		"range": 1,
+		"uniques": ["Nuclear weapon of Strength [999]", "Blast radius [1000]"]
+	},
+	{
 		"name": "CIA Agent",
 		"unitType": "Civilian",
 		"uniqueTo": "The United States",
