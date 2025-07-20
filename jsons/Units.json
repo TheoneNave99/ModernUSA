@@ -667,7 +667,7 @@
 	},
 //RUSSIA
 	{
-		"name": "Su-25",
+		"name": "Su-25 Frogfoot",
 		"unitType": "Fighter",
 		"uniqueTo": "Russia",
 		"replaces": "Fighter",
@@ -685,7 +685,7 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Su-27",
+		"name": "Su-27 Flanker-B",
 		"unitType": "Fighter",
 		"uniqueTo": "Russia",
 		"replaces": "Fighter",
@@ -703,7 +703,7 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Tu-95",
+		"name": "Tu-22 Blinder",
 		"unitType": "Bomber",
 		"uniqueTo": "Russia",
 		"replaces": "Bomber",
@@ -715,10 +715,11 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"promotions": ["Air Repair"],
-		"attackSound": "bombing"
+		"attackSound": "bombing",
+		"upgradesTo": "Tu-95MC Bear"
 	},
 	{
-		"name": "Su-35",
+		"name": "Su-35 Flanker-E+",
 		"unitType": "Fighter",
 		"uniqueTo": "Russia",
 		"replaces": "Jet Fighter",
@@ -736,11 +737,11 @@
 		"upgradesTo": "Su-47"
 	},
 	{
-		"name": "Su-47",
+		"name": "Su-47 Firkin",
 		"unitType": "Fighter",
 		"uniqueTo": "Russia",
 		"replaces": "Jet Fighter",
-		"cost": 545,
+		"cost": 575,
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 100,
@@ -755,11 +756,11 @@
 		"upgradesTo": "Su-57"
 	},
 	{
-		"name": "MiG-35",
+		"name": "MiG-35 Fulcrum-F",
 		"unitType": "Fighter",
 		"uniqueTo": "Russia",
 		"replaces": "Jet Fighter",
-		"cost": 515,
+		"cost": 525,
 		"movement": 1,
 		"strength": 85,
 		"rangedStrength": 110,
@@ -774,7 +775,23 @@
 		"upgradesTo": "MiG-41"
 	},
 	{
-		"name": "Tu-142",
+		"name": "Tu-142 Bear-F",
+		"unitType": "Bomber",
+		"uniqueTo": "Russia",
+		"cost": 545,
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 90,
+		"range": 20,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"promotions": ["Air Targeting I", "Air Targeting II"],
+		"attackSound": "bombing",
+		"uniques": ["[+100]% Strength <vs [Water] units>", "[-80]% Strength <vs [Land] units>", "[-100]% Strength <vs [City]>"],
+		"upgradesTo": "Tu-160"
+	},
+	{
+		"name": "Tu-95MC Bear",
 		"unitType": "Bomber",
 		"uniqueTo": "Russia",
 		"cost": 545,
@@ -789,7 +806,7 @@
 		"upgradesTo": "Tu-160"
 	},
 	{
-		"name": "Su-57",
+		"name": "Su-57 Felon",
 		"unitType": "Fighter",
 		"uniqueTo": "Russia",
 		"cost": 675,
@@ -824,7 +841,7 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Su-75",
+		"name": "Su-75 Checkmate",
 		"unitType": "Fighter",
 		"uniqueTo": "Russia",
 		"cost": 1350,
@@ -840,7 +857,7 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Tu-160",
+		"name": "Tu-160 Blackjack",
 		"unitType": "Bomber",
 		"uniqueTo": "Russia",
 		"cost": 1225,
@@ -855,7 +872,7 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "PAK DA",
+		"name": "PAK DA Poslannik",
 		"unitType": "Bomber",
 		"uniqueTo": "Russia",
 		"replaces": "Stealth Bomber",
@@ -871,7 +888,7 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "A-50",
+		"name": "A-50 Mainstay",
 		"unitType": "Radar Aircraft",
 		"uniqueTo": "Russia"
 		"replaces": "Long-range Radar Aircraft",
@@ -886,7 +903,7 @@
 		"requiredResource": "Titanium"
 	},
 	{
-		"name": "Ka-52",
+		"name": "Ka-52 Alligator",
 		"unitType": "Helicopter",
 		"uniqueTo": "Russia",
 		"replaces": "Helicopter Gunship"
@@ -902,7 +919,7 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Mi-28",
+		"name": "Mi-28 Havoc",
 		"unitType": "Helicopter",
 		"uniqueTo": "The United States",
 		"replaces": "Helicopter Gunship"
@@ -934,7 +951,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Buratino",
+		"name": "TOS Buratino",
 		"uniqueTo": "Russia",
 		"replaces": "Rocket Artillery",
 		"unitType": "Siege",
@@ -951,14 +968,14 @@
 		"attackSound": "artillery"
 	},
 	{
-		"name": "TOS Solntsepek",
+		"name": "BM-21 Grad",
 		"uniqueTo": "Russia",
 		"replaces": "Rocket Artillery",
 		"unitType": "Siege",
 		"movement": 3,
 		"strength": 70,
 		"rangedStrength": 90,
-		"range": 5,
+		"range": 6,
 		"cost": 590,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
@@ -1039,7 +1056,7 @@
 		"attackSound": "missile"
 	},
 	{
-		"name": "Kinzhal",
+		"name": "X-47 Kinzhal",
 		"unitType": "Missile",
 		"uniqueTo": "Russia",
 		"replaces": "Hypersonic Missile",
