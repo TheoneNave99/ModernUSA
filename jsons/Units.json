@@ -120,7 +120,7 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Titanium",
 		"uniques": ["[+100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>", "[+25]% Strength <when intercepting>",
-			"[+150]% Strength <vs [Fighter] units>", "[2] extra interceptions may be made per turn", "Only available if [NGAD Project] is constructed", "Consumes [2] [Aluminum]"],
+			"[+150]% Strength <vs [Fighter] units>", "[2] extra interceptions may be made per turn", "Only available <if [NGAD Project] is constructed>", "Consumes [2] [Aluminum]"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -418,7 +418,7 @@
 		"range": 50,
 		"requiredTech": "Hypersonic Technologies",
 		"requiredResource": "Modern Alloy",
-		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available if [Hypersonic Project] is constructed", "Cannot be carried by [] units", "Consumes [5] [Uranium]"]
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available <if [Hypersonic Project] is constructed>", "Cannot be carried by [] units", "Consumes [5] [Uranium]"]
 	},
 	{
 		"name": "Hypersonic Missile",
@@ -430,7 +430,7 @@
 		"range": 30,
 		"requiredTech": "Hypersonic Technologies",
 		"requiredResource": "Modern Alloy",
-		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [0]", "[-100]% Strength <when attacking [City]>", "Only available if [Hypersonic Project] is constructed"],
+		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [0]", "[-100]% Strength <when attacking [City]>", "Only available <if [Hypersonic Project] is constructed>"],
 		"attackSound": "Missile"
 	},
 //just fun further
@@ -500,7 +500,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonuses"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonus"],
 		"attackSound": "shot"
 	},
 	{
@@ -704,7 +704,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Dogfighting I"],
-		"uniques": ["[100] chance to intercept air attacks", "[+250]% Strength <vs [Fighter] units>",
+		"uniques": ["[100]% chance to intercept air attacks", "[+250]% Strength <vs [Fighter] units>",
 			"[+200]% Strength <vs [Bomber] units>", "[+50]% Strength when performing Air Sweep", "[1] extra interceptions may be made per turn"],
 		"attackSound": "jetgun",
 		"upgradesTo": "MiG-41"
@@ -837,6 +837,40 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Buratino",
+		"uniqueTo": "Russia",
+		"replaces": "Rocket Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 70,
+		"rangedStrength": 75,
+		"range": 3,
+		"cost": 525,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "[+75]% Strength <when defending>",
+			"Can carry [4] [Missile] units"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "TOS Solntsepek",
+		"uniqueTo": "Russia",
+		"replaces": "Rocket Artillery",
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 70,
+		"rangedStrength": 90,
+		"range": 5,
+		"cost": 590,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "[+100]% Strength <vs [Ranged] units> <when defending>",
+			"[-1] Sight"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
 		"name": "T-72 Ural",
 		"unitType": "Armored",
 		"uniqueTo": "Russia",
@@ -878,7 +912,7 @@
 		"requiredResource": "Titanium",
 		"promotions": ["Charge"],
 		"uniques": ["Can move after attacking", "[+100]% Strength <vs [Siege] units>",
-			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>"],
+			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% Flank attack bonus"],
 		"attackSound": "shot"
 	},
 	{
@@ -890,6 +924,7 @@
 		"strength": 70,
 		"rangedStrength": 100,
 		"range": 10,
+		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[-100]% maintenance cost", "[+50]% Strength <vs [City]>"],
 		"attackSound": "missile"
 	},
@@ -902,7 +937,8 @@
 		"strength": 20,
 		"rangedStrength": 500,
 		"range": 15,
-		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [4]", "Only available if [Manhattan Project] is constructed"],
+		"requiredTech": "Atomic Theory",
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [4]", "Only available <if [Manhattan Project] is constructed>", "Consumes [5] [Uranium]"],
 		"attackSound": "missile"
 	},
 	{
@@ -914,7 +950,7 @@
 		"strength": 300,
 		"rangedStrength": 300,
 		"range": 50,
-		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [0]", "Only available if [Hypersonic Project] is constructed"],
+		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [0]", "Only available <if [Hypersonic Project] is constructed>"],
 		"requiredTech": "Hypersonic Technologies",
 		"requiredResource": "Modern Alloy",
 		"attackSound": "Missile"
@@ -928,7 +964,8 @@
 		"strength": 300,
 		"rangedStrength": 350,
 		"range": 15,
-		"uniques": ["Nuclear weapon of Strength [3]", "Blast radius [2]", "Only available uf [Manhattan Project] is constructed"]
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["Nuclear weapon of Strength [3]", "Blast radius [2]", "Only available <if [Manhattan Project] is constructed>"]
 	},
 	{
 		"name": "Sarmat",
@@ -940,7 +977,8 @@
 		"strength": 500,
 		"rangedStrength": 500,
 		"range": 50,
-		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available if [Hypersonic Project] is constructed", "Cannot be carried by [Ranged Water] units",
+		"requiredTech": "Hypersonic Technologies",
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available <if [Hypersonic Project] is constructed>", "Cannot be carried by [Ranged Water] units",
 			"Cannot be carried by [Submarine] units", "Cannot be carried by [Helicopter] units"]
 	}
 	{
@@ -957,6 +995,37 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"uniques": ["Consumes [5] [Aluminum]", "Consumes [10] [Oil]", "Can see invisible [Submarine] units", "[+75]% Strength <vs [Submarine] units>",
 			"[100]% chance to intercept air attacks", "Can carry [3] [Missile] units", "Can carry [3] [Aircraft] units", "Limited to [1] per Civilization"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Moskva",
+		"uniqueTo": "Russia",
+		"replaces": "Missile Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 8,
+		"strength": 85,
+		"rangedStrength": 110,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 775,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [4] [Missile] units", "[+150]% Strength <vs [Submarine] units>"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Proekt 956",
+		"uniqueTo": "Russia",
+		"replaces": "Destroyer",
+		"unitType": "Melee Water",
+		"movement": 7,
+		"strength": 80,
+		"interceptRange": 3,
+		"cost": 595,
+		"requiredTech": "Combustion",
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
+			"Withdraws before melee combat <with [90]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 	{
