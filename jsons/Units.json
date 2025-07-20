@@ -160,6 +160,8 @@
 		"replaces": "Helicopter Gunship",
 		"movement": 6,
 		"strength": 105,
+		"rangedStrength": 90,
+		"range": 2,
 		"cost": 600,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Aluminum",
@@ -514,6 +516,23 @@
 		"uniques": ["[+75]% Strength <vs [Land] units>", "[+100]% Strength <when defending>", "Only available <in cities with a [KNDS]>"],
 		"attackSound": "artillery"
 	},
+	{
+		"name": "Eurocopter Tiger",
+		"unitType": "Helicopter",
+		"uniqueTo": "European Union",
+		"replaces": "Helicopter Gunship"
+		"movement": 8,
+		"strength": 80,
+		"rangedStrength": 90,
+		"range": 3,
+		"cost": 675,
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Aluminum",
+		"promotions": ["Mobility I"],
+		"uniques": ["No defensive terrain bonus", "Can move after attacking", "[+2] Sight", "All tiles cost 1 movement", "Ignores Zone of Control", "Can pass trough impassabale tiles", "[+150]% Strength <vs [Armored] units",
+		"May travel on Water tiles without embarking"],
+		"attackSound": "machinegun"
+	},
 //FRANCE
 	{
 		"name": "Rafale",
@@ -865,6 +884,39 @@
 		"uniques": ["[+10]% Strength for [Land] units within [15] tiles", "Cannot attack", "[+20] Sight", "Consumes [5] [Aluminum]"],
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Titanium"
+	},
+	{
+		"name": "Ka-52",
+		"unitType": "Helicopter",
+		"uniqueTo": "Russia",
+		"replaces": "Helicopter Gunship"
+		"movement": 8,
+		"strength": 80,
+		"rangedStrength": 95,
+		"range": 2,
+		"cost": 690,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["No defensive terrain bonus", "Can move after attacking", "[+2] Sight", "All tiles cost 1 movement", "Ignores Zone of Control", "Can pass trough impassabale tiles", "[+200]% Strength <vs [Armored] units",
+			"[+150]% Strength <vs [Fighter] units> <when defending>", "May travel on Water tiles without embarking"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Mi-28",
+		"unitType": "Helicopter",
+		"uniqueTo": "The United States",
+		"replaces": "Helicopter Gunship"
+		"movement": 10,
+		"strength": 130,
+		"rangedStrength": 65,
+		"range": 1,
+		"cost": 600,
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Aluminum",
+		"promotions": ["Mobility I"],
+		"uniques": ["No defensive terrain bonus", "Can move after attacking", "[+4] Sight", "All tiles cost 1 movement", "Ignores Zone of Control", "Can pass trough impassabale tiles", "[+100]% Strength <vs [Land] units> <when defending>", "[+100]% Strength <vs [Air] units> <when defending>",
+		"May travel on Water tiles without embarking"],
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "S-400",
