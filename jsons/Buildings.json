@@ -233,6 +233,18 @@
 		"uniques": ["[+45]% [Production]"]
 	},
 	{
+		"name": "Windpower Plant",
+		"cost": 1150,
+		"maintenance": 10,
+		"production": 15,
+		"percentStatsBonus": {"Production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Nuclear Plant",
+		"hurryCostModifier": 0,
+		"requiredTech": "Heavy Industry",
+		"uniques": ["[+45]% [Production]"]
+	},
+	{
 		"name": "Alloys Plant",
 		"cost": 1350,
 		"maintenance": 10,
