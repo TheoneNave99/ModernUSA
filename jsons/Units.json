@@ -242,7 +242,7 @@
 		"attackSound": "missile"
 	},
 	{
-		"name": "Nimitz Class Carrier",
+		"name": "Nimitz cl. Carrier",
 		"unitType": "Aircraft Carrier",
 		"uniqueTo": "The United States",
 		"replaces": "Carrier",
@@ -254,7 +254,7 @@
 		"uniques": ["Cannot attack", "Can carry [6] [Aircraft] units"]
 	},
 	{ 
-		"name": "Gerald Ford Class Carrier",
+		"name": "Gerald Ford cl. Carrier",
 		"unitType": "Aircraft Carrier",
 		"uniqueTo": "The United States",
 		"replaces": "Carrier",
@@ -265,7 +265,7 @@
 		"uniques": ["Cannot attack", "Can carry [8] [Aircraft] units", "Consumes [2] [Uranium]", "Consumes [1] [Titanium]"]
 	},
 	{
-		"name": "Zumwalt Class Destroyer",
+		"name": "Zumwalt cl. Destroyer",
 		"unitType": "Melee Water",
 		"uniqueTo": "The United States",
 		"replaces": "Destroyer"
@@ -281,7 +281,7 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Ticonderoga Class Cruiser",
+		"name": "Ticonderoga cl. Cruiser",
 		"unitType": "Ranged Water",
 		"uniqueTo": "The United States",
 		"replaces": "Missile Cruiser",
@@ -649,7 +649,8 @@
 		"range": 3,
 		"uniques": ["[+100]% Strength <when attacking>", "Can only attack [Water] tiles",
 			"[+3] Sight", "Can carry [3] [Missile] units"],
-		"attackSound": "torpedo"
+		"attackSound": "torpedo",
+		"upgradesTo": "Suffren cl. Submarine"
 	},
 	{
 		"name": "Suffren cl. Submarine",
@@ -1158,7 +1159,7 @@
 	},
 //CHINA
 	{
-		"name": "051-C type destroyer",
+		"name": "051-C t. destroyer",
 		"unitType": "Melee Water",
 		"uniqueTo": "China",
 		"replaces": "Destroyer",
@@ -1187,7 +1188,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "J-10",
+		"name": "Chengdu J-10",
 		"unitType": "Fighter",
 		"uniqueTo": "China",
 		"replaces": "Fighter",
@@ -1204,7 +1205,7 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "J-20",
+		"name": "Chengdu J-20",
 		"unitType": "Fighter",
 		"uniqueTo": "China",
 		"replaces": "Jet Fighter",
@@ -1219,9 +1220,10 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+50]% Strength <vs [Fighter] units>", "[+150]% Strength <vs [Melee Water] units>",
 		"[+150]% Strength <vs [Ranged Water] unit>", "[+50]% Strength <vs [Aircraft Carrier] units>"],
 		"attackSound": "jetgun",
+		"upgradesTo": "Shenyang J-31"
 	},
 	{
-		"name": "J-35",
+		"name": "Shenyang J-31",
 		"unitType": "Fighter",
 		"uniqueTo": "China",
 		"replaces": "Jet Fighter",
@@ -1230,14 +1232,31 @@
 		"rangedStrength": 115,
 		"range": 23,
 		"interceptRange": 15,
-		"cost": 895,
+		"cost": 795,
 		"requiredTech": "Modern Warfare Strategy",
 		"uniques": ["[100]% chance to intercept air attacks", "[+100]% Strength <vs [Fighter] units>", "[+200]% Strength <vs [Melee Water] units>",
 		"[+200]% Strength <vs [Ranged Water] unit>", "[+100]% Strength <vs [Aircraft Carrier] units>", "Consumes [2] [Aluminum]"],
 		"attackSound": "jetgun",
+		"upgradesTo": "Shenyang J-35"
 	},
 	{
-		"name": "WZ-10",
+		"name": "Shenyang J-35",
+		"unitType": "Fighter",
+		"uniqueTo": "China",
+		"replaces": "Jet Fighter",
+		"movement": 2,
+		"strength": 100,
+		"rangedStrength": 135,
+		"range": 25,
+		"interceptRange": 15,
+		"cost": 895,
+		"requiredTech": "Modern Warfare Strategy",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Fighter] units>", "[+200]% Strength <vs [Melee Water] units>",
+		"[+200]% Strength <vs [Ranged Water] unit>", "[+150]% Strength <vs [Aircraft Carrier] units>", "Consumes [1] [Titanium]"],
+		"attackSound": "jetgun",
+	},
+	{
+		"name": "CAIC WZ-10",
 		"unitType": "Helicopter",
 		"uniqueTo": "China",
 		"replaces": "Helicopter Gunship",
@@ -1251,16 +1270,44 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Shandong",
+		"name": "Project 001 Liaoning",
 		"unitType": "Aircraft Carrier",
 		"uniqueTo": "China",
 		"replaces": "Carrier",
 		"movement": 5,
 		"strength": 70,
-		"cost": 700,
+		"cost": 655,
+		"requiredTech": "Electronics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Project 002 Shandong",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "China",
+		"replaces": "Carrier",
+		"movement": 7,
+		"strength": 85,
+		"cost": 795,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units"]
+		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units", "Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Project 003 Fujian",
+		"unitType": "Carrier-Cruiser",
+		"uniqueTo": "China",
+		"replaces": "Aircraft Carrying Cruiser",
+		"movement": 8,
+		"strength": 110,
+		"rangedStrength": 115,
+		"range": 3,
+		"interceptRange": 4,
+		"cost": 1150,
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Uranium",
+		"uniques": ["Cannot attack", "[100]% chance to intercept air attacks", "Can carry [4] [Aircraft] units",
+			"Can carry [5] [Missile] units", "Consumes [1] [Titanium]", "Limited to [1] per Civilization"]
 	},
 	{
 		"name": "Xian H-6",
