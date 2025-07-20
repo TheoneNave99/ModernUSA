@@ -552,6 +552,29 @@
 		"requiredTech": "Scientific Theory",
 	},
 	{
+		"name": "ROSATOM",
+		"isNationalWonder": true,
+		"uniqueTo": "Russia",
+		"requiredNearbyImprovedResuorce": ["Uranium"],
+		"cost": 1950,
+		"science": 10,
+		"production": 10,
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["[+10 Gold, +5 Production] from all [Uranium] tiles [in all cities]", "[+20 Production] from all [Nuclear Plant]", "Only available <in cities with a [Nuclear Plant]>"],
+		"quote": "."
+	},
+	{
+		"name": "VSMPO-AVISMA",
+		"isWonder": true,
+		"cost": 3000,
+		"requiredTech": "Modern Alloys",
+		"requiredNearbyImprovedResuorce": ["Titanium", "Aluminum"],
+		"production": 20,
+		"gold": 50,
+		"uniques": ["[+15 Gold] from all [Titanium] tiles [in all cities]", "[+5 Production, +5 Gold] from all [Aluminum] tiles [in all cities]", "Only available <in cities with a [Nuclear Plant]>", "[+30]% [Production] [in this city]"],
+		"quote": "VSMPO-AVISMA Corporation is the world largest titanium and aluminum producer, located in Russia."
+	},
+	{
 		"name": "WorldWide Wed",
 		"isWonder": true,
 		"cost": 1450,
