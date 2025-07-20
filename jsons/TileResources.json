@@ -11,7 +11,7 @@
 		"Generated on every [300] tiles <in [Snow] tiles>", "Generated on every [700] tiles <in [Forest] tiles>"]
 
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
-		"minorDepositAmount": {"sparse": 3, "default": 2, "abundant": 3}
+		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
 	},
 	{
 		"name": "Modern Alloy",
