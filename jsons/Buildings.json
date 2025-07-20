@@ -599,7 +599,7 @@
 		"name": "VSMPO-AVISMA",
 		"isWonder": true,
 		"cost": 3000,
-		"requiredTech": "Modern Alloys",
+		"requiredTech": "Synthetic Alloys",
 		"requiredNearbyImprovedResuorce": ["Titanium", "Aluminum"],
 		"production": 20,
 		"gold": 50,
