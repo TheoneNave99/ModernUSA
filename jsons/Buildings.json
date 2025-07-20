@@ -497,12 +497,19 @@
 		"requiredTech": "Architecture",
 	},
 	{
-		"name": "Mocow State University",
+		"name": "Moscow State University",
 		"uniqueTo": "Russia",
 		"isNationalWonder": true,
 		"science": 10,
 		"happiness": 4,
 		"uniques": ["Free Technology"],
 		"requiredTech": "Scientific Theory",
+	},
+	{
+		"name": "Internet",
+		"isWonder": true,
+		"requiredTech": "Military Electronics",
+		"uniques": ["[2] free technologies", "[+50]% Science [in this city]"],
+		"quote": "."
 	}
 ]
