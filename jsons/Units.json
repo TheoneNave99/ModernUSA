@@ -1502,7 +1502,7 @@
 		"movement": 6,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking", "No defensive terrain bonuses"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "shot",
 		"upgradesTo": "Type 90"
 	},
@@ -1516,7 +1516,7 @@
 		"movement": 7,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonuses"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+25]% to Flank Attack bonuses"],
 		"attackSound": "shot",
 		"upgradesTo": "Type 10"
 	},
@@ -1531,7 +1531,7 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+50]% to Flank Attack bonuses"],
 		"attackSound": "shot",
 		"upgradesTo": "Kuratas Robot"
 	},
@@ -1637,7 +1637,7 @@
 		"rangedStrength": 135,
 		"range": 5,
 		"requiredTech": "Combined Arms",
-		"uniques": ["[2] extra attacks may be made per turn", "[+50]% Strength for [Water] units within [2] tiles", "Limited to [1] per Civilization", "[+50]% Strength <vs [City]>", "[-50]% Strength <vs [Submarine] units> <when defending>"],
+		"uniques": ["[2] additional attacks per turn", "[+50]% Strength bonus for [Water] units within [2] tiles", "Limited to [1] per Civilization", "[+50]% Strength <vs [City]>", "[-50]% Strength <vs [Submarine] units> <when defending>", "Consumes [15] [Coal]"],
 		"attackSound": "shipguns"
 	},
 	{
