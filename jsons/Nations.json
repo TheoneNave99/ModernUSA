@@ -49,7 +49,7 @@
 	"declaringWar": "The European Union was not going to fight, but you made a greatest mistake by standing in our way...",
 		"attacked": "Such a huge mistake...",
 		"defeated": "Europe is defeated, but not destroyed. Always remember this...",
-		"introduction": "European parlament is greetings you!",
+		"introduction": "The European Parliament is greetings you!",
 		"neutralHello": "Hello!",
 		"hateHello": "Hello.",
 		"tradeRequest": "Are you ready to trade with EuroUnion?",
@@ -58,12 +58,12 @@
         "innerColor": [255,204,0],
 
         "favoredReligion": "Christianity",
-		"uniqueName": "Great United Continent",
+		"uniqueName": "The Greatest Continent",
 		"uniques": ["[+10 Gold, +10 Science, +10 Culture, +10 Production, +10 Food] [in all cities]", "Production to [Science] conversion in cities changed by [+150]%",
 		"[-50]% City-State Influence degradation", "Allied City-States will occasionally gift Great People", "[+10 Gold, +1 Happiness] from all [Culture] buildings",
 		"[+100]% Strength for [City] <when defending>"],
 			
-		"cities": ["Europarlament", "Brussels", "London","Paris","Berlin","Rome","Madrid","Warsaw","Amsterdam","Copenhagen","Geneva","Vienna","Budapest", "Sofia", "Lisbon",
+		"cities": ["Europarliament", "Brussels", "London","Paris","Berlin","Rome","Madrid","Warsaw","Amsterdam","Copenhagen","Geneva","Vienna","Budapest", "Sofia", "Lisbon",
 		"Athens","Dublin","Nicosia","Riga","Vilnius","Oslo","Helsinki","Bucharest"],
         "spyNames": ["Sherlock", "John", "Catherine", "Angela","Felicia"]
 	},
