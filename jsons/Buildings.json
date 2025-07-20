@@ -617,7 +617,7 @@
 	}
 //
 	{
-		"name": "WorldWide Wed",
+		"name": "WorldWide Web",
 		"isWonder": true,
 		"cost": 1450,
 		"requiredTech": "Military Electronics",
