@@ -301,7 +301,7 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Virginia Class Submarine",
+		"name": "Virginia cl. Submarine",
 		"unitType": "Submarine",
 		"uniqueTo": "The United States",
 		"replaces": "Nuclear Submarine",
@@ -782,7 +782,7 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Helicopter] units>", "[+150]% Strength <vs [Siege] units>"],
 		"attackSound": "jetgun",
-		"upgradesTo": "Su-47"
+		"upgradesTo": "Su-47 Firkin"
 	},
 	{
 		"name": "Su-47 Firkin",
@@ -801,7 +801,7 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Land] units>",
 			"[+150]% Strength <vs [Water] units>", "[+150]% Strength <vs [Bomber] units>"],
 		"attackSound": "jetgun",
-		"upgradesTo": "Su-57"
+		"upgradesTo": "Su-57 Felon"
 	},
 	{
 		"name": "MiG-35 Fulcrum-F",
@@ -836,7 +836,7 @@
 		"promotions": ["Air Targeting I", "Air Targeting II"],
 		"attackSound": "bombing",
 		"uniques": ["[+100]% Strength <vs [Water] units>", "[-80]% Strength <vs [Land] units>", "[-100]% Strength <vs [City]>"],
-		"upgradesTo": "Tu-160"
+		"upgradesTo": "Tu-160 Blackjack"
 	},
 	{
 		"name": "Tu-95MC Bear",
@@ -851,7 +851,7 @@
 		"requiredResource": "Aluminum",
 		"promotions": ["Evasion", "Bombardment I"],
 		"attackSound": "bombing",
-		"upgradesTo": "Tu-160"
+		"upgradesTo": "Tu-160 Blackjack"
 	},
 	{
 		"name": "Su-57 Felon",
@@ -869,7 +869,7 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>",
 			"[+150]% Strength <vs [Fighter] units>", "Damage taken from interception reduced by [90]%"],
 		"attackSound": "jetgun",
-		"upgradesTo": "Su-75"
+		"upgradesTo": "Su-75 Checkmate"
 	},
 	{
 		"name": "MiG-41",
