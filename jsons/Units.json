@@ -134,10 +134,9 @@
 		"interceptRange": 25,
 		"cost": 1550,
 		"requiredTech": "Modern Warfare Strategy",
-		"requiredResource": "Titanium",
 		"promotions": ["Air Repair", "Operational Range"],
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Fighter] units>", 
-			"[+200]% Strength <vs [Land] units>", "[+200]% Strength <vs [Water] units>", "Only available <if [F/A XX Program] is constructed>", "Limited by [5] per Civilization"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Fighter] units>", "Consumes [2] [Titanium]", 
+			"[+200]% Strength <vs [Land] units>", "[+200]% Strength <vs [Water] units>", "Only available <if [F/A XX Program] is constructed>", "Limited to [5] per Civilization"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -818,14 +817,14 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"promotions": ["Air Repair", "Operational Range"],
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+250]% Strength <vs [Helicopter] units>",
-			"[+200]% Strength <vs [Land] units>", "Damage taken from interception reduced by [100]%", "Consumes [3] [Aluminum]"],
+			"[+200]% Strength <vs [Land] units>", "Damage taken from interception reduced by [100]%", "Consumes [3] [Aluminum]", "Only available <if [PAK] is constructed>"],
 		"attackSound": "jetgun"
 	},
 	{
 		"name": "Tu-160",
 		"unitType": "Bomber",
 		"uniqueTo": "Russia",
-		"cost": 925,
+		"cost": 1225,
 		"movement": 2,
 		"strength": 140,
 		"rangedStrength": 120,
@@ -848,7 +847,7 @@
 		"range": 25,
 		"requiredTech": "Stealth",
 		"promotions": ["Siege I", "Bombardment I"],
-		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "Can see over obstacles",
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "Can see over obstacles", "Only available <if [PAK] is constructed>",
 			"[+5] Sight", "Consumes [3] [Aluminum]"],
 		"attackSound": "bombing"
 	},
@@ -863,7 +862,7 @@
 		"rangedStrength": 1,
 		"range": 30,
 		"interceptRange": 0,
-		"uniques": ["[+10]% Strength for [Land] units within [15] tiles", "Cannot attack", "[0]% chance to intercept air attacks", "[+20] Sight", "Consumes [5] [Aluminum]"],
+		"uniques": ["[+10]% Strength for [Land] units within [15] tiles", "Cannot attack", "[+20] Sight", "Consumes [5] [Aluminum]"],
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Titanium"
 	},
