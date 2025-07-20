@@ -1207,6 +1207,7 @@
 	{
 		"name": "Arktika",
 		"unitType": "Icebreaker",
+		"uniqueTo": "Russia",
 		"replaces": "Nuclear Icebreaker",
 		"cost": 1750,
 		"movement": 10,
@@ -1214,9 +1215,9 @@
 		"rangedStrength": 100,
 		"range": 4,
 		"requiredTech": "Telecommunications",
-		"requiredResource": "Uranium",
+		"requiredResource": "Titanium",
 		"uniques": ["[+250]% Strength <vs [Submarine] units>", "[+150]% Strength <vs [Ranged Water] units>", "[+150]% Strength <vs [Melee Water] units>", 
-			"Withdraws before melee combat <with [100]% chance>"],
+			"Withdraws before melee combat <with [100]% chance>", "Consumes [3] [Uranium]"],
 		"attackSound": "shipguns"
 	},
 	{
