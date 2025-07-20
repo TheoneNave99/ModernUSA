@@ -421,6 +421,7 @@
 		"uniques": ["All newly-trained [Armored] units [in all cities] receive the [Blitz] promotion"],
 		"quote": "."
 	},
+//FRANCE
 	{
 		"name": "Barracuda Programme",
 		"isNationalWonder": true,
@@ -430,14 +431,7 @@
 		"uniques": ["[+20]% Production when constructing [Water] units [in all cities]"],
 		"quote": "."
 	},
-	{
-		"name": "PAK",
-		"isNationalWonder": true,
-		"uniqueTo": "Russia",
-		"cost": 2150,
-		"requiredTech": "Modern Warfare Strategy",
-		"quote": "."
-	},
+//JAPAN
 	{
 		"name": "Project Z",
 		"isNationalWonder": true,
@@ -446,6 +440,7 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "."
 	},
+//EUROPEAN UNION
 	{
 		"name": "NGF EU Project",
 		"isNationalWonder": true,
@@ -462,7 +457,30 @@
 		"uniques": ["Provides [2] [Composite Materials]"],
 		"quote": "."
 	},
-	//RUSSIA
+	{
+		"name": "ESSI",
+		"isNationalWonder": true,
+		"uniqueTo": "European Union",
+		"cost": 2000,
+		"quote": "European Sky Shield Initiative is a huge project which will allow to European Union create a modern sky protection system"
+	},
+	{
+		"name": "KNDS",
+		"isNationalWonder": true,
+		"uniqueTo": "European Union",
+		"cost": 1750,
+		"requiredTech": "MIC",
+		"uniques": ["[+10]% [Production] [in this city]"]
+	},
+	{
+		"name": "BAE Systems",
+		"isNationalWonder": true,
+		"uniqueTo": "European Union",
+		"cost": 1750,
+		"requiredTech": "MIC",
+		"uniques": ["[+10]% [Production] [in this city]"]
+	}
+//RUSSIA
 	{
 		"name": "City of Federal Significance",
 		"uniqueTo": "Russia",
