@@ -119,7 +119,7 @@
 		"cost": 1450,
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Titanium",
-		"uniques": ["[+100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>", "[+25]% Strength <when intercepting>",
+		"uniques": ["[+100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>", "[+25]% damage when intercepting>",
 			"[+150]% Strength <vs [Fighter] units>", "[2] extra interceptions may be made per turn", "Only available <if [NGAD Project] is constructed>", "Consumes [2] [Aluminum]"],
 		"attackSound": "jetgun"
 	},
@@ -448,7 +448,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Fighter] units>",
-			"[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength when intercepting", "[1] extra interceptions may be made per turn"],
+			"[+150]% Strength <vs [Helicopter] units>", "[+50]% damage when intercepting", "[1] extra interceptions may be made per turn"],
 		"attackSound": "jetgun",
 		"upgradesTo": "EU System Tempest"
 	},
@@ -465,8 +465,8 @@
 		"promotions": ["Air Repair", "Operational Range", "Sortie"],
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Composite Materials",
-		"uniques": ["[100]% chance to intercept air attacks", "[+50]% Strength when intercepting", "[+300]% Strength <vs [Bomber] units>", "[+250]% Strength <vs [Fighter]>", "[+300]% Strength <vs [Helicopter] units>", 
-			"[+250]% Strength <vs [Land] unuts>", "[+250]% Strength <vs [Water] units>", "Damage taken from interception reduced by [100]%", "[3] extra interceptions may be made per turn", "Only available <if [NGF EU Project] is constructed>", "Only available <if [BAE Systems] is constructed [in this city]>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+50]% damage when intercepting", "[+300]% Strength <vs [Bomber] units>", "[+250]% Strength <vs [Fighter]>", "[+300]% Strength <vs [Helicopter] units>", 
+			"[+250]% Strength <vs [Land] unuts>", "[+250]% Strength <vs [Water] units>", "Damage taken from interception reduced by [100]%", "[3] extra interceptions may be made per turn", "Only available <if [NGF EU Project] is constructed>", "Only available <in cities with a [KNDS]>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -482,7 +482,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonus", "Only available <if [KNDS] is constructed [in this city]>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonus", "Only available <in cities with a [KNDS]>""],
 		"attackSound": "shot"
 	},
 	{
@@ -503,7 +503,7 @@
 	{
 		"name": "EuroPULS",
 		"unitType": "Siege",
-		"uniqueTo": "France",
+		"uniqueTo": "European Union",
 		"replaces": "Rocket Artillery",
 		"cost": 575,
 		"movement": 4,
