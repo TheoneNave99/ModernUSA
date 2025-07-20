@@ -1187,7 +1187,7 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Moscow Cruiser",
+		"name": "Moscow",
 		"uniqueTo": "Russia",
 		"replaces": "Missile Cruiser",
 		"unitType": "Ranged Water",
@@ -1200,6 +1200,23 @@
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
 			"Can carry [5] [Missile] units", "[+200]% Strength <vs [Submarine] units>", "[+150]% Strength <vs [Melee Water] units>", "Limited to [1] per Civilization"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Peter the Great",
+		"uniqueTo": "Russia",
+		"replaces": "Missile Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 8,
+		"strength": 130,
+		"rangedStrength": 130,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 1175,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [7] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Limited to [1] per Civilization"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -1225,10 +1242,24 @@
 		"cost": 775,
 		"strength": 85,
 		"rangedStrength": 110,
-		"range": 4,
+		"range": 3,
 		"requiredTech": "Telecommunications",
 		"uniques": ["[+100]% Strength <when attacking>", "Can only attack [Water] tiles",
 			"Can carry [4] [Missile] units"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Dmitriy Donskoy",
+		"unitType": "Submarine",
+		"uniqueTo": "Russia",
+		"replaces": "Nuclear Submarine",
+		"cost": 1145,
+		"strength": 160,
+		"rangedStrength": 100,
+		"range": 4,
+		"requiredTech": "Telecommunications",
+		"uniques": ["[+100]% Strength <when attacking>", "Can only attack [Water] tiles",
+			"Can carry [6] [Missile] units", "Limited to [1] per Civilization"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -1536,7 +1567,7 @@
 		"upgradesTo": "X-2"
 	},
 	{
-		"name": "X-2",
+		"name": "X-2 Shinshin",
 		"unitType": "Fighter",
 		"uniqueTo": "Japan",
 		"replaces": "Jet Fighter",
