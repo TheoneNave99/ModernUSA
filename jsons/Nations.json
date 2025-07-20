@@ -46,10 +46,10 @@
         "startIntroPart1": "Welcome, Mrs. von der Leyen! After centuries of competition and war, Free Europe has finally united into the strongest economic community in human history. Managing it is a great responsibility and a great honor.",
 	"startIntroPart2": "Manage a great European Union and lead us into a future where we are the leading economy of planet Earth.",
 		
-	"declaringWar": "The European Union is a peace-loving association, but you made a greatest mistake by standing in our way...",
-		"attacked": "Huge mistake...",
+	"declaringWar": "The European Union was not going to fight, but you made a greatest mistake by standing in our way...",
+		"attacked": "Such a huge mistake...",
 		"defeated": "Europe is defeated, but not destroyed. Always remember this...",
-		"introduction": "The people of united Europe greetings you!",
+		"introduction": "Europeam parlament is greetings you!",
 		"neutralHello": "Hello!",
 		"hateHello": "Hello.",
 		"tradeRequest": "Are you ready to trade with EuroUnion?",
@@ -59,9 +59,11 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Great United Continent",
-		"uniques": [],
+		"uniques": ["[+10 Gold, +10 Science, +10 Culture, +10 Production, +10 Food] [in all cities]", "Production to [Science] conversion in cities changed by [+150]%",
+		"[-50]% City-State Influence degradation", "Allied City-States will occasionally gift Great People", "[+10 Gold, +1 Happiness] from all [Culture] buildings",
+		"[+100]% Strength for [City] <when defending>"],
 			
-		"cities": ["Brussels", "Praga", "London","Paris","Berlin","Rome","Madrid","Warsaw","Amsterdam","Copenhagen","Geneva","Vienna","Budapest", "Sofia", "Lisbon",
+		"cities": ["Europarlament", "Brussels", "London","Paris","Berlin","Rome","Madrid","Warsaw","Amsterdam","Copenhagen","Geneva","Vienna","Budapest", "Sofia", "Lisbon",
 		"Athens","Dublin","Nicosia","Riga","Vilnius","Oslo","Helsinki","Bucharest"],
         "spyNames": ["Sherlock", "John", "Catherine", "Angela","Felicia"]
 	},
