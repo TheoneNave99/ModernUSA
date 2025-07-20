@@ -11,3 +11,15 @@ NationsIcons/European Union
   orig: 1080, 1080
   offset: 0, 0
   index: -1
+game4.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/European Union
+  rotate: false
+  xy: 1345, 1369
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
