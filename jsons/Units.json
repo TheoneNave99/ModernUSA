@@ -1,4 +1,5 @@
 [
+//UNITED STATES
 	{
 		"name": "CIA Agent",
 		"unitType": "Civilian",
@@ -277,7 +278,7 @@
 		"requiredResource": "Aluminum",
 		"promotions": ["Supply", "Landing Party"],
 		"uniques": ["[80]% chance to intercept air attacks", "[+100]% Strength <vs [Melee Water] units>", "[+75]% Strength <vs [Ranged Water] units>",
-			"Withdraws before melee combat with [100]% chance", "[+100]% Strength <vs [Submarine] units>", "Can see invisible [Submarine] units"],
+			"Withdraws before melee combat <with [100]% chance>", "[+100]% Strength <vs [Submarine] units>", "Can see invisible [Submarine] units"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -299,35 +300,6 @@
 			 "[+100]% Strength <vs [Melee Water] units>", "[+50]% Strength <vs [City]>"],
 		"attackSound": "shipguns"
 	},
-	{
-		"name": "Aircraft Carrying Cruiser",
-		"unitType": "Carrier-Cruiser",
-		"movement": 8,
-		"strength": 125,
-		"rangedStrength": 125,
-		"range": 3,
-		"interceptRange": 3,
-		"cost": 1650,
-		"requiredTech": "Modern Warfare Strategy",
-		"requiredResource": "Titanium",
-		"promotions": [],
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+125]% Strength <vs [Submarine] units>",
-			"Can carry [5] [Missile] units", "Can carry [5] [Aircraft] units", "[+25]% Strength <when defending>", "Consumes [1] [Uranium]"],
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Long-range Radar Aircraft",
-		"unitType": "Radar Aircraft",
-		"cost": 1250,
-		"movement": 1,
-		"strength": 200,
-		"rangedStrength": 1,
-		"range": 25,
-		"interceptRange": 0,
-		"uniques": ["Cannot attack", "[0]% chance to intercept air attacks", "[+15] Sight", "Consumes [5] [Aluminum]"],
-		"requiredTech": "Modern Warfare Strategy",
-		"requiredResource": "Titanium"
-	},	
 	{
 		"name": "Virginia Class Submarine",
 		"unitType": "Submarine",
@@ -409,6 +381,21 @@
 			"[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs [Siege] units>"],
 		"attackSound": "bombing"
 	},
+//ANY CIV
+	{
+		"name": "Supersonic Missile",
+		"unitType": "Missile",
+		"cost": 1500,
+		"movement": 2,
+		"maintenance": 15,
+		"strength": 100,
+		"rangedStrength": 150,
+		"range": 30,
+		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Only available <if [Supersonic Project] is constructed>"]
+		"attackSound": "missile"
+	},
 	{
 		"name": "Nuclear Hypersonic Missile",
 		"unitType": "Missile",
@@ -425,15 +412,73 @@
 		"name": "Hypersonic Missile",
 		"unitType": "Missile",
 		"cost": 1750,
-		"maintenance": 10,
+		"maintenance": 25,
 		"strength": 300,
 		"rangedStrength": 300,
 		"range": 30,
 		"requiredTech": "Hypersonic Technologies",
 		"requiredResource": "Modern Alloy",
 		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [0]", "[-100]% Strength <when attacking [City]>", "Only available <if [Hypersonic Project] is constructed>"],
-		"attackSound": "Missile"
+		"attackSound": "missile"
 	},
+	{
+		"name": "Aircraft Carrying Cruiser",
+		"unitType": "Carrier-Cruiser",
+		"movement": 8,
+		"strength": 125,
+		"rangedStrength": 125,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 1650,
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium",
+		"promotions": [],
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+125]% Strength <vs [Submarine] units>",
+			"Can carry [5] [Missile] units", "Can carry [5] [Aircraft] units", "[+25]% Strength <when defending>", "Consumes [1] [Uranium]"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Long-range Radar Aircraft",
+		"unitType": "Radar Aircraft",
+		"cost": 1250,
+		"movement": 1,
+		"strength": 200,
+		"rangedStrength": 1,
+		"range": 25,
+		"interceptRange": 0,
+		"uniques": ["Cannot attack", "[0]% chance to intercept air attacks", "[+15] Sight", "Consumes [5] [Aluminum]"],
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium"
+	},
+	{
+		"name": "Icebreaker",
+		"unitType": "Icebreaker",
+		"cost": 750,
+		"movement": 5,
+		"strength": 85,
+		"rangedStrength": 65,
+		"range": 2,
+		"requiredTech": "Cryogenic",
+		"obsoleteTech": "Telecommunications",
+		"requiredResource": "Coal",
+		"uniques": ["[+100]% Strength <vs [Submarine] units>", "Withdraws before melee combat <with [60]% chance>"],
+		"attackSound": "shipguns",
+		"upgradesTo": "Nuclear Icebreaker"
+	},
+	{
+		"name": "Nuclear Icebreaker",
+		"unitType": "Icebreaker",
+		"cost": 1500,
+		"movement": 8,
+		"strength": 120,
+		"rangedStrength": 90,
+		"range": 3,
+		"requiredTech": "Telecommunications",
+		"requiredResource": "Uranium",
+		"uniques": ["[+200]% Strength <vs [Submarine] units>", "[+100]% Strength <vs [Ranged Water] units>", "[+100]% Strength <vs [Melee Water] units>", 
+			"Withdraws before melee combat <with [90]% chance>"],
+		"attackSound": "shipguns"
+	},		
 //just fun further
 //EURO UNION
 	{
@@ -618,7 +663,7 @@
 		"strength": 85,
 		"interceptRange": 2,
 		"requiredTech": "Combined Arms",
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+150]% Strength <vs [Submarine] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+150]% Strength <vs [Submarine] units>", "Withdraws before melee combat <with [100]% chance>"],
 		"attackSound": "shipguns",
 	},
 	{
@@ -634,7 +679,7 @@
 		"interceptRange": 2,
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"[+150]% Strength <vs [Submarine] units>", "Can carry [5] [Missile] units"],
+			"[+150]% Strength <vs [Submarine] units>", "Can carry [5] [Missile] units", "Withdraws before melee combat <with [75]% chance>"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1140,7 +1185,7 @@
 		"cost": 595,
 		"requiredTech": "Combustion",
 		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
-			"Withdraws before melee combat <with [90]% chance>", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws before melee combat <with [100]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1157,6 +1202,34 @@
 			"Can carry [4] [Missile] units"],
 		"attackSound": "torpedo"
 	},
+	{
+		"name": "Arktika",
+		"unitType": "Icebreaker",
+		"replaces": "Nuclear Icebreaker",
+		"cost": 1750,
+		"movement": 10,
+		"strength": 140,
+		"rangedStrength": 100,
+		"range": 4,
+		"requiredTech": "Telecommunications",
+		"requiredResource": "Uranium",
+		"uniques": ["[+250]% Strength <vs [Submarine] units>", "[+150]% Strength <vs [Ranged Water] units>", "[+150]% Strength <vs [Melee Water] units>", 
+			"Withdraws before melee combat <with [100]% chance>"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Academician Lomonosov",
+		"unitType": "Icebreaker",
+		"cost": 3000,
+		"movement": 12,
+		"strength": 130,
+		"rangedStrength": 120,
+		"range": 4,
+		"requiredTech": "Modern Warfare Strategy",
+		"uniques": ["[+300]% Strength <vs [Submarine] units>", "[+150]% Strength <vs [Ranged Water] units>", "[+150]% Strength <vs [Melee Water] units>", 
+			"Can carry [7] [Aircraft] units", "Limited to [1] per Civilization", "Only available <if [Carrier-Icebreaker Project] is constructed>"],
+		"attackSound": "shipguns"
+	},
 //CHINA
 	{
 		"name": "051-C t. destroyer",
@@ -1170,7 +1243,7 @@
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Fighter] units>", "[+150]% Strength <vs [Bomber] units>",
-		"[+250]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Submarine] units>"],
+		"[+250]% Strength <vs [Helicopter] units>", "[+25]% Strength <vs [Submarine] units>", "Withdraws before melee combat <with [80]% chance>"],
 		"attackSound": "shipguns"
 	},
 	{
