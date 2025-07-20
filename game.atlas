@@ -1,0 +1,13 @@
+
+game.png
+size: 1080, 1080
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationsIcons/European Union
+  rotate: false
+  xy: 1, 1
+  size: 1080, 1080
+  orig: 1080, 1080
+  offset: 0, 0
+  index: -1
