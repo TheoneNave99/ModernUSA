@@ -163,7 +163,7 @@
 	},
 	{
 		"name": "General Dynamics",
-		"uniquesTo": "The United States",
+		"uniqueTo": "The United States",
 		"isNationalWonder": true,
 		"cost": 1050,
 		"production": 25,
@@ -171,7 +171,17 @@
 		"uniques": ["[+50]% Production when constructing [Land] units [in this city]", "New [Land] units starts with [50] XP"]
 	},
 	{
-		"name": "N.A.S.A.",
+		"name": "Northrop Grumman",
+		"isNationalWonder": true,
+		"uniqueTo": "The United States",
+		"replaces": "Military Consortium",
+		"cost": 925,
+		"production": 1,
+		"uniques": ["[+15]% production when constructing [Military] units [in all cities]", "New [Military] units starts with [25] XP [in this city]"],
+		"quote": "."
+	}
+	{
+		"name": "NASA",
 		"uniqueTo": "The United States"
 		"isNationalWonder": true,
 		"cost": 1000,
@@ -184,7 +194,7 @@
 		"quote": "From here to sky"
 	},
 	{
-		"name": "N.A.T.O. HeadQuarters",
+		"name": "NATO HeadQuarters",
 		"isWonder": true,
 		"cost": 1750,
 		"production": 10,
@@ -285,9 +295,9 @@
 		"uniques": ["[+10]% [Gold] [in this city]", "[+10]% [Food] [in this city]"]
 	},
 	{
-		"name": "Personal Skyscraper",
-		"cost": 1150,
-		"maintenance": 10,
+		"name": "Residential Skyscraper",
+		"cost": 115
+		"maiintenance": 10,
 		"gold": 30,
 		"requiredBuilding": "Stock Exchange",
 		"hurryCostModifier": 0,
@@ -299,19 +309,19 @@
 		"cost": 1250,
 		"maintenance": 7,
 		"gold": 50,
-		"requiredBuilding": "Personal Skyscraper",
+		"requiredBuilding": "Residential Skyscraper",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy",
 		"uniques": ["[+75]% [Gold] [in this city]"]
 	},
 	{
-		"name": "Corporative Skyscraper",
+		"name": "Personal Skyscraper",
 		"uniqueTo": "The United States",
 		"replaces": "Business Skyscraper",
 		"cost": 1350,
 		"maintenance": 10,
 		"gold": 60,
-		"requiredBuilding": "Personal Skyscraper",
+		"requiredBuilding": "Residential Skyscraper",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy",
 		"uniques": ["[+75]% [Gold] [in this city]", "[+15]% [Production] [in this city]"]
@@ -349,12 +359,21 @@
 		"uniques": ["[+10]% [Production] [in this city]"]
 	},
 	{
+		"name": "Supersonic Project",
+		"isNationalWonder": true,
+		"cost": 2500,
+		"production": 1,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["Only available <if [Manhattan Project] is constructed>"],
+		"quote": "."
+	},
+	{
 		"name": "Hypersonic Project",
 		"isNationalWonder": true,
 		"cost": 5000,
 		"production": 1,
 		"requiredTech": "Hypersonic Technologies",
-		"uniques": ["Only available <if [Manhattan Project] is constructed>"],
+		"uniques": ["Only available <if [Supersonic Project] is constructed>"],
 		"quote": "."
 	},
 	{
@@ -364,7 +383,7 @@
 		"cost": 100,
 		"uniques": ["[+5 Food] from [Grassland] tiles [in this city]", "[+4 Happiness] from [Grassland] tiles [in this city]", "[+20 Gold] from [Oil] tiles [in this city]"],
 		"quote": "."
-	}
+	},
 	{
 		"name": "NYC Central Park",
 		"isNationalWonder": true,
@@ -480,20 +499,22 @@
 		"name": "KNDS",
 		"isNationalWonder": true,
 		"uniqueTo": "European Union",
+		"replaces": "Military Consortium",
 		"cost": 1750,
 		"production": 15,
 		"requiredTech": "MIC",
-		"uniques": ["[+10]% [Production] [in this city]"]
+		"uniques": ["[+5]% [Production] [in all cities]", "[+20]% production when constructing [Military] units [in all cities]"]
 	},
 	{
 		"name": "BAE Systems",
 		"isNationalWonder": true,
-		"uniqueTo": "European Union",
+		"uniqueTo": "England",
+		"replaces": "Military Consortium",
 		"cost": 1750,
 		"production": 15,
 		"requiredTech": "MIC",
-		"uniques": ["[+10]% [Production] [in this city]"]
-	}
+		"uniques": ["[+10]% [Production] [in this city]", "[+40]% Production when constructing [Military] units [in this city]"]
+	},
 //RUSSIA
 	{
 		"name": "City of Federal Significance",
@@ -564,6 +585,17 @@
 		"quote": "."
 	},
 	{
+		"name": "ROSTECH",
+		"isNationalWonder": true,
+		"uniqueTo": "Russia",
+		"cost": 1450,
+		"science": 30,
+		"culture": 10,
+		"requiredTech": "Computers",
+		"uniques": ["Free Technology", "[+25]% [Science] [in this city]"],
+		"quote": "."
+	}
+	{
 		"name": "VSMPO-AVISMA",
 		"isWonder": true,
 		"cost": 3000,
@@ -575,11 +607,30 @@
 		"quote": "VSMPO-AVISMA Corporation is the world largest titanium and aluminum producer, located in Russia."
 	},
 	{
+		"name": "Carrier-Icebreaker Project",
+		"cost": 5000,
+		"isNationalWonder": true,
+		"uniqueTo": "Russia",
+		"production": 1,
+		"requiredTech": "Modern Warfare Strategy",
+		"quote": "."
+	}
+//
+	{
 		"name": "WorldWide Wed",
 		"isWonder": true,
 		"cost": 1450,
 		"requiredTech": "Military Electronics",
 		"uniques": ["[2] Free Technologies", "[+50]% [Science] [in this city]"],
+		"quote": "."
+	},
+	{
+		"name": "Military Consortium",
+		"isNationalWonder": true
+		"cost": 875,
+		"requiredTech": "MIC",
+		"production": 10,
+		"uniques": ["[+15]% Production when constructing [Military] units [in all cities]"],
 		"quote": "."
 	}
 ]
