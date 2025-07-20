@@ -251,7 +251,7 @@
 		"strength": 80,
 		"cost": 600,
 		"requiredTech": "Lasers",
-		"upgradesTo": "Gerald Ford Class Carrier",
+		"upgradesTo": "Gerald Ford cl. Carrier",
 		"uniques": ["Cannot attack", "Can carry [6] [Aircraft] units"]
 	},
 	{ 
