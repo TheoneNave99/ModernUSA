@@ -458,7 +458,7 @@
 		"strength": 85,
 		"rangedStrength": 65,
 		"range": 2,
-		"requiredTech": "Cryogenic",
+		"requiredTech": "Refrigeration",
 		"obsoleteTech": "Telecommunications",
 		"requiredResource": "Coal",
 		"uniques": ["[+100]% Strength <vs [Submarine] units>", "Withdraws before melee combat <with [60]% chance>"],
@@ -474,9 +474,9 @@
 		"rangedStrength": 90,
 		"range": 3,
 		"requiredTech": "Telecommunications",
-		"requiredResource": "Uranium",
+		"requiredResource": "Titanium",
 		"uniques": ["[+200]% Strength <vs [Submarine] units>", "[+100]% Strength <vs [Ranged Water] units>", "[+100]% Strength <vs [Melee Water] units>", 
-			"Withdraws before melee combat <with [90]% chance>"],
+			"Withdraws before melee combat <with [90]% chance>", "Consumes [3] [Uranium]"],
 		"attackSound": "shipguns"
 	},		
 //just fun further
@@ -707,8 +707,10 @@
 		"strength": 105,
 		"rangedStrength": 125,
 		"range": 4,
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium",
 		"uniques": ["Only available <if [Barracuda Programme] is constructed>", "[+145]% Strength <when attacking>",
-			"[+5] Sight", "Can carry [5] [Missile] units"],
+			"[+5] Sight", "Can carry [5] [Missile] units", "Consumes [1] [Uranium]"],
 		"attackSound": "torpedo"
 	},
 //RUSSIA
@@ -1225,9 +1227,10 @@
 		"strength": 130,
 		"rangedStrength": 120,
 		"range": 4,
+		"requiredResource": "Titanium",
 		"requiredTech": "Modern Warfare Strategy",
 		"uniques": ["[+300]% Strength <vs [Submarine] units>", "[+150]% Strength <vs [Ranged Water] units>", "[+150]% Strength <vs [Melee Water] units>", 
-			"Can carry [7] [Aircraft] units", "Limited to [1] per Civilization", "Only available <if [Carrier-Icebreaker Project] is constructed>"],
+			"Can carry [7] [Aircraft] units", "Limited to [1] per Civilization", "Only available <if [Carrier-Icebreaker Project] is constructed>", "Consumes [5] [Uranium]"],
 		"attackSound": "shipguns"
 	},
 //CHINA
