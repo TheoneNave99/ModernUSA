@@ -207,6 +207,7 @@
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
 		"cost": 2750,
+		"production": 1,
 		"requiredTech": "MIC",
 		"quote": "New-Generated Air Dominance is a modern project to improve air warfare technologies that will enable the development of new weapons"
 	},
@@ -215,6 +216,7 @@
 		"isNationalWonder": true,
 		"uniqueTo": "The United States",
 		"cost": 3150,
+		"production": 1,
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "."
 	},
@@ -350,6 +352,7 @@
 		"name": "Hypersonic Project",
 		"isNationalWonder": true,
 		"cost": 5000,
+		"production": 1,
 		"requiredTech": "Hypersonic Technologies",
 		"uniques": ["Only available <if [Manhattan Project] is constructed>"],
 		"quote": "."
@@ -393,6 +396,8 @@
 		"name": "Military Science Centre",
 		"isNationalWonder": true,
 		"cost": 1450,
+		"production": 5,
+		"science": 10,
 		"requiredTech": "Military Electronics",
 		"uniques": ["New [Military] units start with [15] XP [in all cities]"]
 	},
@@ -418,6 +423,7 @@
 		"isWonder": true,
 		"requiredTech": "Modern Warfare Strategy",
 		"cost": 2250,
+		"production": 1,
 		"uniques": ["All newly-trained [Armored] units [in all cities] receive the [Blitz] promotion"],
 		"quote": "."
 	},
@@ -427,9 +433,10 @@
 		"isNationalWonder": true,
 		"uniqueTo": "France",
 		"cost": 2150,
+		"production": 1,
 		"requiredTech": "Modern Warfare Strategy",
 		"uniques": ["[+20]% Production when constructing [Water] units [in all cities]"],
-		"quote": "."
+		"quote": "Barracuda Programme allows to France to construct modern submarines which are stronger than any other"
 	},
 //JAPAN
 	{
@@ -437,6 +444,7 @@
 		"isNationalWonder": true,
 		"uniqueTo": "Japan",
 		"cost": 2150,
+		"production": 1,
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "."
 	},
@@ -446,6 +454,7 @@
 		"isNationalWonder": true,
 		"uniqueTo": "European Union",
 		"cost": 2750,
+		"production": 1,
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "New Generation Fighter of EU is a project which will allow Europe to ensure full control of airspace."
 	},
@@ -453,6 +462,8 @@
 		"name": "Modern Chemical Plant",
 		"uniqueTo": "European Union",
 		"cost": 1750,
+		"production": 20,
+		"science": 25,
 		"requiredTech": "Modern Warfare Strategy",
 		"uniques": ["Provides [2] [Composite Materials]"],
 		"quote": "."
@@ -462,6 +473,7 @@
 		"isNationalWonder": true,
 		"uniqueTo": "European Union",
 		"cost": 2000,
+		"production": 1,
 		"quote": "European Sky Shield Initiative is a huge project which will allow to European Union create a modern sky protection system"
 	},
 	{
@@ -469,6 +481,7 @@
 		"isNationalWonder": true,
 		"uniqueTo": "European Union",
 		"cost": 1750,
+		"production": 15,
 		"requiredTech": "MIC",
 		"uniques": ["[+10]% [Production] [in this city]"]
 	},
@@ -477,6 +490,7 @@
 		"isNationalWonder": true,
 		"uniqueTo": "European Union",
 		"cost": 1750,
+		"production": 15,
 		"requiredTech": "MIC",
 		"uniques": ["[+10]% [Production] [in this city]"]
 	}
@@ -489,7 +503,7 @@
 		"culture": 5,
 		"gold": 5,
 		"requiredTech": "Civil Service",
-		"uniques": ["Limited to [3] per Civilization","Unsellable","Destroyed when the city is captured","Cannot be purchased"]
+		"uniques": ["Limited to [5] per Civilization","Unsellable","Destroyed when the city is captured","Cannot be purchased"]
 	},
 	{
 		"name": "Monument to Lenin",
