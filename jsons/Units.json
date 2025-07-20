@@ -654,7 +654,7 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Su-40",
+		"name": "Su-35",
 		"unitType": "Fighter",
 		"uniqueTo": "Russia",
 		"replaces": "Jet Fighter",
@@ -668,6 +668,25 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Helicopter] units>", "[+150]% Strength <vs [Siege] units>"],
+		"attackSound": "jetgun",
+		"upgradesTo": "Su-47"
+	},
+	{
+		"name": "Su-47",
+		"unitType": "Fighter",
+		"uniqueTo": "Russia",
+		"replaces": "Jet Fighter",
+		"cost": 545,
+		"movement": 2,
+		"strength": 90,
+		"rangedStrength": 100,
+		"range": 15,
+		"interceptRange": 10,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"promotions": ["Bombardment I"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Land] units>",
+			"[+150]% Strength <vs [Water] units>", "[+150]% Strength <vs [Bomber] units>"],
 		"attackSound": "jetgun",
 		"upgradesTo": "Su-57"
 	},
