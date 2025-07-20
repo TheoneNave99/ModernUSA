@@ -226,23 +226,23 @@
 		"production": 15,
 		"percentStatsBonus": {"Production": 10},
 		"specialistSlots": {"Engineer": 2},
-		"requiredBuilding": "Nuclear Plant",
 		"hurryCostModifier": 0,
 		"requiredTech": "Heavy Industry",
 		"requiredResource": "Aluminum"
-		"uniques": ["[+45]% [Production]"]
+		"uniques": ["[+20]% [Production]"]
 	},
 	{
 		"name": "Windpower Plant",
-		"cost": 1150,
+		"cost": 1350,
 		"maintenance": 10,
 		"production": 15,
 		"percentStatsBonus": {"Production": 10},
-		"specialistSlots": {"Engineer": 2},
-		"requiredBuilding": "Nuclear Plant",
+		"specialistSlots": {"Engineer": 4},
 		"hurryCostModifier": 0,
-		"requiredTech": "Heavy Industry",
-		"uniques": ["[+45]% [Production]"]
+		"requiredTech": "Synthetic Alloys",
+		"requiredBuilding": "Solar Plant",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+20]% [Production]", "Only available <in cities without a [Nuclear Plant]>"]
 	},
 	{
 		"name": "Alloys Plant",
@@ -254,7 +254,8 @@
 		"requiredBuilding": "Nuclear Plant",
 		"hurryCostModifier": 0,
 		"requiredTech": "Synthetic Alloys",
-		"uniques": ["[+15]% [Production] [in this city]", "Consumes [1] [Aluminum]", "Consumes [1] [Titanium]", "Provides [2] [Modern Alloy]"]
+		"uniques": ["[+15]% [Production] [in this city]", "Consumes [1] [Aluminum]", "Consumes [1] [Titanium]", "Provides [1] [Modern Alloy]",
+		"Only available <in cities without a [Nuclear Plant]>"]
 	},
 	{
 		"name": "Elite Villa",
@@ -305,6 +306,7 @@
 		"name": "Corporative Skyscraper",
 		"uniqueTo": "The United States",
 		"replaces": "Business Skyscraper",
+		"cost": 1350,
 		"maintenance": 10,
 		"gold": 60,
 		"requiredBuilding": "Personal Skyscraper",
@@ -334,7 +336,7 @@
 		"cost": 2250,
 		"gold": 100,
 		"requiredTech": "Microchips",
-		"uniques": ["Only available if [Microchip Factory] is constructed [in this city]", "[+50]% [Gold] [in this city]"]
+		"uniques": ["Only available <if [Microchip Factory] is constructed [in this city]>", "[+50]% [Gold] [in this city]"]
 	},
 	{
 		"name": "Microchip Factory",
@@ -349,7 +351,7 @@
 		"isNationalWonder": true,
 		"cost": 5000,
 		"requiredTech": "Hypersonic Technologies",
-		"uniques": ["Only available if [Manhattan Project] is constructed"],
+		"uniques": ["Only available <if [Manhattan Project] is constructed>"],
 		"quote": "."
 	},
 	{
@@ -518,7 +520,7 @@
 		"requiredTech": "Scientific Theory",
 	},
 	{
-		"name": "Internet",
+		"name": "WorldWide Wed",
 		"isWonder": true,
 		"cost": 1450,
 		"requiredTech": "Military Electronics",
