@@ -508,6 +508,7 @@
 	{
 		"name": "Internet",
 		"isWonder": true,
+		"cost": 1450,
 		"requiredTech": "Military Electronics",
 		"uniques": ["[2] Free Technologies", "[+50]% [Science] [in this city]"],
 		"quote": "."
