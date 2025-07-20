@@ -1170,7 +1170,7 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Moskva",
+		"name": "Kirov cl. Battlecruiser",
 		"uniqueTo": "Russia",
 		"replaces": "Missile Cruiser",
 		"unitType": "Ranged Water",
@@ -1179,7 +1179,7 @@
 		"rangedStrength": 110,
 		"range": 3,
 		"interceptRange": 3,
-		"cost": 775,
+		"cost": 875,
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
 			"Can carry [4] [Missile] units", "[+150]% Strength <vs [Submarine] units>"],
@@ -1187,7 +1187,24 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Proekt 956",
+		"name": "Moscow Cruiser",
+		"uniqueTo": "Russia",
+		"replaces": "Missile Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 8,
+		"strength": 125,
+		"rangedStrength": 110,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 975,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [5] [Missile] units", "[+200]% Strength <vs [Submarine] units>", "[+150]% Strength <vs [Melee Water] units>", "Limited to [1] per Civilization"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Proekt 956 Destroyer",
 		"uniqueTo": "Russia",
 		"replaces": "Destroyer",
 		"unitType": "Melee Water",
