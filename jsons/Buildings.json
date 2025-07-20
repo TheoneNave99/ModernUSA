@@ -509,7 +509,7 @@
 		"name": "Internet",
 		"isWonder": true,
 		"requiredTech": "Military Electronics",
-		"uniques": ["[2] Free Technologies", "[+50]% Science [in this city]"],
+		"uniques": ["[2] Free Technologies", "[+50]% [Science] [in this city]"],
 		"quote": "."
 	}
 ]
