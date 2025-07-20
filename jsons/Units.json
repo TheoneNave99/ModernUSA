@@ -137,7 +137,7 @@
 		"requiredResource": "Titanium",
 		"promotions": ["Air Repair", "Operational Range"],
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Fighter] units>", 
-			"[+200]% Strength <vs [Land] units>", "[+200]% Strength <vs [Water] units>"],
+			"[+200]% Strength <vs [Land] units>", "[+200]% Strength <vs [Water] units>", "Only available <if [F/A XX Program] is constructed>", "Limited by [5] per Civilization"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -466,8 +466,54 @@
 		"promotions": ["Air Repair", "Operational Range", "Sortie"],
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Composite Materials",
-		"uniques": ["[100]% chance to intercept air attacks", "[+50]% Strength when intercepting", "[+300]% Strength <vs [Bomber] units>", "[+250]% Strength <vs [Fighter]>", "[+300]% Strength <vs [Helicopter] units>", "[+250]% Strength <vs [Land] unuts>", "[+250]% Strength <vs [Water] units>", "Damage taken from interception reduced by [100]%", "[3] extra interceptions may be made per turn", "Only available if [NGF EU Project] is constructed"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+50]% Strength when intercepting", "[+300]% Strength <vs [Bomber] units>", "[+250]% Strength <vs [Fighter]>", "[+300]% Strength <vs [Helicopter] units>", 
+			"[+250]% Strength <vs [Land] unuts>", "[+250]% Strength <vs [Water] units>", "Damage taken from interception reduced by [100]%", "[3] extra interceptions may be made per turn", "Only available <if [NGF EU Project] is constructed>", "Only available <if [BAE Systems] is constructed [in this city]>"],
 		"attackSound": "jetgun"
+	},
+	{
+		"name": "EU EMBT",
+		"unitType": "Armored",
+		"uniqueTo": "European Union",
+		"replaces": "Modern Armor",
+		"cost": 565,
+		"strength": 135,
+		"rangedStrength": 105,
+		"range": 1,
+		"movement": 8,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"promotions": ["Charge"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonus", "Only available <if [KNDS] is constructed [in this city]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "EU Sky Shield",
+		"unitType": "Gunpowder",
+		"uniqueTo": "European Union",
+		"replaces": "Mobile SAM",
+		"cost": 750,
+		"movement": 8,
+		"strength": 90,
+		"interceptRange": 3,
+		"requiredTech": "Rocketry",
+		"promotions": ["Cover I"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Air] units>", "[+300]% Strength <vs [Helicopter] units>",
+			"[+50]% Strength when intercepting", "[+50]% Strength <when defending>", "[1] extra interceptions may be made per turn", "Only available <if [ESSI] is constructed>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "EuroPULS",
+		"unitType": "Siege",
+		"uniqueTo": "France",
+		"replaces": "Rocket Artillery",
+		"cost": 575,
+		"movement": 4,
+		"strength": 75,
+		"rangedStrength": 100,
+		"range": 4,
+		"requiredTech": "Rocketry",
+		"uniques": ["[+75]% Strength <vs [Land] units>", "[+100]% Strength <when defending>", "Only available <in cities with a [KNDS]>"],
+		"attackSound": "artillery"
 	},
 //FRANCE
 	{
@@ -597,7 +643,7 @@
 		"strength": 105,
 		"rangedStrength": 125,
 		"range": 4,
-		"uniques": ["Only available if [Barracuda Programme] is constructed", "[+145]% Strength <when attacking>",
+		"uniques": ["Only available <if [Barracuda Programme] is constructed>", "[+145]% Strength <when attacking>",
 			"[+5] Sight", "Can carry [5] [Missile] units"],
 		"attackSound": "torpedo"
 	},
