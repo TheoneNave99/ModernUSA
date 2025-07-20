@@ -482,7 +482,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonus", "Only available <in cities with a [KNDS]>""],
+		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonus", "Only available <in cities with a [KNDS]>"],
 		"attackSound": "shot"
 	},
 	{
