@@ -1504,7 +1504,7 @@
 		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking", "No defensive terrain bonuses"],
 		"attackSound": "shot",
-		"upgradesTo": "Type 72"
+		"upgradesTo": "Type 90"
 	},
 	{
 		"name": "Type 90",
@@ -1564,7 +1564,7 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+50]% Strength <vs [Fighter] units>", "[+150]% Strength <vs [Melee Water] units>",
 		"[+150]% Strength <vs [Ranged Water] unit>", "[+50]% Strength <vs [Aircraft Carrier] units>"],
 		"attackSound": "jetgun",
-		"upgradesTo": "X-2"
+		"upgradesTo": "X-2 Shinshin"
 	},
 	{
 		"name": "X-2 Shinshin",
