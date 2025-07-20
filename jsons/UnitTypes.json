@@ -7,5 +7,11 @@
       {
             "name": "Carrier-Cruiser",
             "movementType": "Water",
+            "uniques": ["Can carry 
+      },
+      {
+            "name": "Icebreaker",
+            "movementType": "Water",
+            "uniques": ["Can enter ice tiles", "Double movement in [Coast]", "Double movement in [Ice]", "[+200]% Strength <when fighting in [Tundra] tiles>", "[+200]% Strength <when fighting in [Snow] tiles", "Can see invisible [Submarine] units"]
       }
 ]
