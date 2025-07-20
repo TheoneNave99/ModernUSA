@@ -3,11 +3,12 @@
 		"name": "Titanium",
 		"resourceType": "Strategic",
 		"revealedBy": "Heavy Industry",
-		"terrainsCanBeFoundOn": ["Tundra","Hill"],
+		"terrainsCanBeFoundOn": ["Tundra","Hill", "Snow", "Forest"],
 		"production": 3,
 		"improvement": "Mine",
 		"improvementStats": {"production": 7},
-		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>","Generated on every [550] tiles <in [Tundra] tiles>"]
+		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>", "Generated on every [550] tiles <in [Tundra] tiles>",
+		"Generated on every [300] tiles <in [Snow] tiles>", "Generated on every [700] tiles <in [Forest] tiles>"]
 
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
 		"minorDepositAmount": {"sparse": 3, "default": 2, "abundant": 3}
