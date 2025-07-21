@@ -765,8 +765,9 @@
 		"cost": 1150,
 		"requiredNearbyImprovedResource": ["Oil"],
 		"production": 20,
-		"percentStatsBonus": {"Production": 7},
+		"percentStatsBonus": {"Production": 15},
 		"specialistSlots": {"Engineer": 2},
+		"requiredTech": "Heavy Industry",
 		"uniqued": ["[+15]% [Production] [in this city]", "[+2 Gold] from [Oil] tiles [in this city]"]
 	},
 	{
@@ -775,6 +776,7 @@
 		"requiredNearbyImprovedResource": ["Oil"],
 		"production": 5,
 		"gold": 5,
+		"requiredTech": "Heavy Industry",
 		"uniques": ["Consumes [2] [Oil]", "Produces [1] [Petroleum]"]
 	},
 	{
@@ -783,15 +785,122 @@
 		"requiredNearbyImprovedResource": ["Natural Gas"],
 		"percentStatsBonus": {"Production": 10},
 		"specialistSlots": {"Engineer": 2},
+		"requiredTech": "Heavy Industry",
 		"uniques": ["Must be next to [Coast]", "[+5 Production, +5 Gold] from [Natural Gas] tiles [in this city]", "Consumes [2] [Natural Gas]", "Produces [1] [LNG]"]
+	},
+	{
+		"name": "LNG Sea Terminal",
+		"uniqueTo": "Russia",
+		"replaces": "LNG Plant",
+		"cost": 1550,
+		"requiredNearbyImprovedResource": ["Natural Gas"],
+		"percentStatsBonus": {"Production": 12},
+		"specialistSlots": {"Engineer": 3},
+		"requiredTech": "Heavy Industry",
+		"uniques": ["Must be next to [Coast]", "[+5 Production, +10 Gold] from [Natural Gas] tiles [in this city]", "Consumes [2] [Natural Gas]", "Produces [2] [LNG]"]
 	},
 	{
 		"name": "Gas Storage Facility",
 		"cost": 1250,
 		"requiredNearbyImprovedResource": ["Natural Gas"],
 		"production": 15,
-		"percentStatsBonus": {"Production": 5},
+		"percentStatsBonus": {"Production": 10},
 		"specialistSlots": {"Engineer": 4},
+		"requiredTech": "Heavy Industry",
 		"uniqued": ["[+10]% [Production] [in this city]", "[+2 Gold] from [Natural Gas] tiles [in this city]"]
+	},
+	{
+		"name": "Modern Factory",
+		"cost": 1450,
+		"requiredBuilding": "Factory",
+		"requiredResource": "Natural Gas",
+		"production": 30,
+		"percentStatsBonus": {"Production": 15},
+		"specialistSlots": {"Engineer": 4},
+		"requiredTech": "Heavy Industry",
+		"uniques": ["[+1 Production, +1 Gold] from [Mine] tiles [in this city]"]
+	},
+	{
+		"name": "Gas Station",
+		"cost": 1450,
+		"requiredBuilding": "Factory",
+		"requiredResource": "Natural Gas",
+		"requiredTech": "Refrigeration",
+		"percentStatsBonus": {"Production": 5},
+		"specialistSlots": {"Engineer": 1},
+		"uniques": ["[+2 Production] from [Railroad] tiles [in this city]", "[+1 Production] from [Road] tiles [in this city]"]
+	},
+//HEAVY MACHINERY
+	{
+		"name": "Heavy Machinery Plant",
+		"cost": 2000,
+		"requiredTech": "Heavy Machinery",
+		"production": 10,
+		"requiredBuilding": "Modern Factory"
+	},
+	{
+		"name": "Agricultural machines",
+		"cost": 1500,
+		"requiredBuilding": "Heavy Machinery Plant",
+		"uniques": ["[+10]% [Food] [in this city]", "[+1 Food] from [Farm] tiles [in this city]"]
+	},
+	{
+		"name": "Industrial machines"
+		"cost": 1500,
+		"requiredBuilding": "Heavy Machinery Plant",
+		"uniques": ["[+10]% [Production] [in this city]", "[+1 Production] from [Mine] tiles [in this city]"]
+	},
+	{
+		"name": "Fishing trawlers"
+		"cost": 1600,
+		"requiredBuilding": "Heavy Machinery Plant",
+		"uniques": ["[+5]% [Food] [in this city]", "[+2 Food, +2 Gold] from [Fish] tiles [in this city]"]
+	},
+	{
+		"name": "Industrial tankers"
+		"cost": 1750,
+		"requiredBuilding": "Heavy Machinery Plant",
+		"uniques": ["[+10]% [Production] [in this city]", "[+2 Production, +2 Gold] from [Offshore Platform] tiles [in this city]"]
+	},
+	{
+		"name": "Accounting systems"
+		"cost": 1750,
+		"requiredBuilding": "Heavy Machinery Plant",
+		"uniques": ["[+10]% [Gold] [in this city]", "[+1 Gold] from [Trading post] tiles [in this city]"]
+	},
+	{
+		"name": "Garbage trucks"
+		"cost": 1750,
+		"requiredBuilding": "Heavy Machinery Plant",
+		"uniques": ["[+5 Happiness] [in this city]", "[+1 Happiness] from [Mine] tiles [in this city]"]
+	},
+	{
+		"name": "Long haul trucks"
+		"cost": 2000,
+		"requiredBuilding": "Heavy Machinery Plant",
+		"uniques": ["[+15]% [Production] [in this city]", "[+1 Production] from [Mine] tiles [in this city]"]
+	},
+//SPECIAL SERVICES
+	{
+		"name": "Special Services",
+		"cost": 2000,
+		"requiredTech": "Urbanism"
+	},
+	{
+		"name": "Police",
+		"cost": 1500,
+		"requiredBuilding": "Special Services",
+		"happiness": 15
+	},
+	{
+		"name": "Emergency",
+		"cost": 1500,
+		"food": 25
+	},
+	{
+		"name": "Firefighting Service",
+		"cost": 1500,
+		"cityStrength": 30,
+		"cityHealth": 30
 	}
 ]
