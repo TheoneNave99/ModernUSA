@@ -369,7 +369,7 @@
 		"name": "Moscow City",
 		"isNationalWonder": true,
 		"uniqueTo": "Russia",
-		"replaces": "Dowtown",
+		"replaces": "Downtown",
 		"cost": 6500,
 		"gold": 100,
 		"requiredTech": "Urbanism",
