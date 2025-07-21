@@ -62,6 +62,14 @@
 		"uniques": ["[+3 Gold] from [Coast] tiles [in all cities]"],
 		"quote": "."
 	},
+	{
+		"name": "Kansai International Airport",
+		"isWonder": true,
+		"greatPersonPoints": { "Great Engineer": 3 },
+		"uniques": ["Creates a [KIX Airport] improvement on a specific tile", "Must be next to [Coast]"],
+		"requiredTech": "Globalization",
+		"quote": "'All our sweetest hours fly fastest' - Virgil"
+	},
 //MAIN TV TOWER THEME
 	{
 		"name": "State BC Tower",
