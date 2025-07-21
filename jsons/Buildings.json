@@ -5,6 +5,7 @@
 		"isNationalWonder": true,
 		"cost": 2500,
 		"gold": 150,
+		"requiredTech": "Globalization",
 		"quote": "A World Financial Center will enable our nation to enter the international financial services system."
 	},
 	{
@@ -29,38 +30,78 @@
 		"quote": "Lachta Centre is the tallest building in Europe, built by Russia in Saint Petersburg. While it was being built, historical part of city was damaged."
 	},
 	{
+		"name": "One World Trade Centre",
+		"uniqueTo": "The United States",
+		"isNationalWonder": true,
+		"replaces": "World Financial Center",
+		"cost": 2500,
+		"culture": 2,
+		"gold": 5,
+		"specialistSlots": {"Merchant": 2},
+		"greatPersonPoints": {"Great Merchant": 8},
+		"requiredTech": "Globalization",
+		"uniques": ["[+5]% [Gold] from [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]", "[+20 Gold] from each Trade Route"],
+		"quote": "Greetings to the mighty symbol of capitalism, who rose from the ashes of disaster like a golden phoenix"
+	},
+//JUST
+	{
 		"name": "Taipei 101",
-		"cost": 2500
+		"isWonder": true,
+		"cost": 2500,
+		"gold": 150,
+		"requiredTech": "Globalization",
+		"uniques": ["[+50]% [Gold] [in this city]"],
+		"quote": "."
 	},
 	{
 		"name": "Petronas Tower",
-		"cost": 2500
+		"isWonder": true,
+		"cost": 2500,
+		"gold": 150,
+		"requiredTech": "Globalization",
+		"uniques": ["[+3 Gold] from [Coast] tiles [in all cities]"],
+		"quote": "."
 	},
 //MAIN TV TOWER THEME
+	{
+		"name": "State BC Tower",
+		"isNationalWonder": true,
+		"cost": 2500,
+		"culture": 1,
+		"uniques": ["[+100]% [Culture] [in this city]", "Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"],
+		"quote": "."
+	},
 	{
 		"name": "Oriental Pearl Tower",
 		"isNationalWonder": true,
 		"uniqueTo": "China",
-		"replaces": "State TV Tower",
-		"cost": 2500
+		"replaces": "State BC Tower",
+		"cost": 2250,
+		"culture": 5,
+		"uniques": ["[+100]% [Culture] [in this city]", "Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"],
+		"quote": "."
 	},
 	{
 		"name": "Tokyo Sky Tree",
 		"isNationalWonder": true,
 		"uniqueTo": "Japan",
-		"replaces": "State TV Tower",
-		"cost": 2500
+		"replaces": "State BC Tower",
+		"cost": 2500,
+		"culture": 1,
+		"uniques": ["[+100]% [Culture] [in this city]", "[+1 Culture] from [Coast] tiles [in all cities]", "Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"],
+		"quote": "."
 	},
 	{
 		"name": "Ostankino Tower",
 		"isNationalWonder": true,
 		"uniqueTo": "Russia",
-		"replaces": "State TV Tower",
+		"replaces": "State BC Tower",
 		"cost": 2500,
 		"requiredTech": "Telecommunications",
-		"uniques": ["[+1 Happiness] from [Tundra] tiles [in all cities]", "[+1 Culture] from [Tundra] tiles [in all cities]", "[+5 Happiness]"],
+		"uniques": ["[+50]% [Culture] [in this city]", "[+1 Happiness] from [Tundra] tiles [in all cities]", "[+1 Culture] from [Tundra] tiles [in all cities]", "[+5 Happiness]", "Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "Ostankino Tower is the main television tower and the tallest construction in the Russia, built by the Soviet Union in 1950s. When it was built, it was the tallest construction in the world"
 	},
+//USA
 	{
 		"name": "Treasury Office",
 		"replaces": "Mint",
@@ -157,19 +198,6 @@
 		"requiredTech": "Industrialization",
 		"uniques": ["[+5 Gold] per [1] population [in this city]"],
 		"quote": "From this very moment onwards the Dollar is the most powerful weapon in the world"
-	},
-	{
-		"name": "One World Trade Centre",
-		"uniqueTo": "The United States",
-		"isNationalWonder": true,
-		"cost": 1950,
-		"culture": 2,
-		"gold": 5,
-		"specialistSlots": {"Merchant": 4},
-		"greatPersonPoints": {"Great Merchant": 8},
-		"requiredTech": "Globalization",
-		"uniques": ["[+5]% [Gold] from all [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]", "[+20 Gold] from each Trade Route"],
-		"quote": "Greetings to the mighty symbol of capitalism, who rose from the ashes of disaster like a golden phoenix"
 	},
 	{
 		"name": "Yellowstone National Park",
