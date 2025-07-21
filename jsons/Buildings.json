@@ -1,5 +1,9 @@
 [
 	{
+		"name": "Shanghai World Financial Centre",
+		"cost": 1
+	},
+	{
 		"name": "Treasury Office",
 		"replaces": "Mint",
 		"uniqueTo": "The United States"
