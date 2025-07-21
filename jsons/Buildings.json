@@ -661,13 +661,7 @@
 		"uniques": ["Triggers a global alert upon completion"],
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "."
-	},
-	{
-		"name": "Mir",
-		"uniqueTo": "Russia",
-		"cost": 7500,
-		"gold": 1,
-		"uniques": 
+	}, 
 //
 	{
 		"name": "WorldWide Web",
