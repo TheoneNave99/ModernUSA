@@ -1,4 +1,4 @@
-
+[
 	{
 		"name": "Treasury Office",
 		"replaces": "Mint",
@@ -697,7 +697,7 @@
 		"quote": "."
 	},
 	{
-		"name": "Space Program"
+		"name": "Space Program",
 		"isNationalWonder": true,
 		"cost": 15000,
 		"specialistSlots": {"Scientist": 2},
@@ -744,7 +744,7 @@
 		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+2 Production] per [1] population [in this city]", "Only available <if [Spaceship Factory] is constructed in all [non-[Puppeted]] cities>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion"],
 	},
 	{
-		"name": "ROSKOSMOS"
+		"name": "ROSKOSMOS",
 		"isNationalWonder": true,
 		"uniqueTo": "Russia",
 		"replaces": "Space Program",
@@ -763,5 +763,5 @@
 		"cost": 15000,
 		"gold": 25,
 		"uniques": ["[+2 Gold] per [1] population [in all cities]", "[+4 Culture] per [5] population [in this city]", "[+25]% [Science] [in this city]", "Only available <if [ROSKOSMOS] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion"],
-	},
-][]
+	}
+]
