@@ -8,6 +8,12 @@
     "techs":
     [
       {
+        "name": "Urbanism",
+        "row": 1,
+        "prerequisites": ["Plastics"],
+        "quote": "."
+      },
+      {
         "name": "Heavy Industry",
         "row": 3,
         "prerequisites": ["Plastics"],
@@ -32,7 +38,7 @@
       {
         "name": "Modern Oligarchy",
         "row": 1,
-        "prerequisites": ["Pharmaceuticals"],
+        "prerequisites": ["Pharmaceuticals", "Urbanism"],
         "quote": "As the economy became more complex, corruption schemes also became more complex, ultimately leading to the emergence of Oligarchs – the rulers of economic existence."
       },
       {
@@ -76,9 +82,15 @@
         "quote": "Modern technologies have allowed us to create more and more advanced materials"
       },
       {
-        "name": "Robotics",
+        "name": "Lasers",
         "row": 7,
-        "prerequisites": ["Military Electronics", "Computers"],
+        "prerequisites": ["Rocketry", "Military Electronics", "Computers"],
+        "quote": "."
+      },
+      {
+        "name": "Robotics",
+        "row": 8,
+        "prerequisites": ["Computers"],
         "quote": "."
       }
     ]
@@ -107,7 +119,19 @@
         "row": 5,
         "prerequisites": ["Synthetic Alloys", "Advanced Ballistics", "Lasers"],
         "quote": "Hypersonic technologies has opened up the greatest speeds the world has ever seen."
-      }
+      },
+      {
+        "name": "Stealth",
+        "row": 7,
+        "prerequisites": ["Lasers", "Robotics"],
+        "quote": "."
+      },
+      {
+        "name": "Nanotechnology",
+        "row": 8,
+        "prerequisites": ["Robotics"],
+        "quote": "."
+      },
     ]
   }
 ]
