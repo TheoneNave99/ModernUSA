@@ -1,0 +1,12 @@
+[
+  {
+		"name": "KIX Airport",
+		"type": "Improvement",
+		"production": 5,
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"uniques": ["[+5 Culture] for each adjacent [Coast]",  "[+5 Production, +5 Gold] for each adjacent [resource]", "Costs [15] [Gold] per turn",
+                "Tile provides yield without assigned population",
+                "Pillaging this improvement yields approximately [+500 Gold]",
+                "Will not be replaced by automated units"],
+	}
+]
