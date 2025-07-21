@@ -841,43 +841,43 @@
 	{
 		"name": "Agricultural machines",
 		"cost": 1500,
-		"requiredBuilding": "Heavy Machinery Plant",
+		"requiredBuilding": "Heavy Machines Plant",
 		"uniques": ["[+10]% [Food] [in this city]", "[+1 Food] from [Farm] tiles [in this city]"]
 	},
 	{
 		"name": "Industrial machines"
 		"cost": 1500,
-		"requiredBuilding": "Heavy Machinery Plant",
+		"requiredBuilding": "Heavy Machines Plant",
 		"uniques": ["[+10]% [Production] [in this city]", "[+1 Production] from [Mine] tiles [in this city]"]
 	},
 	{
 		"name": "Fishing trawlers"
 		"cost": 1600,
-		"requiredBuilding": "Heavy Machinery Plant",
+		"requiredBuilding": "Heavy Machines Plant",
 		"uniques": ["[+5]% [Food] [in this city]", "[+2 Food, +2 Gold] from [Fish] tiles [in this city]"]
 	},
 	{
 		"name": "Industrial tankers"
 		"cost": 1750,
-		"requiredBuilding": "Heavy Machinery Plant",
+		"requiredBuilding": "Heavy Machines Plant",
 		"uniques": ["[+10]% [Production] [in this city]", "[+2 Production, +2 Gold] from [Offshore Platform] tiles [in this city]"]
 	},
 	{
 		"name": "Accounting systems"
 		"cost": 1750,
-		"requiredBuilding": "Heavy Machinery Plant",
+		"requiredBuilding": "Heavy Machines Plant",
 		"uniques": ["[+10]% [Gold] [in this city]", "[+1 Gold] from [Trading post] tiles [in this city]"]
 	},
 	{
 		"name": "Garbage trucks"
 		"cost": 1750,
-		"requiredBuilding": "Heavy Machinery Plant",
+		"requiredBuilding": "Heavy Machines Plant",
 		"uniques": ["[+5 Happiness] [in this city]", "[+1 Happiness] from [Mine] tiles [in this city]"]
 	},
 	{
 		"name": "Long haul trucks"
 		"cost": 2000,
-		"requiredBuilding": "Heavy Machinery Plant",
+		"requiredBuilding": "Heavy Machines Plant",
 		"uniques": ["[+15]% [Production] [in this city]", "[+1 Production] from [Mine] tiles [in this city]"]
 	},
 //SPECIAL SERVICES
@@ -895,11 +895,13 @@
 	{
 		"name": "Emergency",
 		"cost": 1500,
+		"requiredBuilding": "Special Services",
 		"food": 25
 	},
 	{
 		"name": "Firefighting Service",
 		"cost": 1500,
+		"requiredBuilding": "Special Services",
 		"cityStrength": 30,
 		"cityHealth": 30
 	}
