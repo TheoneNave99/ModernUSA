@@ -42,13 +42,11 @@
 	{
 		"name": "Petroleum"
 		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Can be provided by [Oil Refinery]"]
+		"gold": 2
 	},
 	{
 		"name": "LNG",
 		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Can be provided by [LNG Plant]"]
+		"gold": 2
 	}
 ]
