@@ -37,5 +37,18 @@
 		"name": "Composite Materials",
 		"resourceType": "Strategic",
 		"uniques": ["Can be provided by [Modern Chemical Plant]"]
+	},
+//LUXURY
+	{
+		"name": "Petroleum"
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can be provided by [Oil Refinery]"]
+	},
+	{
+		"name": "LNG",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can be provided by [LNG Plant]"]
 	}
 ]
