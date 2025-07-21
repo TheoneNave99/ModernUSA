@@ -312,7 +312,7 @@
 		"cost": 2500,
 		"gold": 25,
 		"requiredTech": "Urbanism",
-		"uniques": ["[+3 Food] per [1] population [in this city]", "Only available <if [Residential Skyscraper] is constructed in all [non-[Pupped]] cities>"]
+		"uniques": ["[+3 Food] per [1] population [in this city]", "Only available <if [Residential Skyscraper] is constructed in all [non-[Puppeted]] cities>"]
 	},
 	{
 		"name": "Business Skyscraper",
@@ -330,7 +330,7 @@
 		"cost": 5000,
 		"gold": 50,
 		"requiredTech": "Modern Oligarchy",
-		"uniques": ["[+4 Gold] per [1] population [in this city]", "Only available <if [Business Skyscraper] is constructed in all [non-[Pupped]] cities>", "Triggers a global alert upon completion"]
+		"uniques": ["[+4 Gold] per [1] population [in this city]", "Only available <if [Business Skyscraper] is constructed in all [non-[Puppeted]] cities>", "Triggers a global alert upon completion"]
 	},
 	{
 		"name": "Personal Skyscraper",
@@ -351,7 +351,7 @@
 		"replaces": "Downtown",
 		"cost": 7500,
 		"gold": 75,
-		"uniques": ["[+5 Gold] per [1] population [in this city]", "Only available <if [Personal Skyscraper] is constructed in all [non-[Pupped]] cities>", "Triggers a global alert upon completion"]
+		"uniques": ["[+5 Gold] per [1] population [in this city]", "Only available <if [Personal Skyscraper] is constructed in all [non-[Puppeted]] cities>", "Triggers a global alert upon completion"]
 	},
 	{
 		"name": "Railway Station",
@@ -376,7 +376,7 @@
 		"maintenance": 50,
 		"gold": 40,
 		"requiredTech": "Urbanism",
-		"uniques": ["[+1 Culture, +1 Gold] from [Railroad] tiles [in all cities]", "Only available <if [Metropolitan] is constructed in all [non-[Pupped]] cities>"]
+		"uniques": ["[+1 Culture, +1 Gold] from [Railroad] tiles [in all cities]", "Only available <if [Metropolitan] is constructed in all [non-[Puppeted]] cities>"]
 	},
 	{
 		"name": "Moscow City",
@@ -386,16 +386,15 @@
 		"cost": 6500,
 		"gold": 100,
 		"requiredTech": "Urbanism",
-		"uniques": ["[+5 Gold per [5] population [in all cities]", "Triggers a global alert upon completion"],
+		"uniques": ["[+5 Gold per [5] population [in all cities]", "Only available <if [Business Skyscraper] is constructed in all [non-[Puppeted]] cities>"Triggers a global alert upon completion"],
 		"requiredTech": "Modern Oligarchy"
 	},
 	{
 		"name": "Silicon Valley",
-		"uniqueTo": "The United States",
 		"isNationalWonder": true,
 		"cost": 2250,
-		"gold": 150,
-		"uniques": ["[+10 Production, +10 Gold] from all [Science] buildings [in this city]", "Triggers a global alert upon completion"],
+		"gold": 75,
+		"uniques": ["[+10 Production, +10 Gold] from [Science] buildings [in this city]", "Only available <in cities with a [Microchips Factory]>"Triggers a global alert upon completion"],
 		"requiredTech": "Microchips"
 	},
 	{
@@ -404,7 +403,7 @@
 		"cost": 2250,
 		"gold": 100,
 		"requiredTech": "Microchips",
-		"uniques": ["Only available <if [Microchip Factory] is constructed [in this city]>", "[+50]% [Gold] [in this city]"]
+		"uniques": ["Only available <in cities with a [Microchip Factory]>", "[+50]% [Gold] [in this city]"]
 	},
 	{
 		"name": "Microchip Factory",
