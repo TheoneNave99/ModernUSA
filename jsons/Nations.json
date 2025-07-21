@@ -86,8 +86,8 @@
 
 
 		"uniqueName": "Northern Colossus",
-		"uniques": ["+[10]% [Production] [in all cities]","+[15]% Production when constructing [Land] units [in all cities]", "[+2 Gold] from [Mine] tiles [in all cities", "[+1 Gold] from [Tundra] tiles [in all cities]",
-		"[+2 Science, +1 Production, +1 Culture] from [Snow] tiles [in all cities]", "[+50]% Production when constructing [Missile] units [in all cities]", "[+5 Production] from [Nuclear Plant] buildings [in all cities]"],
+		"uniques": ["+[10]% [Production] [in all cities]","+[15]% Production when constructing [Armored] units [in all cities]", "[+2 Gold] from [Mine] tiles [in all cities]", "[+1 Gold] from [Tundra] tiles [in all cities]",
+		"[+2 Science, +1 Production, +1 Culture] from [Snow] tiles [in all cities]", "[+50]% Production when constructing [Missile] units [in all cities]", "[+5 Production] from [Nuclear Plant] building [in all cities]"],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 "Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
 "Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
