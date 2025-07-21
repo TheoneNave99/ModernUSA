@@ -386,7 +386,7 @@
 		"cost": 6500,
 		"gold": 100,
 		"requiredTech": "Urbanism",
-		"uniques": ["[+5 Gold per [5] population [in all cities]", "Only available <if [Business Skyscraper] is constructed in all [non-[Puppeted]] cities>"Triggers a global alert upon completion"],
+		"uniques": ["[+5 Gold] per [5] population [in all cities]", "Only available <if [Business Skyscraper] is constructed in all [non-[Puppeted]] cities>"Triggers a global alert upon completion"],
 		"requiredTech": "Modern Oligarchy"
 	},
 	{
