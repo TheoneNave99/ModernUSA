@@ -391,7 +391,7 @@
 	},
 	{
 		"name": "Silicon Valley",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"cost": 2250,
 		"gold": 75,
 		"uniques": ["[+10 Production, +10 Gold] from [Science] buildings [in this city]", "Only available <in cities with a [Microchips Factory]>", "Triggers a global alert upon completion"],
@@ -674,7 +674,13 @@
 		"uniques": ["Triggers a global alert upon completion"],
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "."
-	}
+	},
+	{
+		"name": "Mir",
+		"uniqueTo": "Russia",
+		"cost": 7500,
+		"gold": 1,
+		"uniques": 
 //
 	{
 		"name": "WorldWide Web",
@@ -694,5 +700,47 @@
 		"cityHealth": 50,
 		"uniques": ["[+25]% Production when constructing [Military] units [in all cities]", "Only available <if [Military Base] is constructed in all [non-[Pupped]] cities>", "Triggers a global alert upon completion"],
 		"quote": "."
-	}
+	},
+	{
+		"name": "ISS",
+		"isWonder": true,
+		"cost": 30000,
+		"requiredTech": "Globalization",
+		"uniques": ["[+2 Gold, +2 Science, +2 Culture] per [1] population [in all cities]", "Consumes [10] [Titanium]", "Triggers a global alert upon completion"],
+		"quote": "."
+	},
+	{
+		"name": "Space Station",
+		"isNationalWonder": true,
+		"cost": 15000,
+		"requiredTech": "Satellites",
+		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+1 Culture] per [1] population [in this city]", "[+50]% [Science] [in this city]", "Only available <if [Spaceship Factory] is constructed in all [non-[Puppeted]] cities>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion"],
+	},
+	{
+		"name": "Skylab",
+		"isNationalWonder": true,
+		"uniqueTo": "The United States",
+		"replaces": "Space Station",
+		"cost": 15000,
+		"science": 25,
+		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+2 Culture] per [1] population [in this city]", "[+75]% [Science] [in this city]", "Only available <if [Spaceship Factory] is constructed in all [non-[Puppeted]] cities>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion"],
+	},
+	{
+		"name": "Tiangong",
+		"isNationalWonder": true,
+		"uniqueTo": "China",
+		"replaces": "Space Station",
+		"cost": 15000,
+		"production": 25,
+		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+2 Production] per [1] population [in this city]", "Only available <if [Spaceship Factory] is constructed in all [non-[Puppeted]] cities>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion"],
+	},
+	{
+		"name": "Mir",
+		"isNationalWonder": true,
+		"uniqueTo": "Russia",
+		"replaces": "Space Station",
+		"cost": 15000,
+		"gold": 25,
+		"uniques": ["[+2 Gold] per [1] population [in all cities]", "[+4 Culture] per [5] population [in this city]", "[+25]% [Science] [in this city]", "Only available <if [Spaceship Factory] is constructed in all [non-[Puppeted]] cities>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion"],
+	},
 ]
