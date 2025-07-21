@@ -14,6 +14,21 @@
 		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
 	},
 	{
+		"name": "Natural Gas",
+		"resourceType": "Strategic",
+		"revealedBy": "Biology",
+		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
+		"production": 1,
+		"improvedBy": ["Oil well", "Offshore Platform"],
+		"improvementStats": {"production": 3},
+		"uniques": ["Generated on every [700] tiles <in [Hill] tiles>","Generated on every [700] tiles <in [Jungle] tiles>",
+		"Generated on every [300] tiles <in [Snow] tiles>", "Generated on every [500] tiles <in [Tundra] tiles>",
+		"Generated on every [600] tiles <in [Coast] tiles>"]
+
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
 		"name": "Modern Alloy",
 		"resourceType": "Strategic",
 		"uniques": ["Can be provided by [Alloys Plant]"]
