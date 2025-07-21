@@ -151,5 +151,19 @@
         "quote": "."
       },
     ]
-  }
+  },
+  {
+    "columnNumber": 16,
+    "era": "Information era",
+    "techCost": 8800,
+    "buildingCost": 750,
+    "wonderCost": 1250,
+    "techs": [
+      {
+        "name": "Future Tech"
+        "row": 5
+        "prerequisites": ["Complete State Management", "Globalization", "Modern Warfare Strategy", "Particle Physics", "Hypersonic Technologies", "Nuclear Fusion", "Stealth", "Nanotechnology"],
+        "uniques": ["Who knows what the future holds?", "Can be continually researched"],
+        "quote": "."
+      },
 ]
