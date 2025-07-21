@@ -682,6 +682,7 @@
 		"uniques": ["[+25]% Production when constructing [Military] units [in all cities]", "Only available <if [Military Base] is constructed in all [non-[Pupped]] cities>", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
+//SPACE THEME
 	{
 		"name": "ISS",
 		"isWonder": true,
@@ -757,5 +758,40 @@
 		"cost": 15000,
 		"gold": 25,
 		"uniques": ["[+2 Gold] per [1] population [in all cities]", "[+4 Culture] per [5] population [in this city]", "[+25]% [Science] [in this city]", "Only available <if [ROSKOSMOS] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion"],
+	},
+//OIL-GAS THEME
+	{
+		"name": "Oil Storage Facility",
+		"cost": 1150,
+		"requiredNearbyImprovedResource": ["Oil"],
+		"production": 20,
+		"percentStatsBonus": {"Production": 7},
+		"specialistSlots": {"Engineer": 2},
+		"uniqued": ["[+15]% [Production] [in this city]", "[+2 Gold] from [Oil] tiles [in this city]"]
+	},
+	{
+		"name": "Oil Refinery",
+		"cost": 1650,
+		"requiredNearbyImprovedResource": ["Oil"],
+		"production": 5,
+		"gold": 5,
+		"uniques": ["Consumes [2] [Oil]", "Produces [1] [Petroleum]"]
+	},
+	{
+		"name": "LNG Plant",
+		"cost": 1450,
+		"requiredNearbyImprovedResource": ["Natural Gas"],
+		"percentStatsBonus": {"Production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"uniques": ["Must be next to [Coast]", "[+5 Production, +5 Gold] from [Natural Gas] tiles [in this city]", "Consumes [2] [Natural Gas]", "Produces [1] [LNG]"]
+	},
+	{
+		"name": "Gas Storage Facility",
+		"cost": 1250,
+		"requiredNearbyImprovedResource": ["Natural Gas"],
+		"production": 15,
+		"percentStatsBonus": {"Production": 5},
+		"specialistSlots": {"Engineer": 4},
+		"uniqued": ["[+10]% [Production] [in this city]", "[+2 Gold] from [Natural Gas] tiles [in this city]"]
 	}
 ]
