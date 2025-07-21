@@ -42,11 +42,27 @@
         "quote": "As the economy became more complex, corruption schemes also became more complex, ultimately leading to the emergence of Oligarchs – the rulers of economic existence."
       },
       {
+        "name": "Ecology",
+        "row": 2,
+        "prerequisites": ["Pharmaceuticals"],
+        "quote": "."
+      },
+      {
         "name": "MIC",
-        "row": 3,
-        "prerequisites": ["Heavy Industry"],
+        "row": 4,
+        "prerequisites": ["Heavy Industry", "Atomic Theory"],
         "quote": "The Military-Industrial Complex represents the final stage of development of the state army. МIC is a unified system for the production of military equipment that provides the state with an uninterrupted supply of advanced weapons."
       },
+      {
+        "name": "Heavy Machinery",
+        "row": 3,
+        "prerequisites": ["Heavy Industry"],
+        "quote": "."
+      },
+      {
+        "name": "Nuclear Fission",
+        "row": 5,
+        "prerequisites": ["Atomic Theory", "Radar"]
       {
         "name": "Military Electronics",
         "row": 7,
