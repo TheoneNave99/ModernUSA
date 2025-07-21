@@ -76,6 +76,12 @@
         "quote": "Transnational Corporations forever locked the planet in the shackles of capitalism"
       },
       {
+        "name": "Mobile Tactics"
+        "row": 3,
+        "prerequisites": ["MIC"]
+        "quote": "."
+      },
+      {
         "name": "Synthetic Alloys", 
         "row": 4,
         "prerequisites": ["MIC", "Nuclear Fission"],
@@ -109,16 +115,28 @@
         "quote": "Modern state is a hard-working united system, in which any mistake costs not money, but lifes"
       },
       {
+        "name": "Particle Physics"
+        "row": 4
+        "prerequisites": ["Synthetic Alloys"]
+        "quote": "."
+      },
+      {
         "name": "Modern Warfare Strategy",
-        "row": 4,
-        "prerequisites": ["Mobile Tactics", "Synthetic Alloys", "Advanced Ballistics"],
+        "row": 3,
+        "prerequisites": ["Mobile Tactics", "Synthetic Alloys", "Telecommunications"],
         "quote": "Modern technology has allowed us to create more advanced materials and use them to design more advanced weapons."
       },
       {
         "name": "Hypersonic Technologies",
         "row": 5,
-        "prerequisites": ["Synthetic Alloys", "Advanced Ballistics", "Lasers"],
+        "prerequisites": ["Synthetic Alloys", "Advanced Ballistics", "Satellites"],
         "quote": "Hypersonic technologies has opened up the greatest speeds the world has ever seen."
+      },
+      {
+        "name": "Nuclear Fusion"
+        "row": 7,
+        "prerequisites": ["Lasers"],
+        "quote": "."
       },
       {
         "name": "Stealth",
