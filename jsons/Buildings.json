@@ -279,7 +279,7 @@
 		"percentStatsBonus": {"Food": 10},
 		"requiredBuilding": "Medical Lab",
 		"hurryCostModifier": 0,
-		"requiredTech": "Modern Oligarchy"
+		"requiredTech": "Urbanism"
 		"uniques": ["[+10]% [Food] [in this city]"]
 	},
 	{
@@ -329,6 +329,7 @@
 		"isNationalWonder": true,
 		"cost": 5000,
 		"gold": 50,
+		"requiredTech": "Modern Oligarchy",
 		"uniques": ["[+4 Gold] per [1] population [in this city]", "Only available <if [Business Skyscraper] is constructed in all [non-[Pupped]] cities>", "Triggers a global alert upon completion"]
 	},
 	{
@@ -365,7 +366,7 @@
 		"maintenance": 20,
 		"gold": 25,
 		"requiredBuilding": "Railway Station",
-		"requiredTech": "Urbanisation",
+		"requiredTech": "Urbanism",
 		"uniques": ["[+1 Gold] from [Road] tiles [in this city]", "[+2 Gold] from [Railroad] tiles [in this city]"]
 	},
 	{
@@ -374,6 +375,7 @@
 		"cost": 4000,
 		"maintenance": 50,
 		"gold": 40,
+		"requiredTech": "Urbanism",
 		"uniques": ["[+1 Culture, +1 Gold] from [Railroad] tiles [in all cities]", "Only available <if [Metropolitan] is constructed in all [non-[Pupped]] cities>"]
 	},
 	{
@@ -383,6 +385,7 @@
 		"replaces": "Dowtown",
 		"cost": 6500,
 		"gold": 100,
+		"requiredTech": "Urbanism",
 		"uniques": ["[+5 Gold per [5] population [in all cities]", "Triggers a global alert upon completion"],
 		"requiredTech": "Modern Oligarchy"
 	},
