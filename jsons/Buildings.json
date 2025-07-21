@@ -67,7 +67,7 @@
 	{
 		"name": "Wall Street",
 		"uniqueTo": "The United States"
-		"cost": 500,
+		"cost": 700,
 		"gold": 5,
 		"specialistSlots": {"Merchant": 4},
 		"greatPersonPoints": {"Great Merchant": 2},
@@ -77,7 +77,7 @@
 	{
 		"name": "Broadway",
 		"uniqueTo": "The United States",
-		"cost": 600,
+		"cost": 790,
 		"culture": 8,
 		"hapiness": 5,
 		"uniques": ["[+75]% [Happiness] [in this city]", "Limited to [1] per Civilization"],
@@ -87,7 +87,7 @@
 		"name": "The Empire State Building",
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
-		"cost": 790,
+		"cost": 950,
 		"culture": 4,
 		"gold": 15,
 		"specialistSlots": {"Merchant": 2},
@@ -100,7 +100,7 @@
 		"name": "One World Trade Centre",
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
-		"cost": 990,
+		"cost": 1950,
 		"culture": 2,
 		"gold": 5,
 		"specialistSlots": {"Merchant": 4},
@@ -113,7 +113,7 @@
 		"name": "Yellowstone National Park",
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
-		"cost": 850,
+		"cost": 950,
 		"culture": 8,
 		"food": 10,
 		"requiredTech": "Ecology",
@@ -124,7 +124,7 @@
 		"name": "Rockefeller Centre",
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
-		"cost": 1150,
+		"cost": 1750,
 		"gold": 10,
 		"requiredTech": "Globalization",
 		"uniques": ["[+10 Gold] from [Oil] tiles [in all cities]"],
@@ -134,7 +134,7 @@
 		"name": "Times Square",
 		"uniqueTo": "The United States",
 		"isWonder": true,
-		"cost": 1150,
+		"cost": 1250,
 		"culture": 10,
 		"requiredTech": "Telecommunications",
 		"uniques": ["[+50]% [Culture] [in this city]", "[+15]% [Culture] [in all cities]"],
@@ -144,7 +144,7 @@
 		"name": "Boeing Corporation",
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
-		"cost": 1050,
+		"cost": 1550,
 		"production": 25,
 		"requiredTech": "MIC",
 		"uniques": ["[+50]% Production when constructing [Air] units [in this city]", "Limited to [1] per Civilization"],
@@ -165,7 +165,7 @@
 		"name": "General Dynamics",
 		"uniqueTo": "The United States",
 		"isNationalWonder": true,
-		"cost": 1050,
+		"cost": 1550,
 		"production": 25,
 		"requiredTech": "MIC",
 		"uniques": ["[+50]% Production when constructing [Land] units [in this city]", "New [Land] units starts with [50] XP"]
@@ -175,7 +175,7 @@
 		"isNationalWonder": true,
 		"uniqueTo": "The United States",
 		"replaces": "Military Consortium",
-		"cost": 925,
+		"cost": 1200,
 		"production": 1,
 		"uniques": ["[+15]% production when constructing [Military] units [in all cities]", "New [Military] units starts with [25] XP [in this city]"],
 		"quote": "."
@@ -219,6 +219,7 @@
 		"cost": 2750,
 		"production": 1,
 		"requiredTech": "MIC",
+		"uniques": ["Triggers a global alert upon completion"]
 		"quote": "New-Generated Air Dominance is a modern project to improve air warfare technologies that will enable the development of new weapons"
 	},
 	{
@@ -227,6 +228,7 @@
 		"uniqueTo": "The United States",
 		"cost": 3150,
 		"production": 1,
+		"uniques": ["Triggers a global alert upon completion"],
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "."
 	},
@@ -296,13 +298,21 @@
 	},
 	{
 		"name": "Residential Skyscraper",
-		"cost": 115
+		"cost": 1150
 		"maiintenance": 10,
-		"gold": 30,
+		"gold": 20,
 		"requiredBuilding": "Stock Exchange",
 		"hurryCostModifier": 0,
-		"requiredTech": "Modern Oligarchy",
-		"uniques": ["[+50]% [Gold] [in this city]"]
+		"requiredTech": "Urbanism",
+		"uniques": ["[+15]% [Gold] [in this city]", "[+15]% [Food] [in this city]"]
+	},
+	{
+		"name": "Residential Area",
+		"isNationalWonder": true,
+		"cost": 2500,
+		"gold": 25,
+		"requiredTech": "Urbanism",
+		"uniques": ["[+3 Food] per [1] population [in this city]", "Only available <if [Residential Skyscraper] is constructed in all [non-[Pupped]] cities>"]
 	},
 	{
 		"name": "Business Skyscraper",
@@ -312,7 +322,14 @@
 		"requiredBuilding": "Residential Skyscraper",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy",
-		"uniques": ["[+75]% [Gold] [in this city]"]
+		"uniques": ["[+25]% [Gold] [in this city]"]
+	},
+	{
+		"name": "Downtown",
+		"isNationalWonder": true,
+		"cost": 5000,
+		"gold": 50,
+		"uniques": ["[+4 Gold] per [1] population [in this city]", "Only available <if [Business Skyscraper] is constructed in all [non-[Pupped]] cities>", "Triggers a global alert upon completion"]
 	},
 	{
 		"name": "Personal Skyscraper",
@@ -324,13 +341,49 @@
 		"requiredBuilding": "Residential Skyscraper",
 		"hurryCostModifier": 0,
 		"requiredTech": "Modern Oligarchy",
-		"uniques": ["[+75]% [Gold] [in this city]", "[+15]% [Production] [in this city]"]
+		"uniques": ["[+30]% [Gold] [in this city]", "[+15]% [Culture] [in this city]"]
+	},
+	{
+		"name": "Manhattan",
+		"isNationalWonder": true,
+		"uniqueTo": "The United States",
+		"replaces": "Downtown",
+		"cost": 7500,
+		"gold": 75,
+		"uniques": ["[+5 Gold] per [1] population [in this city]", "Only available <if [Personal Skyscraper] is constructed in all [non-[Pupped]] cities>", "Triggers a global alert upon completion"]
+	},
+	{
+		"name": "Railway Station",
+		"cost": 650,
+		"gold": 5,
+		"requiredTech": "Railroads",
+		"uniques": ["[+1 Gold] from [Railroad] tiles [in this city]"]
+	},
+	{
+		"name": "Metropolitan",
+		"cost": 2500,
+		"maintenance": 20,
+		"gold": 25,
+		"requiredBuilding": "Railway Station",
+		"requiredTech": "Urbanisation",
+		"uniques": ["[+1 Gold] from [Road] tiles [in this city]", "[+2 Gold] from [Railroad] tiles [in this city]"]
+	},
+	{
+		"name": "Moscow Metro",
+		"isNationalWonder": true,
+		"cost": 4000,
+		"maintenance": 50,
+		"gold": 40,
+		"uniques": ["[+1 Culture, +1 Gold] from [Railroad] tiles [in all cities]", "Only available <if [Metropolitan] is constructed in all [non-[Pupped]] cities>"]
 	},
 	{
 		"name": "Moscow City",
-		"isWonder": true,
-		"cost": 2000,
+		"isNationalWonder": true,
+		"uniqueTo": "Russia",
+		"replaces": "Dowtown",
+		"cost": 6500,
 		"gold": 100,
+		"uniques": ["[+5 Gold per [5] population [in all cities]", "Triggers a global alert upon completion"],
 		"requiredTech": "Modern Oligarchy"
 	},
 	{
@@ -339,7 +392,7 @@
 		"isNationalWonder": true,
 		"cost": 2250,
 		"gold": 150,
-		"uniques": ["[+10 Production, +10 Gold] from all [Science] buildings [in this city]"],
+		"uniques": ["[+10 Production, +10 Gold] from all [Science] buildings [in this city]", "Triggers a global alert upon completion"],
 		"requiredTech": "Microchips"
 	},
 	{
@@ -364,7 +417,7 @@
 		"cost": 2500,
 		"production": 1,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Only available <if [Manhattan Project] is constructed>"],
+		"uniques": ["Only available <if [Manhattan Project] is constructed>", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
@@ -373,14 +426,14 @@
 		"cost": 5000,
 		"production": 1,
 		"requiredTech": "Hypersonic Technologies",
-		"uniques": ["Only available <if [Supersonic Project] is constructed>"],
+		"uniques": ["Only available <if [Supersonic Project] is constructed>", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
 		"name": "California Valley",
 		"isNationalWonder": true,
 		"uniqueTo": "The United States",
-		"cost": 100,
+		"cost": 1100,
 		"uniques": ["[+5 Food] from [Grassland] tiles [in this city]", "[+4 Happiness] from [Grassland] tiles [in this city]", "[+20 Gold] from [Oil] tiles [in this city]"],
 		"quote": "."
 	},
@@ -388,7 +441,7 @@
 		"name": "NYC Central Park",
 		"isNationalWonder": true,
 		"uniqueTo": "The United States",
-		"cost": 750,
+		"cost": 950,
 		"uniques": ["[+3 Happiness, +2 Food] from [Forest] tiles [in this city]"],
 		"quote": "."
 	},
@@ -454,7 +507,7 @@
 		"cost": 2150,
 		"production": 1,
 		"requiredTech": "Modern Warfare Strategy",
-		"uniques": ["[+20]% Production when constructing [Water] units [in all cities]"],
+		"uniques": ["[+20]% Production when constructing [Water] units [in all cities]", "Triggers a global alert upon completion"],
 		"quote": "Barracuda Programme allows to France to construct modern submarines which are stronger than any other"
 	},
 //JAPAN
@@ -464,6 +517,7 @@
 		"uniqueTo": "Japan",
 		"cost": 2150,
 		"production": 1,
+		"uniques": ["Triggers a global alert upon completion"]
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "."
 	},
@@ -475,6 +529,7 @@
 		"cost": 2750,
 		"production": 1,
 		"requiredTech": "Modern Warfare Strategy",
+		"uniques": ["Triggers a global alert upon completion"],
 		"quote": "New Generation Fighter of EU is a project which will allow Europe to ensure full control of airspace."
 	},
 	{
@@ -493,6 +548,7 @@
 		"uniqueTo": "European Union",
 		"cost": 2000,
 		"production": 1,
+		"uniques": ["Triggers a global alert upon completion"],
 		"quote": "European Sky Shield Initiative is a huge project which will allow to European Union create a modern sky protection system"
 	},
 	{
@@ -505,6 +561,7 @@
 		"requiredTech": "MIC",
 		"uniques": ["[+5]% [Production] [in all cities]", "[+20]% production when constructing [Military] units [in all cities]"]
 	},
+//ENGLAND
 	{
 		"name": "BAE Systems",
 		"isNationalWonder": true,
@@ -612,6 +669,7 @@
 		"isNationalWonder": true,
 		"uniqueTo": "Russia",
 		"production": 1,
+		"uniques": ["Triggers a global alert upon completion"],
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "."
 	}
@@ -619,7 +677,7 @@
 	{
 		"name": "WorldWide Web",
 		"isWonder": true,
-		"cost": 1450,
+		"cost": 150,
 		"requiredTech": "Military Electronics",
 		"uniques": ["[2] Free Technologies", "[+50]% [Science] [in this city]"],
 		"quote": "."
@@ -627,10 +685,12 @@
 	{
 		"name": "Military Consortium",
 		"isNationalWonder": true
-		"cost": 875,
+		"cost": 1375,
 		"requiredTech": "MIC",
 		"production": 10,
-		"uniques": ["[+15]% Production when constructing [Military] units [in all cities]"],
+		"cityStrength": 25,
+		"cityHealth": 50,
+		"uniques": ["[+25]% Production when constructing [Military] units [in all cities]", "Only available <if [Military Base] is constructed in all [non-[Pupped]] cities>", "Triggers a global alert upon completion"],
 		"quote": "."
 	}
 ]
