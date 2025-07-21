@@ -134,7 +134,7 @@
       },
       {
         "name": "Nuclear Fusion"
-        "row": 7,
+        "row": 6,
         "prerequisites": ["Lasers"],
         "quote": "."
       },
