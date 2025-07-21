@@ -63,6 +63,7 @@
         "name": "Nuclear Fission",
         "row": 5,
         "prerequisites": ["Atomic Theory", "Radar"]
+      },
       {
         "name": "Military Electronics",
         "row": 7,
