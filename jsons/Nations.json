@@ -97,7 +97,7 @@
 		"leaderName": "Abe Shinzo",
 		"adjective": ["Japanese"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Scientific",
 		"personality": "Oda Nobunaga",
 
         "startIntroPart1": "Mr. Prime Minister, congratulations on your arrival. Modern Japan is no longer the wild, undeveloped Japanese Empire, but a rapidly developing scientific giant."
@@ -114,8 +114,8 @@
 		"outerColor": [255, 255, 255],
 		"innerColor": [184, 0, 0],
 		"favoredReligion": "Shinto",
-		"uniqueName": "Bushido",
-		"uniques": [""],
+		"uniqueName": "The Nation of Techs",
+		"uniques": ["[+25]% [Science] <while the empire is happy>","[+15]% [Science] [in all cities]", "[+1 Science] from all [Culture] buildings [in all cities]", "[+1 Happiness] from all [Science] buildings [in all cities]"],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
