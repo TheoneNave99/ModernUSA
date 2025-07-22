@@ -40,7 +40,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"greatPersonPoints": {"Great Merchant": 8},
 		"requiredTech": "Globalization",
-		"uniques": ["[+5]% [Gold] from [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]", "[+20 Gold] from each Trade Route"],
+		"uniques": ["[+5] [Gold] from all [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]", "[+20 Gold] from each Trade Route"],
 		"quote": "Greetings to the mighty symbol of capitalism, who rose from the ashes of disaster like a golden phoenix"
 	},
 //JUST
@@ -215,7 +215,7 @@
 		"culture": 8,
 		"food": 10,
 		"requiredTech": "Ecology",
-		"uniques": ["[+2 Food] from all [Culture] buildings [in all cities]", "[+5 Culture] from [Forest] tiles [in this city]"],
+		"uniques": ["[+2 Food] from all [Culture] buildings", "[+5 Culture] from [Forest] tiles [in this city]"],
 		"quote": "There is only one power humanity haven't won yet — the power of Nature"
 	},
 	{
@@ -275,7 +275,7 @@
 		"replaces": "Military Consortium",
 		"cost": 1200,
 		"production": 1,
-		"uniques": ["[+15]% production when constructing [Military] units [in all cities]", "New [Military] units starts with [25] XP [in this city]"],
+		"uniques": ["[+15]% Production when constructing [Military] units [in all cities]", "New [Military] units starts with [25] XP [in this city]"],
 		"quote": "."
 	},
 	{
@@ -284,7 +284,7 @@
 		"cost": 2500,
 		"production": 10,
 		"uniques": ["[+50]% Production when constructing [Military] units [in this city]", "[+15]% Production when constructing [All] units [in all cities]",
-			"New [Military] units starts with [50] XP [in this city]", "All newly-trained [Military] units [in this city] receive the [For democracy] promotion"],
+			"New [Military] units start with [50] XP [in this city]", "All newly-trained [Military] units [in this city] receive the [For democracy] promotion"],
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "The North Atlantic Treaty Organisation is ready to defend the Democracy and the Peace in the name of Free World!"
 	},
@@ -479,7 +479,7 @@
 		"isWonder": true,
 		"cost": 2250,
 		"gold": 75,
-		"uniques": ["[+10 Production, +10 Gold] from [Science] buildings [in this city]", "Only available <in cities with a [Microchip Factory]>", "Triggers a global alert upon completion"],
+		"uniques": ["[+10 Production, +10 Gold] from all [Science] buildings", "Only available <in cities with a [Microchip Factory]>", "Triggers a global alert upon completion"],
 		"requiredTech": "Microchips"
 	},
 	{
@@ -538,7 +538,7 @@
 		"cost": 1750,
 		"requiredTech": "TNC",
 		"production": 25,
-		"uniques": ["[+10 Production] from [Natural Gas] tiles [in all cities]"],
+		"uniques": ["[+10 Production] from [Natural Gas] tiles [in all cities]", "[+5 Gold] from every [Gas Storage Facility]"],
 		"quote": "."
 	},
 	{
@@ -669,7 +669,7 @@
 		"isNationalWonder": true,
 		"production": 10,
 		"culture": 4,
-		"uniques": ["Provides [5] [Coal]"],
+		"uniques": ["Provides [5] [Coal]", "[+1 Production, +1 Gold] from [Coal] tiles [in all cities]"],
 		"requiredTech": "Industrialization",
 	},
 	{
@@ -678,7 +678,7 @@
 		"isNationalWonder": true,
 		"production": 10,
 		"gold": 4,
-		"uniques": ["Provides [5] [Aluminum]"],
+		"uniques": ["Provides [5] [Aluminum]", "[+1 Production, +1 Gold] from [Aluminum] tiles [in all cities]"],
 		"requiredTech": "Electricity",
 	},
 	{
@@ -687,7 +687,7 @@
 		"isNationalWonder": true,
 		"culture": 10,
 		"happiness": 4,
-		"uniques": ["Free Social Policy"],
+		"uniques": ["[2] Free Social Policies"],
 		"requiredTech": "Architecture",
 	},
 	{
@@ -696,7 +696,7 @@
 		"isNationalWonder": true,
 		"science": 10,
 		"happiness": 4,
-		"uniques": ["Free Technology"],
+		"uniques": ["Free Technology", "[+100]% [Science] [in this city]", "[+7 Science] from every [University]"],
 		"requiredTech": "Scientific Theory",
 	},
 	{
@@ -708,7 +708,7 @@
 		"science": 10,
 		"production": 10,
 		"requiredTech": "Nuclear Fission",
-		"uniques": ["[+10 Gold, +5 Production] from all [Uranium] tiles [in all cities]", "[+20 Production] from all [Nuclear Plant]", "Only available <in cities with a [Nuclear Plant]>"],
+		"uniques": ["[+10 Gold, +5 Production] from all [Uranium] tiles [in all cities]", "[+20 Production] from every [Nuclear Plant]", "Only available <in cities with a [Nuclear Plant]>"],
 		"quote": "."
 	},
 	{
@@ -719,7 +719,7 @@
 		"science": 30,
 		"culture": 10,
 		"requiredTech": "Computers",
-		"uniques": ["Free Technology", "[+25]% [Science] [in this city]"],
+		"uniques": ["Free Technology", "[+75]% [Science] [in this city]"],
 		"quote": "."
 	}
 	{
@@ -730,7 +730,7 @@
 		"requiredNearbyImprovedResuorce": ["Titanium", "Aluminum"],
 		"production": 20,
 		"gold": 50,
-		"uniques": ["[+15 Gold] from all [Titanium] tiles [in all cities]", "[+5 Production, +5 Gold] from all [Aluminum] tiles [in all cities]", "Only available <in cities with a [Nuclear Plant]>", "[+30]% [Production] [in this city]"],
+		"uniques": ["[+15 Gold] from all [Titanium] tiles [in all cities]", "[+5 Production, +5 Gold] from all [Aluminum] tiles [in all cities]", "[+10 Production] from every [Fyll-cycle Plant]", "Only available <in cities with a [Nuclear Plant]>", "[+30]% [Production] [in this city]"],
 		"quote": "VSMPO-AVISMA Corporation is the world largest titanium and aluminum producer, located in Russia."
 	},
 	{
@@ -769,7 +769,7 @@
 		"isWonder": true,
 		"cost": 45000,
 		"requiredTech": "Globalization",
-		"uniques": ["[+3 Gold, +3 Science, +3 Culture] per [1] population [in all cities]", "Consumes [10] [Titanium]", "Triggers a global alert upon completion"],
+		"uniques": ["[+5 Gold, +5 Science, +5 Culture] per [1] population [in all cities]", "[+100]% [Science] [in this city]", "Consumes [10] [Titanium]", "Only available <in cities with a [Spaceship Factory]>", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
@@ -779,7 +779,7 @@
 		"specialistSlots": {"Scientist": 2},
 		"greatPersonPoints": {"Great Scientist": 5},
 		"requiredTech": "Military Electronics",
-		"uniques": ["Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>", "[+5 Science] from every [Spaceship Factory]", "Triggers a global alert upon completion"],
 	},
 	{
 		"name": "Space Station",
@@ -799,7 +799,7 @@
 		"specialistSlots": {"Scientist": 4},
 		"greatPersonPoints": {"Great Scientist": 8},
 		"requiredTech": "Military Electronics",
-		"uniques": ["Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>", "[+5 Science, +5 Production] from every [Spaceship Factory]", "Triggers a global alert upon completion"],
 	},
 	{
 		"name": "Skylab",
