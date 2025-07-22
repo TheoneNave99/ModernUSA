@@ -13,7 +13,7 @@
 		"requiredTech": "Humanities",
 		"obsoleteTech": "Pharmaceuticals",
 		"upgradesTo": "Pharmacist",
-		"uniques": ["All adjacent units heal [+12] HP when healing", "Only available <in cities with a [Medical University]", "Cannot attack"],
+		"uniques": ["All adjacent units heal [+12] HP when healing", "Only available <in cities with a [Medical University]>", "Cannot attack"],
 		"strength": 50,
 		"movement": 2,
 		"cost": 520
@@ -22,7 +22,7 @@
 		"name": "Pharmacist",
 		"unitType": "Medical",
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["All adjacent units heal [+30] HP when healing", "Only available <in cities with a [Medical University]", "Cannot attack", "[+50]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": ["All adjacent units heal [+30] HP when healing", "Only available <in cities with a [Medical University]>", "Cannot attack", "[+50]% Strength <vs [Ranged] units> <when defending>"],
 		"strength": 70,
 		"movement": 3,
 		"cost": 750
