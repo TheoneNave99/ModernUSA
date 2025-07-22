@@ -858,6 +858,7 @@
 		"greatPersonPoints": {"Great Scientist": 5},
 		"requiredTech": "Military Electronics",
 		"uniques": ["Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>", "[+5 Science] from every [Spaceship Factory]", "Triggers a global alert upon completion"],
+		"civilopediaText": [{"text": "Space Program allows you to explore the endless Space and build your own Space Station"}]
 	},
 	{
 		"name": "Space Station",
@@ -1064,5 +1065,30 @@
 		"requiredBuilding": "Special Services",
 		"cityStrength": 30,
 		"cityHealth": 30
+	},
+//ARCTOLOGY THEME
+	{
+		"name": "Arctic Program",
+		"isNationalWonder": true,
+		"cost": 10000,
+		"science": 1,
+		"requiredTech": "Arctology"
+		"uniques": ["Free Technology", "[+1 Science] from [Snow] tiles [in all cities]"],
+		"civilopediaText": [{"text": "Arctic Program allows you to explore Polar lands and research the Arctica"}]
+	},
+	{
+		"name": "Arctology Lab",
+		"cost": 1150,
+		"requiredTech": "Arctology",
+		"requiredBuilding": "Research Lab",
+		"uniques": ["[+10 Science] from [Snow] tiles [in this city]", "Only available <if [Arctic Program] is constructed>", "Must be next to [Snow]"],
+	},
+	{
+		"name": "IRS Snezhinka",
+		"isWonder": true,
+		"requiredTech": "Arctology",
+		"science": 50,
+		"uniques": ["[+5 Science] from [Research Station] tiles [in all cities]", "Must be next to [Snow]", "Only available <if [Arctic Program] is constructed>"],
+		"quote": "International Research Station 'Snezhinka' is world's first full-autonomic arctic research station, located in Russia's polar territory",
 	}
 ]
