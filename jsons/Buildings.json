@@ -254,8 +254,8 @@
 		"production": 50,
 		"specialistSlots": {"Engineer": 4},
 		"greatPersonPoints": {"Great General": 15},
-		"uniques": ["[+50]% Production when constructing [Military] units", "Newly-trained [Military] units [in this city] receive the [Modern] promotion",
-			"New [Military] units starts with [50] XP [in all cities]"],
+		"uniques": ["[+50]% Production when constructing [Military] units [in all cities]", "All newly-trained [Military] units [in this city] receive the [Modern] promotion",
+			"New [Military] units start with [50] XP [in all cities]"],
 		"requiredTech": "TNC",
 		"quote": "Lockheed Martin is the world's premier weapons supplier. Try to hold and lead this power."
 	},
@@ -479,7 +479,7 @@
 		"isWonder": true,
 		"cost": 2250,
 		"gold": 75,
-		"uniques": ["[+10 Production, +10 Gold] from [Science] buildings [in this city]", "Only available <in cities with a [Microchips Factory]>", "Triggers a global alert upon completion"],
+		"uniques": ["[+10 Production, +10 Gold] from [Science] buildings [in this city]", "Only available <in cities with a [Microchip Factory]>", "Triggers a global alert upon completion"],
 		"requiredTech": "Microchips"
 	},
 	{
@@ -538,7 +538,7 @@
 		"cost": 1750,
 		"requiredTech": "TNC",
 		"production": 25,
-		"uniques": ["[+10 Production] from [Oil] tiles [in all cities]"],
+		"uniques": ["[+10 Production] from [Natural Gas] tiles [in all cities]"],
 		"quote": "."
 	},
 	{
@@ -546,7 +546,7 @@
 		"isWonder": true,
 		"cost": 1450,
 		"requiredTech": "Ecology",
-		"uniques": ["[-20 Happiness] from [Oil] tiles [in all cities]",
+		"uniques": ["[-10 Happiness] from [Oil] tiles [in all cities]",
 			"[+1 Happiness] from [Forest] tiles [in all cities]",
 			"[+1 Happiness] from [Grassland] tiles [in all cities]"],
 		"quote": "."
