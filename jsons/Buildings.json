@@ -49,13 +49,49 @@
 		"uniques": ["[+5] [Gold] from all [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]", "[+20 Gold] from each Trade Route", "Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"quote": "Greetings to the mighty symbol of capitalism, who rose from the ashes of disaster like a golden phoenix"
 	},
-//JUST
+//JUST WONDERS
+	{
+		"name": "Apple inc.",
+		"isWonder": true,
+		"production": 10,
+		"gold": 10,
+		"requiredTech": "TNC",
+		"uniques": ["[+50]% [Gold] [in this city]", "[+20 Gold] from every [Microchip Factory]", "Only available <in cities with a [Microchip Factory]>"],
+		"quote": "."
+	},
+	{
+		"name": "Saudi Aramco",
+		"isWonder": true,
+		"requiredNearbyImprovedResources": ["Oil"],
+		"production": 15,
+		"requiredTech": "TNC",
+		"uniques": ["[+5 Production, +5 Gold] from [Oil] tiles [in this city]", "Only available <in cities with a [Oil Refinery]>"],
+		"quote": "."
+	},
+	{
+		"name": "OPEC",
+		"isWonder": true,
+		"requiredTech": "Ecology",
+		"requiredNearbyImprovedResources": ["Oil"],
+		"gold": 25,
+		"uniques": ["[+20 Gold] from [Oil] tiles [in all cities]"],
+		"quote": "."
+	},
+	{
+		"name": "Starlink",
+		"isWonder": true,
+		"requiredTech": "Satellites",
+		"science": 1,
+		"uniques": ["Only available <if [Space Program] is constructed>"],
+		"quote": "."
+	},
 	{
 		"name": "Super Skyscrapers Technology",
 		"isNationalWonder": true,
 		"cost": 5000,
 		"culture": 1,
 		"requiredTech": "Urbanism",
+		"uniques": ["Triggers a global alert upon completion"],
 		"quote": "The technology of super skyscrapers building allows you to construct super high buildings right into the sky"
 	},
 	{
@@ -769,10 +805,10 @@
 		"isWonder": true,
 		"cost": 3000,
 		"requiredTech": "Synthetic Alloys",
-		"requiredNearbyImprovedResuorce": ["Titanium", "Aluminum"],
+		"requiredNearbyImprovedResources": ["Titanium", "Aluminum"],
 		"production": 20,
 		"gold": 50,
-		"uniques": ["[+15 Gold] from all [Titanium] tiles [in all cities]", "[+5 Production, +5 Gold] from all [Aluminum] tiles [in all cities]", "[+10 Production] from every [Fyll-cycle Plant]", "Only available <in cities with a [Nuclear Plant]>", "[+30]% [Production] [in this city]"],
+		"uniques": ["[+15 Gold] from [Titanium] tiles [in all cities]", "[+5 Production, +5 Gold] from [Aluminum] tiles [in all cities]", "[+10 Production] from every [Full-cycle Plant]", "Only available <in cities with a [Full-Cycle Plant]>", "[+30]% [Production] [in this city]"],
 		"quote": "VSMPO-AVISMA Corporation is the world largest titanium and aluminum producer, located in Russia."
 	},
 	{
