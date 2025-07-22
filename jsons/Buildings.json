@@ -103,6 +103,15 @@
 		"quote": "."
 	},
 	{
+		"name": "Burj Khalifa",
+		"isWonder": true,
+		"cost": 10000,
+		"culture": 20,
+		"gold": 200,
+		"requiredTech": "Globalization",
+		"uniques": ["Free Social Policy", "Free Great Merchant appears", "Free Great Artist appears", "Empire enters Golden Age", "Only available <if [Super Skyscrapers Technology] is constructed>"],
+		"quote": "The Burj Khalifa Tower is the tallest building in the whole world. Build this and no one on the planet will ever doubt your influence again."
+	},
 //MAIN TV TOWER THEME
 	{
 		"name": "State BC Tower",
