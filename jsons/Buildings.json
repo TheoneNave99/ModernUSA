@@ -82,7 +82,7 @@
 		"isWonder": true,
 		"requiredTech": "Satellites",
 		"science": 1,
-		"uniques": ["Only available <if [Space Program] is constructed>"],
+		"uniques": ["Free [Starlink Satellite] appears", "Only available <if [Space Program] is constructed>"],
 		"quote": "."
 	},
 	{
