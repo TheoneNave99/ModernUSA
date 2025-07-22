@@ -746,7 +746,6 @@
 		"name": "Su-27 Flanker-B",
 		"unitType": "Fighter",
 		"uniqueTo": "Russia",
-		"replaces": "Fighter",
 		"cost": 395,
 		"movement": 1,
 		"strength": 65,
@@ -1068,7 +1067,6 @@
 		"promotions": ["Charge"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "shot",
-		"upgradesTo": "T-14 Armata"
 	},
 	{
 		"name": "T-14 Armata",
