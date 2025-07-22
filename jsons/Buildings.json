@@ -801,17 +801,6 @@
 		"quote": "."
 	}
 	{
-		"name": "VSMPO-AVISMA",
-		"isWonder": true,
-		"cost": 3000,
-		"requiredTech": "Synthetic Alloys",
-		"requiredNearbyImprovedResources": ["Titanium", "Aluminum"],
-		"production": 20,
-		"gold": 50,
-		"uniques": ["[+15 Gold] from [Titanium] tiles [in all cities]", "[+5 Production, +5 Gold] from [Aluminum] tiles [in all cities]", "[+10 Production] from every [Full-cycle Plant]", "Only available <in cities with a [Full-Cycle Plant]>", "[+30]% [Production] [in this city]"],
-		"quote": "VSMPO-AVISMA Corporation is the world largest titanium and aluminum producer, located in Russia."
-	},
-	{
 		"name": "Carrier-Icebreaker Project",
 		"cost": 5000,
 		"isNationalWonder": true,
