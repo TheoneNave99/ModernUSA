@@ -1174,7 +1174,7 @@
 		"uniqueTo": "Russia",
 		"replaces": "Nuclear Hypersonic Missile",
 		"cost": 5000,
-		"movement": 0,
+		"movement": 1,
 		"strength": 500,
 		"rangedStrength": 500,
 		"range": 50,
