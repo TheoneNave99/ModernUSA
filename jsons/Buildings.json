@@ -247,10 +247,10 @@
 	{
 		"name": "Super Skyscrapers Technology",
 		"isNationalWonder": true,
-		"cost": 5000,
+		"cost": 10000,
 		"culture": 1,
-		"requiredTech": "Urbanism",
-		"uniques": ["Triggers a Globalizationlert upon completion"],
+		"requiredTech": "Globalization",
+		"uniques": ["Triggers a global alert upon completion"],
 		"quote": "The technology of super skyscrapers building allows you to construct super high buildings right into the sky"
 	},
 	{
