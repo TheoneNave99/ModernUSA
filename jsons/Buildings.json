@@ -1090,5 +1090,15 @@
 		"science": 50,
 		"uniques": ["[+5 Science] from [Research Station] tiles [in all cities]", "Must be next to [Snow]", "Only available <if [Arctic Program] is constructed>"],
 		"quote": "International Research Station 'Snezhinka' is world's first full-autonomic arctic research station, located in Russia's polar territory",
+	},
+//
+	{
+		"name": "Medical University",
+		"cost": 1200,
+		"requiredBuilding": "Hospital",
+		"requiredTech": "Humanities",
+		"science": 5,
+		"food": 3
 	}
+	
 ]
