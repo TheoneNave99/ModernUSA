@@ -44,7 +44,7 @@
 		"gold": 150,
 		"requiredBuilding": "Shanghai World Finance Center",
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from all [Science] buildings [in all cities]", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from all [Science] buildings", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
@@ -102,7 +102,7 @@
 		"cost": 7500,
 		"gold": 150,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from [Production] buildings [in all cities]"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from all [Production] buildings"],
 		"quote": "."
 	},
 	{
@@ -121,7 +121,7 @@
 		"cost": 7500,
 		"gold": 175,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from all [Science] buildings [in all cities]", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from all [Science] buildings", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
@@ -130,7 +130,7 @@
 		"cost": 7500,
 		"gold": 150,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+20 Gold] from all [Food] buildings [in all cities]","Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+20 Gold] from all [Food] buildings","Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
@@ -139,7 +139,7 @@
 		"cost": 7500,
 		"gold": 250,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+1] population [in this city] <upon entering a Golden Age>", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
@@ -148,7 +148,7 @@
 		"cost": 7500,
 		"gold": 250,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+20 Gold, +5 Culture] frok every [Stock Exchange]","Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	
