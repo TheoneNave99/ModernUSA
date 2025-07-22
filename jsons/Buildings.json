@@ -747,7 +747,7 @@
 	{
 		"name": "WorldWide Web",
 		"isWonder": true,
-		"cost": 150,
+		"cost": 1500,
 		"requiredTech": "Military Electronics",
 		"uniques": ["[2] Free Technologies", "[+50]% [Science] [in this city]"],
 		"quote": "."
