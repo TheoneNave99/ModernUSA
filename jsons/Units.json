@@ -1082,7 +1082,7 @@
 		"requiredResource": "Titanium",
 		"promotions": ["Charge"],
 		"uniques": ["Can move after attacking", "[+100]% Strength <vs [Siege] units>",
-			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% to Flank attack bonus"],
+			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% to Flank Attack bonus"],
 		"attackSound": "shot"
 	},
 	{
