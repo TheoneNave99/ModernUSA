@@ -11,7 +11,7 @@
 	{
 		"name": "Shanghai World Financial Center",
 		"cost": 2500,
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "China",
 		"replaces": "World Financial Center"
 		"requiredTech": "Globalization",
@@ -21,7 +21,7 @@
 	},
 	{
 		"name": "Lachta Centre",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "Russia",
 		"replaces": "World Financial Center",
 		"cost": 2500,
@@ -32,7 +32,7 @@
 	{
 		"name": "One World Trade Centre",
 		"uniqueTo": "The United States",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"replaces": "World Financial Center",
 		"cost": 2500,
 		"culture": 2,
@@ -50,7 +50,7 @@
 		"cost": 2500,
 		"gold": 150,
 		"requiredTech": "Globalization",
-		"uniques": ["[+50]% [Gold] [in this city]"],
+		"uniques": ["[+50]% [Gold] [in this city]", "[+2 Science] per [1] population [in this city]"],
 		"quote": "."
 	},
 	{
@@ -59,14 +59,14 @@
 		"cost": 2500,
 		"gold": 150,
 		"requiredTech": "Globalization",
-		"uniques": ["[+3 Gold] from [Coast] tiles [in all cities]"],
+		"uniques": ["[+3 Gold] from [Coast] tiles [in all cities]", "[+5 Science] from [Coast] tiles [in this city]", "Must be next to [Coast]"],
 		"quote": "."
 	},
 	{
 		"name": "Kansai International Airport",
 		"isWonder": true,
 		"greatPersonPoints": { "Great Engineer": 3 },
-		"uniques": ["Creates a [KIX Airport] improvement on a specific tile", "Must be next to [Coast]"],
+		"uniques": ["Creates a [KIX Airport] improvement on a specific tile", "[+2 Gold] from [Coast] tiles [in this city]", "Must be next to [Coast]"],
 		"requiredTech": "Globalization",
 		"quote": "'All our sweetest hours fly fastest' - Virgil"
 	},
@@ -81,7 +81,7 @@
 	},
 	{
 		"name": "Oriental Pearl Tower",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "China",
 		"replaces": "State BC Tower",
 		"cost": 2250,
@@ -91,7 +91,7 @@
 	},
 	{
 		"name": "Tokyo Sky Tree",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "Japan",
 		"replaces": "State BC Tower",
 		"cost": 2500,
@@ -101,7 +101,7 @@
 	},
 	{
 		"name": "Ostankino Tower",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "Russia",
 		"replaces": "State BC Tower",
 		"cost": 2500,
