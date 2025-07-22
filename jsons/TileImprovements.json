@@ -37,6 +37,7 @@
 		"science": 5,
 		"turnsToBuild": 12,
 		"techRequired": "Arctology",
+		"uniques": ["Only available <if [Arctic Program] is constructed>"],
 		"shortcutKey": "R"
 	}
 ]
