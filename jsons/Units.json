@@ -999,7 +999,7 @@
 		"cost": 690,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["No defensive terrain bonus", "Can move after attacking", "[+2] Sight", "All tiles cost 1 movement", "Ignores Zone of Control", "Can pass trough impassabale tiles", "[+200]% Strength <vs [Armored] units",
+		"uniques": ["No defensive terrain bonus", "Can move after attacking", "[+2] Sight", "All tiles cost 1 movement", "Ignores Zone of Control", "Can pass through impassabale tiles", "[+200]% Strength <vs [Armored] units>",
 			"[+150]% Strength <vs [Fighter] units> <when defending>", "May travel on Water tiles without embarking"],
 		"attackSound": "machinegun"
 	},
@@ -1574,7 +1574,7 @@
 		"movement": 3,
 		"requiredTech": "Modern Warfare Strategy",
 		"uniques": ["Consumes [5] [Titanium]", "Consumes [5] [Aluminum]", "Consumes [3] [Uranium]", "Consumes [3] [Modern Alloy]", "Limited to [1] per Civilization", "Only available <in cities with a [Suidobashi Heavy Industry]>",
-			"[+25]% to Flank Attack bonuses", "[-75]% Strength <when fighting in [Tundra] tiles", "[-100]% Strength <when fighting in [Snow] tiles", "Unable to capture cities", "[+50]% Strength <vs [Ranged] units> <when defending>"],
+			"[+25]% to Flank Attack bonuses", "[-75]% Strength <when fighting in [Tundra] tiles>", "[-100]% Strength <when fighting in [Snow] tiles>", "Unable to capture cities", "[+50]% Strength <vs [Ranged] units> <when defending>"],
 		"attackSound": "GDRattack"
 	},
 	{
