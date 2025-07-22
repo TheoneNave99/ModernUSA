@@ -204,6 +204,12 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
+				"name": "Ultra-tall Construction",
+				"row": 2,
+				"prerequisites": ["Complete State Management", "Globalization"],
+				"quote": "Humanity has reached for the skies, setting new records and building ever taller buildings. Who knows if humanity will ever reach... the stratosphere?.."
+			},
+			{
 				"name": "Future Tech",
 				"row": 5,
 				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Nanotechnology","Stealth","Complete State Management","Modern Warfare Strategy", "Hypersonic Technologies"],
