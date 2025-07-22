@@ -1,52 +1,211 @@
 [
+//SKYSCRAPERS THEME
+	{
+		"name": "Merdeka 118",
+		"isWonder": true,
+		"cost": 10000,
+		"gold": 250,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Must be next to [Coast]", "[+10 Gold] from [Coastal] tiles [in all cities]"],
+		"quote": "."
+	},
+	{
+		"name": "Abraj al Bait",
+		"isWonder": true,
+		"cost": 10000,
+		"gold": 100,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Must be next to [Desert]", "[+5 Gold] from [Desert] tiles [in all cities]"],
+		"quote": "."
+	},
+	{
+		"name": "Shanghai Tower",
+		"isWonder": true,
+		"cost": 10000,
+		"gold": 160,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+20 Gold] from every [Business Skyscraper]", "[+5]% [Gold] from every [Business Skyscraper]"],
+		"quote": "."
+	}
+	{
+		"name": "Ping An Finance Center",
+		"isWonder": true,
+		"uniqueTo": "China",
+		"cost": 7500,
+		"gold": 150,
+		"requiredBuilding": "Shanghai World Finance Center",
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from [Science] buildings [in all cities]", "Triggers a global alert upon completion"],
+		"quote": "."
+	},
+	{
+		"name": "Federation Tower",
+		"isWonder": true,
+		"uniqueTo": "Russia",
+		"cost": 7500,
+		"gold": 200,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <in cities with a [Moscow City]", "Triggers a global alert upon completion"],
+		"quote": "."
+	},
+	{
+		"name": "City of Capitals",
+		"isWonder": true,
+		"cost": 7500,
+		"gold": 200,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>"],
+		"quote": "."
+	},
+	{
+		"name": "Lotte World Tower",
+		"isNationalWonder": true,
+		"uniqueTo": "Korea",
+		"cost": 7500,
+		"gold": 250,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Must be next to [Coast]", "Triggers a global alert upon completion"],
+		"quote": "."
+	},
+	{
+		"name": "Tianjin CTF Finance Center",
+		"isNationalWonder": true,
+		"uniqueTo": "China",
+		"cost": 7500,
+		"gold": 200,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion"],
+		"quote": "."
+	},
+	{
+		"name": "Guangzhou CTF Finance Center",
+		"isNationalWonder": true,
+		"uniqueTo": "China",
+		"cost": 7500,
+		"gold": 200,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion"],
+		"quote": "."
+	},
+	{
+		"name": "China Zun",
+		"isWonder": true,
+		"cost": 7500,
+		"gold": 150,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from [Production] buildings [in all cities]"],
+		"quote": "."
+	},
+	{
+		"name": "International Commercial Center",
+		"isNationalWonder": true,
+		"uniqueTo": "China",
+		"cost": 7500,
+		"gold": 300,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion"],
+		"quote": "."
+	},
+	{
+		"name": "Greenland Tower",
+		"isWonder": true,
+		"cost": 7500,
+		"gold": 175,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "!+10 Gold] from [Science] buildings [in all cities]", "Triggers a global alert upon completion"],
+		"quote": "."
+	},
+	{
+		"name": "Central Park Tower",
+		"isWonder": true,
+		"cost": 7500,
+		"gold": 150,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+20 Gold] from [Food] buildings [in all cities]","Triggers a global alert upon completion"],
+		"quote": "."
+	},
+	{
+		"name": "Landmark 81",
+		"isWonder": true,
+		"cost": 7500,
+		"gold": 250,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion"],
+		"quote": "."
+	},
+	{
+		"name": "The Exchange 108",
+		"isWonder": true,
+		"cost": 7500,
+		"gold": 250,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion"],
+		"quote": "."
+	},
+	
+
+		
 //TRADE CENTERS THEME
 	{
-		"name": "World Financial Center",
+		"name": "World Finance Center",
 		"isNationalWonder": true,
-		"cost": 2500,
+		"cost": 4500,
 		"gold": 150,
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "A World Financial Center will enable our nation to enter the international financial services system."
 	},
 	{
-		"name": "Shanghai World Financial Center",
-		"cost": 2500,
-		"isWonder": true,
-		"uniqueTo": "China",
-		"replaces": "World Financial Center"
+		"name": "The Shard",
+		"isNationalWonder": true,
+		"uniqueTo": "England",
+		"replaces": "World Finance Center",
+		"cost": 4000,
+		"gold": 150,
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>"],
-		"gold": 200,
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
+		"quote": "A World Financial Center will enable our nation to enter the international financial services system."
+	},
+	{
+		"name": "Shanghai World Finance Center",
+		"cost": 4500,
+		"isWonder": true,
+		"uniqueTo": "China",
+		"replaces": "World Finance Center"
+		"requiredTech": "Globalization",
+		"requiredBuilding": "Stock Exchange",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
+		"gold": 250,
 		"quote": "."
 	},
 	{
 		"name": "Lachta Centre",
 		"isWonder": true,
 		"uniqueTo": "Russia",
-		"replaces": "World Financial Center",
-		"cost": 2500,
+		"replaces": "World Finance Center",
+		"cost": 4500,
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
+		"culture": 100,
 		"gold": 200,
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "Lachta Centre is the tallest building in Europe, built by Russia in Saint Petersburg. While it was being built, historical part of city was damaged."
 	},
 	{
 		"name": "One World Trade Centre",
 		"uniqueTo": "The United States",
 		"isWonder": true,
-		"replaces": "World Financial Center",
-		"cost": 2500,
+		"replaces": "World Finance Center",
+		"cost": 4500,
 		"culture": 2,
 		"gold": 5,
 		"specialistSlots": {"Merchant": 2},
 		"greatPersonPoints": {"Great Merchant": 8},
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
-		"uniques": ["[+5] [Gold] from all [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]", "[+20 Gold] from each Trade Route", "Only available <if [Super Skyscrapers Technology] is constructed>"],
+		"uniques": ["[+5] [Gold] from all [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]", "[+20 Gold] from each Trade Route", "Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "Greetings to the mighty symbol of capitalism, who rose from the ashes of disaster like a golden phoenix"
 	},
 //JUST WONDERS
@@ -91,13 +250,13 @@
 		"cost": 5000,
 		"culture": 1,
 		"requiredTech": "Urbanism",
-		"uniques": ["Triggers a global alert upon completion"],
+		"uniques": ["Triggers a Globalizationlert upon completion"],
 		"quote": "The technology of super skyscrapers building allows you to construct super high buildings right into the sky"
 	},
 	{
 		"name": "Taipei 101",
 		"isWonder": true,
-		"cost": 2500,
+		"cost": 5000,
 		"gold": 150,
 		"requiredTech": "Globalization",
 		"uniques": ["[+50]% [Gold] [in this city]", "[+2 Science] per [1] population [in this city]", "Only available <if [Super Skyscrapers Technology] is constructed>"],
@@ -106,7 +265,7 @@
 	{
 		"name": "Petronas Towers",
 		"isWonder": true,
-		"cost": 2500,
+		"cost": 5000,
 		"gold": 150,
 		"requiredTech": "Globalization",
 		"uniques": ["[+3 Gold] from [Coast] tiles [in all cities]", "[+5 Science] from [Coast] tiles [in this city]", "Must be next to [Coast]", "Only available <if [Super Skyscrapers Technology] is constructed>"],
@@ -132,6 +291,7 @@
 	{
 		"name": "Pearl Monument",
 		"isWonder": true,
+		"cost": 5000,
 		"gold": 10,
 		"culture": 10,
 		"requiredTech": "Globalization",
@@ -141,10 +301,10 @@
 	{
 		"name": "Burj Khalifa",
 		"isWonder": true,
-		"cost": 10000,
+		"cost": 15000,
 		"culture": 20,
 		"gold": 200,
-		"requiredTech": "Globalization",
+		"requiredTech": "Ultra-tall Construction",
 		"uniques": ["Free Social Policy", "Free [Great Merchant] appears", "Free [Great Artist] appears", "Empire enters golden age", "Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"quote": "The Burj Khalifa Tower is the tallest building in the whole world. Build this and no one on the planet will ever doubt your influence again."
 	},
