@@ -6,6 +6,8 @@
 		"cost": 2500,
 		"gold": 150,
 		"requiredTech": "Globalization",
+		"requiredBuilding": "Stock Exchange",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"quote": "A World Financial Center will enable our nation to enter the international financial services system."
 	},
 	{
@@ -16,6 +18,7 @@
 		"replaces": "World Financial Center"
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"gold": 200,
 		"quote": "."
 	},
@@ -26,7 +29,9 @@
 		"replaces": "World Financial Center",
 		"cost": 2500,
 		"requiredTech": "Globalization",
+		"requiredBuilding": "Stock Exchange",
 		"gold": 200,
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"quote": "Lachta Centre is the tallest building in Europe, built by Russia in Saint Petersburg. While it was being built, historical part of city was damaged."
 	},
 	{
@@ -40,17 +45,26 @@
 		"specialistSlots": {"Merchant": 2},
 		"greatPersonPoints": {"Great Merchant": 8},
 		"requiredTech": "Globalization",
-		"uniques": ["[+5] [Gold] from all [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]", "[+20 Gold] from each Trade Route"],
+		"requiredBuilding": "Stock Exchange",
+		"uniques": ["[+5] [Gold] from all [Gold] buildings [in all cities]", "[+1 Gold] per [1] population [in all cities]", "[+20 Gold] from each Trade Route", "Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"quote": "Greetings to the mighty symbol of capitalism, who rose from the ashes of disaster like a golden phoenix"
 	},
 //JUST
+	{
+		"name": "Super Skyscrapers Technology",
+		"isNationalWonder": true,
+		"cost": 5000,
+		"culture": 1,
+		"requiredTech": "Urbanism",
+		"quote": "The technology of super skyscrapers building allows you to construct super high buildings right into the sky"
+	},
 	{
 		"name": "Taipei 101",
 		"isWonder": true,
 		"cost": 2500,
 		"gold": 150,
 		"requiredTech": "Globalization",
-		"uniques": ["[+50]% [Gold] [in this city]", "[+2 Science] per [1] population [in this city]"],
+		"uniques": ["[+50]% [Gold] [in this city]", "[+2 Science] per [1] population [in this city]", "Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"quote": "."
 	},
 	{
@@ -59,7 +73,7 @@
 		"cost": 2500,
 		"gold": 150,
 		"requiredTech": "Globalization",
-		"uniques": ["[+3 Gold] from [Coast] tiles [in all cities]", "[+5 Science] from [Coast] tiles [in this city]", "Must be next to [Coast]"],
+		"uniques": ["[+3 Gold] from [Coast] tiles [in all cities]", "[+5 Science] from [Coast] tiles [in this city]", "Must be next to [Coast]", "Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"quote": "."
 	},
 	{
@@ -84,9 +98,11 @@
 		"isWonder": true,
 		"gold": 10,
 		"culture": 10,
-		"uniques": ["Free Technology", "Free Social Policy"],
+		"requiredTech": "Globalization",
+		"uniques": ["Free Technology", "Free Social Policy", "Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"quote": "."
-	}
+	},
+	{
 //MAIN TV TOWER THEME
 	{
 		"name": "State BC Tower",
