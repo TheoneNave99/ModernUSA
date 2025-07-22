@@ -858,7 +858,7 @@
 		"production": 5,
 		"gold": 5,
 		"requiredTech": "Heavy Industry",
-		"uniques": ["Consumes [2] [Oil]", "Produces [1] [Petroleum]"]
+		"uniques": ["Consumes [2] [Oil]", "Provides [1] [Petroleum]"]
 	},
 	{
 		"name": "LNG Plant",
@@ -867,7 +867,7 @@
 		"percentStatsBonus": {"Production": 10},
 		"specialistSlots": {"Engineer": 2},
 		"requiredTech": "Heavy Industry",
-		"uniques": ["Must be next to [Coast]", "[+5 Production, +5 Gold] from [Natural Gas] tiles [in this city]", "Consumes [2] [Natural Gas]", "Produces [1] [LNG]"]
+		"uniques": ["Must be next to [Coast]", "[+5 Production, +5 Gold] from [Natural Gas] tiles [in this city]", "Consumes [2] [Natural Gas]", "Provides [1] [LNG]"]
 	},
 	{
 		"name": "LNG Sea Terminal",
@@ -878,7 +878,7 @@
 		"percentStatsBonus": {"Production": 12},
 		"specialistSlots": {"Engineer": 3},
 		"requiredTech": "Heavy Industry",
-		"uniques": ["Must be next to [Coast]", "[+5 Production, +10 Gold] from [Natural Gas] tiles [in this city]", "Consumes [2] [Natural Gas]", "Produces [2] [LNG]"]
+		"uniques": ["Must be next to [Coast]", "[+5 Production, +10 Gold] from [Natural Gas] tiles [in this city]", "Consumes [2] [Natural Gas]", "Provides [2] [LNG]"]
 	},
 	{
 		"name": "Gas Storage Facility",
@@ -965,6 +965,7 @@
 	{
 		"name": "Special Services",
 		"cost": 2000,
+		"happiness": 1,
 		"requiredTech": "Urbanism"
 	},
 	{
