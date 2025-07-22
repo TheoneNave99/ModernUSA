@@ -35,7 +35,7 @@
 		"gold": 150,
 		"requiredBuilding": "Shanghai World Finance Center",
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from [Science] buildings [in all cities]", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from all [Science] buildings [in all cities]", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
@@ -45,7 +45,7 @@
 		"cost": 7500,
 		"gold": 200,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <in cities with a [Moscow City]", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <in cities with a [Moscow City]>", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
@@ -112,7 +112,7 @@
 		"cost": 7500,
 		"gold": 175,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "!+10 Gold] from [Science] buildings [in all cities]", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from all [Science] buildings [in all cities]", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
@@ -121,7 +121,7 @@
 		"cost": 7500,
 		"gold": 150,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+20 Gold] from [Food] buildings [in all cities]","Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+20 Gold] from all [Food] buildings [in all cities]","Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
