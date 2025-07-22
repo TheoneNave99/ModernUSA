@@ -1,16 +1,43 @@
 [
   {
-    "columnNumber": 13,
-    "era": "Atomic era",
-    "techCost": 8000,
-    "buildingCost": 750,
-    "wonderCost": 1250,
-    "techs":
-    [
+		"columnNumber": 12,
+		"era": "Modern era",
+		"techCost": 4100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+      {
+        "name": "Arctology",
+        "row": 1,
+        "prerequisites": ["Refrigeration"],
+        "uniques": ["[+2 Science] from [Snow] tiles [in all cities]"],
+        "quote": "."
+      },
+      {
+        "name": "Humanities",
+        "row": 2,
+        "prerequisites": ["Radio", "Refrigeration"],
+        "quote": "."
+      }
+    ]
+  },
+  {
+		"columnNumber": 13,
+		"era": "Atomic era",
+		"techCost": 5100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Pharmaceuticals",
+				"row": 1,
+				"prerequisites": ["Humanities", "Arctology"],
+				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
+			},
       {
         "name": "Urbanism",
-        "row": 1,
-        "prerequisites": ["Plastics"],
+        "row": 2,
+        "prerequisites": ["Plastics", "Humanities"],
         "quote": "."
       },
       {
@@ -170,19 +197,20 @@
     ]
   },
   {
-    "columnNumber": 17,
-    "era": "Information era",
-    "techCost": 8800,
-    "buildingCost": 750,
-    "wonderCost": 1250,
-    "techs": [
-      {
-        "name": "Future Tech"
-        "row": 5
-        "prerequisites": ["Complete State Management", "Globalization", "Modern Warfare Strategy", "Particle Physics", "Hypersonic Technologies", "Nuclear Fusion", "Stealth", "Nanotechnology"],
-        "uniques": ["Who knows what the future holds?", "Can be continually researched"],
-        "quote": "."
-      },
-    ]
+		"columnNumber": 17,
+		"era": "Future era",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Nanotechnology","Stealth","Complete State Management","Modern Warfare Strategy", "Hypersonic Technologies"],
+				"uniques": ["Can be continually researched"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+                "civilopediaText": [{"text": "Who knows what the future holds?"}]
+			}
+		]
   }
 ]
