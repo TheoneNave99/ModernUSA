@@ -52,7 +52,7 @@
 		"isWonder": true,
 		"uniqueTo": "Russia",
 		"cost": 7500,
-		"gold": 200,
+		"gold": 250,
 		"requiredTech": "Ultra-tall Construction",
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <in cities with a [Moscow City]>", "Triggers a global alert upon completion"],
 		"quote": "."
@@ -139,7 +139,7 @@
 		"cost": 7500,
 		"gold": 250,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+1] population [in this city] <upon entering a Golden Age>", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+3] population [in this city] <upon entering a Golden Age>", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
@@ -148,7 +148,7 @@
 		"cost": 7500,
 		"gold": 250,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+20 Gold, +5 Culture] frok every [Stock Exchange]","Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+20 Gold, +5 Culture] from every [Stock Exchange]","Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	
@@ -364,7 +364,7 @@
 		"requiredNearbyImprovedResources": ["Titanium", "Aluminum"],
 		"production": 20,
 		"gold": 50,
-		"uniques": ["Must have an owned [Titanium] within [2] tiles", "Must have an owned [Aluminum] within [2] tiles", "[+15 Gold] from [Titanium] tiles [in all cities]", "[+5 Production, +5 Gold] from [Aluminum] tiles [in all cities]", "[+10 Production] from every [Full-cycle Plant]", "Only available <in cities with a [Full-Cycle Plant]>", "[+30]% [Production] [in this city]"],
+		"uniques": ["Must have an owned [Titanium] within [5] tiles", "Must have an owned [Aluminum] within [5] tiles", "[+30 Gold] from [Titanium] tiles [in all cities]", "[+10 Production, +15 Gold] from [Aluminum] tiles [in all cities]", "[+10 Production] from every [Full-cycle Plant]", "Only available <in cities with a [Full-cycle Plant]>", "[+50]% [Production] [in this city]"],
 		"quote": "VSMPO-AVISMA Corporation is the world largest titanium and aluminum producer, located in Russia."
 	},
 //USA
