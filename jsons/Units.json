@@ -1083,6 +1083,18 @@
 		"attackSound": "shot",
 		"upgradesTo": "T-90 Vladimir"
 	},
+{
+	"name": "Military Airport",
+		"unitType": "Armored",
+		"uniqueTo": "Russia",
+	"replaces": "Carrier"
+		"cost": 1750,
+		"strength": 300,
+		"movement": 2,
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium"
+		"uniques": ["No defensive terrain bonuses", "Cannot attack", "Can carry [10] [Aircraft] units"]
+	},
 	{
 		"name": "T-90 Vladimir",
 		"unitType": "Armored",
