@@ -1081,6 +1081,7 @@
 		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking", "No defensive terrain bonuses"],
 		"attackSound": "shot",
+		"upgradesTo": "T-90 Vladimir"
 	},
 	{
 		"name": "T-90 Vladimir",
@@ -1095,6 +1096,7 @@
 		"promotions": ["Charge"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "shot",
+		"upgradesTo": "T-14 Armata"
 	},
 	{
 		"name": "T-14 Armata",
@@ -1110,7 +1112,7 @@
 		"requiredResource": "Titanium",
 		"promotions": ["Charge"],
 		"uniques": ["Can move after attacking", "[+100]% Strength <vs [Siege] units>",
-			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% to Flank Attack bonuses"],
+			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% to Flank Attack bonuses", "Can be upgraded from [T-90 Vladimir]"],
 		"attackSound": "shot"
 	},
 	{
