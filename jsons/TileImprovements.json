@@ -12,15 +12,15 @@
 	{
 		"name": "Greenhouse",
 		"terrainsCanBeBuiltOn": ["Snow"],
-		"food": 2,
+		"food": 4,
 		"turnsToBuild": 10,
 		"techRequired": "Arctology",
 		"shortcutKey": "G"
 	},
 	{
 		"name": "Research Station",
-		"terrainCanBeBuiltOn": ["Snow"],
-		"science": 5,
+		"terrainsCanBeBuiltOn": ["Snow"],
+		"science": 10,
 		"turnsToBuild": 12,
 		"techRequired": "Arctology",
 		"uniques": ["Only available <if [Arctic Program] is constructed>"],
