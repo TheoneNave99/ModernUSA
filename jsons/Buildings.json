@@ -58,12 +58,22 @@
 		"quote": "."
 	},
 	{
+		"name": "Trump Tower",
+		"isWonder": true,
+		"uniqueTo": "The United States",
+		"cost": 7500,
+		"gold": 200,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+75]% Production when constructing [All] wonders [in all cities]"],
+		"quote": "."
+	},
+	{
 		"name": "City of Capitals",
 		"isWonder": true,
 		"cost": 7500,
 		"gold": 200,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Culture] from all [Gold] buildings"],
 		"quote": "."
 	},
 	{
