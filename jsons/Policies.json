@@ -17,54 +17,54 @@
     "policies": [
       {
         "name": "Closed Migration policy",
-        "uniques": ["[+4 Happiness] [in all cities]", "[-5]% growth [in all cities]"],
+        "uniques": ["[+5 Happiness] [in all cities]", "[-5]% growth [in all cities]"],
         "row": 1,
         "column": 2
       },
       {
         "name": "Personal Weapon permission",
-        "uniques": ["[-1 Happiness] [in all cities]", "[+15]% Production when constructing [Military] units [in all cities]"],
+        "uniques": ["[-2 Happiness] [in all cities]", "[+15]% Production when constructing [Military] units [in all cities]"],
         "row": 1,
         "column": 4
       },
       {
         "name": "State Conservatism",
-        "uniques": ["[+5]% [Production] from all [Science] buildings"],
+        "uniques": ["[+5]% [Production] from [Science] buildings", "[+10]% [Science] from [Production] buildings"],
         "requires": ["Closed Migration policy", "Personal Weapon permission"],
         "row": 2,
         "column": 2
       },
       {
         "name": "Soul of Nation",
-        "uniques": ["[+5 Happiness] [in all cities]"],
+        "uniques": ["[+1 Happiness] from [Production] buildings", "[+3 Science] from [Culture] buildings"],
         "requires": ["Closed Migration policy", "Personal Weapon permission"],
         "row": 2,
         "column": 4
       },
       {
         "name": "State Nationalism",
-        "uniques": ["Free [Great General] appears"],
+        "uniques": ["Free [Great General] appears", "[+1 Happiness] from every [Military Base]", "[+1 Happiness] from every [Military Academy]", "[+1 Happiness] from every [Military Consortium]"],
         "requires": ["State Conservatism"],
         "row": 3,
         "column": 1
       },
       {
         "name": "Capitalism inc.",
-        "uniques": ["[+10 Gold] from each Trade Route"],
+        "uniques": ["[+20 Gold] from each Trade Route", "[+100]% Production when constructing [All] wonders [in all cities]"],
         "requires": ["State Conservatism", "Soul of Nation"],
         "row": 3,
         "column": 3
       },
       {
         "name": "State Rights",
-        "uniques": ["[+25]% Production when constructing [All] buildings [in all cities]"],
+        "uniques": ["[+50]% Production when constructing [All] buildings [in all cities]"],
         "requires": ["Soul of Nation"],
         "row": 3,
         "column": 5
       },
       {
         "name": "Republican Party Complete",
-        "uniques": ["[+25]% [Production] [in all cities]", "Free [Great Engineer] appears"]
+        "uniques": ["[+25]% [Production] [in all cities]", "[+25]% [Science] [in all cities]", "Free [Great Engineer] appears", "Free Technology"]
       }
     ]
   },
@@ -134,7 +134,7 @@
       },
       {
         "name": "Democratic Party Complete",
-        "uniques": ["[+50]% [Culture] [in all cities]", "Free [Great Artist] appears"]
+        "uniques": ["[+50]% [Culture] [in all cities]", "[+50]% [Food] [in all cities]", "Free [Great Artist] appears", "Free Social Policy"]
       }
     ]
   }
