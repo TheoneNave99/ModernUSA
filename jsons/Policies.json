@@ -29,14 +29,14 @@
       },
       {
         "name": "State Conservatism",
-        "uniques": ["[+5]% [Production] from [Science] buildings", "[+10]% [Science] from [Production] buildings"],
+        "uniques": ["[+5 Production] from all [Science] buildings", "[+10 Science] from all [Production] buildings"],
         "requires": ["Closed Migration policy", "Personal Weapon permission"],
         "row": 2,
         "column": 2
       },
       {
         "name": "Soul of Nation",
-        "uniques": ["[+1 Happiness] from [Production] buildings", "[+3 Science] from [Culture] buildings"],
+        "uniques": ["[+1 Happiness] from all [Production] buildings", "[+3 Science] from all [Culture] buildings"],
         "requires": ["Closed Migration policy", "Personal Weapon permission"],
         "row": 2,
         "column": 4
@@ -87,47 +87,47 @@
     "policies": [
       {
         "name": "Open Migration policy",
-        "uniques": ["[-1 Happiness] [in all cities]", "[+10 Production] [in all cities]", "[+25]% growth [in all cities]"],
+        "uniques": ["[-1 Happiness] [in all cities]", "[+10]% [Production] [in all cities]", "[+25]% growth [in all cities]"],
         "row": 1,
         "column": 2
       },
       {
         "name": "Personal Weapon ban",
-        "uniques": ["[+3 Happiness] [in all cities]"],
+        "uniques": ["[+5 Happiness] [in all cities]"],
         "row": 1,
         "column": 4
       },
       {
         "name": "State Liberalism",
-        "uniques": ["[+5 Culture] from all [Culture] buildings"],
+        "uniques": ["[+5 Culture] from all [Culture] buildings", "[+10 Science] from all [Science] buildings"],
         "requires": ["Open Migration policy", "Personal Weapon ban"],
         "row": 2,
         "column": 2
       },
       {
         "name": "United World",
-        "uniques": ["[+25 Gold] from each Trade Route", "[-25]% City-State Influence degradation"],
+        "uniques": ["[+25 Gold] from each Trade Route", "[-50]% City-State Influence degradation"],
         "requires": ["Open Migration policy", "Personal Weapon ban"],
         "row": 2,
         "column": 4
       },
       {
         "name": "Cosmopolitanism",
-        "uniques": ["Allied City-States provide [Culture] equal to [50]% of what they produce for themselves"],
+        "uniques": ["Allied City-States provide [Culture] equal to [75]% of what they produce for themselves", "Allied City-States provide [Gold] equal to [50]% of what they produce for themselves"],
         "requires": ["State Liberalism"],
         "row": 3,
         "column": 1
       },
       {
         "name": "The True Leader of Free World",
-        "uniques": ["[500]% of excess happiness converted to [Gold]", "Empire enters golden age"],
+        "uniques": ["[500]% of excess happiness converted to [Gold]", "Empire enters golden age", "Free [Great Merchant] appears"],
         "requires": ["State Liberalism", "United World"],
         "row": 3,
         "column": 3
       },
       {
         "name": "Personal Rights",
-        "uniques": ["[+50]% Production when constructing [All] buildings [in all cities]", "[+50]% Production when constructing [All] wonders [in all cities]"],
+        "uniques": ["[+150]% Production when constructing [All] wonders [in all cities]", "Free [Great Engineer] appears"],
         "requires": ["United World"],
         "row": 3,
         "column": 5
