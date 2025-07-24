@@ -611,8 +611,7 @@
 		"requiredBuilding": "Nuclear Plant",
 		"hurryCostModifier": 0,
 		"requiredTech": "Synthetic Alloys",
-		"uniques": ["[+15]% [Production] [in this city]", "Consumes [1] [Aluminum]", "Consumes [1] [Titanium]", "Provides [1] [Modern Alloy]",
-		"Only available <in cities without a [Nuclear Plant]>"]
+		"uniques": ["[+15]% [Production] [in this city]", "Consumes [1] [Aluminum]", "Consumes [1] [Titanium]", "Provides [1] [Modern Alloy]"]
 	},
 	{
 		"name": "Elite Villa",
@@ -1007,7 +1006,7 @@
 		"production": 10,
 		"cityStrength": 25,
 		"cityHealth": 50,
-		"uniques": ["[+25]% Production when constructing [Military] units [in all cities]", "Only available <if [Military Base] is constructed in all [non-[Puppeted]] cities>", "Triggers a global alert upon completion"],
+		"uniques": ["[+50]% Production when constructing [Military] units [in all cities]", "Only available <if [Military Base] is constructed in all [non-[Puppeted]] cities>", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 //SPACE THEME
