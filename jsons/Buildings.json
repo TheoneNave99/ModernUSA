@@ -6,7 +6,7 @@
 		"cost": 12500,
 		"gold": 100,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>","[+20 Gold, +15 Culture] from every [Wonder] <in this city>"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>","[+20 Gold, +15 Culture] from every [Wonder] <in this city>", "[100]% of science converted to [Gold]"],
 		"quite": "."
 	},
 	{
@@ -975,7 +975,7 @@
 		"science": 10,
 		"production": 10,
 		"requiredTech": "Nuclear Fission",
-		"uniques": ["[+10 Gold, +5 Production] from all [Uranium] tiles [in all cities]", "[+20 Production] from every [Nuclear Plant]", "Only available <in cities with a [Nuclear Plant]>"],
+		"uniques": ["[+10 Gold, +5 Production] from [Uranium] tiles [in all cities]", "[+20 Production] from every [Nuclear Plant]", "[+20 Gold] from every [Nuclear Plant]", "Only available <in cities with a [Nuclear Plant]>"],
 		"quote": "."
 	},
 	{
