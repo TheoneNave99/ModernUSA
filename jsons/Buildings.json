@@ -1259,14 +1259,14 @@
 		"cost": 1150,
 		"requiredTech": "Arctology",
 		"requiredBuilding": "Research Lab",
-		"uniques": ["[+10 Science] from [Snow] tiles [in this city]", "Only available <if [Arctic Program] is constructed>", "Must be next to [Snow]"],
+		"uniques": ["Must have an owned [Snow] within [5] tiles", "[+10 Science] from [Snow] tiles [in this city]", "Only available <if [Arctic Program] is constructed>"],
 	},
 	{
 		"name": "IRS Snezhinka",
 		"isWonder": true,
 		"requiredTech": "Arctology",
 		"science": 50,
-		"uniques": ["[+5 Science] from [Research Station] tiles [in all cities]", "Must be next to [Snow]", "Only available <if [Arctic Program] is constructed>"],
+		"uniques": ["[+10 Science] from [Research Station] tiles [in all cities]", "Only available <if [Arctic Program] is constructed>", "Only available <in cities with a [Arctology Lab]"],
 		"quote": "International Research Station 'Snezhinka' is world's first full-autonomic arctic research station, located in Russia's polar territory",
 	},
 //
