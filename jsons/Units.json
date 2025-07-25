@@ -994,7 +994,7 @@
 		"replaces": "Helicopter Gunship"
 		"movement": 8,
 		"strength": 80,
-		"rangedStrength": 95,
+		"rangedStrength": 120,
 		"range": 2,
 		"cost": 690,
 		"requiredTech": "Computers",
@@ -1006,7 +1006,7 @@
 	{
 		"name": "Mi-28 Havoc",
 		"unitType": "Helicopter",
-		"uniqueTo": "The United States",
+		"uniqueTo": "Russia",
 		"replaces": "Helicopter Gunship"
 		"movement": 10,
 		"strength": 130,
@@ -1138,7 +1138,7 @@
 		"rangedStrength": 500,
 		"range": 15,
 		"requiredTech": "Atomic Theory",
-		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [4]", "Only available <if [Manhattan Project] is constructed>", "Consumes [20] [Uranium]", "Self-destructs after attacking",
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [4]", "Only available <if [Manhattan Project] is constructed>", "Consumes [20] [Uranium]", "Self-destructs after attacking"],
 		"attackSound": "missile"
 	},
 	{
