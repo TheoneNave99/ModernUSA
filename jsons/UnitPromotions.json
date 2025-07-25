@@ -49,7 +49,7 @@
   },
   {
     "name": "Air Support",
-    "uniques": ["[+20]% Strength for [Military] units within [15] tiles"],
+    "uniques": ["[+20]% Strength bonus for [Military] units within [15] tiles"],
     "prerequisites": ["Radar III", "Fuel Reserve III"],
     "unitTypes": ["Radar Aircraft"]
   },
