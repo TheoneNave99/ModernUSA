@@ -6,7 +6,7 @@
 		"cost": 12500,
 		"gold": 100,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>","[+20 Gold, +15 Culture] from every [Wonder] <in this city>", "[100]% of science converted to [Gold]"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>","[+20 Gold, +15 Culture] from every [Wonder] <in this city>", "[750]% of excess happiness converted to [Culture]"],
 		"quite": "."
 	},
 	{
