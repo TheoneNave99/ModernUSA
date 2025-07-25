@@ -433,8 +433,7 @@
 		"rangedStrength": 500,
 		"range": 50,
 		"requiredTech": "Hypersonic Technologies",
-		"requiredResource": "Modern Alloy",
-		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available <if [Hypersonic Project] is constructed>", "Cannot be carried by [] units", "Consumes [10] [Uranium]"]
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available <if [Hypersonic Project] is constructed>", "Cannot be carried by [Ranged Water] units", "Consumes [3] [Modern Alloy]", "Consumes [10] [Uranium]"]
 	},
 	{
 		"name": "Hypersonic Missile",
@@ -1181,7 +1180,7 @@
 		"range": 50,
 		"requiredTech": "Hypersonic Technologies",
 		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available <if [Hypersonic Project] is constructed>", "Cannot be carried by [Ranged Water] units",
-			"Cannot be carried by [Submarine] units", "Cannot be carried by [Helicopter] units", "Consumes [3] [Moder Alloy]", "Consumes [10] [Uranium]"]
+			"Cannot be carried by [Submarine] units", "Cannot be carried by [Helicopter] units", "Consumes [3] [Modern Alloy]", "Consumes [10] [Uranium]"]
 	}
 	{
 		"name": "Admiral Kuznetsov",
