@@ -17,6 +17,7 @@
         "name": "Humanities",
         "row": 2,
         "prerequisites": ["Radio", "Refrigeration"],
+	"uniques": ["Enables conversion of city production to [Culture]"],
         "quote": "."
       }
     ]
