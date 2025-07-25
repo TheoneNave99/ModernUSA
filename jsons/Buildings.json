@@ -78,7 +78,7 @@
 	},
 	{
 		"name": "Lotte World Tower",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "Korea",
 		"cost": 7500,
 		"gold": 250,
@@ -88,7 +88,7 @@
 	},
 	{
 		"name": "Tianjin CTF Finance Center",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "China",
 		"cost": 7500,
 		"gold": 200,
@@ -98,7 +98,7 @@
 	},
 	{
 		"name": "Guangzhou CTF Finance Center",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "China",
 		"cost": 7500,
 		"gold": 200,
@@ -117,7 +117,7 @@
 	},
 	{
 		"name": "International Commercial Center",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "China",
 		"cost": 7500,
 		"gold": 300,
@@ -177,7 +177,7 @@
 	},
 	{
 		"name": "The Shard",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "England",
 		"replaces": "World Finance Center",
 		"cost": 4000,
