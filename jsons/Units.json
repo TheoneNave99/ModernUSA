@@ -1110,7 +1110,7 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"promotions": ["Charge"],
 		"uniques": ["Can move after attacking", "[+100]% Strength <vs [Siege] units>",
-			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% to Flank Attack bonuses", "Consumes [2] [Titanium]"],
+			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% to Flank Attack bonuses", "Can be upgraded from [T-90 Vladimir]", "Consumes [2] [Titanium]"],
 		"attackSound": "shot"
 	},
 	{
