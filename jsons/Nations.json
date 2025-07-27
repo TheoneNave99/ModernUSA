@@ -146,7 +146,7 @@
 
 		"favoredReligion": "Taoism",
 		"uniqueName": "World Factory",
-		"uniques": ["[+15 Production] from every [Factory]", "[+5]% [Science] from every [Factory]", "[+25 Production] [in all cities]", "[+50]% growth [in all cities]", "[+25]% Production when constructing [All] wonder [in all cities]"],
+		"uniques": ["[+15 Production] from every [Factory]", "[+5]% [Science] from every [Factory]", "[+25 Production] [in all cities]", "[+50]% growth [in all cities]", "[+25]% Production when constructing [All] wonders [in all cities]"],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
