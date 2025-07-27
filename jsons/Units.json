@@ -1110,7 +1110,7 @@
 		"name": "T-14 Armata",
 		"unitType": "Armored",
 		"uniqueTo": "Russia",
-		"replaces": "Modern Armor",
+		"replaces": "Giant Death Robot",
 		"cost": 3675,
 		"movement": 12,
 		"strength": 170,
