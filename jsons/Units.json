@@ -690,7 +690,19 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["Can carry [5] [Aircraft] units", "Limited to [1] per Civilization"]
 	},
-	{
+{ 
+		"name": "PA-Ng",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "France",
+		"replaces": "Carrier",
+		"movement": 15,
+		"strength": 190,
+		"cost": 4350,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": ["Cannot attack", "Can carry [10] [Aircraft] units", "Can carry [5] [Missile] units", "Consumes [4] [Uranium]", "Consumes [3] [Titanium]"]
+	},
+{
+	
 		"name": "Horizon cl. Destroyer",
 		"unitType": "Melee Water",
 		"uniqueTo": "France",
@@ -1100,15 +1112,15 @@
 		"unitType": "Armored",
 		"uniqueTo": "Russia",
 		"replaces": "Modern Armor",
-		"cost": 1475,
-		"movement": 10,
-		"strength": 145,
-		"rangedStrength": 160,
-		"range": 2,
+		"cost": 3175,
+		"movement": 12,
+		"strength": 170,
+		"rangedStrength": 190,
+		"range": 3,
 		"requiredTech": "Modern Warfare Strategy",
-		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+100]% Strength <vs [Siege] units>",
-			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% to Flank Attack bonuses", "Can be upgraded from [T-90 Vladimir]", "Consumes [2] [Titanium]"],
+		"promotions": ["Charge", "Blitz"],
+		"uniques": ["Can move after attacking", "[+100]% Strength <vs [Siege] units>",
+			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% to Flank Attack bonuses", "Upgrades from [T-90 Vladimir]", "Consumes [4] [Titanium]"],
 		"attackSound": "shot"
 	},
 	{
