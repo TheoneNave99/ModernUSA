@@ -883,7 +883,7 @@
 		"requiredResource": "Aluminum",
 		"promotions": ["Air Targeting I", "Air Targeting II"],
 		"attackSound": "bombing",
-		"uniques": ["[+100]% Strength <vs [Water] units>", "[-80]% Strength <vs [Land] units>", "[-100]% Strength <vs [City]>"],
+		"uniques": ["[+150]% Strength <vs [Water] units>", "[+200]% Strength <vs [Embarked] units>", "[-80]% Strength <vs [Land] units>", "[-100]% Strength <vs [City]>"],
 		"upgradesTo": "Tu-160 Blackjack"
 	},
 	{
