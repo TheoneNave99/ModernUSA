@@ -994,12 +994,12 @@
 		"movement": 8,
 		"strength": 80,
 		"rangedStrength": 120,
-		"range": 2,
+		"range": 3,
 		"cost": 690,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": ["No defensive terrain bonus", "Can move after attacking", "[+2] Sight", "All tiles cost 1 movement", "Ignores Zone of Control", "Can pass through impassabale tiles", "[+200]% Strength <vs [Armored] units>",
-			"[+150]% Strength <vs [Fighter] units> <when defending>", "May travel on Water tiles without embarking"],
+			"[+150]% Strength <vs [Fighter] units> <when defending>", "Can carry [4] [Missile] units", "May travel on Water tiles without embarking"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1009,8 +1009,6 @@
 		"replaces": "Helicopter Gunship"
 		"movement": 10,
 		"strength": 130,
-		"rangedStrength": 65,
-		"range": 1,
 		"cost": 600,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Aluminum",
@@ -1046,7 +1044,7 @@
 		"cost": 525,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "[+75]% Strength <when defending>",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "[+75]% Strength <when defending>", "No defensive terrain bonus", 
 			"Can carry [5] [Missile] units"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
@@ -1109,7 +1107,7 @@
 		"range": 2,
 		"requiredTech": "Modern Warfare Strategy",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "[+100]% Strength <vs [Siege] units>",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+100]% Strength <vs [Siege] units>",
 			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% to Flank Attack bonuses", "Can be upgraded from [T-90 Vladimir]", "Consumes [2] [Titanium]"],
 		"attackSound": "shot"
 	},
