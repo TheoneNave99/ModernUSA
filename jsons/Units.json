@@ -883,8 +883,7 @@
 		"requiredResource": "Aluminum",
 		"promotions": ["Air Targeting I", "Air Targeting II"],
 		"attackSound": "bombing",
-		"uniques": ["[+150]% Strength <vs [Water] units>", "[+200]% Strength <vs [Embarked] units>", "[-80]% Strength <vs [Land] units>", "[-100]% Strength <vs [City]>"],
-		"upgradesTo": "Tu-160 Blackjack"
+		"uniques": ["[+200]% Strength <vs [Water] units>", "[+200]% Strength <vs [Embarked] units>", "[-80]% Strength <vs [Land] units>", "[-100]% Strength <vs [City]>"],
 	},
 	{
 		"name": "Tu-95MC Bear",
@@ -933,7 +932,7 @@
 		"requiredResource": "Titanium",
 		"promotions": ["Dogfighting I", "Interception I", "Sortie"],
 		"uniques": ["[100]% chance to intercept air attacks", "[+250]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
-			"[+300]% Strength <vs [Fighter] units>", "[+100]% Strength when performing Air Sweep", "[+75]% Damage when intercepting", "[2] extra interceptions may be made per turn", "Consumes [2] [Aluminum]"],
+			"[+300]% Strength <vs [Fighter] units>", "[+100]% Strength when performing Air Sweep", "[+75]% Damage when intercepting", "[2] extra interceptions may be made per turn", "Consumes [2] [Titanium]"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -949,7 +948,7 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"promotions": ["Air Repair", "Operational Range"],
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+250]% Strength <vs [Helicopter] units>",
-			"[+200]% Strength <vs [Land] units>", "Damage taken from interception reduced by [100]%", "[+50]% Damage when intercepting", "Consumes [3] [Aluminum]"],
+			"[+300]% Strength <vs [Land] units>", "Damage taken from interception reduced by [100]%", "Consumes [4] [Aluminum]"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -974,12 +973,12 @@
 		"replaces": "Stealth Bomber",
 		"cost": 715,
 		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 95,
+		"strength": 110,
+		"rangedStrength": 115,
 		"range": 25,
 		"requiredTech": "Stealth",
 		"promotions": ["Siege I", "Bombardment I"],
-		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "Can see over obstacles", "Only available <if [PAK] is constructed>",
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "Can see over obstacles",
 			"[+5] Sight", "Consumes [3] [Aluminum]"],
 		"attackSound": "bombing"
 	},
@@ -1204,7 +1203,7 @@
 		"interceptRange": 3,
 		"requiredTech": "Modern Warfare Strategy",
 		"uniques": ["Consumes [5] [Aluminum]", "Consumes [10] [Oil]", "Can see invisible [Submarine] units", "[+100]% Strength <vs [Submarine] units>",
-			"[100]% chance to intercept air attacks", "Can carry [5] [Missile] units", "Can carry [5] [Aircraft] units", "Limited to [1] per Civilization"],
+			"[100]% chance to intercept air attacks", "Can carry [10] [Missile] units", "Can carry [5] [Aircraft] units", "Limited to [1] per Civilization"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1226,9 +1225,9 @@
 	},
 	{
 		"name": "Moscow",
+		"unitType": "Ranged Water"
 		"uniqueTo": "Russia",
 		"replaces": "Missile Cruiser",
-		"unitType": "Ranged Water",
 		"movement": 8,
 		"strength": 145,
 		"rangedStrength": 140,
@@ -1243,23 +1242,22 @@
 	},
 	{
 		"name": "Peter the Great",
-		"uniqueTo": "Russia",
-		"replaces": "Missile Cruiser",
 		"unitType": "Ranged Water",
+		"uniqueTo": "Russia",
 		"movement": 11,
 		"strength": 160,
 		"rangedStrength": 130,
-		"range": 4,
-		"interceptRange": 3,
-		"cost": 2375,
+		"range": 5,
+		"interceptRange": 4,
+		"cost": 5375,
 		"requiredTech": "Robotics",
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+200]% Strength <vs [Water] units>", "[+150]% Damage when intercepting",
 			"Can carry [10] [Missile] units", "[+400]% Strength <vs [Submarine] units>", "Limited to [1] per Civilization"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Project 956 Destroyer",
+		"name": "Project 956 destroyer",
 		"uniqueTo": "Russia",
 		"replaces": "Destroyer",
 		"unitType": "Melee Water",
@@ -1278,12 +1276,14 @@
 		"uniqueTo": "Russia",
 		"replaces": "Nuclear Submarine",
 		"cost": 775,
+		"movement": 7,
 		"strength": 85,
 		"rangedStrength": 110,
 		"range": 3,
 		"requiredTech": "Telecommunications",
 		"uniques": ["[+100]% Strength <when attacking>", "Can only attack [Water] tiles",
 			"Can carry [4] [Missile] units"],
+		"upgradesTo": "Dmitriy Donskoy",
 		"attackSound": "torpedo"
 	},
 	{
@@ -1291,13 +1291,14 @@
 		"unitType": "Submarine",
 		"uniqueTo": "Russia",
 		"replaces": "Nuclear Submarine",
-		"cost": 1145,
+		"cost": 4545,
+		"movement": 12,
 		"strength": 160,
-		"rangedStrength": 100,
+		"rangedStrength": 110,
 		"range": 4,
-		"requiredTech": "Telecommunications",
-		"uniques": ["[+100]% Strength <when attacking>", "Can only attack [Water] tiles",
-			"Can carry [6] [Missile] units", "Limited to [1] per Civilization"],
+		"requiredTech": "Modern Warfare Strategy",
+		"uniques": ["[+150]% Strength <when attacking>", "Can only attack [Water] tiles",
+			"Can carry [8] [Missile] units", "Limited to [1] per Civilization"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -1326,7 +1327,7 @@
 		"range": 4,
 		"requiredResource": "Titanium",
 		"requiredTech": "Modern Warfare Strategy",
-		"uniques": ["[+300]% Strength <vs [Submarine] units>", "[+150]% Strength <vs [Ranged Water] units>", "[+150]% Strength <vs [Melee Water] units>", 
+		"uniques": ["[+300]% Strength <vs [Submarine] units>", "[+150]% Strength <vs [Ranged Water] units>", "[+150]% Strength <vs [Melee Water] units>", "Withdraws before melee combat <with [100]% chance>",
 			"Can carry [7] [Aircraft] units", "Limited to [1] per Civilization", "Only available <if [Carrier-Icebreaker Project] is constructed>", "Consumes [5] [Uranium]"],
 		"attackSound": "shipguns"
 	},
@@ -1353,7 +1354,7 @@
 		"replaces": "Modern Armor",
 		"movement": 8,
 		"strength": 100,
-		"cost": 600
+		"cost": 600,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Blitz"],
@@ -1478,7 +1479,7 @@
 		"cost": 1150,
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Uranium",
-		"uniques": ["Cannot attack", "[100]% chance to intercept air attacks", "Can carry [4] [Aircraft] units",
+		"uniques": ["Cannot attack", "[100]% chance to intercept air attacks", "Can carry [5] [Aircraft] units",
 			"Can carry [5] [Missile] units", "Consumes [1] [Titanium]", "Limited to [1] per Civilization"]
 	},
 	{
@@ -1669,13 +1670,15 @@
 		"unitType": "Ranged Water",
 		"uniqueTo": "Japan",
 		"replaces": "Missile Cruiser",
-		"cost": 2050,
-		"movement": 11,
+		"cost": 5000,
+		"movement": 12,
 		"strength": 300,
-		"rangedStrength": 135,
+		"rangedStrength": 155,
 		"range": 5,
-		"requiredTech": "Combined Arms",
-		"uniques": ["[2] additional attacks per turn", "[+50]% Strength bonus for [Water] units within [2] tiles", "Limited to [1] per Civilization", "[+50]% Strength <vs [City]>", "[-50]% Strength <vs [Submarine] units> <when defending>", "Consumes [15] [Coal]"],
+		"interceptRange": 5,
+		"requiredTech": "Lasers",
+		"uniques": ["[100]% chance to intercept air attacks", "[+25]% Damage when intercepting",
+			"[3] additional attacks per turn", "[+50]% Strength bonus for [Water] units within [2] tiles", "Limited to [1] per Civilization", "[+50]% Strength <vs [City]>", "[-50]% Strength <vs [Submarine] units> <when defending>", "Consumes [30] [Coal]"],
 		"attackSound": "shipguns"
 	},
 	{
