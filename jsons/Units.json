@@ -1105,22 +1105,21 @@
 		"promotions": ["Charge"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "shot",
-		"upgradesTo": "T-14 Armata"
 	},
 	{
 		"name": "T-14 Armata",
 		"unitType": "Armored",
 		"uniqueTo": "Russia",
 		"replaces": "Modern Armor",
-		"cost": 3175,
+		"cost": 3675,
 		"movement": 12,
 		"strength": 170,
-		"rangedStrength": 190,
+		"rangedStrength": 200,
 		"range": 3,
 		"requiredTech": "Modern Warfare Strategy",
 		"promotions": ["Charge", "Blitz"],
 		"uniques": ["Can move after attacking", "[+100]% Strength <vs [Siege] units>",
-			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% to Flank Attack bonuses", "Upgrades from [T-90 Vladimir]", "Consumes [4] [Titanium]"],
+			"[+100]% Strength <vs [Gunpowder] units>", "[+50]% Strength <when defending>", "[+50]% to Flank Attack bonuses", "Consumes [4] [Titanium]", "Consumes [1] [Uranium]"],
 		"attackSound": "shot"
 	},
 	{
