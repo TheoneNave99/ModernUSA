@@ -123,22 +123,22 @@
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
         "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
     },
-{
+	{
 		"name": "China",
 		"leaderName": "Xi Jinping",
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Wu Zetian",
 
-        "startIntroPart1": "Hello there, national Leader Xi Jinping! People greetings you and hope you lead us to bright future",
-        "startIntroPart2": "China is the world factory, so you can do everything to win",
+        "startIntroPart1": "Hello there, national Leader Xi Jinping! People greetings you and hope you lead us to bright future!",
+        "startIntroPart2": "China is the world factory, so you can do everything to win!",
 
-        "declaringWar": "Unfortunately, your path is dangerous for People's Republic of China",
-		"attacked": "You just did a really big mistake, and you will pay for it",
+        "declaringWar": "Unfortunately, your path is dangerous for People's Republic of China.",
+		"attacked": "You just did a really big mistake, and you will pay for it...",
 		"defeated": "Unreal...",
-		"introduction": "I am Xi Jinping, the leader of free China, and I greetings you. Hope we will cooperate as great as possible",
-		"neutralHello": "Hi there",
-		"hateHello": "What yet?",,
+		"introduction": "I am Xi Jinping, the leader of free China, and I greetings you. Hope we will cooperate as great as possible!",
+		"neutralHello": "Hi there.",
+		"hateHello": "What else?",
 		"tradeRequest": "Do you want to trade with China?",
 
         "outerColor": [255,255,0],
@@ -146,12 +146,11 @@
 
 		"favoredReligion": "Taoism",
 		"uniqueName": "World Factory",
-		"uniques": ["[+15 Production] from every [Factory]", "[+5]% [Science] from every [Factory]", "[+25 Production] [in all cities]", "[+50]% growth [in all cities]", "[+25]% Production when constructing [All] wonder [in all cities]"] ,
+		"uniques": ["[+15 Production] from every [Factory]", "[+5]% [Science] from every [Factory]", "[+25 Production] [in all cities]", "[+50]% growth [in all cities]", "[+25]% Production when constructing [All] wonder [in all cities]"],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
 			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
-
-}
+	}
 ]
