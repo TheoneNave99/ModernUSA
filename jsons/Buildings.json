@@ -1479,7 +1479,7 @@
 		"isNationalWonder": true,
 		"science": 50,
 		"gold": 200,
-		"requiredTech": "Space Engineering",
+		"requiredTech": "Deep Space Exploration",
 		"uniques": ["Triggers a global alert upon build start", "Triggers a global alert upon completion"]
 	},
 	{
