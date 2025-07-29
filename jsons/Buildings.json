@@ -333,6 +333,7 @@
 		"isNationalWonder": true,
 		"cost": 2500,
 		"culture": 1,
+		"requiredTech": "Complete State Management",
 		"uniques": ["[+100]% [Culture] [in this city]", "Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "."
 	},
@@ -343,6 +344,7 @@
 		"replaces": "State BC Tower",
 		"cost": 2250,
 		"culture": 5,
+		"requiredTech": "Complete State Management",
 		"uniques": ["[+100]% [Culture] [in this city]", "Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "."
 	},
@@ -353,6 +355,7 @@
 		"replaces": "State BC Tower",
 		"cost": 2500,
 		"culture": 1,
+		"requiredTech": "Complete State Management",
 		"uniques": ["[+100]% [Culture] [in this city]", "[+1 Culture] from [Coast] tiles [in all cities]", "Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "."
 	},
@@ -362,7 +365,7 @@
 		"uniqueTo": "Russia",
 		"replaces": "State BC Tower",
 		"cost": 2500,
-		"requiredTech": "Telecommunications",
+		"requiredTech": "Complete State Management",
 		"uniques": ["[+50]% [Culture] [in this city]", "[+1 Happiness] from [Tundra] tiles [in all cities]", "[+1 Culture] from [Tundra] tiles [in all cities]", "[+5 Happiness]", "Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "Ostankino Tower is the main television tower and the tallest construction in the Russia, built by the Soviet Union in 1950s. When it was built, it was the tallest construction in the world"
 	},
@@ -1322,6 +1325,7 @@
 		"isNationalWonder": true,
 		"cost": 25000,
 		"science": 1,
+		"requiredTech": "Satellites",
 		"uniques": ["Only available <if [Space Program] is constructed>", "Triggers a global alert upon build start", "Only available <in cities with a [Spaceship Factory]>", "[+25]% [Science] [in this city]"]
 	},
 	{
@@ -1331,6 +1335,7 @@
 		"replaces": "Spaceport",
 		"cost": 25000,
 		"science": 1,
+		"requiredTech": "Satellites",
 		"uniques": ["Only available <if [NASA] is constructed>", "Triggers a global alert upon build start", "Only available <in cities with a [Spaceship Factory]>", "[+25]% [Science] [in this city]"]
 	},
 	{
@@ -1340,6 +1345,7 @@
 		"replaces": "Spaceport",
 		"cost": 25000,
 		"science": 1,
+		"requiredTech": "Satellites",
 		"uniques": ["Only available <if [ROSKOSMOS] is constructed>", "Triggers a global alert upon build start", "Only available <in cities with a [Spaceship Factory]>", "[+25]% [Science] [in this city]"]
 	},
 	{
@@ -1349,6 +1355,7 @@
 		"replaces": "Spaceport",
 		"cost": 25000,
 		"science": 1,
+		"requiredTech": "Satellites",
 		"uniques": ["Only available <if [CNSS] is constructed>", "Triggers a global alert upon build start", "Only available <in cities with a [Spaceship Factory]>", "[+25]% [Science] [in this city]"]
 	},
 	{
@@ -1358,18 +1365,21 @@
 		"replaces": "Spaceport",
 		"cost": 25000,
 		"science": 1,
+		"requiredTech": "Satellites",
 		"uniques": ["Only available <if [European Space Agency] is constructed>", "Triggers a global alert upon build start", "Only available <in cities with a [Spaceship Factory]>", "[+25]% [Science] [in this city]"]
 	},
 	{
 		"name": "The Gran Telescopio Canarias",
 		"isWonder": true,
 		"cost": 25000,
+		"requiredTech": "Space Engineering",
 		"uniques": ["[+50 Gold] from [Science] buildings [in this city]"]
 	},
 	{
 		"name": "James Webb Telescope",
 		"isWonder": true,
 		"cost": 25000,
+		"requiredTech": "Satellites",
 		"uniques": ["[+50 Gold] from [Culture] buildings [in this city]"]
 	},
 	{
@@ -1486,6 +1496,7 @@
 		"name": "Voyager 1", 
 		"cost": 75000,
 		"isWonder": true,
+		"requiredTech": "Deep Space Exploration",
 		"uniques": ["Only available <if [Voyagers Project] is constructed>", "Triggers a global alert upon build start", "Triggers a global alert upon completion", "[+50 Gold] from all [Science] buildings"]
 	
 	},
@@ -1493,6 +1504,7 @@
 		"name": "Voyager 2",
 		"cost": 75000,
 		"isWonder": true,
+		"requiredTech": "Deep State Exploration",
 		"uniques": ["Only available <if [Voyagers Project] is constructed>", "Triggers a global alert upon build start", "Triggers a global alert upin completion", "[+50 Gold] from all [Culture] buildings"]
 	}
 ]
