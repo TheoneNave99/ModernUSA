@@ -141,8 +141,8 @@
 		"hateHello": "What else?",
 		"tradeRequest": "Do you want to trade with China?",
 
-        "outerColor": [255,255,0],
-        "innerColor": [255,0,0],
+        "outerColor": [255,0,0],
+        "innerColor": [255,255,0],
 
 		"favoredReligion": "Taoism",
 		"uniqueName": "World Factory",
