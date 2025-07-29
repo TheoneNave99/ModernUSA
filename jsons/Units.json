@@ -513,7 +513,7 @@
 		"unitType": "Fighter",
 		"uniqueTo": "European Union",
 		"replaces": "Jet Fighter",
-		"cost": 675,
+		"cost": 975,
 		"movement": 3,
 		"strength": 95,
 		"rangedStrength": 95,
@@ -530,7 +530,7 @@
 		"name": "EU System Tempest",
 		"unitType": "Fighter",
 		"uniqueTo": "European Union",
-		"cost": "1750",
+		"cost": 4750,
 		"movement": 5,
 		"strength": 140,
 		"rangedStrength": 155,
@@ -540,7 +540,7 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Composite Materials",
 		"uniques": ["[100]% chance to intercept air attacks", "[+50]% Damage when intercepting", "[+300]% Strength <vs [Bomber] units>", "[+250]% Strength <vs [Fighter]>", "[+300]% Strength <vs [Helicopter] units>", 
-			"[+250]% Strength <vs [Land] unuts>", "[+250]% Strength <vs [Water] units>", "Damage taken from interception reduced by [100]%", "[3] extra interceptions may be made per turn", "Only available <if [NGF EU Project] is constructed>", "Only available <in cities with a [KNDS]>"],
+			"[+250]% Strength <vs [Land] units>", "[+250]% Strength <vs [Water] units>", "Damage taken from interception reduced by [100]%", "[3] extra interceptions may be made per turn", "Only available <if [NGF EU Project] is constructed>", "Only available <in cities with a [KNDS]>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -556,7 +556,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonus", "Only available <in cities with a [KNDS]>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonuses", "[+50]% to Flank Attack bonuses", "Only available <in cities with a [KNDS]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1250,8 +1250,8 @@
 		"interceptRange": 4,
 		"cost": 5375,
 		"requiredTech": "Robotics",
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+200]% Strength <vs [Water] units>", "[+150]% Damage when intercepting",
-			"Can carry [10] [Missile] units", "[+400]% Strength <vs [Submarine] units>", "[1] extra attacks may be made per turn", "Limited to [1] per Civilization"],
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+200]% Strength <vs [Water] units>", "[+300]% Strength <vs [Embarked] units>", "[+150]% Damage when intercepting",
+			"Can carry [10] [Missile] units", "[+400]% Strength <vs [Submarine] units>", "[2] additional attacks per turn", "Limited to [1] per Civilization"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
