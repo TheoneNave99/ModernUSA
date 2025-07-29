@@ -1066,7 +1066,7 @@
 		"cost": 20000,
 		"science": 25,
 		"requiredTech": "Space Engineering",
-		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+2 Culture] per [1] population [in this city]", "[+75]% [Science] [in this city]", "Only available <if [NASA] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion", "Only available <in cities with a [Spaceport]>"],
+		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+2 Culture] per [1] population [in this city]", "[+75]% [Science] [in this city]", "Only available <if [NASA] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion", "Only available <in cities with a [Cape Canaveral]>"],
 	},
 	{
 		"name": "CNSS",
@@ -1088,7 +1088,7 @@
 		"cost": 20000,
 		"production": 25,
 		"requiredTech": "Space Engineering",
-		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "Only available <if [CNSS] is constructed>", "[+2 Production] per [1] population [in this city]", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion", "Only available <in cities with a [Spaceport]>"],
+		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "Only available <if [CNSS] is constructed>", "[+2 Production] per [1] population [in this city]", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion", "Only available <in cities with a [Juiquan Spaceport]>"],
 	},
 	{
 		"name": "European Space Agency",
@@ -1110,7 +1110,7 @@
 		"cost": 20000,
 		"production": 25,
 		"requiredTech": "Space Engineering",
-		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+2 Production] per [1] population [in this city]", "Only available <if [European Space Agency] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion", "Only available <in cities with a [Spaceport]>"],
+		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+2 Production] per [1] population [in this city]", "Only available <if [European Space Agency] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion", "Only available <in cities with a [Courou Spaceport]>"],
 	},
 	{
 		"name": "ROSKOSMOS",
@@ -1132,7 +1132,7 @@
 		"cost": 20000,
 		"gold": 25,
 		"requiredTech": "Space Engineering",
-		"uniques": ["[+2 Gold] per [1] population [in all cities]", "[+4 Culture] per [5] population [in this city]", "[+25]% [Science] [in this city]", "Only available <if [ROSKOSMOS] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion", "Only available <in cities with a [Spaceport]>"],
+		"uniques": ["[+2 Gold] per [1] population [in all cities]", "[+4 Culture] per [5] population [in this city]", "[+25]% [Science] [in this city]", "Only available <if [ROSKOSMOS] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion", "Only available <in cities with a [Baikonur Cosmodrome]>"],
 	},
 //OIL-GAS THEME
 	{
@@ -1325,6 +1325,42 @@
 		"uniques": ["Only available <if [Space Program] is constructed>", "Triggers a global alert upon build start", "Only available <in cities with a [Spaceship Factory]>", "[+25]% [Science] [in this city]"]
 	},
 	{
+		"name": "Cape Canaveral",
+		"isNationalWonder": true,
+		"uniqueTo": "The United States",
+		"replaces": "Spaceport",
+		"cost": 25000,
+		"science": 1,
+		"uniques": ["Only available <if [NASA] is constructed>", "Triggers a global alert upon build start", "Only available <in cities with a [Spaceship Factory]>", "[+25]% [Science] [in this city]"]
+	},
+	{
+		"name": "Baikonur Cosmodrome",
+		"isNationalWonder": true,
+		"uniqueTo": "Russia",
+		"replaces": "Spaceport",
+		"cost": 25000,
+		"science": 1,
+		"uniques": ["Only available <if [ROSKOSMOS] is constructed>", "Triggers a global alert upon build start", "Only available <in cities with a [Spaceship Factory]>", "[+25]% [Science] [in this city]"]
+	},
+	{
+		"name": "Juiquan Spaceport",
+		"isNationalWonder": true,
+		"uniqueTo": "China",
+		"replaces": "Spaceport",
+		"cost": 25000,
+		"science": 1,
+		"uniques": ["Only available <if [CNSS] is constructed>", "Triggers a global alert upon build start", "Only available <in cities with a [Spaceship Factory]>", "[+25]% [Science] [in this city]"]
+	},
+	{
+		"name": "Courou Spaceport",
+		"isNationalWonder": true,
+		"uniqueTo": "European Union",
+		"replaces": "Spaceport",
+		"cost": 25000,
+		"science": 1,
+		"uniques": ["Only available <if [European Space Agency] is constructed>", "Triggers a global alert upon build start", "Only available <in cities with a [Spaceship Factory]>", "[+25]% [Science] [in this city]"]
+	},
+	{
 		"name": "The Gran Telescopio Canarias",
 		"isWonder": true,
 		"cost": 25000,
@@ -1450,13 +1486,13 @@
 		"name": "Voyager 1", 
 		"cost": 75000,
 		"isWonder": true,
-		"uniques": ["Only available <if [Voyagers Project] is constructed>", "Triggers a global alert upon build start", "Triggers a global alert upon completion", "[+50 Gold] from all [Science] buildings", "Only available <in cities with a [Spaceport]>"]
+		"uniques": ["Only available <if [Voyagers Project] is constructed>", "Triggers a global alert upon build start", "Triggers a global alert upon completion", "[+50 Gold] from all [Science] buildings"]
 	
 	},
 	{
 		"name": "Voyager 2",
 		"cost": 75000,
 		"isWonder": true,
-		"uniques": ["Only available <if [Voyagers Project] is constructed>", "Triggers a global alert upon build start", "Triggers a global alert upin completion", "[+50 Gold] from all [Culture] buildings", "Only available <in cities with a [Spaceport]>"]
+		"uniques": ["Only available <if [Voyagers Project] is constructed>", "Triggers a global alert upon build start", "Triggers a global alert upin completion", "[+50 Gold] from all [Culture] buildings"]
 	}
 ]
