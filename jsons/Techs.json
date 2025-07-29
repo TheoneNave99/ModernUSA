@@ -217,6 +217,11 @@
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "Space Engineering",
+				"row": 7,
+				"prerequisites": ["Particle Physics", "Nuclear Fusion", "Nanotechnology"]
 			}
 		]
   }
