@@ -1024,11 +1024,11 @@
 	},
 //SPACE THEME
 	{
-		"name": "ISS",
+		"name": "International Space Station",
 		"isWonder": true,
 		"cost": 45000,
 		"requiredTech": "Space Engineering",
-		"uniques": ["[+5 Gold, +5 Science, +5 Culture] per [1] population [in all cities]", "[+100]% [Science] [in this city]", "Consumes [10] [Titanium]", "Only available <in cities with a [Spaceship Factory]>", "Triggers a global alert upon completion"],
+		"uniques": ["[+5 Gold, +5 Science, +5 Culture] per [1] population [in all cities]", "[+100]% [Science] [in this city]", "Consumes [10] [Titanium]", "Only available <in cities with a [Spaceship Factory]>", "Triggers a global alert upon completion", "Triggers a global alert upon build start"],
 		"quote": "."
 	},
 	{
@@ -1504,7 +1504,7 @@
 		"name": "Voyager 2",
 		"cost": 75000,
 		"isWonder": true,
-		"requiredTech": "Deep State Exploration",
+		"requiredTech": "Deep Space Exploration",
 		"uniques": ["Only available <if [Voyagers Project] is constructed>", "Triggers a global alert upon build start", "Triggers a global alert upin completion", "[+50 Gold] from all [Culture] buildings"]
 	}
 ]
