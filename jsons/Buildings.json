@@ -621,7 +621,7 @@
 		"requiredBuilding": "Nuclear Plant",
 		"hurryCostModifier": 0,
 		"requiredTech": "Synthetic Alloys",
-		"uniques": ["[+15]% [Production] [in this city]", "Consumes [1] [Aluminum]", "Consumes [1] [Titanium]", "Provides [1] [Modern Alloy]"]
+		"uniques": ["[+15]% [Production] [in this city]", "Consumes [1] [Aluminum]", "Consumes [1] [Titanium]", "Provides [1] [Modern Alloy]", "Only available <in cities without a [Solar Plant]>"]
 	},
 	{
 		"name": "Elite Villa",
@@ -825,7 +825,7 @@
 		"production": 5,
 		"science": 10,
 		"requiredTech": "Military Electronics",
-		"uniques": ["New [Military] units start with [15] XP [in all cities]"]
+		"uniques": ["New [Military] units start with [25] XP [in all cities]"]
 	},
 	{
 		"name": "NATO",
@@ -871,12 +871,12 @@
 	},
 	{
 		"name": "Modern Chemical Plant",
-		"uniqueTo": "European Union",
-		"cost": 1750,
+		"cost": 2150,
 		"production": 20,
 		"science": 25,
 		"requiredTech": "Modern Warfare Strategy",
-		"uniques": ["Provides [2] [Composite Materials]"],
+		"requiredBuilding": "Windpower Plant",
+		"uniques": ["Consumes [2] [Aluminum]", "Provides [1] [Composite Materials]", "Only available <in cities without a [Nuclear Plant]>"],
 		"quote": "."
 	},
 	{
@@ -1016,7 +1016,7 @@
 		"production": 10,
 		"cityStrength": 25,
 		"cityHealth": 50,
-		"uniques": ["[+50]% Production when constructing [Military] units [in all cities]", "Only available <if [Military Base] is constructed in all [non-[Puppeted]] cities>", "Triggers a global alert upon completion"],
+		"uniques": ["[+50]% Production when constructing [Military] units [in all cities]", "New [Military] units starts with [35] XP [in all cities]", "Only available <if [Military Base] is constructed in all [non-[Puppeted]] cities>", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 //SPACE THEME
@@ -1065,7 +1065,7 @@
 		"replaces": "Space Station",
 		"cost": 15000,
 		"science": 25,
-		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+2 Culture] per [1] population [in this city]", "[+75]% [Science] [in this city]", "Only available <if [NASA] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion"],
+		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+2 Culture] per [1] population [in this city]", "[+75]% [Science] [in this city]", "Only available <if [NASA] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion", "Only available <in cities with a [Spaceport]>"],
 	},
 	{
 		"name": "Tiangong",
@@ -1074,7 +1074,7 @@
 		"replaces": "Space Station",
 		"cost": 15000,
 		"production": 25,
-		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+2 Production] per [1] population [in this city]", "Only available <if [Spaceship Factory] is constructed in all [non-[Puppeted]] cities>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion"],
+		"uniques": ["[+1 Gold, +1 Science] per [1] population [in all cities]", "[+2 Production] per [1] population [in this city]", "Only available <if [Spaceship Factory] is constructed in all [non-[Puppeted]] cities>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion", "Only available <in cities with a [Spaceport]>"],
 	},
 	{
 		"name": "ROSKOSMOS",
@@ -1095,7 +1095,7 @@
 		"replaces": "Space Station",
 		"cost": 15000,
 		"gold": 25,
-		"uniques": ["[+2 Gold] per [1] population [in all cities]", "[+4 Culture] per [5] population [in this city]", "[+25]% [Science] [in this city]", "Only available <if [ROSKOSMOS] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion"],
+		"uniques": ["[+2 Gold] per [1] population [in all cities]", "[+4 Culture] per [5] population [in this city]", "[+25]% [Science] [in this city]", "Only available <if [ROSKOSMOS] is constructed>", "Consumes [10] [Aluminum]", "Triggers a global alert upon completion", "Only available <in cities with a [Spaceport]>"],
 	},
 //OIL-GAS THEME
 	{
@@ -1238,7 +1238,7 @@
 		"food": 25
 	},
 	{
-		"name": "Firefighting Service",
+		"name": "Firefighting service",
 		"cost": 1500,
 		"requiredBuilding": "Special Services",
 		"cityStrength": 30,
@@ -1278,6 +1278,75 @@
 		"requiredTech": "Humanities",
 		"science": 5,
 		"food": 3
-	}
+	},
+//SUPER SPACE THEME
+	{
+		"name": "Spaceport",
+		"isNationalWonder": true,
+		"cost": 15000,
+		"science": 1,
+		"uniques": ["Only available <if [Space Program] is constructed>", "Only available <in cities with a [Spaceship Factory]>", "[+25]% [Science] [in this city]"]
+	},
+	{
+		"name": "The Gran Telescopio Canarias",
+		"isWonder": true,
+		"cost": 25000,
+		"uniques": ["[+50 Gold] from [Science] buildings [in this city]"]
+	},
+	{
+		"name": "James Webb Telescope",
+		"isWonder": true,
+		"cost": 25000,
+		"uniques": ["[+50 Gold] from [Culture] buildings [in this city]"]
+	},
+	{
+		"name": "Lunar Program",
+		"isNationalWonder": true,
+		"cost": 50000,
+		"requiredTech": "Space Engineering",
+		"uniques": ["Triggers a global alert upon completion", "Only available <if [Space Program] is constructed>"],
+	},
+	{
+		"name": "Lunar Station",
+		"isNationalWonder": true,
+		"cost": 50000,
+		"gold": 50,
+		"uniques": ["Triggers a global alert upon completion", "Only available <if [Lunar Program] is constructed>", "[+2 Gold] from all tiles [in all cities]"],
+	},
+	{
+		"name": "Martian Program",
+		"isNationalWonder": true,
+		"cost": 50000,
+		"requiredTech": "Space Engineering",
+		"uniques": ["Triggers a global alert upon completion", "Only available <if [Lunar Program] is constructed>"],
+	},
+	{
+		"name": "Martian Station",
+		"isNationalWonder": true,
+		"cost": 50000
+		"gold": 50,
+		"uniques": ["Triggers a global alert upon completion", "Only available <if [Martian Program] is constructed>", "[+5 Gold] from all tiles [in all cities]"],
+	},
+	{
+		"name": "Voyagers Project",
+		"cost": 50000,
+		"isNationalWonder": true,
+		"science": 50,
+		"gold": 200,
+		"requiredTech": "Space Engineering",
+		"uniques": ["Only available <if [Space Program] is constructed>", "Triggers a global alert upon starting", "Triggers a global alert upin completion"]
+	},
+	{
+		"name": "Voyager 1", 
+		"cost": 50000,
+		"isWonder": true,
+		"uniques": ["Only available <if [Voyagers Project] is constructed>", "Triggers a global alert upon starting", "Triggers a global alert upin completion", "[+30 Gold] from all [Science] buildings", "Only available <in cities with a [Spaceport]>"]
 	
+	},
+	{
+		"name": "Voyager 2",
+		"cost": 50000,
+		"isWonder": true,
+		"uniques": ["Only available <if [Voyagers Project] is constructed>", "Triggers a global alert upon starting", "Triggers a global alert upin completion", "[+30 Gold] from all [Culture] buildings", "Only available <in cities with a [Spaceport]>"]
+	}
 ]
