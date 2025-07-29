@@ -1251,7 +1251,7 @@
 		"cost": 5375,
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+200]% Strength <vs [Water] units>", "[+150]% Damage when intercepting",
-			"Can carry [10] [Missile] units", "[+400]% Strength <vs [Submarine] units>", "[1] extra attacks per turn", "Limited to [1] per Civilization"],
+			"Can carry [10] [Missile] units", "[+400]% Strength <vs [Submarine] units>", "[1] extra attacks may be made per turn", "Limited to [1] per Civilization"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
