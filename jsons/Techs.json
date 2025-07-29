@@ -222,7 +222,31 @@
 				"name": "Space Engineering",
 				"row": 7,
 				"prerequisites": ["Particle Physics", "Nuclear Fusion", "Nanotechnology"]
+			},
+			{
+				"name": "Second Moon Race",
+				"row": 8,
+				"prerequisites": ["Nuclear Fusion", "Nanotechnology"]
 			}
 		]
-  }
+  },
+{
+		"columnNumber": 18,
+		"era": "Future era",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Martian Race",
+				"row": 7,
+				"prerequisites": ["Space Engineering", "Second Moon Race"]
+			},
+			{
+				"name": "Deep Space Exploration",
+				"row": 8,
+				"prerequisites": ["Space Engineering", "Second Moon Race"]
+			}
+		]
+}
 ]
