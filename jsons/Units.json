@@ -1227,7 +1227,6 @@
 		"name": "Moscow",
 		"unitType": "Ranged Water"
 		"uniqueTo": "Russia",
-		"replaces": "Missile Cruiser",
 		"movement": 8,
 		"strength": 145,
 		"rangedStrength": 140,
@@ -1235,7 +1234,7 @@
 		"interceptRange": 3,
 		"cost": 1975,
 		"requiredTech": "Robotics",
-		"uniques": ["[100]% chance to intercept air attacks", "[-30]% Strength <vs [Water] units>",
+		"uniques": ["[100]% chance to intercept air attacks", "[-75]% Strength <vs [Water] units>",
 			"Can carry [5] [Missile] units", "[+300]% Strength <vs [City]> <when attacking>", "Limited to [1] per Civilization"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
@@ -1252,7 +1251,7 @@
 		"cost": 5375,
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "[+200]% Strength <vs [Water] units>", "[+150]% Damage when intercepting",
-			"Can carry [10] [Missile] units", "[+400]% Strength <vs [Submarine] units>", "Limited to [1] per Civilization"],
+			"Can carry [10] [Missile] units", "[+400]% Strength <vs [Submarine] units>", "[1] extra attacks per turn", "Limited to [1] per Civilization"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
