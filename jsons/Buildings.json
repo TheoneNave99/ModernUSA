@@ -1063,7 +1063,7 @@
 	},
 	{
 		"name": "Skylab",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "The United States",
 		"replaces": "Space Station",
 		"cost": 20000,
@@ -1085,7 +1085,7 @@
 	},
 	{
 		"name": "Tiangong",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "China",
 		"replaces": "Space Station",
 		"cost": 20000,
@@ -1107,7 +1107,7 @@
 	},
 	{
 		"name": "European Space Station",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "European Union",
 		"replaces": "Space Station",
 		"cost": 20000,
@@ -1129,7 +1129,7 @@
 	},
 	{
 		"name": "Mir",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"uniqueTo": "Russia",
 		"replaces": "Space Station",
 		"cost": 20001,
