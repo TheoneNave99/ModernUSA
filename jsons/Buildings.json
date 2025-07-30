@@ -1128,7 +1128,7 @@
 		"uniques": ["Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>", "Triggers a global alert upon completion"],
 	},
 	{
-		"name": "Mir",
+		"name": "Mir S",
 		"isWonder": true,
 		"uniqueTo": "Russia",
 		"replaces": "Space Station",
