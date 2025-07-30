@@ -1019,7 +1019,7 @@
 		"production": 10,
 		"cityStrength": 25,
 		"cityHealth": 50,
-		"uniques": ["[+50]% Production when constructing [Military] units [in all cities]", "New [Military] units starts with [35] XP [in all cities]", "Only available <if [Military Base] is constructed in all [non-[Puppeted]] cities>", "Triggers a global alert upon completion"],
+		"uniques": ["[+50]% Production when constructing [Military] units [in all cities]", "New [Military] units start with [50] XP [in all cities]", "Only available <if [Military Base] is constructed in all [non-[Puppeted]] cities>", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 //SPACE THEME
