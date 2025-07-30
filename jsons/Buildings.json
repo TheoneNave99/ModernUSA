@@ -1486,7 +1486,7 @@
 	{
 		"name": "Voyagers Project",
 		"cost": 75000,
-		"isNationalWonder": true,
+		"isWonder": true,
 		"science": 50,
 		"gold": 200,
 		"requiredTech": "Deep Space Exploration",
