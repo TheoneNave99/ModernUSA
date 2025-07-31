@@ -210,7 +210,7 @@
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
 		"culture": 100,
-		"gold": 25b0,
+		"gold": 250,
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "Lachta Centre is the tallest building in Europe, built by Russia in Saint Petersburg. While it was being built, historical part of city was damaged."
 	},
