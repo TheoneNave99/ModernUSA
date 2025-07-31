@@ -1139,14 +1139,14 @@
 		"name": "Tsar-Bomb",
 		"unitType": "Atomic Bomber",
 		"uniqueTo": "Russia",
-		"cost": 75000,
+		"cost": 150000,
 		"maintenance": 50000,
 		"movement": 5,
 		"strength": 20,
 		"rangedStrength": 500,
 		"range": 15,
 		"requiredTech": "Atomic Theory",
-		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [4]", "Only available <if [Manhattan Project] is constructed>", "Consumes [20] [Uranium]", "Self-destructs after attack"],
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [4]", "Only available <if [Manhattan Project] is constructed>", "Consumes [25] [Uranium]", "Self-destructs after attack"],
 		"attackSound": "missile"
 	},
 	{
