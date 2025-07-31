@@ -1322,6 +1322,7 @@
 	{
 		"name": "Academician Lomonosov",
 		"unitType": "Icebreaker",
+		"uniqueTo": "Russia",
 		"cost": 3000,
 		"movement": 12,
 		"strength": 150,
@@ -1680,7 +1681,7 @@
 		"interceptRange": 5,
 		"requiredTech": "Lasers",
 		"uniques": ["[100]% chance to intercept air attacks", "[+25]% Damage when intercepting",
-			"[3] additional attacks per turn", "[+50]% Strength bonus for [Water] units within [2] tiles", "Limited to [1] per Civilization", "[+50]% Strength <vs [City]>", "[-50]% Strength <vs [Submarine] units> <when defending>", "Consumes [30] [Coal]"],
+			"[3] additional attacks per turn", "Triggers a global alert upon build start", "Triggers a global alert upon completion", "[+50]% Strength bonus for [Water] units within [2] tiles", "Limited to [1] per Civilization", "[+50]% Strength <vs [City]>", "[-50]% Strength <vs [Submarine] units> <when defending>", "Consumes [30] [Coal]"],
 		"attackSound": "shipguns"
 	},
 	{
