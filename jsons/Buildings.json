@@ -15,14 +15,14 @@
 		"cost": 10000,
 		"gold": 250,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Must be next to [Coast]", "[+5] population [in this city] <upon entering a Golden Age>"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Must be next to [Coast]", "[+3 Gold] from [Coast] tiles [in all cities]", "[+2 Gold] from [Ocean] tiles [in all cities]", "[+5] population [in this city] <upon entering a Golden Age>"],
 		"quote": "."
 	},
 	{
 		"name": "Abraj al Bait",
 		"isWonder": true,
 		"cost": 10000,
-		"gold": 100,
+		"gold": 150,
 		"requiredTech": "Ultra-tall Construction",
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Must be next to [Desert]", "[+5 Gold] from [Desert] tiles [in all cities]"],
 		"quote": "."
@@ -61,7 +61,7 @@
 		"name": "Trump Tower",
 		"isWonder": true,
 		"uniqueTo": "The United States",
-		"cost": 7500,
+		"cost": 7000,
 		"gold": 200,
 		"requiredTech": "Ultra-tall Construction",
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+75]% Production when constructing [All] wonders [in all cities]"],
@@ -83,7 +83,7 @@
 		"cost": 7500,
 		"gold": 250,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Must be next to [Coast]", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Must be next to [Coast]", "Triggers a global alert upon completion", "[+75]% [Gold] [in this city]"],
 		"quote": "."
 	},
 	{
@@ -93,7 +93,7 @@
 		"cost": 7500,
 		"gold": 200,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion", "[+50]% [Gold] [in this city]"],
 		"quote": "."
 	},
 	{
@@ -103,7 +103,7 @@
 		"cost": 7500,
 		"gold": 200,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion", "[+50]% [Gold] [in this city]"],
 		"quote": "."
 	},
 	{
@@ -120,7 +120,7 @@
 		"isWonder": true,
 		"uniqueTo": "China",
 		"cost": 7500,
-		"gold": 300,
+		"gold": 400,
 		"requiredTech": "Ultra-tall Construction",
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion"],
 		"quote": "."
@@ -193,10 +193,11 @@
 		"isWonder": true,
 		"uniqueTo": "China",
 		"replaces": "World Finance Center"
+		"specialistSlots": {"Merchant": 3},
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
-		"gold": 250,
+		"gold": 300,
 		"quote": "."
 	},
 	{
@@ -205,10 +206,11 @@
 		"uniqueTo": "Russia",
 		"replaces": "World Finance Center",
 		"cost": 4500,
+		"specialistSlots": {"Merchant": 1},
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
 		"culture": 100,
-		"gold": 200,
+		"gold": 25b0,
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "Lachta Centre is the tallest building in Europe, built by Russia in Saint Petersburg. While it was being built, historical part of city was damaged."
 	},
@@ -220,7 +222,7 @@
 		"cost": 4500,
 		"culture": 2,
 		"gold": 5,
-		"specialistSlots": {"Merchant": 2},
+		"specialistSlots": {"Merchant": 4},
 		"greatPersonPoints": {"Great Merchant": 8},
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
@@ -231,10 +233,40 @@
 	{
 		"name": "Apple inc.",
 		"isWonder": true,
+		"cost": 4500,
 		"production": 10,
-		"gold": 10,
+		"gold": 30,
 		"requiredTech": "TNC",
-		"uniques": ["[+50]% [Gold] [in this city]", "[+20 Gold] from every [Microchip Factory]", "Only available <in cities with a [Microchip Factory]>"],
+		"uniques": ["[+50]% [Gold] [in this city]", "[+20 Gold] from every [Microchip Factory]", "Creates a [Customs house] improvement on a specific tile", "Only available <in cities with a [Microchip Factory]>"],
+		"quote": "."
+	},
+	{
+		"name": "NVIDIA inc.",
+		"isWonder": true,
+		"cost": 4500,
+		"gold": 50,
+		"requiredTech": "TNC",
+		"uniques": ["[+50]% [Gold] [in this city]", "[+20 Gold] from every [Microchip Factory]", "Creates a [Customs house] improvement on a specific tiles", "Only available <in cities with a [Microchip Factory]>"],
+		"quote": "."
+	},
+	{
+		"name": "Microsoft inc.",
+		"isWonder": true,
+		"cost": 4500,
+		"production": 50,
+		"gold": 30,
+		"requiredTech": "TNC",
+		"uniques": ["[+75 Gold] from every [Microchip Factory]", "Creates a [Customs house] improvement on a specific tile", "Only available <in cities with a [Microchip Factory]>"],
+		"quote": "."
+	},
+	{
+		"name": "Amazon.com",
+		"isWonder": true,
+		"cost": 4500,
+		"production": 50,
+		"gold": 40,
+		"requiredTech": "TNC",
+		"uniques": ["[+75]% [Gold] [in this city]", "Only available <in cities with a [Microchip Factory]>"],
 		"quote": "."
 	},
 	{
@@ -263,6 +295,15 @@
 		"uniques": ["Free [Starlink Satellite] appears", "Only available <if [Space Program] is constructed>"],
 		"quote": "."
 	},
+	{
+		"name": "Eli Lilly & Co.",
+		"isWonder": true,
+		"production": 75,
+		"requiredTech": "TNC",
+		"uniques": ["[+50]% [Food] [in this city]", "[+15 Food] from every [Hospital]", "[+5]% [Food] from every [Hospital]", "Only available <in cities with a [Hospital]>"],
+		"quote": "."
+	},
+//SUPER SKYSCRAPERS 
 	{
 		"name": "Super Skyscrapers Technology",
 		"isNationalWonder": true,
