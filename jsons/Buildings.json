@@ -246,7 +246,7 @@
 		"cost": 4500,
 		"gold": 50,
 		"requiredTech": "TNC",
-		"uniques": ["[+50]% [Gold] [in this city]", "[+20 Gold] from every [Microchip Factory]", "Creates a [Customs house] improvement on a specific tiles", "Only available <in cities with a [Microchip Factory]>"],
+		"uniques": ["[+50]% [Gold] [in this city]", "[+20 Gold] from every [Microchip Factory]", "Creates a [Customs house] improvement on a specific tile", "Only available <in cities with a [Microchip Factory]>"],
 		"quote": "."
 	},
 	{
