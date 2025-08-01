@@ -1557,7 +1557,7 @@
 		"specialistSlots": {"Merchant": 5},
 		"requiredTech": "Heavy Industry",
 		"gold": 150,
-		"uniques": ["[+5 Production, +5 Gold] from [Gold Ore] tiles [in this city]", "Consumes [1] [Gold Ore]", "Provides [1] [Gold Bar]"]
+		"uniques": ["[+5 Production, +5 Gold] from [Gold Ore] tiles [in this city]", "Consumes [1] [Gold Ore]", "Provides [1] [Gold Bars]"]
 	},
 	{
 		"name": "Silver Bar Factory",
@@ -1567,7 +1567,7 @@
 		"specialistSlots": {"Merchant": 5},
 		"gold": 150,
 		"requiredTech": "Heavy Industry",
-		"uniques": ["[+5 Production, +5 Gold] from [Silver] tiles [in this city]", "Provides [1] [Silver Bar]"]
+		"uniques": ["[+5 Production, +5 Gold] from [Silver] tiles [in this city]", "Consumes [1] [Silver]", "Provides [1] [Silver Bars]"]
 	},
 	{
 		"name": "Brilliants Factory",
@@ -1578,6 +1578,71 @@
 		"gold": 250,
 		"specialistSlots": {"Merchant": 7},
 		"requiredTech": "Heavy Industry",
-		"uniques": ["[+10 Production, +10 Gold] from [Gems] tiles [in this city]", "Provides [1] [Brilliant]"]
-	}	
+		"uniques": ["[+10 Production, +10 Gold] from [Gems] tiles [in this city]", "Consumes [1] [Gems]", "Provides [1] [Brilliant]"]
+	},
+	{
+		"name": "Modern Bank",
+		"cost": 7500,
+		"gold": 150,
+		"requiredTech": "TNC",
+		"requiredBuilding": "Gold Bars Factory",
+		"uniques": ["[+20 Gold] from [Gold Ore] tiles [in all cities]"]
+	},
+	{
+		"name": "",
+		"cost": 7500,
+		"culture": 50,
+		"gold": 75,
+		"requiredTech": "TNC",
+		"requiredBuilding": "Silver Bars Factory",
+		"uniques": ["[+5 Culture, +5 Gold] from [Silver] tiles [in all cities]"]
+	},
+	{
+		"name": "Jewelry Factory"
+	},
+	{
+		"name": "Jewelry Boutique"
+	},
+//TEXTILE THEME
+	{
+		"name": "Textile Factory"
+	},
+	{
+		"name": "Fashion House"
+	},
+//FOOD THEME
+	{
+		"name": "Juice Factory"
+	},
+	{
+		"name": "Milk Factory"
+	},
+	{
+		"name": "Meat Factory"
+	},
+	{
+		"name": "Café"
+	},
+	{
+		"name": "Restaurant"
+	},
+	{
+		"name": "Premium Restaurant"
+	},
+//SHOPS THEME
+	{
+		"name": "Shop"
+	},
+	{
+		"name": "Supermarket"
+	},
+	{
+		"name": "Mall"
+	}
+//
+	{
+		"name": "a",
+		"cost":1,
+		"uniques": ["Only available <if [Factory] is constructed in [1] [non-[Puppeted]] cities>"]
+	}
 ]
