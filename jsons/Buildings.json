@@ -1578,34 +1578,48 @@
 		"gold": 250,
 		"specialistSlots": {"Merchant": 7},
 		"requiredTech": "Heavy Industry",
-		"uniques": ["[+10 Production, +10 Gold] from [Gems] tiles [in this city]", "Consumes [1] [Gems]", "Provides [1] [Brilliant]"]
+		"uniques": ["[+10 Production, +10 Gold] from [Gems] tiles [in this city]", "Consumes [1] [Gems]", "Provides [1] [Brilliants]"]
 	},
 	{
 		"name": "Modern Bank",
-		"cost": 7500,
+		"cost": 10000,
 		"gold": 150,
 		"requiredTech": "TNC",
 		"requiredBuilding": "Gold Bars Factory",
 		"uniques": ["[+20 Gold] from [Gold Ore] tiles [in all cities]"]
 	},
 	{
-		"name": "",
-		"cost": 7500,
+		"name": "Modern Mint",
+		"cost": 10000,
 		"culture": 50,
 		"gold": 75,
 		"requiredTech": "TNC",
 		"requiredBuilding": "Silver Bars Factory",
-		"uniques": ["[+5 Culture, +5 Gold] from [Silver] tiles [in all cities]"]
+		"uniques": ["[+5 Culture, +10 Gold] from [Silver] tiles [in all cities]"]
 	},
 	{
-		"name": "Jewelry Factory"
+		"name": "Jewelry Factory",
+		"cost": 12500,
+		"production": 50,
+		"gold": 150,
+		"requiredTech": "TNC",
+		"uniques": ["Only available <in cities with a [Gold Bars Factory]>", "Only available <in cities with a [Silver Bars Factory]>"]
 	},
 	{
-		"name": "Jewelry Boutique"
+		"name": "Jewelry Boutique",
+		"isNationalWonder": true,
+		"cost": 15000,
+		"gold": 300,
+		"requiredTech": "Premium-level Life",
+		"requiredBuilding": "Jewelry Factory",
+		"uniques": ["[+50]% [Gold] [in this city]"]
 	},
 //TEXTILE THEME
 	{
 		"name": "Textile Factory"
+	},
+	{
+		"name": "Premium Fabric Factory"
 	},
 	{
 		"name": "Fashion House"
@@ -1614,12 +1628,41 @@
 	{
 		"name": "Juice Factory"
 	},
+//
 	{
 		"name": "Milk Factory"
 	},
 	{
+		"name": "Cheese Factory"
+	},
+	{
+		"name": "Premium Cheese Factory"
+	},
+//
+	{
 		"name": "Meat Factory"
 	},
+//
+	{
+		"name": "Wine Plantations"
+	},
+	{
+		"name": "Wine Manufactory"
+	},
+	{
+		"name": "Premium Wine Manufactory"
+	},
+//
+	{
+		"name": "Cocoa Plantations"
+	},
+	{
+		"name": "Confectionery Factory"
+	},
+	{
+		"name": "Premium Chocolate Factory"
+	},
+//
 	{
 		"name": "Café"
 	},
@@ -1639,10 +1682,15 @@
 	{
 		"name": "Mall"
 	}
-//
+//RECREATIONS THEME
 	{
-		"name": "lalad",
-		"cost":1,
-		"uniques": ["Only available <if [Factory] is constructed in [1] [non-[Puppeted]] cities>"]
-	}
+		"name": "Park"
+	},
+	{
+		"name": "Water Park"
+	},
+	{
+		"name": "Beach Resort"
+	},
+	{
 ]
