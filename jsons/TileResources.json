@@ -42,11 +42,26 @@
 	{
 		"name": "Petroleum"
 		"resourceType": "Luxury",
-		"gold": 2
+		"gold": 50
 	},
 	{
 		"name": "LNG",
 		"resourceType": "Luxury",
-		"gold": 2
+		"gold": 50
+	},
+	{
+		"name": "Gold Bars",
+		"resourceType": "Luxury",
+		"gold": 150
+	},
+	{
+		"name": "Silver Bars",
+		"resourceType": "Luxury",
+		"gold": 150
+	},
+	{
+		"name": "Brilliants",
+		"resourceType": "Luxury",
+		"gold": 250
 	}
 ]
