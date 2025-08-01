@@ -1641,7 +1641,7 @@
 	}
 //
 	{
-		"name": "a",
+		"name": "lalad",
 		"cost":1,
 		"uniques": ["Only available <if [Factory] is constructed in [1] [non-[Puppeted]] cities>"]
 	}
