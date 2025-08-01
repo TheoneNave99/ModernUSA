@@ -1550,7 +1550,7 @@
 	},
 //LUX PLANTS THEME
 	{
-		"name": "Gold Bar Factory",
+		"name": "Gold Bars Factory",
 		"cost": 7500,
 		"requiredNearbyImprovedResource": ["Gold Ore"],
 		"percentStatsBonus": {"Production": 25},
@@ -1560,7 +1560,7 @@
 		"uniques": ["[+5 Production, +5 Gold] from [Gold Ore] tiles [in this city]", "Consumes [1] [Gold Ore]", "Provides [1] [Gold Bars]"]
 	},
 	{
-		"name": "Silver Bar Factory",
+		"name": "Silver Bars Factory",
 		"cost": 7500,
 		"requiredNearbyImprovedResource": ["Silver"],
 		"percentStatsBonus": {"Production": 25},
