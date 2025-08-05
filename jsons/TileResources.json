@@ -63,5 +63,16 @@
 		"name": "Brilliants",
 		"resourceType": "Luxury",
 		"gold": 250
-	}
+	},
+	{
+		"name": "Honey",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Tundra"],
+		"gold": 2,
+		"improvement": "Apiary",
+		"improvementStats": {"food": 2},
+		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated near City States with weight [15]"]
+	},
 ]
