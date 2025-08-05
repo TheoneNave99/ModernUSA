@@ -31,8 +31,8 @@
 		"terrainsCanBeBuiltOn": ["Grassland", "Plains"],
 		"food": 2,
 		"turnsToBuild": 6,
-		"techRequired": "Arctology",
-		"uniques": ["Only available <if [Arctic Program] is constructed>"],
-		"shortcutKey": "R"
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource"],
+		"shortcutKey": "A"
 	}
 ]
