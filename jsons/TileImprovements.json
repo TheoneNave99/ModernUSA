@@ -25,5 +25,14 @@
 		"techRequired": "Arctology",
 		"uniques": ["Only available <if [Arctic Program] is constructed>"],
 		"shortcutKey": "R"
+	},
+	{
+		"name": "Apiary",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains"],
+		"food": 2,
+		"turnsToBuild": 6,
+		"techRequired": "Arctology",
+		"uniques": ["Only available <if [Arctic Program] is constructed>"],
+		"shortcutKey": "R"
 	}
 ]
