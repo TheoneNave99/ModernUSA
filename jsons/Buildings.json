@@ -397,7 +397,7 @@
 		"cost": 2500,
 		"culture": 1,
 		"requiredTech": "Complete State Management",
-		"uniques": ["[+100]% [Culture] [in this city]", "[+1 Culture] from [Coast] tiles [in all cities]", "Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"],
+		"uniques": ["[+100]% [Culture] [in this city]", "[+1 Culture] from [Coast] tiles [in all cities]", "Only available <if [Japanese State TV] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "."
 	},
 	{
@@ -902,6 +902,16 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"quote": "."
 	},
+	{
+		"name": "Japanese State TV",
+		"uniqueTo": "Japan", 
+		"replaces": "Broadcast Tower",
+		"cost": 500,
+		"culture": 5,
+		"requiredTech": "Radio",
+		"requiredBuilding": "Museum",
+		"uniques": ["[+50%] [Culture] [in this city]"]
+	}
 //EUROPEAN UNION
 	{
 		"name": "NGF EU Project",
