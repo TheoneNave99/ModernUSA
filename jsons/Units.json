@@ -1586,7 +1586,7 @@
 		"strength": 220,
 		"movement": 3,
 		"requiredTech": "Modern Warfare Strategy",
-		"uniques": ["Consumes [5] [Titanium]", "Consumes [5] [Aluminum]", "Consumes [3] [Uranium]", "Consumes [3] [Modern Alloy]", "Limited to [1] per Civilization", "Only available <in cities with a [Suidobashi Heavy Industry]>",
+		"uniques": ["Consumes [5] [Titanium]", "Consumes [5] [Aluminum]", "Consumes [3] [Uranium]", "Consumes [3] [Modern Alloy]", "Limited to [1] per Civilization",
 			"[+25]% to Flank Attack bonuses", "[-75]% Strength <when fighting in [Tundra] tiles>", "[-100]% Strength <when fighting in [Snow] tiles>", "Unable to capture cities", "[+50]% Strength <vs [Ranged] units> <when defending>"],
 		"attackSound": "GDRattack"
 	},
@@ -1681,7 +1681,7 @@
 		"interceptRange": 5,
 		"requiredTech": "Lasers",
 		"uniques": ["[100]% chance to intercept air attacks", "[+25]% Damage when intercepting",
-			"[3] additional attacks per turn", "Triggers a global alert upon build start", "Triggers a global alert upon completion", "[+50]% Strength bonus for [Water] units within [2] tiles", "Limited to [1] per Civilization", "[+50]% Strength <vs [City]>", "[-50]% Strength <vs [Submarine] units> <when defending>", "Consumes [30] [Coal]"],
+			"[3] additional attacks per turn", "Triggers a global alert upon build start", "Triggers a global alert upon completion", "[+50]% Strength bonus for [Water] units within [2] tiles", "Limited to [1] per Civilization", "[+50]% Strength <vs [City]>", "[-50]% Strength <vs [Submarine] units> <when defending>", "Consumes [20] [Coal]"],
 		"attackSound": "shipguns"
 	},
 	{
