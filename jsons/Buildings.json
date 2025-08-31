@@ -1196,7 +1196,7 @@
 		"production": 20,
 		"percentStatsBonus": {"Production": 15},
 		"specialistSlots": {"Engineer": 2},
-		"requiredTech": "Heavy Industry",
+		"requiredTech": "Modern Industry",
 		"uniqued": ["[+15]% [Production] [in this city]", "[+2 Gold] from [Oil] tiles [in this city]"]
 	},
 	{
@@ -1205,7 +1205,7 @@
 		"requiredNearbyImprovedResource": ["Oil"],
 		"production": 5,
 		"gold": 5,
-		"requiredTech": "Heavy Industry",
+		"requiredTech": "Modern Industry",
 		"uniques": ["Consumes [2] [Oil]", "Provides [1] [Petroleum]"]
 	},
 	{
@@ -1214,7 +1214,7 @@
 		"requiredNearbyImprovedResource": ["Natural Gas"],
 		"percentStatsBonus": {"Production": 10},
 		"specialistSlots": {"Engineer": 2},
-		"requiredTech": "Heavy Industry",
+		"requiredTech": "Modern Industry",
 		"uniques": ["Must be next to [Coast]", "[+5 Production, +5 Gold] from [Natural Gas] tiles [in this city]", "Consumes [2] [Natural Gas]", "Provides [1] [LNG]"]
 	},
 	{
@@ -1225,7 +1225,7 @@
 		"requiredNearbyImprovedResource": ["Natural Gas"],
 		"percentStatsBonus": {"Production": 12},
 		"specialistSlots": {"Engineer": 3},
-		"requiredTech": "Heavy Industry",
+		"requiredTech": "Modern Industry",
 		"uniques": ["Must be next to [Coast]", "[+5 Production, +10 Gold] from [Natural Gas] tiles [in this city]", "Consumes [2] [Natural Gas]", "Provides [2] [LNG]"]
 	},
 	{
@@ -1235,7 +1235,7 @@
 		"production": 15,
 		"percentStatsBonus": {"Production": 10},
 		"specialistSlots": {"Engineer": 4},
-		"requiredTech": "Heavy Industry",
+		"requiredTech": "Modern Industry",
 		"uniqued": ["[+10]% [Production] [in this city]", "[+2 Gold] from [Natural Gas] tiles [in this city]"]
 	},
 	{
@@ -1246,7 +1246,7 @@
 		"production": 30,
 		"percentStatsBonus": {"Production": 15},
 		"specialistSlots": {"Engineer": 4},
-		"requiredTech": "Heavy Industry",
+		"requiredTech": "Modern Industry",
 		"uniques": ["[+1 Production, +1 Gold] from [Mine] tiles [in this city]"]
 	},
 	{
@@ -1263,7 +1263,7 @@
 	{
 		"name": "Heavy Machines Plant",
 		"cost": 2000,
-		"requiredTech": "Heavy Machinery",
+		"requiredTech": "Advanced Industry",
 		"production": 10,
 		"requiredBuilding": "Modern Factory"
 	},
