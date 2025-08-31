@@ -1672,7 +1672,7 @@
 		"cost": 4650,
 		"production": 35,
 		"food": 15,
-		"requiredTech": "Modern Industry
+		"requiredTech": "Modern Industry",
 		"requiredBuilding": "Factory",
 		"uniques": ["[+2 Food, +1 Production, +3 Gold] from [Cattle] tiles [in this city]", "Provides [1] [Milk]"]
 	},
@@ -1794,7 +1794,7 @@
 	    "isNationalWonder": true,
 	    "cost": 100000000,
 	    "gold": 300,
-	}
+	},
 //RECREATIONS THEME
 	{
 		"name": "Park",
