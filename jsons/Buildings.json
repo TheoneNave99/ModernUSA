@@ -1828,7 +1828,7 @@
 		"cost": 400,
 		"happiness": 4,
 		"requiredTech": "Urbanism",
-		"uniques": ["Must be next to [Coast]", "[+1 happiness] from [Atoll] tiles [in this city]"]
+		"uniques": ["Must be next to [Coast]", "[+1 Happiness] from [Atoll] tiles [in this city]"]
 	},
 	{
 	    "name": "Skiing Resort",
