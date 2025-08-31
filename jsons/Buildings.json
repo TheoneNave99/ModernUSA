@@ -1871,6 +1871,6 @@
 	    "gold": 40,
 	    "food": 5,
 	    "requiredTech": "Modern Industry",
-	    "uniques": ["[+10 Gold, +3 Fooď] from [Honey] tiles [in this city]"]
+	    "uniques": ["[+10 Gold, +3 Food] from [Honey] tiles [in this city]"]
 	}
 ]
