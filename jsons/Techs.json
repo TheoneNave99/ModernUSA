@@ -42,7 +42,7 @@
         "quote": "."
       },
       {
-        "name": "Heavy Industry",
+        "name": "Modern Industry",
         "row": 3,
         "prerequisites": ["Plastics"],
         "quote": "The more complex industrial products became, the harder industry itself became."
@@ -82,9 +82,9 @@
         "quote": "The Military-Industrial Complex represents the final stage of development of the state army. МIC is a unified system for the production of military equipment that provides the state with an uninterrupted supply of advanced weapons."
       },
       {
-        "name": "Heavy Machinery",
+        "name": "Advanced Industry",
         "row": 3,
-        "prerequisites": ["Heavy Industry"],
+        "prerequisites": ["Modern lIndustry"],
         "quote": "."
       },
       {
@@ -123,7 +123,7 @@
       {
         "name": "Mobile Tactics"
         "row": 3,
-        "prerequisites": ["MIC"]
+        "prerequisites": ["MIC", "Advanced Industry"]
         "quote": "."
       },
       {
