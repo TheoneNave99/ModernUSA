@@ -2,7 +2,7 @@
 	{
 		"name": "Titanium",
 		"resourceType": "Strategic",
-		"revealedBy": "Heavy Industry",
+		"revealedBy": "Modern Industry",
 		"terrainsCanBeFoundOn": ["Tundra","Hill", "Snow", "Forest"],
 		"production": 3,
 		"improvement": "Mine",
