@@ -1866,8 +1866,8 @@
 	},
 	{
 	    "name": "Honey Factory",
+		"cost": 6450,
 	    "requiredNearbyImprovedResource": ["Honey"],
-	    "cost": 6450,
 	    "gold": 40,
 	    "food": 5,
 	    "requiredTech": "Modern Industry",
