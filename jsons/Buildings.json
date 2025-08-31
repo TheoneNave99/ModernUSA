@@ -1784,7 +1784,7 @@
 		"name": "Shop",
 		"cost": 350,
 		"gold": 5,
-		"requiredTech": "Economic"
+		"requiredTech": "Economics"
 	},
 	{
 		"name": "Supermarket",
