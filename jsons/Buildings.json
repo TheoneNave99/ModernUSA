@@ -1192,7 +1192,7 @@
 	{
 		"name": "Oil Storage Facility",
 		"cost": 1150,
-		"requiredNearbyImprovedResource": ["Oil"],
+		"requiredNearbyImprovedResources": ["Oil"],
 		"production": 20,
 		"percentStatsBonus": {"Production": 15},
 		"specialistSlots": {"Engineer": 2},
@@ -1202,7 +1202,7 @@
 	{
 		"name": "Oil Refinery",
 		"cost": 1650,
-		"requiredNearbyImprovedResource": ["Oil"],
+		"requiredNearbyImprovedResources": ["Oil"],
 		"production": 5,
 		"gold": 5,
 		"requiredTech": "Modern Industry",
@@ -1211,7 +1211,7 @@
 	{
 		"name": "LNG Plant",
 		"cost": 1450,
-		"requiredNearbyImprovedResource": ["Natural Gas"],
+		"requiredNearbyImprovedResources": ["Natural Gas"],
 		"percentStatsBonus": {"Production": 10},
 		"specialistSlots": {"Engineer": 2},
 		"requiredTech": "Modern Industry",
@@ -1222,7 +1222,7 @@
 		"uniqueTo": "Russia",
 		"replaces": "LNG Plant",
 		"cost": 1550,
-		"requiredNearbyImprovedResource": ["Natural Gas"],
+		"requiredNearbyImprovedResources": ["Natural Gas"],
 		"percentStatsBonus": {"Production": 12},
 		"specialistSlots": {"Engineer": 3},
 		"requiredTech": "Modern Industry",
@@ -1231,7 +1231,7 @@
 	{
 		"name": "Gas Storage Facility",
 		"cost": 1250,
-		"requiredNearbyImprovedResource": ["Natural Gas"],
+		"requiredNearbyImprovedResources": ["Natural Gas"],
 		"production": 15,
 		"percentStatsBonus": {"Production": 10},
 		"specialistSlots": {"Engineer": 4},
@@ -1562,7 +1562,7 @@
 	{
 		"name": "Gold Bars Factory",
 		"cost": 7500,
-		"requiredNearbyImprovedResource": ["Gold Ore"],
+		"requiredNearbyImprovedResources": ["Gold Ore"],
 		"percentStatsBonus": {"Production": 25},
 		"specialistSlots": {"Merchant": 5},
 		"requiredTech": "Advanced Industry",
@@ -1572,7 +1572,7 @@
 	{
 		"name": "Silver Bars Factory",
 		"cost": 7500,
-		"requiredNearbyImprovedResource": ["Silver"],
+		"requiredNearbyImprovedResources": ["Silver"],
 		"percentStatsBonus": {"Production": 25},
 		"specialistSlots": {"Merchant": 5},
 		"gold": 150,
@@ -1582,7 +1582,7 @@
 	{
 		"name": "Brilliants Factory",
 		"cost": 10000,
-		"requiredNearbyImprovedResource": ["Gems"],
+		"requiredNearbyImprovedResources": ["Gems"],
 		"percentStatsBonus": {"Production": 30},
 		"production": 25,
 		"gold": 250,
@@ -1628,7 +1628,7 @@
 	{
 		"name": "Textile Factory",
 		"cost": 5450,
-		"requiredNearbyImprovedResource": ["Cotton", "Furs"],
+		"requiredNearbyImprovedResources": ["Cotton", "Furs"],
 		"production": 25,
 		"gold": 50,
 		"requiredTech": "Modern Industry",
@@ -1660,7 +1660,7 @@
 		"production": 15,
 		"food": 10,
 		"happiness": 5,
-		"requiredNearbyImprovedResource": ["Citrus"],
+		"requiredNearbyImprovedResources": ["Citrus"],
 		"requiredTech": "Modern Industry",
 		"requiredBuilding": "Factory",
 		"uniques": ["[+2 Food, +5 Gold] from [Citrus] tiles [in this city]"]
@@ -1668,7 +1668,7 @@
 //
 	{
 		"name": "Milk Factory",
-		"requiredNearbyImprovedResource": ["Cattle"],
+		"requiredNearbyImprovedResources": ["Cattle"],
 		"cost": 4650,
 		"production": 35,
 		"food": 15,
@@ -1700,7 +1700,7 @@
 //
 	{
 		"name": "Wine Manufactory",
-		"requiredNearbyImprovedResource": ["Wine"],
+		"requiredNearbyImprovedResources": ["Wine"],
 		"cost": 7500,
 		"gold": 100,
 		"culture": 30,
@@ -1720,7 +1720,7 @@
 //
 	{
 		"name": "Cocoa Plantations",
-		"requiredNearbyImprovedResource": ["Cocoa"],
+		"requiredNearbyImprovedResources": ["Cocoa"],
 		"cost": 5750,
 		"gold": 75,
 		"food": 10,
@@ -1751,7 +1751,7 @@
 //
 	{
 		"name": "Café",
-		"requiredNearbyImprovedResource": ["Coffee"],
+		"requiredNearbyImprovedResources": ["Coffee"],
 		"cost": 3750,
 		"gold": 45,
 		"food": 7,
@@ -1764,7 +1764,7 @@
 	{
 		"name": "Restaurant",
 		"cost": 8000,
-		"requiredNearbyImprovedResource": ["Cattle", "Fish", "Cocoa", "Coffee", "Citrus", "Sheep"]
+		"requiredNearbyImprovedResources": ["Cattle", "Fish", "Cocoa", "Coffee", "Citrus", "Sheep"]
 		"gold": 100,
 		"culture": 15,
 		"requiredTech": "Urbanism",
@@ -1840,7 +1840,7 @@
 	{
 	    "name": "Premium Resort",
 	    "cost": 7500,
-	    "requiredNearbyImprovedResource": ["Golden Ore", "Silver", "Gems", "Wine"],
+	    "requiredNearbyImprovedResources": ["Golden Ore", "Silver", "Gems", "Wine"],
 	    "happiness": 15,
 	    "requiredTech": "Premium-level Life",
 	    "uniques": ["[+10]% [Happiness] [in this city]"]
@@ -1867,7 +1867,7 @@
 	{
 	    "name": "Honey Factory",
 		"cost": 6450,
-	    "requiredNearbyImprovedResource": ["Honey"],
+	    "requiredNearbyImprovedResources": ["Honey"],
 	    "gold": 40,
 	    "food": 5,
 	    "requiredTech": "Modern Industry",
