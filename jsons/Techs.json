@@ -78,13 +78,13 @@
       {
         "name": "MIC",
         "row": 4,
-        "prerequisites": ["Heavy Industry", "Atomic Theory"],
+        "prerequisites": ["Modern Industry", "Atomic Theory"],
         "quote": "The Military-Industrial Complex represents the final stage of development of the state army. МIC is a unified system for the production of military equipment that provides the state with an uninterrupted supply of advanced weapons."
       },
       {
         "name": "Advanced Industry",
         "row": 3,
-        "prerequisites": ["Modern lIndustry"],
+        "prerequisites": ["Modern Industry"],
         "quote": "."
       },
       {
