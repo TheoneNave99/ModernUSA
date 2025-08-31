@@ -1781,19 +1781,33 @@
 	},
 //SHOPS THEME
 	{
-		"name": "Shop"
+		"name": "Shop",
+		"cost": 350,
+		"gold": 5,
+		"requiredTech": "Economic"
 	},
 	{
-		"name": "Supermarket"
+		"name": "Supermarket",
+		"cost": "750",
+		"gold": 15,
+		"requiredTech": "Industrialization",
+		"requiredBuilding": "Shop"
 	},
 	{
 		"name": "Mall",
+		"cost": 1500,
+		"gold": 50,
+		"requiredTech": "Modern Oligarchy",
+		"requiredBuilding": "Supermarket",
+		"uniques": ["[+2 Gold] from [Luxury Resource] tiles [in this city]"]
 	},
 	{
 	    "name": "Premium Mall",
 	    "isNationalWonder": true,
-	    "cost": 100000000,
-	    "gold": 300,
+	    "cost": 15000,
+	    "gold": 350,
+		"requiredTech": "Premium-level Life",
+		"uniques": ["Only available <if [Mall] is constructed in all [non-[Puppeted]] cities>"]
 	},
 //RECREATIONS THEME
 	{
