@@ -75,4 +75,29 @@
 					"Generated with weight [10] <in [Plauns] Regions>",
 					"Generated near City States with weight [15]"]
 	},
+	{
+		"name": "Premium Fabric",
+		"resourceType": "Luxury",
+		"gold": 50
+	},
+	{
+		"name": "Milk",
+		"resourceType": "Luxury",
+		"gold": 150
+	},
+	{
+		"name": "Cheese",
+		"resourceType": "Luxury",
+		"gold": 150
+	},
+	{
+		"name": "Confection",
+		"resourceType": "Luxury",
+		"gold": 150
+	},
+	{
+		"name": "Premium Food",
+		"resourceType": "Luxury",
+		"gold": 150
+	}	
 ]
