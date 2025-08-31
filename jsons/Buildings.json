@@ -1866,11 +1866,11 @@
 	},
 	{
 	    "name": "Honey Factory",
+	    "requiredNearbyImprovedResource": ["Honey"],
 	    "cost": 6450,
 	    "gold": 40,
 	    "food": 5,
 	    "requiredTech": "Modern Industry",
-	    "requiredNearbyImprovedResource": ["Honey"],
 	    "uniques": ["[+10 Gold, +3 Fooď] from [Honey] tiles [in this city]"]
 	}
 ]
