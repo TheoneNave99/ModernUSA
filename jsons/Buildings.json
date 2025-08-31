@@ -638,7 +638,7 @@
 		"percentStatsBonus": {"Production": 10},
 		"specialistSlots": {"Engineer": 2},
 		"hurryCostModifier": 0,
-		"requiredTech": "Heavy Industry",
+		"requiredTech": "Modern Industry",
 		"requiredResource": "Aluminum"
 		"uniques": ["[+20]% [Production]"]
 	},
