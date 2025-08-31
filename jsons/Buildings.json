@@ -1632,7 +1632,7 @@
 		"production": 25,
 		"gold": 50,
 		"requiredTech": "Modern Industry",
-		"uniques": ["[+2 Production, +5 Gold] from [Cotton] tiles [in all citied", "[+2 Production, +5 Gold] from [Furs] tiles [in all citied"]
+		"uniques": ["[+2 Production, +5 Gold] from [Cotton] tiles [in this city]", "[+2 Production, +5 Gold] from [Furs] tiles [in this city]"]
 	},
 	{
 		"name": "Premium Fabric Factory",
@@ -1871,6 +1871,6 @@
 	    "food": 5,
 	    "requiredTech": "Modern Industry",
 	    "requiredNearbyImprovedResource": ["Honey"],
-	    "uniques": ["[+5 Gold, +1 Fooď] from [Honey] tiles [in this city"]
+	    "uniques": ["[+10 Gold, +3 Fooď] from [Honey] tiles [in this city]"]
 	}
 ]
