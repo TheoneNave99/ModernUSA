@@ -205,6 +205,12 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
+				"name": "Premium-level Life",
+				"row": 1,
+				"prerequisites": ["Complete State Management", "Globalization"],
+				"quote": "."
+			},
+			{
 				"name": "Ultra-tall Construction",
 				"row": 2,
 				"prerequisites": ["Complete State Management", "Globalization"],
