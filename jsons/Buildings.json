@@ -1559,4 +1559,304 @@
 		"uniques": ["Only available <if [Voyagers Project] is constructed>", "Triggers a global alert upon build start", "Triggers a global alert upin completion", "[+50 Gold] from all [Culture] buildings"]
 	},
 //LUX PLANTS THEME
+	{
+		"name": "Gold Bars Factory",
+		"cost": 7500,
+		"requiredNearbyImprovedResource": ["Gold Ore"],
+		"percentStatsBonus": {"Production": 25},
+		"specialistSlots": {"Merchant": 5},
+		"requiredTech": "Advanced Industry",
+		"gold": 150,
+		"uniques": ["[+5 Production, +5 Gold] from [Gold Ore] tiles [in this city]", "Consumes [1] [Gold Ore]", "Provides [1] [Gold Bars]"]
+	},
+	{
+		"name": "Silver Bars Factory",
+		"cost": 7500,
+		"requiredNearbyImprovedResource": ["Silver"],
+		"percentStatsBonus": {"Production": 25},
+		"specialistSlots": {"Merchant": 5},
+		"gold": 150,
+		"requiredTech": "Advanced Industry",
+		"uniques": ["[+5 Production, +5 Gold] from [Silver] tiles [in this city]", "Consumes [1] [Silver]", "Provides [1] [Silver Bars]"]
+	},
+	{
+		"name": "Brilliants Factory",
+		"cost": 10000,
+		"requiredNearbyImprovedResource": ["Gems"],
+		"percentStatsBonus": {"Production": 30},
+		"production": 25,
+		"gold": 250,
+		"specialistSlots": {"Merchant": 7},
+		"requiredTech": "Advanced Industry",
+		"uniques": ["[+10 Production, +10 Gold] from [Gems] tiles [in this city]", "Consumes [1] [Gems]", "Provides [1] [Brilliants]"]
+	},
+	{
+		"name": "Modern Bank",
+		"cost": 10000,
+		"gold": 150,
+		"requiredTech": "TNC",
+		"requiredBuilding": "Gold Bars Factory",
+		"uniques": ["[+20 Gold] from [Gold Ore] tiles [in all cities]"]
+	},
+	{
+		"name": "Modern Mint",
+		"cost": 10000,
+		"culture": 50,
+		"gold": 75,
+		"requiredTech": "TNC",
+		"requiredBuilding": "Silver Bars Factory",
+		"uniques": ["[+5 Culture, +10 Gold] from [Silver] tiles [in all cities]"]
+	},
+	{
+		"name": "Jewelry Factory",
+		"cost": 12500,
+		"production": 50,
+		"gold": 150,
+		"requiredTech": "TNC",
+		"uniques": ["Only available <in cities with a [Gold Bars Factory]>", "Only available <in cities with a [Silver Bars Factory]>"]
+	},
+	{
+		"name": "Jewelry Boutique",
+		"isNationalWonder": true,
+		"cost": 15000,
+		"gold": 300,
+		"requiredTech": "Premium-level Life",
+		"requiredBuilding": "Jewelry Factory",
+		"uniques": ["[+50]% [Gold] [in this city]"]
+	},
+//TEXTILE THEME
+	{
+		"name": "Textile Factory",
+		"cost": 5450,
+		"requiredNearbyImprovedResource": ["Cotton", "Furs"],
+		"production": 25,
+		"gold": 50,
+		"requiredTech": "Modern Industry",
+		"uniques": ["[+2 Production, +5 Gold] from [Cotton] tiles [in all citied", "[+2 Production, +5 Gold] from [Furs] tiles [in all citied"]
+	},
+	{
+		"name": "Premium Fabric Factory",
+		"cost": 7650,
+		"production": 40,
+		"gold": 100,
+		"requiredTech": "Advanced Industry",
+		"requiredBuilding": "Textile Factory",
+		"uniques": ["Consumes [1] [Cotton]", "Consumes [1] [Furs]", "Provides [1] [Premium Fabric"]
+	},
+	{
+		"name": "Fashion House",
+		"isNationalWonder": true,
+		"cost": 10000,
+		"gold": 250,
+		"culture": 50,
+		"requiredTech": "Premium-level Life",
+		"requiredBuilding": "Premium Fabric Factory"
+		"uniques": ["Triggers a global alert upon build start", "Triggers a global alert upon completion", "Consumes [3] [Premium Fabric]"]
+	},
+//FOOD THEME
+	{
+		"name": "Juice Factory",
+		"cost": 4950,
+		"production": 15,
+		"food": 10,
+		"happiness": 5,
+		"requiredNearbyImprovedResource": ["Citrus"],
+		"requiredTech": "Modern Industry",
+		"requiredBuilding": "Factory",
+		"uniques": ["[+2 Food, +5 Gold] from [Citrus] tiles [in this city]"]
+	},
+//
+	{
+		"name": "Milk Factory",
+		"requiredNearbyImprovedResource": ["Cattle"],
+		"cost": 4650,
+		"production": 35,
+		"food": 15,
+		"requiredTech": "Modern Industry
+		"requiredBuilding": "Factory",
+		"uniques": ["[+2 Food, +1 Production, +3 Gold] from [Cattle] tiles [in this city]", "Provides [1] [Milk]"]
+	},
+	{
+		"name": "Cheese Factory",
+		"cost": 5750,
+		"food": 10,
+		"culture": 20,
+		"gold": 60,
+		"requiredTech": "Advanced Industry",
+		"requiredBuilding": "Milk Factory",
+		"uniques": ["[+3 Production, +2 Food, +5 Gold] from every [Milk Factory]", "Consumes [2] [Milk]", "Provides [1] [Cheese]"]
+	},
+	{
+		"name": "Premium Cheese Factory",
+		"isNationalWonder": true,
+		"cost": 7500,
+		"culture": 25,
+		"gold": 125,
+		"requiredTech": "Premium-level Life",
+		"requiredBuilding": "Cheese Factory",
+		"uniques": ["Triggers a global alert upon build start", "Triggers a global alert upon completion",
+		"Consumes [3] [Cheese]"]
+	},
+//
+	{
+		"name": "Wine Manufactory",
+		"requiredNearbyImprovedResource": ["Wine"],
+		"cost": 7500,
+		"gold": 100,
+		"culture": 30,
+		"requiredTech": "Advanced Industry",
+		"uniques": ["[+5 Production, +10 Gold] from [Wine] tiles [in this city]"]
+	},
+	{
+		"name": "Premium Wine Manufactory",
+		"isNationalWonder": true,
+		"cost": 15000,
+		"gold": 250,
+		"culture": 75,
+		"requiredTech": "Premium-level Life",
+		"requiredBuilding": "Wine Manufactory",
+		"uniques": ["Triggers a global alert upon build start", "Triggers a global alert upon completion", "Consumes [3] [Wine]"]
+	},
+//
+	{
+		"name": "Cocoa Plantations",
+		"requiredNearbyImprovedResource": ["Cocoa"],
+		"cost": 5750,
+		"gold": 75,
+		"food": 10,
+		"requiredTech": "Modern Industry",
+		"uniques": ["[+5 Gold, +2 Food] from [Cocoa] tiles [in this city]"]
+	},
+	{
+		"name": "Confectionery Factory",
+		"cost": 8950,
+		"production": 25,
+		"gold": 160,
+		"food": 15,
+		"requiredTech": "Advanced Industry",
+		"requiredBuilding": "Cocoa Plantations",
+		"uniques": ["Consumes [1] [Cocoa]", "Consumes [1] [Sugar]", "Provides [1] [Confection]"]
+	},
+	{
+		"name": "Premium Chocolate Factory",
+		"isNationalWonder": true,
+		"cost": 12500,
+		"food": 15,
+		"culture": 20,
+		"gold": 250,
+		"requiredTech": "Premium-level Life",
+		"requiredBuilding": "Confectionery Factory",
+		"uniques": ["Triggers a global alert upon build start", "Triggers a global alert upon completion", "Consumes [3] [Confection]"]
+	},
+//
+	{
+		"name": "Café",
+		"requiredNearbyImprovedResource": ["Coffee"],
+		"cost": 3750,
+		"gold": 45,
+		"food": 7,
+		"culture": 15,
+		"happiness": 3,
+		"science": 25,
+		"requiredTech": "Urbanism",
+		"uniques": ["[+7 Gold] from [Coffee] tiles", "[+4 Gold] from [Cocoa] tiles"]
+	},
+	{
+		"name": "Restaurant",
+		"cost": 8000,
+		"requiredNearbyImprovedResource": ["Cattle", "Fish", "Cocoa", "Coffee", "Citrus", "Sheep"]
+		"gold": 100,
+		"culture": 15,
+		"requiredTech": "Urbanism",
+		"uniques": ["Provides [1] [Premium Food]"]
+	},
+	{
+		"name": "Premium Restaurant",
+		"isNationalWonder": true,
+		"cost": 12500,
+		"gold": 175,
+		"culture": 25,
+		"requiredTech": "Premium-level Life",
+		"uniques": ["Triggers a global alert upon build start", "Triggers a global alert upon completion", "Consumes [3] [Premium Food]"]
+	},
+//SHOPS THEME
+	{
+		"name": "Shop"
+	},
+	{
+		"name": "Supermarket"
+	},
+	{
+		"name": "Mall",
+	},
+	{
+	    "name": "Premium Mall",
+	    "isNationalWonder": true,
+	    "cost": 100000000,
+	    "gold": 300,
+	}
+//RECREATIONS THEME
+	{
+		"name": "Park",
+		"cost": 200,
+		"happiness": 2,
+		"requiredTech": "Urbanism"
+	},
+	{
+		"name": "Water Park",
+		"cost": 400,
+		"happiness": 5,
+		"requiredTech": "Urbanism",
+		"uniques": ["Must be next to [River]"]
+	},
+	{
+		"name": "Beach Resort",
+		"cost": 400,
+		"happiness": 4,
+		"requiredTech": "Urbanism",
+		"uniques": ["Must be next to [Coast]", "[+1 happiness] from [Atoll] tiles [in this city]"]
+	},
+	{
+	    "name": "Skiing Resort",
+	    "cost": 400,
+	    "happiness": 5,
+	    "requiredTech": "Urbanism",
+	    "uniques": ["Must be next to [Mountain]"]
+	},
+	{
+	    "name": "Premium Resort",
+	    "cost": 7500,
+	    "requiredNearbyImprovedResource": ["Golden Ore", "Silver", "Gems", "Wine"],
+	    "happiness": 15,
+	    "requiredTech": "Premium-level Life",
+	    "uniques": ["[+10]% [Happiness] [in this city]"]
+	},
+	{
+	    "name": "Island Resort",
+	    "cost": 500,
+	    "happiness": 6,
+	    "requiredTech": "Urbanism",
+	    "requiredBuilding": "Beach Resort",
+	    "uniques": ["Must have an owned [Atoll] within [3] tiles", "[+5 Gold, +1 Happiness] from [Atoll] tiles [in this city]"]
+	},
+	//
+	{
+	    "name": "Premium Zone",
+	    "isNationalWonder": true,
+	    "cost": 50000,
+	    "gold": 750,
+	    "culture": 200,
+	    "happiness": 50,
+	    "requiredTech": "Premium-level Life",
+	    "uniques": ["Only available <if [Premium Resort] is constructed>", "Only available <if [Premium Mall] is constructed>", "Only available <if [Premium Restaurant] is constructed>", "Only available <if [Premium Chocolate Factory] is constructed>", "Only available <if [Premium Wine Manufactory] is constructed>", "Only available <if [Premium Cheese Factory] is constructed>", "Only available <if [Fashion House] is constructed>", "Only available <if [Jewelry Boutique] is constructed>"]
+	},
+	{
+	    "name": "Honey Factory",
+	    "cost": 6450,
+	    "gold": 40,
+	    "food": 5,
+	    "requiredTech": "Modern Industry",
+	    "requiredNearbyImprovedResource": ["Honey"],
+	    "uniques": ["[+5 Gold, +1 Fooď] from [Honey] tiles [in this city"]
+	}
 ]
