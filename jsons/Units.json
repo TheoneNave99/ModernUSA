@@ -5,7 +5,7 @@
 		"movement": 1,
 		"range": 25,
 		"cost": 5000,
-		"uniques": ["Unbuildable", "Cannot be purchased", "Cannot attack", "[+50] Sight", "Limited to [1] per Civilization"]
+		"uniques": ["Unbuildable", "Cannot be purchased", "Cannot attack", "[+50] Sight", "Can see over obstacles", "Limited to [1] per Civilization"]
 	},
 	{
 		"name": "Paramedic",
