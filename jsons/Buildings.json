@@ -1862,7 +1862,7 @@
 	    "culture": 200,
 	    "happiness": 50,
 	    "requiredTech": "Premium-level Life",
-	    "uniques": ["Only available <if [Premium Resort] is constructed>", "Only available <if [Premium Mall] is constructed>", "Only available <if [Premium Restaurant] is constructed>", "Only available <if [Premium Chocolate Factory] is constructed>", "Only available <if [Premium Wine Manufactory] is constructed>", "Only available <if [Premium Cheese Factory] is constructed>", "Only available <if [Fashion House] is constructed>", "Only available <if [Jewelry Boutique] is constructed>"]
+	    "uniques": ["Only available <if [Premium Resort] is constructed>", "Only available <if [Premium Mall] is constructed>", "Only available <if [Premium Restaurant] is constructed>", "Only available <if [Premium Wine Manufactory] is constructed>", "Only available <if [Premium Cheese Factory] is constructed>", "Only available <if [Fashion House] is constructed>", "Only available <if [Jewelry Boutique] is constructed>"]
 	},
 	{
 	    "name": "Honey Factory",
