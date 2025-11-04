@@ -40,5 +40,11 @@
 		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Snow", "Desert"],
 		"production": 10,
 		"uniques": ["Provides [4] [Deuterium]", "Must be next to [Coast]", "Costs [500] [Gold] per turn", "Pillaging this improvement yields approximately [+50000 Gold]"]
+	},
+	{
+		"name": "Uranium Enrichment Plant",
+		"terrainsCanBeBuiltOn": ["Mountain"],
+		"production": 25,
+		"uniques": ["Provides [1] [War Uranium]", "Costs [2500] [Gold] per turn"]
 	}
 ]
