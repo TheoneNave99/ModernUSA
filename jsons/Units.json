@@ -8,10 +8,9 @@
                 "range": 10,
                 "cost": 600,
                 "requiredTech": "Nuclear Fission",
-                "requiredResource": "Uranium",
                 "promotions" : ["Evasion"],
                 "uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
-                        "Blast radius [2]", "Consumes [1] [Deuterium]"],
+                        "Blast radius [2]", "Consumes [1] [War Uranium]"],
                 "attackSound": "nuke"
 },
         {
@@ -24,7 +23,7 @@
                 "cost": 1000,
                 "requiredTech": "Advanced Ballistics",
                 "uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
-                        "Blast radius [2]", "Consumes [2] [Uranium]", "Consumes [2] [Deuterium]"],
+                        "Blast radius [2]", "Consumes [2] [War Uranium]"],
                 "attackSound": "nuke"
         },
 	{
@@ -441,7 +440,7 @@
 		"rangedStrength": 500,
 		"range": 75,
 		"requiredTech": "Hypersonic Technologies",
-		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available <if [Hypersonic Project] is constructed>", "Cannot be carried by [Ranged Water] units", "Consumes [3] [Modern Alloy]", "Consumes [10] [Uranium]"]
+		"uniques": ["Nuclear weapon of Strength [5]", "Blast radius [0]", "Only available <if [Hypersonic Project] is constructed>", "Cannot be carried by [Ranged Water] units", "Consumes [3] [Modern Alloy]", "Consumes [3] [War Uranium]"]
 	},
 	{
 		"name": "Hypersonic Missile",
