@@ -34,5 +34,11 @@
 		"techRequired": "Calendar",
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource"],
 		"shortcutKey": "A"
-	} 
+	},
+	{
+		"name": "Deuterium Plant",
+		"terrainsCanBeBuiltOn": ["Coastal"],
+		"production": 10,
+		"uniques": ["Must be next to [Coast]"]
+	}
 ]
