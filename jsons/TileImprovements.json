@@ -34,11 +34,5 @@
 		"techRequired": "Calendar",
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource"],
 		"shortcutKey": "A"
-	},
-	{
-		"name": "Deuterium Plant",
-		"terrainsCanBeBuiltOn": ["Coastal"],
-		"uniques": ["Provides [4] [Deuterium]", "Must be next to [Coast]", "Cannot be built by [Worker] units", "Costs [50] [Gold] per turn"],
-		"shortcutKey": "D"
-	}
+	} 
 ]
