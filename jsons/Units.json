@@ -1,4 +1,32 @@
 [
+        {
+                "name": "Atomic Bomb",
+                "unitType": "Atomic Bomber",
+                "movement": 1,
+                "strength": 150,
+                "rangedStrength": 150,
+                "range": 10,
+                "cost": 600,
+                "requiredTech": "Nuclear Fission",
+                "requiredResource": "Uranium",
+                "promotions" : ["Evasion"],
+                "uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
+                        "Blast radius [2]", "Consumes [1] [Deuterium]"],
+                "attackSound": "nuke"
+},
+        {
+                "name": "Nuclear Missile",
+                "unitType": "Missile",
+                "movement": 1,
+                "strength": 300,
+                "rangedStrength": 300,
+                "range": 12,
+                "cost": 1000,
+                "requiredTech": "Advanced Ballistics",
+                "uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
+                        "Blast radius [2]", "Consumes [2] [Uranium]", "Consumes [2] [Deuterium]"],
+                "attackSound": "nuke"
+        },
 	{
 		"name": "Starlink Satellite",
 		"unitType": "Missile",
