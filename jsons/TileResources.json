@@ -42,6 +42,12 @@
 		"name": "Deuterium",
 		"resourceType": "Strategic",
 		"uniques": ["Can be provided by [Deuterium Plant]"]
+	},
+	{
+		"name": "War Uranium",
+		"resourceType": "Strategic",
+		"gold": -100,
+		"uniques": ["Can be provided by [War Uranium Plant]"]
 	}
 //LUXURY
 	{
