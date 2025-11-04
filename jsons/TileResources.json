@@ -37,11 +37,6 @@
 		"name": "Composite Materials",
 		"resourceType": "Strategic",
 		"uniques": ["Can be provided by [Modern Chemical Plant]"]
-	},
-	{
-		"name": "Deuterium",
-		"resourceType": "Strategic",
-		"uniques": ["Can be provided by [Deuterium Plant]"]
 	}
 //LUXURY
 	{
