@@ -1872,5 +1872,14 @@
 	    "food": 5,
 	    "requiredTech": "Modern Industry",
 	    "uniques": ["[+10 Gold, +3 Food] from [Honey] tiles [in this city]"]
+	},
+///
+	{
+		"name": "Deuterium Plant",
+		"cost": 10000,
+		"production": 10,
+		"requiredTech": "Nuclear Fission",
+		"requiredBuilding": "Nuclear Plant",
+		"uniques": ["Creates an [Deuterium Plant] improvement on specific tile", "Must be next to [Cost]"]
 	}
 ]
