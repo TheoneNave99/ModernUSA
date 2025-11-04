@@ -37,10 +37,8 @@
 	},
 	{
 		"name": "Deuterium Plant",
-		"terrainsCanBeBuiltOn": ["Grassland", "Plains","Desert","Snow","Tundra"],
-		"turnsToBuild": 10,
-		"techRequired": "Nuclear Fission",
-		"uniques": ["Provides [4] [Deuterium]", "Must be next to [Coast]", "Cannot be built"],
+		"terrainsCanBeBuiltOn": ["Coastal"],
+		"uniques": ["Provides [4] [Deuterium]", "Must be next to [Coast]", "Cannot be built by [Worker] units", "Costs [50] [Gold] per turn"],
 		"shortcutKey": "D"
 	}
 ]
