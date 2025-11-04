@@ -34,5 +34,13 @@
 		"techRequired": "Calendar",
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource"],
 		"shortcutKey": "A"
+	},
+	{
+		"name": "Deuterium Plant",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains","Desert","Snow","Tundra"],
+		"turnsToBuild": 10,
+		"techRequired": "Nuclear Fission",
+		"uniques": ["Provides [4] [Deuterium]", "Must be next to [Coast]", "Cannot be built"],
+		"shortcutKey": "D"
 	}
 ]
