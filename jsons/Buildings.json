@@ -1880,6 +1880,6 @@
 		"production": 10,
 		"requiredTech": "Nuclear Fission",
 		"requiredBuilding": "Nuclear Plant",
-		"uniques": ["Creates an [Deuterium Plant] improvement on a specific tile", "Must be next to [Coast]"]
+		"uniques": ["Creates a [Deuterium Plant] improvement on a specific tile", "Must be next to [Coast]"]
 	}
 ]
