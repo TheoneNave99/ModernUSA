@@ -1873,13 +1873,21 @@
 	    "requiredTech": "Modern Industry",
 	    "uniques": ["[+10 Gold, +3 Food] from [Honey] tiles [in this city]"]
 	},
-///
+//NUCLEAR WEAPON THEME
 	{
 		"name": "Deuterium Factory",
-		"cost": 10000,
+		"cost": 12500,
 		"production": 10,
 		"requiredTech": "Nuclear Fission",
 		"requiredBuilding": "Nuclear Plant",
 		"uniques": ["Creates a [Deuterium Plant] improvement on a specific tile", "Must be next to [Coast]"]
+	},
+	{
+		"name": "War Uranium Plant",
+		"cost": 15000,
+		"production": 10,
+		"requiredTech": "Nuclear Fission",
+		"requiredBuilding": "Deuterium Factory",
+		"uniques": ["Must have an owned [Mountain] within [3] tiles", "Creates a [Uranium Enrichment Plant] on a specific tile", "Triggers a global alert upon build start", "Triggers a global alert upon completion"]
 	}
 ]
