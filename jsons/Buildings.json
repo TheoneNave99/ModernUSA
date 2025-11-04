@@ -1888,6 +1888,6 @@
 		"production": 10,
 		"requiredTech": "Nuclear Fission",
 		"requiredBuilding": "Deuterium Factory",
-		"uniques": ["Must have an owned [Mountain] within [3] tiles", "Creates a [Uranium Enrichment Plant] on a specific tile", "Triggers a global alert upon build start", "Triggers a global alert upon completion"]
+		"uniques": ["Must have an owned [Mountain] within [3] tiles", "Creates a [Uranium Enrichment Plant] on a specific tile", "Consumes [4] [Uranium]", "Consumes [4] [Deuterium]", "Triggers a global alert upon build start", "Triggers a global alert upon completion"]
 	}
 ]
