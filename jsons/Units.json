@@ -2,7 +2,6 @@
         {
                 "name": "Atomic Bomb",
                 "unitType": "Atomic Bomber",
-			"replaces": "Atomic Bomb",
                 "movement": 1,
                 "strength": 150,
                 "rangedStrength": 150,
@@ -18,7 +17,6 @@
         {
                 "name": "Nuclear Missile",
                 "unitType": "Missile",
-			"replaces": "Nuclear Missile",
                 "movement": 1,
                 "strength": 300,
                 "rangedStrength": 300,
