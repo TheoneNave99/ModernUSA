@@ -2001,7 +2001,7 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+75]% Strength <when fighting on [Desert] tiles>],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+75]% Strength <when fighting on [Desert] tiles>"],
 		"attackSound": "shot"
 	},
 	{
