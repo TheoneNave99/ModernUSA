@@ -1879,7 +1879,7 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+25]% to Flank Attack bonuses", "[+75]% Strength <when fighting on [Tundra] tiles>],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+25]% to Flank Attack bonuses", "[+75]% Strength <when fighting on [Tundra] tiles>"],
 		"attackSound": "shot"
 	}
 //ENGLAND
@@ -1910,7 +1910,7 @@
 		"cost": 435,
 		"requiredTech": "Aviation",
 		"requiredResource":"Oil",
-		"uniques": ["[75]% chance to intercept air attacks", "[+100]% Strength <vs [Fighter] units>", "[+75]% Strength <vs [Water] units>],
+		"uniques": ["[75]% chance to intercept air attacks", "[+100]% Strength <vs [Fighter] units>", "[+75]% Strength <vs [Water] units>"],
 		"attackSound": "jetgun",
 	},
 	{
