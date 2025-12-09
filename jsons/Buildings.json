@@ -1641,7 +1641,7 @@
 		"gold": 100,
 		"requiredTech": "Advanced Industry",
 		"requiredBuilding": "Textile Factory",
-		"uniques": ["Consumes [1] [Cotton]", "Consumes [1] [Furs]", "Provides [1] [Premium Fabric"]
+		"uniques": ["Consumes [1] [Cotton]", "Consumes [1] [Furs]", "Provides [1] [Premium Fabric]"]
 	},
 	{
 		"name": "Fashion House",
