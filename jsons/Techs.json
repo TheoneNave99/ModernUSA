@@ -208,7 +208,6 @@
 				"name": "Premium-level Life",
 				"row": 1,
 				"prerequisites": ["Complete State Management", "Globalization"],
-				"uniques": ["Enables conversion of city production to [Food]"],
 				"quote": "."
 			},
 			{
