@@ -20,7 +20,7 @@
         "outerColor": [ 28,51,119],
         "innerColor": [255,255,255],
 
-        "favoredReligion": "Christianity",
+        "favoredReligion": "Protestantism",
 		"uniqueName": "American Century",
 		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "Production to [Gold] conversion in cities changed by [+50]%",
 		"Allied City-States will occasionally gift Great People", "[+33]% City-State Influence degradation",
@@ -57,7 +57,7 @@
         "outerColor": [0,51,153],
         "innerColor": [255,204,0],
 
-        "favoredReligion": "Christianity",
+        "favoredReligion": "Catholicism",
 		"uniqueName": "The Greatest Continent",
 		"uniques": ["[+10 Gold, +10 Science, +10 Culture, +10 Production, +10 Food] [in all cities]", "Production to [Science] conversion in cities changed by [+50]%",
 		"[-50]% City-State Influence degradation", "Allied City-States will occasionally gift Great People", "[+10 Gold, +1 Happiness] from all [Culture] buildings",
