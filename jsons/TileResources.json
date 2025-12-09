@@ -81,10 +81,33 @@
 		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
 		"gold": 2,
 		"improvement": "Apiary",
+		"improvementStats": {"gold": 3},
+		"uniques": ["Generated with weight [50] <in [Grassland] Regions>",
+					"Generated with weight [30] <in [Plauns] Regions>",
+					"Generated near City States with weight [20]"]
+	},
+		{
+		"name": "Cocoa",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Jungle"],
+		"food": 2,
+		"improvement": "Plantation",
 		"improvementStats": {"food": 2},
-		"uniques": ["Generated with weight [40] <in [Grassland] Regions>",
-					"Generated with weight [10] <in [Plauns] Regions>",
-					"Generated near City States with weight [15]"]
+		"uniques": ["Generated with weight [60] <in [Grassland] Regions>",
+					"Generated with weight [50] <in [Plauns] Regions>",
+					"Generated near City States with weight [20]"]
+	},
+		{
+		"name": "Coffee",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
+		"gold": 1,
+			"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 2},
+		"uniques": ["Generated with weight [50] <in [Grassland] Regions>",
+					"Generated with weight [30] <in [Plauns] Regions>",
+					"Generated near City States with weight [20]"]
 	},
 	{
 		"name": "Premium Fabric",
