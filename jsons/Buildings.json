@@ -557,7 +557,7 @@
 		"cost": 1550,
 		"production": 25,
 		"requiredTech": "MIC",
-		"uniques": ["[+50]% Production when constructing [Air] units [in this city]", "Limited to [1] per Civilization"],
+		"uniques": ["[+50]% Production when constructing [Air] units [in this city]", "New [Air] units start with [50] XP [in this city]", "Limited to [1] per Civilization"],
 	},
 	{
 		"name": "Lockheed Martin",
@@ -578,7 +578,7 @@
 		"cost": 1550,
 		"production": 25,
 		"requiredTech": "MIC",
-		"uniques": ["[+50]% Production when constructing [Land] units [in this city]", "New [Land] units starts with [50] XP"]
+		"uniques": ["[+50]% Production when constructing [Land] units [in this city]", "New [Land] units start with [50] XP [in this city]"]
 	},
 	{
 		"name": "Northrop Grumman",
@@ -594,7 +594,7 @@
 		"name": "NATO HeadQuarters",
 		"isWonder": true,
 		"cost": 2500,
-		"production": 10,
+		"production": 11,
 		"uniques": ["[+50]% Production when constructing [Military] units [in this city]", "[+15]% Production when constructing [All] units [in all cities]",
 			"New [Military] units start with [50] XP [in this city]", "All newly-trained [Military] units [in this city] receive the [For democracy] promotion"],
 		"requiredTech": "Modern Warfare Strategy",
