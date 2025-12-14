@@ -1880,7 +1880,7 @@
 		"production": 10,
 		"requiredTech": "Nuclear Fission",
 		"requiredBuilding": "Nuclear Plant",
-		"uniques": ["Creates a [Deuterium Plant] improvement on a specific tile", "Must be next to [Coast]"]
+		"uniques": ["Creates a [Deuterium Plant] improvement on a specific tile", "Must have an owned [Coast] within [3] tiles"]
 	},
 	{
 		"name": "War Uranium Plant",
