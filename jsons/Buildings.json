@@ -41,10 +41,10 @@
 		"isWonder": true,
 		"uniqueTo": "China",
 		"cost": 7500,
-		"gold": 150,
+		"gold": 750,
 		"requiredBuilding": "Shanghai World Finance Center",
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+10 Gold] from all [Science] buildings", "Triggers a global alert upon completion"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+30 Gold] from all [Science] buildings", "Triggers a global alert upon completion"],
 		"quote": "."
 	},
 	{
@@ -91,9 +91,9 @@
 		"isWonder": true,
 		"uniqueTo": "China",
 		"cost": 7500,
-		"gold": 200,
+		"gold": 500,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion", "[+50]% [Gold] [in this city]"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion", "[+100]% [Gold] [in this city]"],
 		"quote": "."
 	},
 	{
@@ -101,9 +101,18 @@
 		"isWonder": true,
 		"uniqueTo": "China",
 		"cost": 7500,
-		"gold": 200,
+		"gold": 500,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion", "[+50]% [Gold] [in this city]"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion", "[+100]% [Gold] [in this city]"],
+		"quote": "."
+	},
+	{
+		"name": "CTF Finance Center",
+		"uniqueTo": "China",
+		"cost": 7000,
+		"gold": 350,
+		"requiredTech": "Ultra-tall Construction",
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion", "[+75]% [Gold] [in this city]"],
 		"quote": "."
 	},
 	{
@@ -120,7 +129,7 @@
 		"isWonder": true,
 		"uniqueTo": "China",
 		"cost": 7500,
-		"gold": 400,
+		"gold": 650,
 		"requiredTech": "Ultra-tall Construction",
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion"],
 		"quote": "."
@@ -169,7 +178,7 @@
 		"name": "World Finance Center",
 		"isNationalWonder": true,
 		"cost": 4500,
-		"gold": 150,
+		"gold": 250,
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
@@ -193,11 +202,11 @@
 		"isWonder": true,
 		"uniqueTo": "China",
 		"replaces": "World Finance Center"
-		"specialistSlots": {"Merchant": 3},
+		"specialistSlots": {"Merchant": 7},
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
-		"gold": 300,
+		"gold": 750,
 		"quote": "."
 	},
 	{
@@ -220,9 +229,9 @@
 		"isWonder": true,
 		"replaces": "World Finance Center",
 		"cost": 4500,
-		"culture": 2,
-		"gold": 5,
-		"specialistSlots": {"Merchant": 4},
+		"culture": 10,
+		"gold": 250,
+		"specialistSlots": {"Merchant": 7},
 		"greatPersonPoints": {"Great Merchant": 8},
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
@@ -288,7 +297,7 @@
 		"quote": "."
 	},
 	{
-		"name": "Starlink",
+		"name": "Starlink Corporation",
 		"isWonder": true,
 		"requiredTech": "Satellites",
 		"science": 1,
@@ -319,7 +328,7 @@
 		"cost": 5000,
 		"gold": 150,
 		"requiredTech": "Globalization",
-		"uniques": ["[+50]% [Gold] [in this city]", "[+2 Science] per [1] population [in this city]", "Only available <if [Super Skyscrapers Technology] is constructed>"],
+		"uniques": ["[+75]% [Gold] [in this city]", "[+2 Science] per [1] population [in this city]", "Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"quote": "."
 	},
 	{
@@ -328,14 +337,14 @@
 		"cost": 5000,
 		"gold": 150,
 		"requiredTech": "Globalization",
-		"uniques": ["[+3 Gold] from [Coast] tiles [in all cities]", "[+5 Science] from [Coast] tiles [in this city]", "Must be next to [Coast]", "Only available <if [Super Skyscrapers Technology] is constructed>"],
+		"uniques": ["[+5 Gold] from [Coast] tiles [in all cities]", "[+5 Science] from [Coast] tiles [in this city]", "Must be next to [Coast]", "Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"quote": "."
 	},
 	{
 		"name": "Kansai International Airport",
 		"isWonder": true,
 		"greatPersonPoints": { "Great Engineer": 3 },
-		"uniques": ["Creates a [KIX Airport] improvement on a specific tile", "[+2 Gold] from [Coast] tiles [in this city]", "Must be next to [Coast]"],
+		"uniques": ["Creates a [KIX Airport] improvement on a specific tile", "[+10 Gold] from [Coast] tiles [in this city]", "Must be next to [Coast]"],
 		"requiredTech": "Globalization",
 		"quote": "'All our sweetest hours fly fastest' - Virgil"
 	},
@@ -344,7 +353,7 @@
         "isWonder": true,
 	"culture" : 2,
 	"greatPersonPoints": { "Great Merchant": 2},
-	"uniques": ["[+20 Gold] from [Atoll] tiles [in this city]", "Must have an owned [Atoll] within [2] tiles"],
+	"uniques": ["[+50 Gold] from [Atoll] tiles [in this city]", "Must have an owned [Atoll] within [2] tiles"],
         "requiredTech": "Globalization",
         "quote": "'To sit in the shade on a fine day and look upon verdure is the most perfect refreshment.' - Jane Austen"
 	},
@@ -352,7 +361,7 @@
 		"name": "Pearl Monument",
 		"isWonder": true,
 		"cost": 5000,
-		"gold": 10,
+		"gold": 250,
 		"culture": 10,
 		"requiredTech": "Globalization",
 		"uniques": ["Free Technology", "Free Social Policy", "Only available <if [Super Skyscrapers Technology] is constructed>"],
@@ -363,7 +372,7 @@
 		"isWonder": true,
 		"cost": 15000,
 		"culture": 20,
-		"gold": 200,
+		"gold": 500,
 		"requiredTech": "Ultra-tall Construction",
 		"uniques": ["Free Social Policy", "Free [Great Merchant] appears", "Free [Great Artist] appears", "Empire enters golden age", "Only available <if [Super Skyscrapers Technology] is constructed>"],
 		"quote": "The Burj Khalifa Tower is the tallest building in the whole world. Build this and no one on the planet will ever doubt your influence again."
@@ -384,7 +393,7 @@
 		"uniqueTo": "China",
 		"replaces": "State BC Tower",
 		"cost": 2250,
-		"culture": 5,
+		"culture": 50,
 		"requiredTech": "Complete State Management",
 		"uniques": ["[+100]% [Culture] [in this city]", "Only available <if [Broadcast Tower] is constructed in all [non-[Puppeted]] cities>"],
 		"quote": "."
