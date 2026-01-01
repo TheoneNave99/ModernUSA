@@ -6,7 +6,7 @@
 		"cost": 12500,
 		"gold": 100,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>","[+20 Gold, +15 Culture] from every [Wonder] <in this city>", "[750]% of excess happiness converted to [Culture]"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>","[+20 Gold, +15 Culture] from every [Wonder] <in this city>", "[750]% of excess happiness converted to [Culture]", "[+1] [DDD] per [5] population [in this city]", "Provides [1] [DDD] from every [100] population", "Only available <in cities with [100] population>"],
 		"quite": "."
 	},
 	{
@@ -178,7 +178,7 @@
 		"name": "World Finance Center",
 		"isNationalWonder": true,
 		"cost": 4500,
-		"gold": 250,
+		"gold": 400,
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
@@ -190,7 +190,7 @@
 		"uniqueTo": "England",
 		"replaces": "World Finance Center",
 		"cost": 4000,
-		"gold": 150,
+		"gold": 550,
 		"requiredTech": "Globalization",
 		"requiredBuilding": "Stock Exchange",
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>"],
