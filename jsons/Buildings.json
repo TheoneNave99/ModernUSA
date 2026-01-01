@@ -112,7 +112,7 @@
 		"cost": 7000,
 		"gold": 350,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion", "[+75]% [Gold] [in this city]"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion", "[+75]% [Gold] [in this city]", "Can be continually built"],
 		"quote": "."
 	},
 	{
