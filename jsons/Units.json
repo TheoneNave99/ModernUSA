@@ -1564,8 +1564,7 @@
 		"strength": 70,
 		"cost": 1495,
 		"requiredTech": "Electronics",
-		"requiredResource": "Aluminum",
-		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Limited to [1] per Civilization"]
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Limited to [1] per Civilization", "Consumes [5] [Aluminum]"]
 	},
 	{
 		"name": "Project 002 Shandong",
@@ -1576,8 +1575,7 @@
 		"strength": 85,
 		"cost": 1670,
 		"requiredTech": "Lasers",
-		"requiredResource": "Aluminum",
-		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units", "Limited to [1] per Civilization"]
+		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units", "Limited to [1] per Civilization", "Consumes [5] [Aluminum]"]
 	},
 	{
 		"name": "Project 003 Fujian",
@@ -1593,7 +1591,7 @@
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Uranium",
 		"uniques": ["Cannot attack", "[100]% chance to intercept air attacks", "Can carry [5] [Aircraft] units",
-			"Can carry [5] [Missile] units", "Consumes [1] [Titanium]", "Limited to [1] per Civilization"]
+			"Can carry [5] [Missile] units", "Consumes [3] [Titanium]", "Limited to [1] per Civilization"]
 	},
 	{
 		"name": "Xian H-6",
@@ -1633,7 +1631,7 @@
 		"replaces": "Stealth Bomber",
 		"movement": 2,
 		"strength": 80,
-		"rangedStrength": 95,
+		"rangedStrength": 120,
 		"range": 25,
 		"cost": 790,
 		"requiredTech": "Stealth",
