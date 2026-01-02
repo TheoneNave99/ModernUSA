@@ -288,7 +288,7 @@
 			 {
         "name": "Extreme Construction Techs",
         "row": 2,
-        "prerequisites": ["Premium-level Life", "Supertall Construction", "Extreme Physics"],
+        "prerequisites": ["Premium-level Life", "Ultra-tall Construction", "Extreme Physics"],
         "quote": "."
 			 },
 			 {
