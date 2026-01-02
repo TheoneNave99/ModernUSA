@@ -196,9 +196,9 @@
         "quote": "."
       },
       {
-        "name": "Nanotechnology",
+        "name": "Electric Cars",
         "row": 8,
-        "prerequisites": ["Robotics"],
+        "prerequisites": ["Robotics", "Advanced Digital Systems"],
         "quote": "."
       },
 		 {
@@ -217,7 +217,7 @@
   },
   {
 		"columnNumber": 17,
-		"era": "Future era",
+		"era": "Information era",
 		"techCost": 11000,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -249,7 +249,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Nanotechnology","Stealth","Complete State Management","Modern Warfare Strategy", "Hypersonic Technologies"],
+				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Electric Cars","Stealth","Complete State Management","Modern Warfare Strategy", "Hypersonic Technologies"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
@@ -257,17 +257,17 @@
 			{
 				"name": "Space Engineering",
 				"row": 7,
-				"prerequisites": ["Particle Physics", "Nuclear Fusion", "Nanotechnology"]
+				"prerequisites": ["Particle Physics", "Nuclear Fusion", "Electric Cars"]
 			},
 			{
 				"name": "Second Moon Race",
 				"row": 8,
-				"prerequisites": ["Nuclear Fusion", "Nanotechnology"]
+				"prerequisites": ["Nuclear Fusion", "Electric Cars"]
 			},
 			 {
         "name": "Supercomputers",
         "row": 9,
-        "prerequisites": ["Nanotechnology", "AI"],
+        "prerequisites": ["Electric Cars", "AI"],
         "quote": "."
 			 },
 			 {
