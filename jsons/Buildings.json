@@ -2058,5 +2058,9 @@
 	    "specialistSlots": {"Merchant": 10},
 		"requiredTech": "Supercomputers",
 		"uniques": ["Limited to [1] per Civilization"]
-	},		
+	},
+	{
+		"name": "Concert Hall",
+		"cost": 1
+	}
 ]
