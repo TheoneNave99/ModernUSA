@@ -218,7 +218,7 @@
   {
 		"columnNumber": 17,
 		"era": "Future era",
-		"techCost": 9500,
+		"techCost": 11000,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
@@ -234,6 +234,18 @@
 				"prerequisites": ["Complete State Management", "Globalization"],
 				"quote": "Humanity has reached for the skies, setting new records and building ever taller buildings. Who knows if humanity will ever reach... the stratosphere?.."
 			},
+			 {
+        "name": "Materials Science",
+        "row": 3,
+        "prerequisites": ["Globalization", "Particle Physics"],
+        "quote": "."
+			 },
+			 {
+        "name": "Extreme Physics",
+        "row": 4,
+        "prerequisites": ["Particle Physics"],
+        "quote": "."
+			 }
 			{
 				"name": "Future Tech",
 				"row": 5,
@@ -269,10 +281,22 @@
 {
 		"columnNumber": 18,
 		"era": "Future era",
-		"techCost": 9500,
+		"techCost": 15000,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
+			 {
+        "name": "Extreme Construction Techs",
+        "row": 2,
+        "prerequisites": ["Premium-level Life", "Supertall Construction", "Extreme Physics"],
+        "quote": "."
+			 },
+			 {
+        "name": "Advanced Synthetic Alloys",
+        "row": 4,
+        "prerequisites": ["Materials Science", "Extreme Physics"],
+        "quote": "."
+			 }
 			{
 				"name": "Martian Race",
 				"row": 7,
@@ -296,5 +320,20 @@
         "quote": "."
 			 }
 		]
-}
+},
+	{
+		"columnNumber": 19,
+		"era": "Future era",
+		"techCost": 20000,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			 {
+        "name": "Deep Ocean Exploration",
+        "row": 3,
+        "prerequisites": ["Extreme Construction Techs", "Advanced Synthetic Alloys"],
+        "quote": "."
+			 }
+		]
+	}
 ]
