@@ -2006,7 +2006,7 @@
 		"science": 25,
 		"specialistSlots": {"Scientist": 3},
 		"requiredTech": "Advanced Digital Systems",
-		"uniques": ["Only available <if [Urban Planning Academy] is constructed>", "Only available <in cities without a [Business Skyscraper 2]>", "Only available <in cities without a [Concert Hall]>"
+		"uniques": ["Only available <if [Urban Planning Academy] is constructed>", "Only available <in cities without a [Business Skyscraper 2]>", "Only available <in cities without a [Concert Hall]>"]
 	},
 	{
 		"name": "Programming Lab",
