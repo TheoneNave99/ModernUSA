@@ -1097,7 +1097,7 @@ UnitIcons/VISHNU-I
   offset: 0, 0
   index: -1
 
-game2.png
+game3.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
