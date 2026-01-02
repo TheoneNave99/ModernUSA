@@ -1991,5 +1991,72 @@
 		"requiredTech": "Nuclear Fission",
 		"requiredBuilding": "Deuterium Factory",
 		"uniques": ["Must have an owned [Mountain] within [3] tiles", "Creates a [Uranium Enrichment Plant] improvement on a specific tile", "Consumes [4] [Uranium]", "Consumes [4] [Deuterium]", "Triggers a global alert upon build start", "Triggers a global alert upon completion"]
-	}
+	},
+//SCIENCE CITY BRANCH
+	{
+		"name": "Data Center",
+		"cost": 1250,
+		"science": 15,
+		"specialistSlots": {"Scientist": 1},
+		"requiredTech": "Advanced Digital Systems"
+	},
+	{
+		"name": "Data Research Center",
+		"cost": 1500,
+		"science": 25,
+		"specialistSlots": {"Scientist": 3},
+		"requiredTech": "Advanced Digital Systems",
+		"uniques": ["Only available <if [Urban Planning Academy] is constructed>", "Only available <in cities without a [Business Skyscraper 2]>", "Only available <in cities without a [Concert Hall]>"
+	},
+	{
+		"name": "Programming Lab",
+		"cost": 2500,
+		"science": 45,
+		"specialistSlots": {"Scientist": 4},
+		"requiredTech": "Big Data Techs"
+	},
+	{
+		"name": "Big Data Center",
+		"cost": 3500,
+		"science": 60,
+		"specialistSlots": {"Scientist": 5},
+		"requiredTech": "Big Data Techs"
+	},
+	{
+		"name": "Cybernetics Lab",
+		"cost": 4250,
+		"science": 100,
+		"specialistSlots": {"Scientist": 7},
+		"requiredTech": "Neural Networks"
+	},
+	{
+		"name": "AI Operating Lab",
+		"cost": 5250,
+		"science": 200,
+		"production": 125,
+		"specialistSlots": {"Scientist": 10},
+        "specialistSlots": {"Engineer": 5},
+		"requiredTech": "Neural Networks",
+		"uniques": ["Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Design Lab",
+		"cost": 5150,
+		"science": 250,
+		"culture": 125,
+		"specialistSlots": {"Scientist": 10},
+	    "specialistSlots": {"Artist": 7},
+		"requiredTech": "Supercomputers",
+		"uniques": ["Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Crypto Exchange",
+		"cost": 5550,
+		"science": 175,
+		"gold": 200,
+		"specialistSlots": {"Scientist": 7},
+	    "specialistSlots": {"Merchant": 10},
+		"requiredTech": "Supercomputers",
+		"uniques": ["Limited to [1] per Civilization"]
+	},		
 ]
