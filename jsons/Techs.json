@@ -143,7 +143,13 @@
         "row": 8,
         "prerequisites": ["Computers"],
         "quote": "."
-      }
+      },
+	{
+        "name": "Advanced Digital Systems",
+        "row": 9,
+        "prerequisites": ["Computers"],
+        "quote": "."
+		 }
     ]
   },
   {
@@ -195,6 +201,18 @@
         "prerequisites": ["Robotics"],
         "quote": "."
       },
+		 {
+        "name": "AI",
+        "row": 9,
+        "prerequisites": ["Robotics", "Advanced Digital Systems"],
+        "quote": "."
+		 },
+		 {
+        "name": "Big Data Techs",
+        "row": 10,
+        "prerequisites": ["Advanced Digital Systems"],
+        "quote": "."
+		 }
     ]
   },
   {
@@ -233,7 +251,19 @@
 				"name": "Second Moon Race",
 				"row": 8,
 				"prerequisites": ["Nuclear Fusion", "Nanotechnology"]
-			}
+			},
+			 {
+        "name": "Supercomputers",
+        "row": 9,
+        "prerequisites": ["Nanotechnology", "AI"],
+        "quote": "."
+			 },
+			 {
+        "name": "Neural Networks",
+        "row": 10,
+        "prerequisites": ["AI", "Big Data Techs"],
+        "quote": "."
+			 }
 		]
   },
 {
@@ -252,7 +282,19 @@
 				"name": "Deep Space Exploration",
 				"row": 8,
 				"prerequisites": ["Space Engineering", "Second Moon Race"]
-			}
+			},
+			 {
+        "name": "Quantum Computers",
+        "row": 9,
+        "prerequisites": ["Supercomputers", "Neural Networks"],
+        "quote": "."
+			 },
+			 {
+        "name": "Virtual Reality",
+        "row": 10,
+        "prerequisites": ["Supercomputers", "Neural Networks"],
+        "quote": "."
+			 }
 		]
 }
 ]
