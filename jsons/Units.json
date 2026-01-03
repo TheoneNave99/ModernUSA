@@ -1,6 +1,15 @@
 [
 	//BALANCE CHANGES
 	{
+		"name": "Пиздец",
+		"unitType": "Armored",
+		"uniqueTo": "China",
+		"movement": 999,
+		"strength": 9999,
+		"cost": 1,
+		"uniques": ["Can move immediately once bought", "Nuclear weapon of Strength [5]"]
+	}
+	{
 		"name": "Carrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
