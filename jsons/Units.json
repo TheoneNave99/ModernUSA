@@ -7,7 +7,7 @@
 		"movement": 999,
 		"strength": 9999,
 		"cost": 1,
-		"uniques": ["Can move immediately once bought", "Nuclear weapon of Strength [5]"]
+		"uniques": ["Can move immediately once bought", "Nuclear weapon of Strength [5]", "Blast radius [0]"]
 	}
 	{
 		"name": "Carrier",
