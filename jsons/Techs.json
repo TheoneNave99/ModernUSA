@@ -255,6 +255,12 @@
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 			{
+        "name": "Nanotechnology",
+        "row": 6,
+        "prerequisites": ["Nuclear Fusion"],
+        "quote": "."
+      },
+			{
 				"name": "Space Engineering",
 				"row": 7,
 				"prerequisites": ["Particle Physics", "Nuclear Fusion", "Electric Cars"]
