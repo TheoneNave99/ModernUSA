@@ -313,7 +313,7 @@
 		"unitType": "Gunpowder",
 		"uniqueTo": "The United States",
 		"movement": 3,
-		"strength": 1pp,
+		"strength": 100,
 		"cost": 500,
 		"requiredTech": "Mobile Tactics",
 		"promotions": ["Ignore terrain cost", "Drill II"],
