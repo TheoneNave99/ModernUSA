@@ -1,20 +1,11 @@
 [
 	//BALANCE CHANGES
 	{
-		"name": "Пиздец",
-		"unitType": "Armored",
-		"uniqueTo": "China",
-		"movement": 999,
-		"strength": 9999,
-		"cost": 1,
-		"uniques": ["Can move immediately once bought", "Nuclear weapon of Strength [5]", "Blast radius [0]"]
-	}
-	{
 		"name": "Carrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
 		"strength": 90,
-		"cost": 1500,
+		"cost": 2500,
 		"requiredTech": "Flight",
 		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Consumes [5] [Aluminum]"]
 	},
@@ -126,7 +117,7 @@
 	{
 		"name": "Starlink Satellite",
 		"unitType": "Missile",
-		"movement": 1,
+		"movement": 5,
 		"range": 25,
 		"cost": 5000,
 		"uniques": ["Unbuildable", "Cannot be purchased", "Cannot attack", "[+50] Sight", "Can see over obstacles", "Limited to [1] per Civilization"]
@@ -204,8 +195,8 @@
 		"movement": 5,
 		"strength": 80,
 		"cost": 650,
-		"requiredTech": "Nanotechnology",
-		"uniques": ["May travel on Water tiles without embarking", "[+150]% Strength <when defending> in [Water] tiles"],
+		"requiredTech": "Modern Warfare Strategy",
+		"uniques": ["May travel on Water tiles without embarking", "[+150]% Strength <when defending in [Water] tiles>"],
 		"attackSound": "shot"
 	},
 	{
@@ -215,7 +206,7 @@
 		"replaces": "Modern Armor",
 		"movement": 6,
 		"strength": 120,
-		"cost": 800,
+		"cost": 900,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"promotions": ["Charge"],
@@ -307,7 +298,6 @@
 		"name": "UH-60 Black Hawk",
 		"unitType": "Helicopter",
 		"uniqueTo": "The United States",
-		"replaces": "Helicopter Gunship"
 		"movement": 8,
 		"strength": 65,
 		"cost": 600,
@@ -323,7 +313,7 @@
 		"unitType": "Gunpowder",
 		"uniqueTo": "The United States",
 		"movement": 3,
-		"strength": 85,
+		"strength": 1pp,
 		"cost": 500,
 		"requiredTech": "Mobile Tactics",
 		"promotions": ["Ignore terrain cost", "Drill II"],
@@ -378,7 +368,6 @@
 		"name": "Nimitz cl. Carrier",
 		"unitType": "Aircraft Carrier",
 		"uniqueTo": "The United States",
-		"replaces": "Carrier",
 		"movement": 5,
 		"strength": 80,
 		"cost": 1650,
@@ -1166,7 +1155,6 @@
 	{
 		"name": "TOS Buratino",
 		"uniqueTo": "Russia",
-		"replaces": "Rocket Artillery",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 70,
@@ -1230,7 +1218,7 @@
 		"unitType": "Armored",
 		"uniqueTo": "Russia",
 		"replaces": "Giant Death Robot",
-		"cost": 3675,
+		"cost": 4775,
 		"movement": 12,
 		"strength": 170,
 		"rangedStrength": 200,
@@ -1455,7 +1443,7 @@
 	},
 //CHINA
 	{
-		"name": "051-C t. destroyer",
+		"name": "051-C t. Destroyer",
 		"unitType": "Melee Water",
 		"uniqueTo": "China",
 		"replaces": "Destroyer",
@@ -1522,7 +1510,6 @@
 		"name": "Shenyang J-31",
 		"unitType": "Fighter",
 		"uniqueTo": "China",
-		"replaces": "Jet Fighter",
 		"movement": 1,
 		"strength": 70,
 		"rangedStrength": 115,
@@ -1539,7 +1526,6 @@
 		"name": "Shenyang J-35",
 		"unitType": "Fighter",
 		"uniqueTo": "China",
-		"replaces": "Jet Fighter",
 		"movement": 2,
 		"strength": 100,
 		"rangedStrength": 135,
@@ -1568,7 +1554,6 @@
 		"name": "Project 001 Liaoning",
 		"unitType": "Aircraft Carrier",
 		"uniqueTo": "China",
-		"replaces": "Carrier",
 		"movement": 5,
 		"strength": 70,
 		"cost": 1495,
@@ -1615,13 +1600,13 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"promotions": ["Air Repair"],
-		"attackSound": "bombing"
+		"attackSound": "bombing",
+		"upgradesTo": "Xian H-20"
 	},
 	{
 		"name": "Xian H-6K",
 		"unitType": "Bomber",
 		"uniqueTo": "China",
-		"replaces": "Bomber",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrenght": 115,
@@ -1631,7 +1616,8 @@
 		"requiredResource": "Oil",
 		"promotions": ["Siege I"],
 		"unques": ["[+25]% Strength <vs [City]>"],
-		"attackSound": "bombing"
+		"attackSound": "bombing",
+		"upgradesTo": "Xian H-20"
 	},
 	{
 		"name": "Xian H-20",
@@ -1640,13 +1626,13 @@
 		"replaces": "Stealth Bomber",
 		"movement": 2,
 		"strength": 80,
-		"rangedStrength": 120,
+		"rangedStrength": 140,
 		"range": 25,
-		"cost": 790,
+		"cost": 1090,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
 		"uniques": ["Damage taken from interception reduced by [100]%",
-			"[+150]% Strength <vs [Melee Water] units>", "[+150]% Strength <vs [Ranged Water] units>", "[+100]% Strength <vs [Aircraft Carrier] units>",
+			"[+250]% Strength <vs [Melee Water] units>", "[+250]% Strength <vs [Ranged Water] units>", "[+200]% Strength <vs [Aircraft Carrier] units>", "[+200]% Strength <vs [City]>",
 			"Can see over obstacles"],
 		"attackSound": "bombing"
 	},
