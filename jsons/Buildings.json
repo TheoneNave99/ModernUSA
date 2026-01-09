@@ -10,9 +10,6 @@
 		"quite": "."
 	},
 	{
-		"name": "Shanghai World Finance Center"
-	},
-	{
 		"name": "Merdeka 118",
 		"isWonder": true,
 		"cost": 10000,
@@ -49,7 +46,6 @@
 		"cost": 7500,
 		"gold": 550,
 		"specialistSlots": {"Merchant": 10},
-		"requiredBuilding": "Shanghai World Finance Center",
 		"requiredTech": "Ultra-tall Construction",
 		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "[+30 Gold] from all [Science] buildings", "Triggers a global alert upon completion"],
 		"quote": "."
@@ -2062,8 +2058,94 @@
 		"requiredTech": "Supercomputers",
 		"uniques": ["Limited to [1] per Civilization"]
 	},
+//CULTURE CITY BRANCH
+	{
+		"name": "Cinema",
+		"cost": 1100,
+		"culture": 25,
+		"requiredTech": "Humanities"
+	},
 	{
 		"name": "Concert Hall",
-		"cost": 1
-	}
+		"cost": 1500,
+		"culture": 50,
+		"gold": 25,
+		"requiredTech": "Urbanisation",
+		"requiredBuilding": "Cinema"
+	},
+	{
+		"name": "3-Star Hotel",
+		"cost": 1750,
+		"culture": 50,
+		"gold": 50,
+		"specialistSlots": {"Artist": 1},
+		"requiredTech": "Modern Oligarchy",
+		"requiredBuilding": "Concert Hall"
+	},
+	{
+		"name": "4-Star Hotel",
+		"cost": 2250,
+		"culture": 50,
+		"gold": 65,
+		"specialistSlots": {"Artist": 2},
+		"requiredTech": "Modern Oligarchy",
+		"requiredBuilding": "3-Star Hotel"
+	},
+	{
+		"name": "5-Star Hotel",
+		"cost": 3500,
+		"culture": 100,
+		"gold": 150,
+		"specialistSlots": {"Artist": 3},
+		"requiredTech": "Globalization",
+		"requiredBuilding": "Concert Hall",
+		"uniques": ["Must he next to [Coast]"]
+	},
+	{
+		"name": "Casino",
+		"cost": 5000,
+		"gold": 250,
+		"culture": 150,
+		"specialistSlots": {"Artist": 5},
+		"requiredTech": "Globalization",
+		"requiredBuilding": "5-Star Hotel"
+		"uniques": ["Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Media Production Megaplex",
+		"cost": 5000,
+		"production": 115,
+		"culture": 150,
+	    "specialistSlots": {"Artist": 5},
+		"requiredTech": "Globalization",
+		"requiredBuilding": "5-Star Hotel",
+		"uniques": ["Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Global Media Center",
+		"cost": 8000,
+		"science": 400,
+		"gold": 300,
+		"culture": 150,
+		"specialistSlots": {"Artist": 5},
+		"requiredBuilding": "5-Stat Hotel",
+		"requiredTech": "Globalization",
+		"uniques": ["Limited to [1] per Civilization"]
+	},
+//ECOLOGY THEME
+	{
+		"name": "Biosphere Reserve",
+		"isNationalWonder": true,
+		"cost": 6500,
+		"happiness": 25,
+		"gold": 250,
+		"culture": 200,
+		"science": 350,
+		"requiredTech": "Ecology",
+		"requiredBuilding": "Park",
+		"uniques": ["Must have an owned [Mountain] in [3] tiles", "Must have an owned [Grassland] in [3] tiles", "Must have an owned [Desert] in [3] tiles", "Must have an owned [Coast] in [3] tiles",
+			"Must have an owned [Plain] in [3] tiles", "Must have an owned [Forest] in [3] tiles", "[-5 Happiness, -50 Gold] from every [Oil] tile [in this city]", "[+25 Gold, +30 Culture, +30 Science, +1 Happiness] from every [Park]", "[+2 Gold, +2 Culture, +3 Science] from every [Forest] tile [in all cities]",
+			"[+10 Happiness, +200 Gold, +150 Culture, +400 Science] <after discovering [Globalization]>"]
+	},
+//OCEANOLOGY THEME
 ]
