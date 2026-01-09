@@ -6,13 +6,13 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": ["[+5 Culture] for each adjacent [Coast]",  "[+5 Production, +5 Gold] for each adjacent [resource]", "Costs [15] [Gold] per turn",
                 "Tile provides yield without assigned population",
-                "Pillaging this improvement yields approximately [+500 Gold]",
+                "Pillaging this improvement yields approximately [+50000 Gold]",
                 "Will not be replaced by automated units"],
 	},
 	{
 		"name": "Greenhouse",
 		"terrainsCanBeBuiltOn": ["Snow"],
-		"food": 4,
+		"food": 5,
 		"turnsToBuild": 10,
 		"techRequired": "Arctology",
 		"shortcutKey": "G"
@@ -20,7 +20,7 @@
 	{
 		"name": "Research Station",
 		"terrainsCanBeBuiltOn": ["Snow"],
-		"science": 10,
+		"science": 30,
 		"turnsToBuild": 12,
 		"techRequired": "Arctology",
 		"uniques": ["Only available <if [Arctic Program] is constructed>"],
@@ -29,7 +29,8 @@
 	{
 		"name": "Apiary",
 		"terrainsCanBeBuiltOn": ["Grassland", "Plains"],
-		"food": 2,
+		"food": 6,
+		"gold": 10,
 		"turnsToBuild": 6,
 		"techRequired": "Calendar",
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource"],
@@ -38,13 +39,13 @@
 	{
 		"name": "Deuterium Plant",
 		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Snow", "Desert"],
-		"production": 10,
+		"production": 50,
 		"uniques": ["Provides [4] [Deuterium]", "Must be next to [Coast]", "Costs [500] [Gold] per turn", "Pillaging this improvement yields approximately [+50000 Gold]"]
 	},
 	{
 		"name": "Uranium Enrichment Plant",
 		"terrainsCanBeBuiltOn": ["Mountain"],
-		"production": 25,
-		"uniques": ["Provides [1] [War Uranium]", "Costs [2500] [Gold] per turn"]
+		"production": 150,
+		"uniques": ["Provides [4] [War Uranium]", "Costs [2500] [Gold] per turn"]
 	}
 ]
