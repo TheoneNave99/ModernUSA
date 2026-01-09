@@ -6,7 +6,7 @@
 		"cost": 12500,
 		"gold": 450,
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>","[+20 Gold, +15 Culture] from every [Wonder] <in this city>", "[750]% of excess happiness converted to [Culture]", "[+1] [DDD] per [5] population [in this city]", "Provides [1] [DDD] from every [100] population", "Only available <in cities with [100] population>"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>","[+30 Gold, +30 Culture] from every [Wonder] <in this city>", "[750]% of excess happiness converted to [Culture]"],
 		"quite": "."
 	},
 	{
@@ -62,6 +62,42 @@
 		"quote": "."
 	},
 	{
+		"name": "Mercury Tower",
+		"isWonder": true,
+		"uniqueTo": "Russia",
+		"cost": 6500,
+		"gold": 300,
+		"specialistSlots": {"Merchant": 5},
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <in cities with a [Moscow City]>", "Triggers a global alert upon completion"],
+	},
+	{
+		"name": "Oka Tower",
+		"isWonder": true,
+		"uniqueTo": "Russia",
+		"cost": 6000,
+		"gold": 250,
+		"specialistSlots": {"Merchant": 4},
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <in cities with a [Moscow City]>", "Triggers a global alert upon completion"],
+	},
+	{
+		"name": "Evolution Tower",
+		"isWonder": true,
+		"uniqueTo": "Russia",
+		"cost": 5000,
+		"gold": 200,
+		"specialistSlots": {"Merchant": 2},
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <in cities with a [Moscow City]>", "Triggers a global alert upon completion"],
+	},
+	{
+		"name": "City of Capitals Towers",
+		"isWonder": true,
+		"uniqueTo": "Russia",
+		"cost": 7000,
+		"gold": 200,
+		"specialistSlots": {"Merchant": 6},
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Only available <in cities with a [Moscow City]>", "Triggers a global alert upon completion", "[+30 Gold, +10 Culture] from every [Wonder] [in all cities]"],
+	},
+	{
 		"name": "Trump Tower",
 		"isWonder": true,
 		"uniqueTo": "The United States",
@@ -100,7 +136,7 @@
 		"gold": 500,
 		"specialistSlots": {"Merchant": 7},
 		"requiredTech": "Ultra-tall Construction",
-		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Triggers a global alert upon completion", "[+100]% [Gold] [in this city]"],
+		"uniques": ["Only available <if [Super Skyscrapers Technology] is constructed>", "Trigges a global alert upon completion", "[+100]% [Gold] [in this city]"],
 		"quote": "."
 	},
 	{
