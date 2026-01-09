@@ -4,11 +4,25 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Modern Industry",
 		"terrainsCanBeFoundOn": ["Tundra","Hill", "Snow", "Forest"],
-		"production": 3,
+		"production": 5,
 		"improvement": "Mine",
 		"improvementStats": {"production": 7},
 		"uniques": ["Generated on every [600] tiles <in [Hill] tiles>", "Generated on every [550] tiles <in [Tundra] tiles>",
 		"Generated on every [300] tiles <in [Snow] tiles>", "Generated on every [700] tiles <in [Forest] tiles>"]
+
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
+		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
+	},
+	{
+		"name": "Lithiium",
+		"resourceType": "Strategic",
+		"revealedBy": "Li-ion Accumulators",
+		"terrainsCanBeFoundOn": ["Tundra","Hill", "Snow"],
+		"production": 6,
+		"improvement": "Mine",
+		"improvementStats": {"production": 9},
+		"uniques": ["Generated on every [500] tiles <in [Hill] tiles>", "Generated on every [550] tiles <in [Tundra] tiles>",
+		"Generated on every [300] tiles <in [Snow] tiles>"]
 
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
 		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
@@ -21,9 +35,9 @@
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform"],
 		"improvementStats": {"production": 3},
-		"uniques": ["Generated on every [700] tiles <in [Hill] tiles>","Generated on every [700] tiles <in [Jungle] tiles>",
-		"Generated on every [300] tiles <in [Snow] tiles>", "Generated on every [500] tiles <in [Tundra] tiles>",
-		"Generated on every [600] tiles <in [Coast] tiles>"]
+		"uniques": ["Generated on every [500] tiles <in [Hill] tiles>","Generated on every [700] tiles <in [Jungle] tiles>",
+		"Generated on every [200] tiles <in [Snow] tiles>", "Generated on every [400] tiles <in [Tundra] tiles>",
+		"Generated on every [500] tiles <in [Coast] tiles>"]
 
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
