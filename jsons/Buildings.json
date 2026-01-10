@@ -2183,7 +2183,7 @@
 		"gold": 300,
 		"culture": 150,
 		"specialistSlots": {"Artist": 5},
-		"requiredBuilding": "5-Stat Hotel",
+		"requiredBuilding": "5-Star Hotel",
 		"requiredTech": "Globalization",
 		"uniques": ["Limited to [1] per Civilization"]
 	},
