@@ -14,7 +14,7 @@
 		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
 	},
 	{
-		"name": "Lithiium",
+		"name": "Lithium",
 		"resourceType": "Strategic",
 		"revealedBy": "Li-ion Accumulators",
 		"terrainsCanBeFoundOn": ["Tundra","Hill", "Snow"],
