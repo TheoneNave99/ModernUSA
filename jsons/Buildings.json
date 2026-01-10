@@ -2125,7 +2125,7 @@
 		"cost": 1500,
 		"culture": 50,
 		"gold": 25,
-		"requiredTech": "Urbanization",
+		"requiredTech": "Urbanism",
 		"requiredBuilding": "Cinema"
 	},
 	{
