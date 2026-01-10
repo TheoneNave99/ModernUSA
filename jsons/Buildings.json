@@ -2153,8 +2153,8 @@
 		"gold": 150,
 		"specialistSlots": {"Artist": 3},
 		"requiredTech": "Globalization",
-		"requiredBuilding": "Concert Hall",
-		"uniques": ["Must he next to [Coast]"]
+		"requiredBuilding": "4-Star Hotel",
+		"uniques": ["Must be next to [Coast]"]
 	},
 	{
 		"name": "Casino",
