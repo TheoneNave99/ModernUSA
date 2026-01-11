@@ -196,7 +196,7 @@
         "quote": "."
       },
       {
-        "name": "Electric Cars",
+        "name": "Li-ion Accumulators",
         "row": 8,
         "prerequisites": ["Robotics", "Advanced Digital Systems"],
         "quote": "."
@@ -249,7 +249,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Electric Cars","Stealth","Complete State Management","Modern Warfare Strategy", "Hypersonic Technologies"],
+				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Li-ion Accumulators","Stealth","Complete State Management","Modern Warfare Strategy", "Hypersonic Technologies"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
@@ -263,17 +263,17 @@
 			{
 				"name": "Space Engineering",
 				"row": 7,
-				"prerequisites": ["Particle Physics", "Nuclear Fusion", "Electric Cars"]
+				"prerequisites": ["Particle Physics", "Nuclear Fusion", "Li-ion Accumulators"]
 			},
 			{
 				"name": "Second Moon Race",
 				"row": 8,
-				"prerequisites": ["Nuclear Fusion", "Electric Cars"]
+				"prerequisites": ["Nuclear Fusion", "Li-ion Accumulators"]
 			},
 			 {
         "name": "Supercomputers",
         "row": 9,
-        "prerequisites": ["Electric Cars", "AI"],
+        "prerequisites": ["Li-ion Accumulators", "AI"],
         "quote": "."
 			 },
 			 {
