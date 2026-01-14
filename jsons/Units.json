@@ -106,7 +106,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "[+40]% to Flank Attack bonuses", "[+25%] Strength <when defending>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "[+40]% to Flank Attack bonuses", "[+25]% Strength <when defending>"],
 		"attackSound": "tankshot"
 	},
 	{
