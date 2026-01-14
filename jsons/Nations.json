@@ -158,9 +158,9 @@
 		"preferredVictoryType": "Scientific",
 		"personality": "George Washington",
 
-        "startIntroPart1": "President Bushington, we salute you and the proud American civilization! Freed from the British dominion in the 18th century, then cleansed and reborn after a terrible civil war, the United States nation was ready to play its great role in the 20th century. At the height of its power, triumphant after two terrible world wars, United States of America, a land of immigration, opportunities, optimism and determination, has risen above all other weakening nations, unable to equal such power.",
-        "startIntroPart2": "President Bushington, will you show to the world the legitimacy of the American way of life, and spread the flame of liberty to all mankind? Will your new empire shine through the ages of history?",
-
+        "startIntroPart1": "",
+		"startIntroPart2": "",
+		
         "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
 		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
 		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
@@ -172,19 +172,15 @@
         "outerColor": [ 28,51,119],
         "innerColor": [255,255,255],
 
-		"uniqueName": "American Century",
-		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "Production to [Gold] conversion in cities changed by [+50]%",
-		"Allied City-States will occasionally gift Great People", "[+33]% City-State Influence degradation",
-		"[+50]% of excess happiness converted to [Culture]", "[+1 Happiness, +2 Culture] from all [Gold] buildings", "[+1 Happiness, +2 Gold] from all [Culture] buildings",
-		"[+25]% Production when constructing [Air] units [in all cities]", "[+25]% Production when constructing [Water] units [in all cities]",
+		"uniqueName": "The Phantom of the Soviet Union",
+		"uniques": ["[-75]% Gold cost of acquiring tiles [in all cities]", "Production to [Gold] conversion in cities changed by [+30]%",
+		"Allied City-States will occasionally gift Great People", "[-50]% City-State Influence degradation",
+		"[+150]% of excess happiness converted to [Culture]",
+		"[+75]% Production when constructing [Helicopter] units [in all cities]", "[+50]% Production when constructing [Air] units [in all cities]",
+		"[+50 Gold, +10 Production, +40 Science, +30 Culture] from every [Factory]"
 		],
 			
-		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
-			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
-			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
-			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
-			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
-        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+		"cities": ["Moscow Prime", "Novgorod", "Mæsa", "Volgodonsk", "Uralmash", "Ostankino", "Darwin", "Noviy Oskol"]
+		"spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 ]
