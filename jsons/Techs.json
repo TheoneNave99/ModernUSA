@@ -132,6 +132,13 @@
         "prerequisites": ["MIC", "Nuclear Fission"],
         "quote": "Modern technologies have allowed us to create more and more advanced materials"
       },
+		{
+				"name": "Satellites",
+				"row": 6,
+				"prerequisites": ["Rocketry"],
+				"uniques": ["[+200]% weight to this choice for AI decisions"],
+				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+			},
       {
         "name": "Lasers",
         "row": 7,
