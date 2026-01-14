@@ -65,7 +65,6 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[4] extra interceptions may be made per turn", "[+400]% Strength <vs [Bomber] units>", "[+250]% Strength <vs [Fighter] units>",
 			"[+200]% Strength <vs [Land] units>", "[+200]% Strength <vs [Water] units>", "Limited to [5] per Civilization", "Consumes [5] [Titanium]", "Consumes [10] [Aluminum]"],
 		"attackSound": "jetgun"
-		"civilopediaText": ""
 	},
 	{
 		"name": "SAF Multiplex",
