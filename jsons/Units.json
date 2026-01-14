@@ -31,7 +31,7 @@
 		"cost": 1050,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+100]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "[+25]% Damage when intercepting>",
+		"uniques": ["[100]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "[+25]% Damage when intercepting>",
 			"[+50]% Strength <vs [Fighter] units>"],
 		"attackSound": "jetgun",
 		"civilopediaText": ""
@@ -48,23 +48,85 @@
 		"cost": 1550,
 		"requiredTech": "Modern Warfare Strategy",
 		"promotions": ["Air Repair", "Operational Range"],
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Fighter] units>", "Consumes [2] [Titanium]", 
-			"[+200]% Strength <vs [Land] units>", "[+200]% Strength <vs [Water] units>", "Only available <if [F/A XX Program] is constructed>", "Limited to [5] per Civilization"],
+		"uniques": ["[100]% chance to intercept air attacks", "[1] extra interceptions may be made per turn", "[+250]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Fighter] units>",
+			"[+100]% Strength <vs [Land] units>", "[+100]% Strength <vs [Water] units>"],
 		"attackSound": "jetgun"
+		"civilopediaText": ""
 	},
 	{
-		"name": "E-3 Sentry AWACS",
+		"name": "SAF S-40",
+		"unitType": "Fighter",
+		"uniqueTo": "Siberia",
+		"movement": 6,
+		"strength": 165,
+		"rangedStrength": 185,
+		"range": 45,
+		"interceptRange": 40,
+		"cost": 11750,
+		"requiredTech": "Modern Warfare Strategy",
+		"promotions": ["Air Repair", "Logistics"],
+		"uniques": ["[100]% chance to intercept air attacks", "[4] extra interceptions may be made per turn", "[+400]% Strength <vs [Bomber] units>", "[+250]% Strength <vs [Fighter] units>",
+			"[+200]% Strength <vs [Land] units>", "[+200]% Strength <vs [Water] units>", "Limited to [5] per Civilization", "Consumes [5] [Titanium]", "Consumes [10] [Aluminum]"],
+		"attackSound": "jetgun"
+		"civilopediaText": ""
+	},
+	{
+		"name": "SAF Multiplex",
 		"unitType": "Radar Aircraft"
-		"uniqueTo": "The United States",
+		"uniqueTo": "Siberia",
 		"replaces": "Long-range Radar Aircraft",
 		"movement": 1,
-		"strength": 225,
-		"rangedStrength": 1,
-		"range": 20,
-		"cost": 1500,
+		"strength": 350,
+		"rangedStrength": 0,
+		"range": 35,
+		"cost": 2750,
 		"requiredTech": "Modern Warfare Strategy",
 		"requiredResource": "Titanium",
-		"uniques": ["[+15]% Strength bonus for [Air] units within [12] tiles", "Cannot attack", "Consumes [5] [Aluminum]", "[+15] Sight"]
+		"uniques": ["[+25]% Strength bonus for [Air] units within [15] tiles", "Cannot attack", "Consumes [5] [Aluminum]", "[+18] Sight"]
+	},
+	{
+		"name": "SBT-1 Ragebaiter",
+		"unitType": "Armored",
+		"uniqueTo": "Siberia",
+		"replaces": "Tank",
+		"movement": 3,
+		"strength": 70,
+		"cost": 425,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "SBT-2 Joker",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "SBT-2 Joker",
+		"unitType": "Armored",
+		"uniqueTo": "Siberia",
+		"replaced": "Modern Armor",
+		"movement": 7,
+		"strength": 130,
+		"cost": 925,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "[+40]% to Flank Attack bonuses", "[+25%] Strength <when defending>"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Aviabase",
+		"unitType": "Helicopter",
+		"uniqueTo": "Siberia",
+		"replaces": "Helicopter Gunship",
+		"movement": 10,
+		"strength": 350,
+		"rangedStrength": 135,
+		"range": 4,
+		"cost": 25000,
+		"requiredTech": "Modern Warfare Strategy",
+		"promotions": ["Charge"],
+		"uniques": ["[100]% chance to intercept air attacks", "[2] extra interceptions may be made per turn", "[+250]% Strength <vs [Armored] units>", "[1] extra attacks may be made per turn", "[+50]% Strength <vs [Siege] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Can carry [5] [Missile] units", "Can carry [5] [Aircraft] units", "May travel on Water tiles without embarking"],
+		"attackSound": "machinegun"
 	},
 	//BALANCE CHANGES
 	{
@@ -125,6 +187,8 @@
 		"range": 10,
 		"interceptRange": 10,
 		"cost": 725,
+
+	
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
