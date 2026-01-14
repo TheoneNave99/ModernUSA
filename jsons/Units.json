@@ -16,8 +16,7 @@
 		"uniques": ["[75]% chance to intercept air attacks", "[+15]% Strength <vs [Bomber] units>", "[+15]% Strength <vs [Helicopter] units>",
 		"[+10]% Strength <vs [Armored] units>", "[+10]% Strength <vs [Siege] units>", "[+10]% Strength <vs [Melee Water] units>",
 		"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
-		"attackSound": "jetgun",
-		"civilopediaText": "The first version of Siberia's unique fighter."
+		"attackSound": "jetgun"
 	},
 	{
 		"name": "SAF S-25",
@@ -34,7 +33,6 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "[+25]% Damage when intercepting>",
 			"[+50]% Strength <vs [Fighter] units>"],
 		"attackSound": "jetgun",
-		"civilopediaText": ""
 	},
 	{
 		"name": "SAF S-27",
@@ -51,7 +49,6 @@
 		"uniques": ["[100]% chance to intercept air attacks", "[1] extra interceptions may be made per turn", "[+250]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Fighter] units>",
 			"[+100]% Strength <vs [Land] units>", "[+100]% Strength <vs [Water] units>"],
 		"attackSound": "jetgun"
-		"civilopediaText": ""
 	},
 	{
 		"name": "SAF S-40",
