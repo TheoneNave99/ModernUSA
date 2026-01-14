@@ -1,4 +1,69 @@
 [
+	//SIBERIA
+		{
+		"name": "SAF S-22",
+		"unitType": "Fighter",
+		"uniqueTo": "Siberia",
+		"replaces": "Jet Fighter",
+		"movement": 1,
+		"strength": 80,
+		"rangedStrength": 85,
+		"range": 15,
+		"interceptRange": 17,
+		"cost": 850,
+		"requiredTech": "Aviation",
+		"uniques": ["[75]% chance to intercept air attacks", "[+15]% Strength <vs [Bomber] units>", "[+15]% Strength <vs [Helicopter] units>",
+		"[+10]% Strength <vs [Armored] units>", "[+10]% Strength <vs [Siege] units>", "[+10]% Strength <vs [Melee Water] units>",
+		"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
+		"attackSound": "jetgun",
+		"civilopediaText": "The first version of Siberia's unique fighter
+	},
+	{
+		"name": "SAF S-25",
+		"unitType": "Fighter",
+		"uniqueTo": "Siberia",
+		"movement": 4,
+		"strength": 110,
+		"rangedStrength": 150,
+		"range": 25,
+		"interceptRange": 25,
+		"cost": 1450,
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium",
+		"uniques": ["[+100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>", "[+25]% Damage when intercepting>",
+			"[+150]% Strength <vs [Fighter] units>", "[2] extra interceptions may be made per turn", "Only available <if [NGAD Project] is constructed>", "Consumes [2] [Aluminum]"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "F/A XX",
+		"unitType": "Fighter",
+		"uniqueTo": "The United States",
+		"movement": 6,
+		"strength": 125,
+		"rangedStrength": 135,
+		"range": 40,
+		"interceptRange": 25,
+		"cost": 1550,
+		"requiredTech": "Modern Warfare Strategy",
+		"promotions": ["Air Repair", "Operational Range"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Fighter] units>", "Consumes [2] [Titanium]", 
+			"[+200]% Strength <vs [Land] units>", "[+200]% Strength <vs [Water] units>", "Only available <if [F/A XX Program] is constructed>", "Limited to [5] per Civilization"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "E-3 Sentry AWACS",
+		"unitType": "Radar Aircraft"
+		"uniqueTo": "The United States",
+		"replaces": "Long-range Radar Aircraft",
+		"movement": 1,
+		"strength": 225,
+		"rangedStrength": 1,
+		"range": 20,
+		"cost": 1500,
+		"requiredTech": "Modern Warfare Strategy",
+		"requiredResource": "Titanium",
+		"uniques": ["[+15]% Strength bonus for [Air] units within [12] tiles", "Cannot attack", "Consumes [5] [Aluminum]", "[+15] Sight"]
+	},
 	//BALANCE CHANGES
 	{
 		"name": "Carrier",
