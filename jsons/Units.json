@@ -1017,7 +1017,8 @@
 		"promotions": ["Bombardment I"],
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Helicopter]>", "[+100]% Strength <vs [Land] units>"],
-		"attackSound": "jetgun"
+		"attackSound": "jetgun",
+		"upgradesTo": "Su-35 Flanker-E+",
 	},
 	{
 		"name": "Su-27 Flanker-B",
@@ -1034,7 +1035,8 @@
 		"promotions": ["Interception I"],
 		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Fighter] units>",
 			"Damage taken from interception reduced by [50]%"],
-		"attackSound": "jetgun"
+		"attackSound": "jetgun",
+		"upgradesTo": "Su-35 Flanker-E+",
 	},
 	{
 		"name": "Tu-22 Blinder",
@@ -1056,7 +1058,6 @@
 		"name": "Su-35 Flanker-E+",
 		"unitType": "Fighter",
 		"uniqueTo": "Russia",
-		"replaces": "Jet Fighter",
 		"cost": 675,
 		"movement": 2,
 		"strength": 95,
@@ -1074,7 +1075,6 @@
 		"name": "Su-47 Firkin",
 		"unitType": "Fighter",
 		"uniqueTo": "Russia",
-		"replaces": "Jet Fighter",
 		"cost": 875,
 		"movement": 2,
 		"strength": 90,
