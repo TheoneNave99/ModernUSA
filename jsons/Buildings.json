@@ -2198,8 +2198,8 @@
 		"science": 350,
 		"requiredTech": "Ecology",
 		"requiredBuilding": "Park",
-		"uniques": ["Must have an owned [Mountain] in [3] tiles", "Must have an owned [Grassland] in [3] tiles", "Must have an owned [Desert] in [3] tiles", "Must have an owned [Coast] in [3] tiles",
-			"Must have an owned [Plain] in [3] tiles", "Must have an owned [Forest] in [3] tiles", "[-5 Happiness, -50 Gold] from every [Oil] tile [in this city]", "[+25 Gold, +30 Culture, +30 Science, +1 Happiness] from every [Park]", "[+2 Gold, +2 Culture, +3 Science] from every [Forest] tile [in all cities]",
+		"uniques": ["Must have an owned [Mountain] within [3] tiles", "Must have an owned [Grassland] within [3] tiles", "Must have an owned [Desert] within [3] tiles", "Must have an owned [Coast] within [3] tiles",
+			"Must have an owned [Plain] within [3] tiles", "Must have an owned [Forest] within [3] tiles", "[-50 Gold] from all [Oil] tiles [in this city]", "[+25 Gold, +30 Culture, +30 Science, +1 Happiness] from every [Park]", "[+2 Gold, +2 Culture, +3 Science] from all [Forest] tiles [in all cities]",
 			"[+10 Happiness, +200 Gold, +150 Culture, +400 Science] <after discovering [Globalization]>"]
 	},
 //OCEANOLOGY THEME
