@@ -909,7 +909,7 @@
 		"name": "Metropolitan",
 		"cost": 2500,
 		"maintenance": 20,
-		"gold": 25,
+		"gold": 85,
 		"requiredBuilding": "Railway Station",
 		"requiredTech": "Urbanism",
 		"uniques": ["[+1 Gold] from [Road] tiles [in this city]", "[+2 Gold] from [Railroad] tiles [in this city]"]
@@ -917,9 +917,10 @@
 	{
 		"name": "Moscow Metro",
 		"isNationalWonder": true,
+		"uniqueTo": "Russia",
 		"cost": 4000,
 		"maintenance": 50,
-		"gold": 40,
+		"gold": 150,
 		"requiredTech": "Urbanism",
 		"uniques": ["[+1 Culture, +1 Gold] from [Railroad] tiles [in all cities]", "Only available <if [Metropolitan] is constructed in all [non-[Puppeted]] cities>"]
 	},
@@ -1099,7 +1100,7 @@
 		"cost": 1750,
 		"production": 15,
 		"requiredTech": "MIC",
-		"uniques": ["[+5]% [Production] [in all cities]", "[+20]% production when constructing [Military] units [in all cities]"]
+		"uniques": ["[+5]% [Production] [in all cities]", "[+20]% [Production] when constructing [Military] units [in all cities]", "New [Military] units start with [50] XP [in all cities]"]
 	},
 //ENGLAND
 	{
