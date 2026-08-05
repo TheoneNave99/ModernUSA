@@ -744,7 +744,7 @@
 		"name": "Windpower Plant",
 		"cost": 1350,
 		"maintenance": 10,
-		"production": 15,
+		"production": 25,
 		"percentStatsBonus": {"Production": 10},
 		"specialistSlots": {"Engineer": 4},
 		"hurryCostModifier": 0,
@@ -757,7 +757,7 @@
 		"name": "Alloys Plant",
 		"cost": 1350,
 		"maintenance": 10,
-		"production": 20,
+		"production": 25,
 		"percentStatsBonus": {"Production": 15},
 		"specialistsSlots": {"Engineer": 2},
 		"requiredBuilding": "Nuclear Plant",
@@ -826,7 +826,7 @@
 		"requiredBuilding": "Business Skyscraper",
 		"hurryCostModifier": 3,
 		"requiredTech": "Globalization",
-		"uniques": ["[+50]% [Gold] [in this city]", "Only available <if [Urban Planning Academy] is constructed>", "Only available <in cities without a [Data Research Center]>", "Only available <in cities without a [Concert Hall]>"]
+		"uniques": ["[+50]% [Gold] [in this city]", "Only available <in cities without a [Data Research Center]>", "Only available <in cities without a [Concert Hall]>"]
 	},
 	{
 		"name": "Business Skyscraper 3",
@@ -1463,7 +1463,7 @@
 	{
 		"name": "Special Services",
 		"cost": 2000,
-		"happiness": 1,
+		"happiness": 10,
 		"requiredTech": "Urbanism"
 	},
 	{
